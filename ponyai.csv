@@ -1,0 +1,5 @@
+"ID","Title","URL","Is Premium","Acceptance %","Difficulty","Frequency %"
+"200","Number of Islands","/problems/number-of-islands","N","56.4%","Medium","3.86864%;"
+"218","The Skyline Problem","/problems/the-skyline-problem","N","41.6%","Hard","54.7616%;"
+"236","Lowest Common Ancestor of a Binary Tree","/problems/lowest-common-ancestor-of-a-binary-tree","N","58.1%","Medium","9.52325%;"
+"386","Lexicographical Numbers","/problems/lexicographical-numbers","N","60.7%","Medium","100%;"

@@ -1,0 +1,8 @@
+"ID","Title","URL","Is Premium","Acceptance %","Difficulty","Frequency %"
+"213","House Robber II","/problems/house-robber-ii","N","40.7%","Medium","2.16995%;"
+"311","Sparse Matrix Multiplication","/problems/sparse-matrix-multiplication","Y","67.1%","Medium","17.7293%;"
+"362","Design Hit Counter","/problems/design-hit-counter","Y","68.4%","Medium","59.9907%;"
+"420","Strong Password Checker","/problems/strong-password-checker","N","14.3%","Hard","13.3201%;"
+"751","IP to CIDR","/problems/ip-to-cidr","Y","54.7%","Medium","100%;"
+"981","Time Based Key-Value Store","/problems/time-based-key-value-store","N","53.4%","Medium","9.98957%;"
+"1242","Web Crawler Multithreaded","/problems/web-crawler-multithreaded","Y","49.1%","Medium","57.7386%;"

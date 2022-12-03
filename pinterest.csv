@@ -1,0 +1,8 @@
+"ID","Title","URL","Is Premium","Acceptance %","Difficulty","Frequency %"
+"208","Implement Trie (Prefix Tree)","/problems/implement-trie-prefix-tree","N","61.0%","Medium","10.5278%;"
+"621","Task Scheduler","/problems/task-scheduler","N","55.8%","Medium","8.26601%;"
+"632","Smallest Range Covering Elements from K Lists","/problems/smallest-range-covering-elements-from-k-lists","N","60.6%","Hard","55.7046%;"
+"759","Employee Free Time","/problems/employee-free-time","Y","71.7%","Hard","77.8523%;"
+"767","Reorganize String","/problems/reorganize-string","N","52.8%","Medium","31.1197%;"
+"1293","Shortest Path in a Grid with Obstacles Elimination","/problems/shortest-path-in-a-grid-with-obstacles-elimination","N","45.6%","Hard","50.3866%;"
+"2232","Minimize Result by Adding Parentheses to Expression","/problems/minimize-result-by-adding-parentheses-to-expression","N","65.0%","Medium","100%;"

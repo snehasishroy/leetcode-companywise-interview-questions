@@ -1,0 +1,4 @@
+"ID","Title","URL","Is Premium","Acceptance %","Difficulty","Frequency %"
+"42","Trapping Rain Water","/problems/trapping-rain-water","N","58.8%","Hard","20.0652%;"
+"72","Edit Distance","/problems/edit-distance","N","52.7%","Hard","100%;"
+"678","Valid Parenthesis String","/problems/valid-parenthesis-string","N","33.9%","Medium","60.0326%;"

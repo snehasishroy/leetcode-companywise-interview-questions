@@ -1,0 +1,8 @@
+"ID","Title","URL","Is Premium","Acceptance %","Difficulty","Frequency %"
+"17","Letter Combinations of a Phone Number","/problems/letter-combinations-of-a-phone-number","N","55.7%","Medium","10.893%;"
+"53","Maximum Subarray","/problems/maximum-subarray","N","50.1%","Medium","8.49734%;"
+"68","Text Justification","/problems/text-justification","N","36.8%","Hard","100%;"
+"127","Word Ladder","/problems/word-ladder","N","36.7%","Hard","13.8541%;"
+"146","LRU Cache","/problems/lru-cache","N","40.5%","Medium","22.2646%;"
+"359","Logger Rate Limiter","/problems/logger-rate-limiter","Y","75.5%","Easy","31.8316%;"
+"1636","Sort Array by Increasing Frequency","/problems/sort-array-by-increasing-frequency","N","68.7%","Easy","65.9158%;"
