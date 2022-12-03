@@ -1,8 +1,10 @@
 # Leetcode Companywise Interview Questions
 
-This repository contains Company Wise Questions of LeetCode sorted based on Frequency and appeared in last 6 months.
+This repository contains Company Wise Questions of LeetCode which appeared in the last 6 months.
 
 > This repository contains the snapshot as of **19th Nov 2022**.
+>
+> If you need to sort/filter the questions based on frequency/difficulty, please clone the repo and perform operations in any CSV Editor (Excel/Google Sheets/OpenOffice Calc)
 
 ## I have LeetCode Premium and want to contribute back
 * Code to scrap the solutions is present [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java).
