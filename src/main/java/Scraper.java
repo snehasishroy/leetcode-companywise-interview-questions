@@ -16,6 +16,8 @@ import java.util.List;
 public class Scraper {
     private static final String USERNAME = ""; // Provide your LeetCode username
     private static final String PASSWORD = ""; // Provide your LeetCode password
+    public static final int QUESTIONS_PAGE_WAIT_MILLIS = 25000;
+    public static final int LOGIN_PAGE_WAIT_MILLIS = 2000;
     WebDriver driver;
     List<String> companyURLs = new ArrayList<>();
 
@@ -31,7 +33,7 @@ public class Scraper {
         driver.findElement(By.xpath("// *[ @ id = 'id_login']")).sendKeys(USERNAME);
         driver.findElement(By.xpath("// *[ @ id = 'id_password']")).sendKeys(PASSWORD);
         driver.findElement(By.xpath("// *[ @ id = 'id_password']")).sendKeys(Keys.ENTER);
-        Thread.sleep(2000); // Wait for the login to happen, then visit the problems pages
+        Thread.sleep(LOGIN_PAGE_WAIT_MILLIS); // Wait for the login to happen, then visit the problems pages
         driver.get("https://leetcode.com/problemset/all/");
         List<WebElement> companies = driver.findElements(By.cssSelector(".mb-4.mr-3"));
         for (WebElement company : companies) {
@@ -48,7 +50,7 @@ public class Scraper {
         String companyName = companyURL.substring(companyURL.lastIndexOf("/") + 1);
         System.out.println("Visiting " + companyURL);
         driver.get(companyURL);
-        Thread.sleep(25000); // Wait for the page to load, for companies like Google/Amazon, it takes a lot of time
+        Thread.sleep(QUESTIONS_PAGE_WAIT_MILLIS); // Wait for the page to load, for companies like Google/Amazon, it takes a lot of time
         String table = "";
         try {
             table = "<table>" + driver.findElement(By.className("table")).getAttribute("innerHTML") + "</table>";
