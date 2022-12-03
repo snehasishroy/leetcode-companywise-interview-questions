@@ -1,0 +1,6 @@
+"ID","Title","URL","Is Premium","Acceptance %","Difficulty","Frequency %"
+"1","Two Sum","/problems/two-sum","N","49.1%","Easy","40.7679%;"
+"3","Longest Substring Without Repeating Characters","/problems/longest-substring-without-repeating-characters","N","33.8%","Medium","24.8418%;"
+"14","Longest Common Prefix","/problems/longest-common-prefix","N","40.8%","Easy","80.034%;"
+"22","Generate Parentheses","/problems/generate-parentheses","N","71.9%","Medium","100%;"
+"66","Plus One","/problems/plus-one","N","43.4%","Easy","55.1921%;"

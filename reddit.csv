@@ -1,0 +1,5 @@
+"ID","Title","URL","Is Premium","Acceptance %","Difficulty","Frequency %"
+"39","Combination Sum","/problems/combination-sum","N","67.8%","Medium","5.24518%;"
+"40","Combination Sum II","/problems/combination-sum-ii","N","53.3%","Medium","52.6226%;"
+"88","Merge Sorted Array","/problems/merge-sorted-array","N","45.8%","Easy","2.70176%;"
+"362","Design Hit Counter","/problems/design-hit-counter","Y","68.4%","Medium","100%;"

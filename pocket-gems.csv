@@ -1,0 +1,4 @@
+"ID","Title","URL","Is Premium","Acceptance %","Difficulty","Frequency %"
+"221","Maximal Square","/problems/maximal-square","N","44.6%","Medium","9.03239%;"
+"1428","Leftmost Column with at Least a One","/problems/leftmost-column-with-at-least-a-one","Y","53.0%","Medium","54.5162%;"
+"1761","Minimum Degree of a Connected Trio in a Graph","/problems/minimum-degree-of-a-connected-trio-in-a-graph","N","41.7%","Hard","100%;"

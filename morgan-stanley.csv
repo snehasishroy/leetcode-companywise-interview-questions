@@ -1,0 +1,7 @@
+"ID","Title","URL","Is Premium","Acceptance %","Difficulty","Frequency %"
+"1","Two Sum","/problems/two-sum","N","49.1%","Easy","2.35585%;"
+"88","Merge Sorted Array","/problems/merge-sorted-array","N","45.8%","Easy","5.37105%;"
+"121","Best Time to Buy and Sell Stock","/problems/best-time-to-buy-and-sell-stock","N","54.4%","Easy","2.87447%;"
+"564","Find the Closest Palindrome","/problems/find-the-closest-palindrome","N","21.9%","Hard","53.9564%;"
+"871","Minimum Number of Refueling Stops","/problems/minimum-number-of-refueling-stops","N","39.9%","Hard","100%;"
+"509","Fibonacci Number","/problems/fibonacci-number","N","69.2%","Easy","7.91275%;"
