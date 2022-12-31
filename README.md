@@ -6,7 +6,7 @@ This repository contains Company Wise Questions of LeetCode which appeared in th
 >
 > If you need to sort/filter the questions based on frequency/difficulty, please clone the repo and perform operations in any CSV Editor (Excel/Google Sheets/OpenOffice Calc)
 
-## I have LeetCode Premium and want to contribute back
+## If you have LeetCode Premium and want to contribute back
 * Code to scrap the solutions is present [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java).
 
 * If you have LeetCode premium and want to contribute back, please clone the repo and setup the Java Project in the IDE of your choice.
