@@ -10,7 +10,6 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
 
 import java.io.FileWriter;
-import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -50,16 +49,26 @@ public class Scraper {
             companyURLs.add(link);
         }
 
-        for (String companyURL : companyURLs) {
+        for (int i = 0; i < companyURLs.size(); i++) {
+            String companyURL = companyURLs.get(i);
             String companyName = extractCompanyNameWithRegex(companyURL);
             for (String recency : new String[]{"thirty-days", "three-months", "six-months", "more-than-six-months", "all"}) {
                 visitCompanies(String.format("https://leetcode.com/company/%s/?favoriteSlug=%s-%s", companyName, companyName, recency), driver, recency);
             }
+            log.info("Pending {} companies", companyURLs.size() - i - 1);
         }
     }
 
     private void visitCompanies(String companyURL, WebDriver driver, String recency) throws InterruptedException {
         String companyName = extractCompanyNameWithRegex(companyURL);
+
+        // Create directory structure: companyName/recency/
+        Path outputDir = Paths.get(companyName, String.format("%s.csv", recency));
+        if (Files.exists(outputDir)) {
+            log.info("File already exists: {}", outputDir.toAbsolutePath());
+            return;
+        }
+
         log.info("Visiting {} with recency {}", companyName, recency);
         driver.get(companyURL);
         Thread.sleep(QUESTIONS_PAGE_WAIT_MILLIS);
@@ -89,38 +98,25 @@ public class Scraper {
     private static void loadAllProblems(WebDriver driver) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         int maxScrolls = 30; // Maximum number of scrolls
-        int consecutiveNoChange = 0; // Counter for consecutive scrolls with no new content
-        int maxConsecutiveNoChange = 3; // Stop after 3 consecutive scrolls with no new content
 
         log.info("Loading all problems by scrolling...");
 
         for (int i = 0; i < maxScrolls; i++) {
             int currentCount = driver.findElements(By.cssSelector("a[href*='/problems/'][id]")).size();
-
             boolean scrolled = performScroll(driver, js);
-
             if (!scrolled) {
-                log.info("Scroll " + (i + 1) + ": Unable to scroll further, stopping.");
+                log.info("Scroll {}: Unable to scroll further, stopping.", i + 1);
                 break;
             }
 
             // Check if new problems were loaded
             int newCount = driver.findElements(By.cssSelector("a[href*='/problems/'][id]")).size();
-
             if (newCount > currentCount) {
                 // New content loaded
-                consecutiveNoChange = 0;
-                log.info("Scroll " + (i + 1) + ": Found " + newCount + " problems (+" + (newCount - currentCount) + " new)");
+                log.info("Scroll {}: Found {} problems (+{} new)", i + 1, newCount, newCount - currentCount);
             } else {
                 // No new content
-                consecutiveNoChange++;
-                log.info("Scroll " + (i + 1) + ": No new problems loaded (" + consecutiveNoChange + "/" + maxConsecutiveNoChange + ")");
-
-                // If we've had consecutive scrolls with no new content, assume we've reached the end
-                if (consecutiveNoChange >= maxConsecutiveNoChange) {
-                    log.info("No new content loaded after " + maxConsecutiveNoChange + " consecutive scrolls. Assuming all problems are loaded.");
-                    break;
-                }
+                break;
             }
         }
         log.info("Finished loading problems.");
