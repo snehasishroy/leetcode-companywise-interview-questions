@@ -1,7 +1,0 @@
-"ID","Title","URL","Is Premium","Acceptance %","Difficulty","Frequency %"
-"7","Reverse Integer","/problems/reverse-integer","N","27.2%","Medium","35.7564%;"
-"19","Remove Nth Node From End of List","/problems/remove-nth-node-from-end-of-list","N","40.0%","Medium","17.7234%;"
-"121","Best Time to Buy and Sell Stock","/problems/best-time-to-buy-and-sell-stock","N","54.4%","Easy","21.1602%;"
-"191","Number of 1 Bits","/problems/number-of-1-bits","N","65.0%","Easy","67.8782%;"
-"217","Contains Duplicate","/problems/contains-duplicate","N","61.3%","Easy","10.2514%;"
-"1006","Clumsy Factorial","/problems/clumsy-factorial","N","55.0%","Medium","100%;"
