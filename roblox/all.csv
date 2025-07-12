@@ -1,0 +1,55 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+2468,https://leetcode.com/problems/split-message-based-on-limit,Split Message Based on Limit,Hard,42.4%,50.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,45.6%,50.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,62.5%
+41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,41.2%,50.0%
+1472,https://leetcode.com/problems/design-browser-history,Design Browser History,Medium,77.8%,87.5%
+48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,78.1%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,75.0%
+62,https://leetcode.com/problems/unique-paths,Unique Paths,Medium,65.9%,37.5%
+2038,https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color,Remove Colored Pieces if Both Neighbors are the Same Color,Medium,62.9%,37.5%
+621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,61.7%,87.5%
+1552,https://leetcode.com/problems/magnetic-force-between-two-balls,Magnetic Force Between Two Balls,Medium,71.4%,75.0%
+1289,https://leetcode.com/problems/minimum-falling-path-sum-ii,Minimum Falling Path Sum II,Hard,63.7%,50.0%
+208,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium,68.1%,62.5%
+721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,59.8%,37.5%
+212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,37.4%,37.5%
+767,https://leetcode.com/problems/reorganize-string,Reorganize String,Medium,56.3%,100.0%
+811,https://leetcode.com/problems/subdomain-visit-count,Subdomain Visit Count,Medium,76.9%,75.0%
+1248,https://leetcode.com/problems/count-number-of-nice-subarrays,Count Number of Nice Subarrays,Medium,73.5%,75.0%
+362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.2%,87.5%
+1282,https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to,Group the People Given the Group Size They Belong To,Medium,87.4%,75.0%
+1290,https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer,Convert Binary Number in a Linked List to Integer,Easy,81.2%,75.0%
+1280,https://leetcode.com/problems/students-and-examinations,Students and Examinations,Easy,60.4%,75.0%
+1297,https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring,Maximum Number of Occurrences of a Substring,Medium,53.6%,75.0%
+2817,https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint,Minimum Absolute Difference Between Elements With Constraint,Medium,34.3%,37.5%
+1364,https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer,Number of Trusted Contacts of a Customer,Medium,75.2%,75.0%
+1419,https://leetcode.com/problems/minimum-number-of-frogs-croaking,Minimum Number of Frogs Croaking,Medium,50.8%,37.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,37.5%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,48.4%,75.0%
+2251,https://leetcode.com/problems/number-of-flowers-in-full-bloom,Number of Flowers in Full Bloom,Hard,57.2%,50.0%
+273,https://leetcode.com/problems/integer-to-english-words,Integer to English Words,Hard,34.4%,62.5%
+84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,47.6%,50.0%
+849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.0%,87.5%
+3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,56.4%,50.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,50.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,37.5%
+759,https://leetcode.com/problems/employee-free-time,Employee Free Time,Hard,72.6%,37.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,56.8%,37.5%
+2021,https://leetcode.com/problems/brightest-position-on-street,Brightest Position on Street,Medium,60.7%,37.5%
+3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,17.0%,50.0%
+992,https://leetcode.com/problems/subarrays-with-k-different-integers,Subarrays with K Different Integers,Hard,66.1%,50.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,37.5%
+661,https://leetcode.com/problems/image-smoother,Image Smoother,Easy,68.4%,37.5%
+128,https://leetcode.com/problems/longest-consecutive-sequence,Longest Consecutive Sequence,Medium,47.0%,37.5%
+45,https://leetcode.com/problems/jump-game-ii,Jump Game II,Medium,41.6%,37.5%
+498,https://leetcode.com/problems/diagonal-traverse,Diagonal Traverse,Medium,63.3%,37.5%
+2672,https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color,Number of Adjacent Elements With the Same Color,Medium,56.1%,50.0%
+1861,https://leetcode.com/problems/rotating-the-box,Rotating the Box,Medium,79.1%,50.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,50.0%
+723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.3%,50.0%
+770,https://leetcode.com/problems/basic-calculator-iv,Basic Calculator IV,Hard,48.7%,37.5%
+933,https://leetcode.com/problems/number-of-recent-calls,Number of Recent Calls,Easy,77.4%,37.5%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,49.4%,37.5%
+2625,https://leetcode.com/problems/flatten-deeply-nested-array,Flatten Deeply Nested Array,Medium,64.6%,37.5%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,53.6%,37.5%

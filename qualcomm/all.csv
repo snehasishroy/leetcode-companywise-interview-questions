@@ -1,0 +1,48 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,59.3%,62.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,62.5%
+24,https://leetcode.com/problems/swap-nodes-in-pairs,Swap Nodes in Pairs,Medium,67.4%,62.5%
+48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,78.1%,75.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.2%,62.5%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.6%,62.5%
+1183,https://leetcode.com/problems/maximum-number-of-ones,Maximum Number of Ones,Hard,68.8%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,75.0%
+191,https://leetcode.com/problems/number-of-1-bits,Number of 1 Bits,Easy,74.7%,62.5%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,79.3%,87.5%
+231,https://leetcode.com/problems/power-of-two,Power of Two,Easy,48.4%,62.5%
+1275,https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game,Find Winner on a Tic Tac Toe Game,Easy,54.2%,62.5%
+3163,https://leetcode.com/problems/string-compression-iii,String Compression III,Medium,66.9%,100.0%
+297,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard,59.1%,62.5%
+2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,48.6%,62.5%
+876,https://leetcode.com/problems/middle-of-the-linked-list,Middle of the Linked List,Easy,80.7%,75.0%
+190,https://leetcode.com/problems/reverse-bits,Reverse Bits,Easy,63.4%,75.0%
+122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,69.6%,62.5%
+58,https://leetcode.com/problems/length-of-last-word,Length of Last Word,Easy,56.5%,62.5%
+26,https://leetcode.com/problems/remove-duplicates-from-sorted-array,Remove Duplicates from Sorted Array,Easy,60.5%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,75.0%
+232,https://leetcode.com/problems/implement-queue-using-stacks,Implement Queue using Stacks,Easy,68.2%,62.5%
+407,https://leetcode.com/problems/trapping-rain-water-ii,Trapping Rain Water II,Hard,58.9%,62.5%
+19,https://leetcode.com/problems/remove-nth-node-from-end-of-list,Remove Nth Node From End of List,Medium,49.2%,75.0%
+348,https://leetcode.com/problems/design-tic-tac-toe,Design Tic-Tac-Toe,Medium,58.6%,62.5%
+50,https://leetcode.com/problems/powx-n,"Pow(x, n)",Medium,37.2%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,75.0%
+167,https://leetcode.com/problems/two-sum-ii-input-array-is-sorted,Two Sum II - Input Array Is Sorted,Medium,63.5%,62.5%
+104,https://leetcode.com/problems/maximum-depth-of-binary-tree,Maximum Depth of Binary Tree,Easy,77.2%,62.5%
+7,https://leetcode.com/problems/reverse-integer,Reverse Integer,Medium,30.4%,62.5%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,53.6%,62.5%
+8,https://leetcode.com/problems/string-to-integer-atoi,String to Integer (atoi),Medium,19.4%,62.5%
+392,https://leetcode.com/problems/is-subsequence,Is Subsequence,Easy,48.4%,62.5%
+836,https://leetcode.com/problems/rectangle-overlap,Rectangle Overlap,Easy,45.8%,62.5%
+46,https://leetcode.com/problems/permutations,Permutations,Medium,80.8%,62.5%
+342,https://leetcode.com/problems/power-of-four,Power of Four,Easy,49.6%,62.5%
+88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.1%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,62.5%
+387,https://leetcode.com/problems/first-unique-character-in-a-string,First Unique Character in a String,Easy,63.8%,62.5%
+169,https://leetcode.com/problems/majority-element,Majority Element,Easy,65.8%,62.5%
+622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,52.8%,62.5%
+136,https://leetcode.com/problems/single-number,Single Number,Easy,76.1%,62.5%
+141,https://leetcode.com/problems/linked-list-cycle,Linked List Cycle,Easy,52.7%,62.5%
+2563,https://leetcode.com/problems/count-the-number-of-fair-pairs,Count the Number of Fair Pairs,Medium,52.9%,62.5%
+215,https://leetcode.com/problems/kth-largest-element-in-an-array,Kth Largest Element in an Array,Medium,68.1%,62.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,62.5%

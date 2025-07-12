@@ -1,0 +1,36 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+62,https://leetcode.com/problems/unique-paths,Unique Paths,Medium,65.9%,87.5%
+63,https://leetcode.com/problems/unique-paths-ii,Unique Paths II,Medium,43.3%,87.5%
+74,https://leetcode.com/problems/search-a-2d-matrix,Search a 2D Matrix,Medium,52.4%,75.0%
+2071,https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign,Maximum Number of Tasks You Can Assign,Hard,50.6%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,100.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,75.0%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,49.4%,87.5%
+886,https://leetcode.com/problems/possible-bipartition,Possible Bipartition,Medium,51.6%,87.5%
+815,https://leetcode.com/problems/bus-routes,Bus Routes,Hard,47.0%,62.5%
+588,https://leetcode.com/problems/design-in-memory-file-system,Design In-Memory File System,Hard,48.2%,87.5%
+10,https://leetcode.com/problems/regular-expression-matching,Regular Expression Matching,Hard,29.4%,87.5%
+726,https://leetcode.com/problems/number-of-atoms,Number of Atoms,Hard,65.0%,62.5%
+394,https://leetcode.com/problems/decode-string,Decode String,Medium,61.3%,75.0%
+355,https://leetcode.com/problems/design-twitter,Design Twitter,Medium,42.8%,87.5%
+240,https://leetcode.com/problems/search-a-2d-matrix-ii,Search a 2D Matrix II,Medium,55.4%,62.5%
+227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,45.9%,75.0%
+787,https://leetcode.com/problems/cheapest-flights-within-k-stops,Cheapest Flights Within K Stops,Medium,40.5%,62.5%
+78,https://leetcode.com/problems/subsets,Subsets,Medium,81.0%,75.0%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,48.4%,87.5%
+460,https://leetcode.com/problems/lfu-cache,LFU Cache,Hard,46.8%,100.0%
+724,https://leetcode.com/problems/find-pivot-index,Find Pivot Index,Easy,60.7%,62.5%
+715,https://leetcode.com/problems/range-module,Range Module,Hard,44.2%,62.5%
+340,https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters,Longest Substring with At Most K Distinct Characters,Medium,49.5%,75.0%
+776,https://leetcode.com/problems/split-bst,Split BST,Medium,82.4%,62.5%
+1044,https://leetcode.com/problems/longest-duplicate-substring,Longest Duplicate Substring,Hard,30.8%,62.5%
+334,https://leetcode.com/problems/increasing-triplet-subsequence,Increasing Triplet Subsequence,Medium,39.1%,62.5%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,47.7%,62.5%
+1062,https://leetcode.com/problems/longest-repeating-substring,Longest Repeating Substring,Medium,63.1%,75.0%
+417,https://leetcode.com/problems/pacific-atlantic-water-flow,Pacific Atlantic Water Flow,Medium,57.7%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,62.5%
+540,https://leetcode.com/problems/single-element-in-a-sorted-array,Single Element in a Sorted Array,Medium,59.2%,75.0%
+752,https://leetcode.com/problems/open-the-lock,Open the Lock,Medium,60.8%,62.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,62.5%
+694,https://leetcode.com/problems/number-of-distinct-islands,Number of Distinct Islands,Medium,62.3%,62.5%
+2441,https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative,Largest Positive Integer That Exists With Its Negative,Easy,74.7%,62.5%

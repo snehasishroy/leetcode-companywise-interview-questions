@@ -1,0 +1,50 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,46.4%,50.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,75.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,87.5%
+1004,https://leetcode.com/problems/max-consecutive-ones-iii,Max Consecutive Ones III,Medium,66.1%,62.5%
+45,https://leetcode.com/problems/jump-game-ii,Jump Game II,Medium,41.6%,62.5%
+1963,https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced,Minimum Number of Swaps to Make the String Balanced,Medium,78.0%,75.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,75.0%
+1101,https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends,The Earliest Moment When Everyone Become Friends,Medium,65.7%,100.0%
+2006,https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k,Count Number of Pairs With Absolute Difference K,Easy,85.0%,50.0%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.6%,50.0%
+73,https://leetcode.com/problems/set-matrix-zeroes,Set Matrix Zeroes,Medium,60.9%,75.0%
+1151,https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together,Minimum Swaps to Group All 1's Together,Medium,61.1%,100.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,75.0%
+1011,https://leetcode.com/problems/capacity-to-ship-packages-within-d-days,Capacity To Ship Packages Within D Days,Medium,72.3%,75.0%
+198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.4%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,62.5%
+1328,https://leetcode.com/problems/break-a-palindrome,Break a Palindrome,Medium,51.6%,100.0%
+2168,https://leetcode.com/problems/unique-substrings-with-equal-digit-frequency,Unique Substrings With Equal Digit Frequency,Medium,64.2%,100.0%
+3136,https://leetcode.com/problems/valid-word,Valid Word,Easy,38.8%,100.0%
+1283,https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold,Find the Smallest Divisor Given a Threshold,Medium,63.9%,100.0%
+2366,https://leetcode.com/problems/minimum-replacements-to-sort-the-array,Minimum Replacements to Sort the Array,Hard,53.2%,100.0%
+1334,https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance,Find the City With the Smallest Number of Neighbors at a Threshold Distance,Medium,70.6%,75.0%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,58.3%,100.0%
+2491,https://leetcode.com/problems/divide-players-into-teams-of-equal-skill,Divide Players Into Teams of Equal Skill,Medium,68.9%,100.0%
+1451,https://leetcode.com/problems/rearrange-words-in-a-sentence,Rearrange Words in a Sentence,Medium,65.9%,100.0%
+1492,https://leetcode.com/problems/the-kth-factor-of-n,The kth Factor of n,Medium,69.6%,100.0%
+567,https://leetcode.com/problems/permutation-in-string,Permutation in String,Medium,47.4%,50.0%
+1481,https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals,Least Number of Unique Integers after K Removals,Medium,63.5%,50.0%
+611,https://leetcode.com/problems/valid-triangle-number,Valid Triangle Number,Medium,52.5%,100.0%
+2533,https://leetcode.com/problems/number-of-good-binary-strings,Number of Good Binary Strings,Medium,52.4%,100.0%
+1560,https://leetcode.com/problems/most-visited-sector-in-a-circular-track,Most Visited Sector in a Circular Track,Easy,59.2%,100.0%
+1611,https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero,Minimum One Bit Operations to Make Integers Zero,Hard,73.3%,100.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,75.0%
+974,https://leetcode.com/problems/subarray-sums-divisible-by-k,Subarray Sums Divisible by K,Medium,55.7%,50.0%
+13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,65.0%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,50.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,50.0%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,79.3%,50.0%
+1944,https://leetcode.com/problems/number-of-visible-people-in-a-queue,Number of Visible People in a Queue,Hard,71.4%,50.0%
+316,https://leetcode.com/problems/remove-duplicate-letters,Remove Duplicate Letters,Medium,51.5%,87.5%
+28,https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string,Find the Index of the First Occurrence in a String,Easy,45.1%,50.0%
+841,https://leetcode.com/problems/keys-and-rooms,Keys and Rooms,Medium,74.8%,50.0%
+1507,https://leetcode.com/problems/reformat-date,Reformat Date,Easy,67.4%,50.0%
+300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,58.0%,50.0%
+88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.1%,50.0%
+3168,https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room,Minimum Number of Chairs in a Waiting Room,Easy,78.4%,50.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,50.0%
+697,https://leetcode.com/problems/degree-of-an-array,Degree of an Array,Easy,57.5%,50.0%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,56.8%,50.0%

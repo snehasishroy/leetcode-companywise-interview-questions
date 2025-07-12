@@ -1,0 +1,42 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,100.0%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,57.9%,87.5%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,45.6%,87.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,87.5%
+26,https://leetcode.com/problems/remove-duplicates-from-sorted-array,Remove Duplicates from Sorted Array,Easy,60.5%,62.5%
+1953,https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work,Maximum Number of Weeks for Which You Can Work,Medium,41.4%,62.5%
+69,https://leetcode.com/problems/sqrtx,Sqrt(x),Easy,40.5%,50.0%
+104,https://leetcode.com/problems/maximum-depth-of-binary-tree,Maximum Depth of Binary Tree,Easy,77.2%,50.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,62.5%
+128,https://leetcode.com/problems/longest-consecutive-sequence,Longest Consecutive Sequence,Medium,47.0%,62.5%
+2065,https://leetcode.com/problems/maximum-path-quality-of-a-graph,Maximum Path Quality of a Graph,Hard,59.8%,87.5%
+2954,https://leetcode.com/problems/count-the-number-of-infection-sequences,Count the Number of Infection Sequences,Hard,33.6%,87.5%
+2127,https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting,Maximum Employees to Be Invited to a Meeting,Hard,62.0%,50.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,75.0%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,79.3%,62.5%
+215,https://leetcode.com/problems/kth-largest-element-in-an-array,Kth Largest Element in an Array,Medium,68.1%,50.0%
+1349,https://leetcode.com/problems/maximum-students-taking-exam,Maximum Students Taking Exam,Hard,52.3%,87.5%
+1341,https://leetcode.com/problems/movie-rating,Movie Rating,Medium,41.6%,87.5%
+2552,https://leetcode.com/problems/count-increasing-quadruplets,Count Increasing Quadruplets,Hard,33.9%,87.5%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.5%,62.5%
+796,https://leetcode.com/problems/rotate-string,Rotate String,Easy,64.1%,62.5%
+1636,https://leetcode.com/problems/sort-array-by-increasing-frequency,Sort Array by Increasing Frequency,Easy,80.3%,50.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.2%,62.5%
+221,https://leetcode.com/problems/maximal-square,Maximal Square,Medium,48.9%,62.5%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,51.2%,62.5%
+738,https://leetcode.com/problems/monotone-increasing-digits,Monotone Increasing Digits,Medium,48.8%,50.0%
+509,https://leetcode.com/problems/fibonacci-number,Fibonacci Number,Easy,73.1%,50.0%
+367,https://leetcode.com/problems/valid-perfect-square,Valid Perfect Square,Easy,44.2%,50.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,62.5%
+141,https://leetcode.com/problems/linked-list-cycle,Linked List Cycle,Easy,52.7%,50.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,62.5%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,48.4%,50.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,50.0%
+1428,https://leetcode.com/problems/leftmost-column-with-at-least-a-one,Leftmost Column with at Least a One,Medium,54.9%,62.5%
+1038,https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree,Binary Search Tree to Greater Sum Tree,Medium,88.3%,50.0%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,46.7%,50.0%
+1004,https://leetcode.com/problems/max-consecutive-ones-iii,Max Consecutive Ones III,Medium,66.1%,50.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,50.0%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,62.9%,50.0%
+392,https://leetcode.com/problems/is-subsequence,Is Subsequence,Easy,48.4%,50.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,62.5%
