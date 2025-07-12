@@ -1,0 +1,23 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+3143,https://leetcode.com/problems/maximum-points-inside-the-square,Maximum Points Inside the Square,Medium,38.3%,100.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,75.0%
+2999,https://leetcode.com/problems/count-the-number-of-powerful-integers,Count the Number of Powerful Integers,Hard,46.5%,87.5%
+3012,https://leetcode.com/problems/minimize-length-of-array-using-operations,Minimize Length of Array Using Operations,Medium,34.9%,87.5%
+3051,https://leetcode.com/problems/find-candidates-for-data-scientist-position,Find Candidates for Data Scientist Position,Easy,76.1%,100.0%
+3052,https://leetcode.com/problems/maximize-items,Maximize Items,Hard,74.9%,100.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,75.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.2%,75.0%
+2448,https://leetcode.com/problems/minimum-cost-to-make-array-equal,Minimum Cost to Make Array Equal,Hard,46.4%,62.5%
+31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,43.3%,62.5%
+810,https://leetcode.com/problems/chalkboard-xor-game,Chalkboard XOR Game,Hard,63.2%,62.5%
+45,https://leetcode.com/problems/jump-game-ii,Jump Game II,Medium,41.6%,62.5%
+55,https://leetcode.com/problems/jump-game,Jump Game,Medium,39.6%,62.5%
+526,https://leetcode.com/problems/beautiful-arrangement,Beautiful Arrangement,Medium,64.6%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,62.5%
+2594,https://leetcode.com/problems/minimum-time-to-repair-cars,Minimum Time to Repair Cars,Medium,59.9%,62.5%
+152,https://leetcode.com/problems/maximum-product-subarray,Maximum Product Subarray,Medium,35.1%,62.5%
+72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,59.0%,62.5%
+205,https://leetcode.com/problems/isomorphic-strings,Isomorphic Strings,Easy,47.0%,62.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,62.5%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,57.9%,62.5%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.1%,62.5%

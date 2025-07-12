@@ -1,0 +1,9 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,62.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,62.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,75.0%
+3226,https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal,Number of Bit Changes to Make Two Integers Equal,Easy,62.7%,100.0%
+2941,https://leetcode.com/problems/maximum-gcd-sum-of-a-subarray,Maximum GCD-Sum of a Subarray,Hard,36.3%,100.0%
+3003,https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations,Maximize the Number of Partitions After Operations,Hard,27.7%,100.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,62.5%
+3036,https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii,Number of Subarrays That Match a Pattern II,Hard,32.3%,100.0%
