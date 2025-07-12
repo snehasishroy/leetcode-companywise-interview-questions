@@ -1,4 +1,5 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import lombok.extern.slf4j.Slf4j;
 import model.ProblemStatement;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -12,13 +13,13 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 public class Scraper {
     private static final String USERNAME = ""; // Provide your LeetCode username/email
     private static final String PASSWORD = ""; // Provide your LeetCode password
-    public static final int QUESTIONS_PAGE_WAIT_MILLIS = 10000;
-    public static final int LOGIN_PAGE_WAIT_MILLIS = 2000;
+    public static final int QUESTIONS_PAGE_WAIT_MILLIS = 5000;
+    public static final int LOGIN_PAGE_WAIT_MILLIS = 30000;
     WebDriver driver;
-    List<String> companyURLs = new ArrayList<>();
 
     public void setup() throws InterruptedException, IOException {
         WebDriverManager.edgedriver().setup();
@@ -37,98 +38,45 @@ public class Scraper {
 //        List<WebElement> companies = driver.findElements(By.cssSelector(".mb-4.mr-3"));
 //        for (WebElement company : companies) {
 //            String link = company.getAttribute("href");
-//            System.out.println(link);
+//            log.info(link);
 //            companyURLs.add(link);
 //        }
 //        for (String companyURL : companyURLs) {
-            visitCompanies("https://leetcode.com/company/amazon/?favoriteSlug=amazon-all", driver);
+        visitCompanies("https://leetcode.com/company/amazon/?favoriteSlug=amazon-all", driver);
 //        }
     }
 
-    private void visitCompanies(String companyURL, WebDriver driver) throws InterruptedException, IOException {
+    private void visitCompanies(String companyURL, WebDriver driver) throws InterruptedException {
         String companyName = companyURL.substring(companyURL.lastIndexOf("/") + 1);
-        System.out.println("Visiting " + companyURL);
-        this.driver.get(companyURL);
+        log.info("Visiting {}", companyName);
+        driver.get(companyURL);
         Thread.sleep(QUESTIONS_PAGE_WAIT_MILLIS);
         loadAllProblems(driver);
-        // Get the page source and parse with Jsoup
-        String pageSource = this.driver.getPageSource();
+        String pageSource = driver.getPageSource();
         Document doc = Jsoup.parse(pageSource);
         List<ProblemStatement> problems = extractProblems(doc);
-        // Print results
-        System.out.println("Extracted " + problems.size() + " problems:");
+
+        log.info("Extracted {} problems from", problems.size());
         for (ProblemStatement problem : problems) {
-            System.out.println(problem);
+            log.info("{}", problem);
         }
     }
-
-//    private void visitCompanies(String companyURL) throws InterruptedException, IOException {
-//        String companyName = companyURL.substring(companyURL.lastIndexOf("/") + 1);
-//        System.out.println("Visiting " + companyURL);
-//        driver.get(companyURL);
-//        Thread.sleep(QUESTIONS_PAGE_WAIT_MILLIS); // Wait for the page to load, for companies like Google/Amazon, it takes a lot of time
-//        String table = "";
-//        try {
-//            table = "<table>" + driver.findElement(By.className("table")).getAttribute("innerHTML") + "</table>";
-//        } catch (NoSuchElementException ex) {
-//            Thread.sleep(30000);
-//            driver.get(companyURL);
-//            Thread.sleep(30000);
-//            table = "<table>" + driver.findElement(By.className("table")).getAttribute("innerHTML") + "</table>";
-//        }
-//        Document doc = Jsoup.parse(table); // parse the table html content
-//        List<String[]> result = new ArrayList<>();
-//        String[] header = new String[]{"ID", "Title", "URL", "Is Premium", "Acceptance %", "Difficulty", "Frequency %"};
-//        result.add(header);
-//        for (Element row : doc.getElementsByTag("tr")) {
-//            Elements cols = row.getElementsByTag("td");
-//            int size = cols.size();
-//            if (size != 0) { // for <th> size would be 0
-//                String id = cols.get(1).text();
-//                String title = cols.get(2).text();
-//                Elements href = cols.get(2).getElementsByAttribute("href");
-//                boolean isPremium = !cols.get(2).getElementsByTag("i").isEmpty();
-//                String problemUrl = href.get(0).attr("href");
-//                String acceptance = cols.get(3).text();
-//                String difficulty = cols.get(4).getElementsByTag("span").text();
-//                String frequency = cols.get(5).getElementsByClass("progress-bar").attr("style");
-//                // sample response "width: 29.1345%";
-//                frequency = frequency.substring(frequency.indexOf(" ") + 1); // get the value after the first whitespace
-//                String[] res = new String[]{id, title, problemUrl, isPremium ? "Y" : "N", acceptance, difficulty, frequency};
-//                result.add(res);
-//            }
-//        }
-//        try (CSVWriter csvWriter = new CSVWriter(new FileWriter(companyName + ".csv"))) {
-//            csvWriter.writeAll(result);
-//        }
-//    }
 
     public static void loadAllProblems(WebDriver driver) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         int maxScrolls = 30; // Maximum number of scrolls
-        int scrollDelay = 10; // Delay between scrolls in seconds
         int consecutiveNoChange = 0; // Counter for consecutive scrolls with no new content
         int maxConsecutiveNoChange = 3; // Stop after 3 consecutive scrolls with no new content
 
-        System.out.println("Loading all problems by scrolling...");
+        log.info("Loading all problems by scrolling...");
 
         for (int i = 0; i < maxScrolls; i++) {
-            // Get current number of problem links
             int currentCount = driver.findElements(By.cssSelector("a[href*='/problems/'][id]")).size();
 
-            // Try multiple scrolling methods to ensure scrolling works
             boolean scrolled = performScroll(driver, js);
 
             if (!scrolled) {
-                System.out.println("Scroll " + (i + 1) + ": Unable to scroll further, stopping.");
-                break;
-            }
-
-            // Wait for new content to load
-            try {
-                Thread.sleep(scrollDelay * 1000);
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
+                log.info("Scroll " + (i + 1) + ": Unable to scroll further, stopping.");
                 break;
             }
 
@@ -138,88 +86,35 @@ public class Scraper {
             if (newCount > currentCount) {
                 // New content loaded
                 consecutiveNoChange = 0;
-                System.out.println("Scroll " + (i + 1) + ": Found " + newCount + " problems (+" + (newCount - currentCount) + " new)");
+                log.info("Scroll " + (i + 1) + ": Found " + newCount + " problems (+" + (newCount - currentCount) + " new)");
             } else {
                 // No new content
                 consecutiveNoChange++;
-                System.out.println("Scroll " + (i + 1) + ": No new problems loaded (" + consecutiveNoChange + "/" + maxConsecutiveNoChange + ")");
+                log.info("Scroll " + (i + 1) + ": No new problems loaded (" + consecutiveNoChange + "/" + maxConsecutiveNoChange + ")");
 
                 // If we've had consecutive scrolls with no new content, assume we've reached the end
                 if (consecutiveNoChange >= maxConsecutiveNoChange) {
-                    System.out.println("No new content loaded after " + maxConsecutiveNoChange + " consecutive scrolls. Assuming all problems are loaded.");
+                    log.info("No new content loaded after " + maxConsecutiveNoChange + " consecutive scrolls. Assuming all problems are loaded.");
                     break;
                 }
             }
         }
-
-        System.out.println("Finished loading problems.");
+        log.info("Finished loading problems.");
     }
 
-    /**
-     * Performs scrolling using multiple methods to ensure it works
-     * @param driver WebDriver instance
-     * @param js JavascriptExecutor instance
-     * @return true if scrolling was performed, false otherwise
-     */
     private static boolean performScroll(WebDriver driver, JavascriptExecutor js) {
         try {
-            // Get current scroll position
-            long currentScrollY = (Long) js.executeScript("return window.scrollY || window.pageYOffset;");
+            // Find the specific element to scroll inside
+            WebElement scrollElement = driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[4]/div/div[2]"));
 
-            // Method 1: Scroll to document height
-            js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
-            Thread.sleep(1000); // Short wait
+            // Scroll down by 5000 pixels inside the element
+            js.executeScript("arguments[0].scrollTop = arguments[0].scrollHeight;", scrollElement);
+            Thread.sleep(3000);
 
-            // Check if we actually scrolled
-            long newScrollY = (Long) js.executeScript("return window.scrollY || window.pageYOffset;");
-            if (newScrollY > currentScrollY) {
-                return true;
-            }
-
-            // Method 2: Try document.documentElement.scrollHeight
-            js.executeScript("window.scrollTo(0, document.documentElement.scrollHeight);");
-            Thread.sleep(1000);
-
-            newScrollY = (Long) js.executeScript("return window.scrollY || window.pageYOffset;");
-            if (newScrollY > currentScrollY) {
-                return true;
-            }
-
-            // Method 3: Scroll by a large amount
-            js.executeScript("window.scrollBy(0, 3000);");
-            Thread.sleep(1000);
-
-            newScrollY = (Long) js.executeScript("return window.scrollY || window.pageYOffset;");
-            if (newScrollY > currentScrollY) {
-                return true;
-            }
-
-            // Method 4: Try scrolling the main container (common in SPAs)
-            js.executeScript(
-                    "const containers = document.querySelectorAll('[class*=\"scroll\"], [class*=\"overflow\"], main, .main-content, #main');" +
-                            "for (let container of containers) {" +
-                            "  if (container.scrollHeight > container.clientHeight) {" +
-                            "    container.scrollTop = container.scrollHeight;" +
-                            "    break;" +
-                            "  }" +
-                            "}"
-            );
-            Thread.sleep(1000);
-
-            newScrollY = (Long) js.executeScript("return window.scrollY || window.pageYOffset;");
-            if (newScrollY > currentScrollY) {
-                return true;
-            }
-
-            // Method 5: End key simulation
-            js.executeScript("document.body.dispatchEvent(new KeyboardEvent('keydown', {key: 'End'}));");
-            Thread.sleep(1000);
-
-            newScrollY = (Long) js.executeScript("return window.scrollY || window.pageYOffset;");
-            return newScrollY > currentScrollY;
+            return true;
 
         } catch (Exception e) {
-            System.err.println("Error during scrolling: " + e.getMessage());
+            log.error("Error during scrolling: ", e);
             return false;
         }
     }
@@ -227,7 +122,7 @@ public class Scraper {
     public static List<ProblemStatement> extractProblems(Document doc) {
         List<ProblemStatement> problems = new ArrayList<>();
 
-        // Find all problem links (assuming they are anchor tags with specific pattern)
+        // Find all problem links
         Elements problemLinks = doc.select("a[href*='/problems/'][id]");
 
         for (Element link : problemLinks) {
@@ -237,7 +132,7 @@ public class Scraper {
 
                 // Extract URL from href attribute
                 String url = link.attr("href");
-                // Remove query parameters if needed
+                // Remove query parameters
                 if (url.contains("?")) {
                     url = url.substring(0, url.indexOf("?"));
                 }
@@ -255,9 +150,13 @@ public class Scraper {
 
                 // Extract acceptance percentage
                 String acceptancePercentage = "";
-                Element acceptanceElement = link.select("div.text-sd-muted-foreground").first();
-                if (acceptanceElement != null) {
-                    acceptancePercentage = acceptanceElement.text().trim();
+                Elements candidates = link.select("div.text-sd-muted-foreground");
+                for (Element candidate : candidates) {
+                    String text = candidate.text().trim();
+                    if (text.contains("%")) {
+                        acceptancePercentage = text;
+                        break;
+                    }
                 }
 
                 // Extract difficulty based on CSS class
@@ -276,7 +175,7 @@ public class Scraper {
 
                 // Extract frequency percentage by counting orange divs (exclude those with opacity)
                 String frequencyPercentage = "";
-                Elements orangeDivs = link.select("div.bg-brand-orange.h-2.w-0\\.5.rounded");
+                Elements orangeDivs = link.select("div[class*='bg-brand-orange'][class*='h-2'][class*='w-0.5'][class*='rounded']");
                 if (!orangeDivs.isEmpty()) {
                     int validCount = 0;
                     for (Element div : orangeDivs) {
@@ -298,8 +197,7 @@ public class Scraper {
                 }
 
             } catch (Exception e) {
-                System.err.println("Error processing problem element: " + e.getMessage());
-                continue;
+                log.error("Error processing problem element: ", e);
             }
         }
 
