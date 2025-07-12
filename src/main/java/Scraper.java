@@ -28,7 +28,7 @@ public class Scraper {
     public static final int LOGIN_PAGE_WAIT_MILLIS = 30000;
     WebDriver driver;
 
-    public void setup() throws InterruptedException, IOException {
+    public void setup() throws InterruptedException {
         WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver();
 
