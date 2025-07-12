@@ -1,0 +1,14 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+6,https://leetcode.com/problems/zigzag-conversion,Zigzag Conversion,Medium,51.8%,75.0%
+2060,https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings,Check if an Original String Exists Given Two Encoded Strings,Hard,43.2%,100.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,75.0%
+340,https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters,Longest Substring with At Most K Distinct Characters,Medium,49.5%,75.0%
+134,https://leetcode.com/problems/gas-station,Gas Station,Medium,46.5%,87.5%
+289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,71.5%,62.5%
+815,https://leetcode.com/problems/bus-routes,Bus Routes,Hard,47.0%,75.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,75.0%
+236,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Lowest Common Ancestor of a Binary Tree,Medium,67.0%,62.5%
+189,https://leetcode.com/problems/rotate-array,Rotate Array,Medium,43.2%,62.5%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,45.6%,62.5%
+84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,47.6%,62.5%

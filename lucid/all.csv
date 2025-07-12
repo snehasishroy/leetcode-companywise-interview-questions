@@ -1,0 +1,10 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,75.0%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,77.3%,62.5%
+2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,37.1%,100.0%
+1742,https://leetcode.com/problems/maximum-number-of-balls-in-a-box,Maximum Number of Balls in a Box,Easy,74.3%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,62.5%
+155,https://leetcode.com/problems/min-stack,Min Stack,Medium,56.6%,75.0%
+134,https://leetcode.com/problems/gas-station,Gas Station,Medium,46.5%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,62.5%
+236,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Lowest Common Ancestor of a Binary Tree,Medium,67.0%,62.5%

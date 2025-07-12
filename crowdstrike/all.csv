@@ -1,0 +1,13 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,58.3%,100.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,75.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,62.5%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,62.9%,62.5%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.4%,75.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,75.0%
+271,https://leetcode.com/problems/encode-and-decode-strings,Encode and Decode Strings,Medium,49.8%,87.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,75.0%
+977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.3%,62.5%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,49.4%,62.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,62.5%

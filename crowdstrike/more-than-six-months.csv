@@ -1,0 +1,9 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,87.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,87.5%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,87.5%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,58.3%,100.0%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,62.9%,87.5%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.4%,87.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,100.0%
+271,https://leetcode.com/problems/encode-and-decode-strings,Encode and Decode Strings,Medium,49.8%,87.5%

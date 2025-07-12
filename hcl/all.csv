@@ -1,0 +1,9 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,100.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,100.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,37.2%,75.0%
+88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.1%,87.5%
+9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,59.3%,75.0%
+344,https://leetcode.com/problems/reverse-string,Reverse String,Easy,79.8%,75.0%

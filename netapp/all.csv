@@ -1,0 +1,12 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+34,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array,Find First and Last Position of Element in Sorted Array,Medium,47.0%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,100.0%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,79.3%,87.5%
+227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,45.9%,87.5%
+269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,36.7%,87.5%
+437,https://leetcode.com/problems/path-sum-iii,Path Sum III,Medium,46.1%,87.5%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,62.9%,100.0%
+423,https://leetcode.com/problems/reconstruct-original-digits-from-english,Reconstruct Original Digits from English,Medium,51.6%,87.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,87.5%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,57.0%,87.5%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,87.5%

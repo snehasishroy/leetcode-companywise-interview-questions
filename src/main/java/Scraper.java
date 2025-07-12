@@ -68,7 +68,7 @@ public class Scraper {
         Document doc = Jsoup.parse(pageSource);
         List<ProblemStatement> problems = extractProblems(doc);
 
-        log.info("Extracted {} problems from", problems.size());
+        log.info("Extracted {} problems", problems.size());
         for (ProblemStatement problem : problems) {
             log.info("{}", problem);
         }

@@ -1,0 +1,13 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,64.0%,100.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,75.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,87.5%
+306,https://leetcode.com/problems/additive-number,Additive Number,Medium,32.6%,100.0%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,45.4%,62.5%
+1215,https://leetcode.com/problems/stepping-numbers,Stepping Numbers,Medium,47.7%,87.5%
+728,https://leetcode.com/problems/self-dividing-numbers,Self Dividing Numbers,Easy,79.7%,87.5%
+1344,https://leetcode.com/problems/angle-between-hands-of-a-clock,Angle Between Hands of a Clock,Medium,64.2%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,50.0%
+299,https://leetcode.com/problems/bulls-and-cows,Bulls and Cows,Medium,51.5%,50.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,62.5%
+647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,71.8%,50.0%

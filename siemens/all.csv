@@ -1,0 +1,27 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,62.5%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,37.2%,62.5%
+17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,64.0%,75.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,87.5%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.0%,75.0%
+41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,41.2%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,87.5%
+3187,https://leetcode.com/problems/peaks-in-array,Peaks in Array,Hard,25.9%,100.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,62.5%
+2064,https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store,Minimized Maximum of Products Distributed to Any Store,Medium,62.6%,100.0%
+179,https://leetcode.com/problems/largest-number,Largest Number,Medium,41.4%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,100.0%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,79.3%,75.0%
+460,https://leetcode.com/problems/lfu-cache,LFU Cache,Hard,46.8%,75.0%
+217,https://leetcode.com/problems/contains-duplicate,Contains Duplicate,Easy,63.3%,75.0%
+61,https://leetcode.com/problems/rotate-list,Rotate List,Medium,40.1%,62.5%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,66.8%,62.5%
+234,https://leetcode.com/problems/palindrome-linked-list,Palindrome Linked List,Easy,56.1%,62.5%
+628,https://leetcode.com/problems/maximum-product-of-three-numbers,Maximum Product of Three Numbers,Easy,45.4%,62.5%
+1344,https://leetcode.com/problems/angle-between-hands-of-a-clock,Angle Between Hands of a Clock,Medium,64.2%,62.5%
+26,https://leetcode.com/problems/remove-duplicates-from-sorted-array,Remove Duplicates from Sorted Array,Easy,60.5%,62.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,75.0%
+218,https://leetcode.com/problems/the-skyline-problem,The Skyline Problem,Hard,44.0%,75.0%
+921,https://leetcode.com/problems/minimum-add-to-make-parentheses-valid,Minimum Add to Make Parentheses Valid,Medium,74.6%,62.5%
+1845,https://leetcode.com/problems/seat-reservation-manager,Seat Reservation Manager,Medium,66.5%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,62.5%

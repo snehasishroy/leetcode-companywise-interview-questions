@@ -1,0 +1,8 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,87.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,100.0%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,57.0%,100.0%
+196,https://leetcode.com/problems/delete-duplicate-emails,Delete Duplicate Emails,Easy,64.4%,87.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,100.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,100.0%
+185,https://leetcode.com/problems/department-top-three-salaries,Department Top Three Salaries,Hard,58.0%,87.5%

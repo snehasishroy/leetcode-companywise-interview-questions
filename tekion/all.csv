@@ -1,0 +1,20 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,75.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,62.5%
+2954,https://leetcode.com/problems/count-the-number-of-infection-sequences,Count the Number of Infection Sequences,Hard,33.6%,100.0%
+238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,67.9%,62.5%
+947,https://leetcode.com/problems/most-stones-removed-with-same-row-or-column,Most Stones Removed with Same Row or Column,Medium,62.3%,75.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,62.5%
+392,https://leetcode.com/problems/is-subsequence,Is Subsequence,Easy,48.4%,62.5%
+55,https://leetcode.com/problems/jump-game,Jump Game,Medium,39.6%,62.5%
+162,https://leetcode.com/problems/find-peak-element,Find Peak Element,Medium,46.5%,62.5%
+123,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii,Best Time to Buy and Sell Stock III,Hard,51.4%,62.5%
+1712,https://leetcode.com/problems/ways-to-split-array-into-three-subarrays,Ways to Split Array Into Three Subarrays,Medium,33.5%,62.5%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.2%,62.5%
+410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,58.3%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,75.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.2%,75.0%
+34,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array,Find First and Last Position of Element in Sorted Array,Medium,47.0%,62.5%
+1352,https://leetcode.com/problems/product-of-the-last-k-numbers,Product of the Last K Numbers,Medium,62.8%,62.5%
+127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,43.1%,62.5%
+678,https://leetcode.com/problems/valid-parenthesis-string,Valid Parenthesis String,Medium,39.0%,62.5%

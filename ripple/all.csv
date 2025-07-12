@@ -1,0 +1,13 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,87.5%
+1068,https://leetcode.com/problems/product-sales-analysis-i,Product Sales Analysis I,Easy,84.7%,87.5%
+142,https://leetcode.com/problems/linked-list-cycle-ii,Linked List Cycle II,Medium,55.2%,87.5%
+238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,67.9%,87.5%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,45.6%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,87.5%
+2034,https://leetcode.com/problems/stock-price-fluctuation,Stock Price Fluctuation,Medium,48.2%,87.5%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.2%,87.5%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,58.3%,100.0%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.1%,87.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,87.5%
+224,https://leetcode.com/problems/basic-calculator,Basic Calculator,Hard,45.7%,87.5%
