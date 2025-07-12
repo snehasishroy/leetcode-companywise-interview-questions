@@ -1,4 +1,5 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import model.ProblemStatement;
 import org.jsoup.Jsoup;
@@ -8,10 +9,16 @@ import org.jsoup.select.Elements;
 import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
 
+import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @Slf4j
 public class Scraper {
@@ -42,13 +49,15 @@ public class Scraper {
 //            companyURLs.add(link);
 //        }
 //        for (String companyURL : companyURLs) {
-        visitCompanies("https://leetcode.com/company/amazon/?favoriteSlug=amazon-all", driver);
+        for (String recency : new String[]{"amazon-30-days", "amazon-three-months", "amazon-six-months", "amazon-more-than-six-months", "amazon-all" }) {
+            visitCompanies(String.format("https://leetcode.com/company/amazon/?favoriteSlug=%s", recency), driver, recency);
+        }
 //        }
     }
 
-    private void visitCompanies(String companyURL, WebDriver driver) throws InterruptedException {
-        String companyName = companyURL.substring(companyURL.lastIndexOf("/") + 1);
-        log.info("Visiting {}", companyName);
+    private void visitCompanies(String companyURL, WebDriver driver, String recency) throws InterruptedException {
+        String companyName = extractCompanyNameWithRegex(companyURL);
+        log.info("Visiting {} with recency {}", companyName, recency);
         driver.get(companyURL);
         Thread.sleep(QUESTIONS_PAGE_WAIT_MILLIS);
         loadAllProblems(driver);
@@ -60,6 +69,18 @@ public class Scraper {
         for (ProblemStatement problem : problems) {
             log.info("{}", problem);
         }
+        exportToCSV(problems, companyName, recency);
+    }
+
+    private String extractCompanyNameWithRegex(String companyURL) {
+        Pattern pattern = Pattern.compile("/company/([^/?]+)");
+        Matcher matcher = pattern.matcher(companyURL);
+
+        if (matcher.find()) {
+            return matcher.group(1);
+        }
+
+        throw new IllegalArgumentException("Invalid company URL format: " + companyURL);
     }
 
     public static void loadAllProblems(WebDriver driver) {
@@ -104,15 +125,12 @@ public class Scraper {
 
     private static boolean performScroll(WebDriver driver, JavascriptExecutor js) {
         try {
-            // Find the specific element to scroll inside
             WebElement scrollElement = driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[4]/div/div[2]"));
 
-            // Scroll down by 5000 pixels inside the element
             js.executeScript("arguments[0].scrollTop = arguments[0].scrollHeight;", scrollElement);
             Thread.sleep(3000);
 
             return true;
-
         } catch (Exception e) {
             log.error("Error during scrolling: ", e);
             return false;
@@ -202,5 +220,50 @@ public class Scraper {
         }
 
         return problems;
+    }
+
+    @SneakyThrows
+    private void exportToCSV(List<ProblemStatement> problems, String companyName, String recency) {
+        // Create directory structure: companyName/recency/
+        Path outputDir = Paths.get(companyName, recency);
+        if (!Files.exists(outputDir)) {
+            Files.createDirectories(outputDir);
+        }
+
+        Path filePath = outputDir.resolve("problems.csv");
+
+        try (FileWriter writer = new FileWriter(filePath.toFile())) {
+            writer.append("ID,URL,Title,Difficulty,Acceptance %,Frequency %\n");
+
+            for (ProblemStatement problem : problems) {
+                writer.append(escapeCsvValue(problem.id()))
+                        .append(',')
+                        .append(escapeCsvValue("https://leetcode.com" + problem.url()))
+                        .append(',')
+                        .append(escapeCsvValue(problem.title()))
+                        .append(',')
+                        .append(escapeCsvValue(problem.difficulty()))
+                        .append(',')
+                        .append(escapeCsvValue(problem.acceptancePercentage()))
+                        .append(',')
+                        .append(escapeCsvValue(problem.frequencyPercentage()))
+                        .append('\n');
+            }
+        }
+
+        log.info("CSV file created: {}", filePath.toAbsolutePath());
+    }
+
+    private String escapeCsvValue(String value) {
+        if (value == null) {
+            return "";
+        }
+
+        // If value contains comma, double quote, or newline, wrap in quotes and escape internal quotes
+        if (value.contains(",") || value.contains("\"") || value.contains("\n") || value.contains("\r")) {
+            return "\"" + value.replace("\"", "\"\"") + "\"";
+        }
+
+        return value;
     }
 }
