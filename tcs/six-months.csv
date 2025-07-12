@@ -1,0 +1,42 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,100.0%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,45.6%,75.0%
+169,https://leetcode.com/problems/majority-element,Majority Element,Easy,65.8%,75.0%
+28,https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string,Find the Index of the First Occurrence in a String,Easy,45.1%,75.0%
+9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,59.3%,87.5%
+136,https://leetcode.com/problems/single-number,Single Number,Easy,76.1%,87.5%
+219,https://leetcode.com/problems/contains-duplicate-ii,Contains Duplicate II,Easy,49.2%,75.0%
+956,https://leetcode.com/problems/tallest-billboard,Tallest Billboard,Hard,51.9%,75.0%
+7,https://leetcode.com/problems/reverse-integer,Reverse Integer,Medium,30.4%,75.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.2%,75.0%
+876,https://leetcode.com/problems/middle-of-the-linked-list,Middle of the Linked List,Easy,80.7%,62.5%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,62.9%,62.5%
+1125,https://leetcode.com/problems/smallest-sufficient-team,Smallest Sufficient Team,Hard,55.3%,87.5%
+176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,44.1%,75.0%
+217,https://leetcode.com/problems/contains-duplicate,Contains Duplicate,Easy,63.3%,75.0%
+462,https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii,Minimum Moves to Equal Array Elements II,Medium,61.0%,62.5%
+50,https://leetcode.com/problems/powx-n,"Pow(x, n)",Medium,37.2%,75.0%
+182,https://leetcode.com/problems/duplicate-emails,Duplicate Emails,Easy,72.5%,75.0%
+416,https://leetcode.com/problems/partition-equal-subset-sum,Partition Equal Subset Sum,Medium,48.5%,75.0%
+263,https://leetcode.com/problems/ugly-number,Ugly Number,Easy,42.4%,62.5%
+1378,https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier,Replace Employee ID With The Unique Identifier,Easy,83.6%,62.5%
+26,https://leetcode.com/problems/remove-duplicates-from-sorted-array,Remove Duplicates from Sorted Array,Easy,60.5%,75.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,62.5%
+73,https://leetcode.com/problems/set-matrix-zeroes,Set Matrix Zeroes,Medium,60.9%,62.5%
+2703,https://leetcode.com/problems/return-length-of-arguments-passed,Return Length of Arguments Passed,Easy,94.5%,62.5%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,66.8%,75.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,62.5%
+122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,69.6%,62.5%
+543,https://leetcode.com/problems/diameter-of-binary-tree,Diameter of Binary Tree,Easy,63.8%,62.5%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,77.3%,62.5%
+1148,https://leetcode.com/problems/article-views-i,Article Views I,Easy,77.1%,62.5%
+75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,67.8%,62.5%
+3330,https://leetcode.com/problems/find-the-original-typed-string-i,Find the Original Typed String I,Easy,72.0%,62.5%
+152,https://leetcode.com/problems/maximum-product-subarray,Maximum Product Subarray,Medium,35.1%,62.5%
+344,https://leetcode.com/problems/reverse-string,Reverse String,Easy,79.8%,62.5%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.1%,62.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,62.5%
+204,https://leetcode.com/problems/count-primes,Count Primes,Medium,34.9%,62.5%
+35,https://leetcode.com/problems/search-insert-position,Search Insert Position,Easy,49.2%,62.5%
+1751,https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii,Maximum Number of Events That Can Be Attended II,Hard,64.0%,62.5%
+189,https://leetcode.com/problems/rotate-array,Rotate Array,Medium,43.2%,62.5%

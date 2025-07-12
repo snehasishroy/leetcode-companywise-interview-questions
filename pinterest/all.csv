@@ -1,0 +1,51 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,64.0%,37.5%
+1055,https://leetcode.com/problems/shortest-way-to-form-string,Shortest Way to Form String,Medium,61.3%,75.0%
+37,https://leetcode.com/problems/sudoku-solver,Sudoku Solver,Hard,64.0%,37.5%
+38,https://leetcode.com/problems/count-and-say,Count and Say,Medium,60.7%,100.0%
+63,https://leetcode.com/problems/unique-paths-ii,Unique Paths II,Medium,43.3%,62.5%
+1996,https://leetcode.com/problems/the-number-of-weak-characters-in-the-game,The Number of Weak Characters in the Game,Medium,44.3%,50.0%
+208,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium,68.1%,37.5%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.2%,37.5%
+2232,https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression,Minimize Result by Adding Parentheses to Expression,Medium,67.6%,50.0%
+282,https://leetcode.com/problems/expression-add-operators,Expression Add Operators,Hard,41.8%,87.5%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.4%,75.0%
+311,https://leetcode.com/problems/sparse-matrix-multiplication,Sparse Matrix Multiplication,Medium,69.0%,62.5%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,46.7%,62.5%
+1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.4%,87.5%
+332,https://leetcode.com/problems/reconstruct-itinerary,Reconstruct Itinerary,Hard,43.7%,100.0%
+2302,https://leetcode.com/problems/count-subarrays-with-score-less-than-k,Count Subarrays With Score Less Than K,Hard,62.4%,87.5%
+1293,https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination,Shortest Path in a Grid with Obstacles Elimination,Hard,45.7%,87.5%
+392,https://leetcode.com/problems/is-subsequence,Is Subsequence,Easy,48.4%,75.0%
+1306,https://leetcode.com/problems/jump-game-iii,Jump Game III,Medium,66.1%,62.5%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,58.3%,62.5%
+465,https://leetcode.com/problems/optimal-account-balancing,Optimal Account Balancing,Hard,50.0%,87.5%
+540,https://leetcode.com/problems/single-element-in-a-sorted-array,Single Element in a Sorted Array,Medium,59.2%,37.5%
+571,https://leetcode.com/problems/find-median-given-frequency-of-numbers,Find Median Given Frequency of Numbers,Hard,42.5%,62.5%
+642,https://leetcode.com/problems/design-search-autocomplete-system,Design Search Autocomplete System,Hard,49.4%,75.0%
+719,https://leetcode.com/problems/find-k-th-smallest-pair-distance,Find K-th Smallest Pair Distance,Hard,45.8%,62.5%
+720,https://leetcode.com/problems/longest-word-in-dictionary,Longest Word in Dictionary,Medium,53.6%,75.0%
+767,https://leetcode.com/problems/reorganize-string,Reorganize String,Medium,56.3%,75.0%
+785,https://leetcode.com/problems/is-graph-bipartite,Is Graph Bipartite?,Medium,57.9%,50.0%
+886,https://leetcode.com/problems/possible-bipartition,Possible Bipartition,Medium,51.6%,37.5%
+909,https://leetcode.com/problems/snakes-and-ladders,Snakes and Ladders,Medium,47.9%,37.5%
+980,https://leetcode.com/problems/unique-paths-iii,Unique Paths III,Hard,82.4%,50.0%
+2402,https://leetcode.com/problems/meeting-rooms-iii,Meeting Rooms III,Hard,49.0%,62.5%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,64.7%,37.5%
+43,https://leetcode.com/problems/multiply-strings,Multiply Strings,Medium,42.4%,37.5%
+490,https://leetcode.com/problems/the-maze,The Maze,Medium,59.6%,37.5%
+277,https://leetcode.com/problems/find-the-celebrity,Find the Celebrity,Medium,48.5%,37.5%
+34,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array,Find First and Last Position of Element in Sorted Array,Medium,47.0%,37.5%
+815,https://leetcode.com/problems/bus-routes,Bus Routes,Hard,47.0%,87.5%
+759,https://leetcode.com/problems/employee-free-time,Employee Free Time,Hard,72.6%,50.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,37.5%
+494,https://leetcode.com/problems/target-sum,Target Sum,Medium,50.9%,62.5%
+723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.3%,37.5%
+1570,https://leetcode.com/problems/dot-product-of-two-sparse-vectors,Dot Product of Two Sparse Vectors,Medium,89.9%,37.5%
+721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,59.8%,37.5%
+39,https://leetcode.com/problems/combination-sum,Combination Sum,Medium,74.9%,37.5%
+410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,58.3%,37.5%
+1723,https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs,Find Minimum Time to Finish All Jobs,Hard,43.8%,37.5%
+632,https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists,Smallest Range Covering Elements from K Lists,Hard,69.8%,37.5%
+269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,36.7%,37.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,37.5%

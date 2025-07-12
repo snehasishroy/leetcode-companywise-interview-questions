@@ -1,0 +1,14 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,75.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,75.0%
+3449,https://leetcode.com/problems/maximize-the-minimum-game-score,Maximize the Minimum Game Score,Hard,24.9%,100.0%
+176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,44.1%,62.5%
+3457,https://leetcode.com/problems/eat-pizzas,Eat Pizzas!,Medium,32.3%,100.0%
+3467,https://leetcode.com/problems/transform-array-by-parity,Transform Array by Parity,Easy,89.6%,100.0%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,77.3%,62.5%
+88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.1%,62.5%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,62.9%,62.5%
+3575,https://leetcode.com/problems/maximum-good-subtree-score,Maximum Good Subtree Score,Hard,44.1%,100.0%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,66.8%,75.0%
+31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,43.3%,62.5%
+992,https://leetcode.com/problems/subarrays-with-k-different-integers,Subarrays with K Different Integers,Hard,66.1%,62.5%
