@@ -1,0 +1,42 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,50.0%
+1938,https://leetcode.com/problems/maximum-genetic-difference-query,Maximum Genetic Difference Query,Hard,44.5%,87.5%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.0%,75.0%
+30,https://leetcode.com/problems/substring-with-concatenation-of-all-words,Substring with Concatenation of All Words,Hard,33.1%,75.0%
+1959,https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations,Minimum Total Space Wasted With K Resizing Operations,Medium,43.0%,87.5%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.0%,50.0%
+36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,62.4%,50.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,50.0%
+2473,https://leetcode.com/problems/minimum-cost-to-buy-apples,Minimum Cost to Buy Apples,Medium,67.1%,87.5%
+55,https://leetcode.com/problems/jump-game,Jump Game,Medium,39.6%,62.5%
+1994,https://leetcode.com/problems/the-number-of-good-subsets,The Number of Good Subsets,Hard,36.0%,50.0%
+2479,https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees,Maximum XOR of Two Non-Overlapping Subtrees,Hard,49.7%,87.5%
+2538,https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum,Difference Between Maximum and Minimum Price Sum,Hard,32.0%,87.5%
+2852,https://leetcode.com/problems/sum-of-remoteness-of-all-cells,Sum of Remoteness of All Cells,Medium,70.8%,87.5%
+2874,https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii,Maximum Value of an Ordered Triplet II,Medium,56.6%,87.5%
+2873,https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i,Maximum Value of an Ordered Triplet I,Easy,58.3%,87.5%
+87,https://leetcode.com/problems/scramble-string,Scramble String,Hard,42.3%,50.0%
+114,https://leetcode.com/problems/flatten-binary-tree-to-linked-list,Flatten Binary Tree to Linked List,Medium,68.7%,75.0%
+1074,https://leetcode.com/problems/number-of-submatrices-that-sum-to-target,Number of Submatrices That Sum to Target,Hard,74.5%,50.0%
+122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,69.6%,50.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,50.0%
+2572,https://leetcode.com/problems/count-the-number-of-square-free-subsets,Count the Number of Square-Free Subsets,Medium,25.3%,87.5%
+169,https://leetcode.com/problems/majority-element,Majority Element,Easy,65.8%,50.0%
+173,https://leetcode.com/problems/binary-search-tree-iterator,Binary Search Tree Iterator,Medium,75.0%,62.5%
+193,https://leetcode.com/problems/valid-phone-numbers,Valid Phone Numbers,Easy,27.6%,50.0%
+1642,https://leetcode.com/problems/furthest-building-you-can-reach,Furthest Building You Can Reach,Medium,50.4%,87.5%
+2742,https://leetcode.com/problems/painting-the-walls,Painting the Walls,Hard,48.6%,62.5%
+1222,https://leetcode.com/problems/queens-that-can-attack-the-king,Queens That Can Attack the King,Medium,72.2%,87.5%
+834,https://leetcode.com/problems/sum-of-distances-in-tree,Sum of Distances in Tree,Hard,65.4%,50.0%
+1266,https://leetcode.com/problems/minimum-time-visiting-all-points,Minimum Time Visiting All Points,Easy,82.6%,87.5%
+1787,https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero,Make the XOR of All Segments Equal to Zero,Hard,40.0%,87.5%
+412,https://leetcode.com/problems/fizz-buzz,Fizz Buzz,Easy,74.5%,50.0%
+432,https://leetcode.com/problems/all-oone-data-structure,All O`one Data Structure,Hard,44.1%,50.0%
+1879,https://leetcode.com/problems/minimum-xor-sum-of-two-arrays,Minimum XOR Sum of Two Arrays,Hard,49.1%,87.5%
+2835,https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum,Minimum Operations to Form Subsequence With Target Sum,Hard,31.6%,100.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,50.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,47.7%,50.0%
+2382,https://leetcode.com/problems/maximum-segment-sum-after-removals,Maximum Segment Sum After Removals,Hard,48.5%,50.0%
+407,https://leetcode.com/problems/trapping-rain-water-ii,Trapping Rain Water II,Hard,58.9%,75.0%
+1376,https://leetcode.com/problems/time-needed-to-inform-all-employees,Time Needed to Inform All Employees,Medium,60.3%,50.0%

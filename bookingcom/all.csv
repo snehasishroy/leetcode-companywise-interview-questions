@@ -1,0 +1,17 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1948,https://leetcode.com/problems/delete-duplicate-folders-in-system,Delete Duplicate Folders in System,Hard,53.8%,87.5%
+2512,https://leetcode.com/problems/reward-top-k-students,Reward Top K Students,Medium,46.1%,100.0%
+1034,https://leetcode.com/problems/coloring-a-border,Coloring A Border,Medium,49.9%,87.5%
+2032,https://leetcode.com/problems/two-out-of-three,Two Out of Three,Easy,76.7%,87.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,50.0%
+2146,https://leetcode.com/problems/k-highest-ranked-items-within-a-price-range,K Highest Ranked Items Within a Price Range,Medium,45.0%,87.5%
+221,https://leetcode.com/problems/maximal-square,Maximal Square,Medium,48.9%,62.5%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,47.7%,87.5%
+2159,https://leetcode.com/problems/order-two-columns-independently,Order Two Columns Independently,Medium,61.1%,87.5%
+332,https://leetcode.com/problems/reconstruct-itinerary,Reconstruct Itinerary,Hard,43.7%,75.0%
+844,https://leetcode.com/problems/backspace-string-compare,Backspace String Compare,Easy,49.5%,62.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,50.0%
+12,https://leetcode.com/problems/integer-to-roman,Integer to Roman,Medium,68.8%,62.5%
+46,https://leetcode.com/problems/permutations,Permutations,Medium,80.8%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,50.0%
+13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,65.0%,50.0%

@@ -1,0 +1,25 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,75.0%
+1456,https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length,Maximum Number of Vowels in a Substring of Given Length,Medium,60.6%,50.0%
+1014,https://leetcode.com/problems/best-sightseeing-pair,Best Sightseeing Pair,Medium,62.6%,87.5%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,51.2%,62.5%
+647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,71.8%,50.0%
+1244,https://leetcode.com/problems/design-a-leaderboard,Design A Leaderboard,Medium,67.9%,87.5%
+152,https://leetcode.com/problems/maximum-product-subarray,Maximum Product Subarray,Medium,35.1%,100.0%
+1604,https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period,Alert Using Same Key-Card Three or More Times in a One Hour Period,Medium,45.9%,87.5%
+1189,https://leetcode.com/problems/maximum-number-of-balloons,Maximum Number of Balloons,Easy,59.8%,87.5%
+1957,https://leetcode.com/problems/delete-characters-to-make-fancy-string,Delete Characters to Make Fancy String,Easy,71.6%,87.5%
+2139,https://leetcode.com/problems/minimum-moves-to-reach-target-score,Minimum Moves to Reach Target Score,Medium,51.6%,87.5%
+1405,https://leetcode.com/problems/longest-happy-string,Longest Happy String,Medium,65.5%,87.5%
+1895,https://leetcode.com/problems/largest-magic-square,Largest Magic Square,Medium,52.6%,87.5%
+1194,https://leetcode.com/problems/tournament-winners,Tournament Winners,Hard,50.0%,87.5%
+300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,58.0%,50.0%
+1212,https://leetcode.com/problems/team-scores-in-football-tournament,Team Scores in Football Tournament,Medium,55.8%,87.5%
+415,https://leetcode.com/problems/add-strings,Add Strings,Easy,51.9%,87.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,75.0%
+780,https://leetcode.com/problems/reaching-points,Reaching Points,Hard,33.7%,62.5%
+2950,https://leetcode.com/problems/number-of-divisible-substrings,Number of Divisible Substrings,Medium,73.2%,87.5%
+844,https://leetcode.com/problems/backspace-string-compare,Backspace String Compare,Easy,49.5%,50.0%
+151,https://leetcode.com/problems/reverse-words-in-a-string,Reverse Words in a String,Medium,52.3%,50.0%
+1204,https://leetcode.com/problems/last-person-to-fit-in-the-bus,Last Person to Fit in the Bus,Medium,68.4%,50.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,47.7%,50.0%

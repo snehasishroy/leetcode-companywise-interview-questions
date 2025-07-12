@@ -1,0 +1,23 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,57.0%,75.0%
+547,https://leetcode.com/problems/number-of-provinces,Number of Provinces,Medium,68.9%,100.0%
+43,https://leetcode.com/problems/multiply-strings,Multiply Strings,Medium,42.4%,100.0%
+44,https://leetcode.com/problems/wildcard-matching,Wildcard Matching,Hard,30.1%,100.0%
+1048,https://leetcode.com/problems/longest-string-chain,Longest String Chain,Medium,62.1%,100.0%
+633,https://leetcode.com/problems/sum-of-square-numbers,Sum of Square Numbers,Medium,36.5%,50.0%
+2050,https://leetcode.com/problems/parallel-courses-iii,Parallel Courses III,Hard,66.8%,75.0%
+2571,https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0,Minimum Operations to Reduce an Integer to 0,Medium,57.7%,100.0%
+212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,37.4%,87.5%
+1186,https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion,Maximum Subarray Sum with One Deletion,Medium,45.2%,100.0%
+289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,71.5%,100.0%
+706,https://leetcode.com/problems/design-hashmap,Design HashMap,Easy,65.9%,62.5%
+342,https://leetcode.com/problems/power-of-four,Power of Four,Easy,49.6%,100.0%
+348,https://leetcode.com/problems/design-tic-tac-toe,Design Tic-Tac-Toe,Medium,58.6%,50.0%
+349,https://leetcode.com/problems/intersection-of-two-arrays,Intersection of Two Arrays,Easy,76.6%,100.0%
+1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,50.0%
+528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,48.3%,100.0%
+918,https://leetcode.com/problems/maximum-sum-circular-subarray,Maximum Sum Circular Subarray,Medium,47.9%,100.0%
+1889,https://leetcode.com/problems/minimum-space-wasted-from-packaging,Minimum Space Wasted From Packaging,Hard,32.7%,62.5%
+489,https://leetcode.com/problems/robot-room-cleaner,Robot Room Cleaner,Hard,77.6%,50.0%
+2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,48.6%,62.5%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.2%,50.0%

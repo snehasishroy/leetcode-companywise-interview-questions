@@ -1,0 +1,19 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,100.0%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,44.0%,87.5%
+1239,https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters,Maximum Length of a Concatenated String with Unique Characters,Medium,54.3%,87.5%
+252,https://leetcode.com/problems/meeting-rooms,Meeting Rooms,Easy,59.0%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,87.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,87.5%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,58.3%,100.0%
+155,https://leetcode.com/problems/min-stack,Min Stack,Medium,56.6%,87.5%
+64,https://leetcode.com/problems/minimum-path-sum,Minimum Path Sum,Medium,66.7%,87.5%
+102,https://leetcode.com/problems/binary-tree-level-order-traversal,Binary Tree Level Order Traversal,Medium,70.8%,75.0%
+2831,https://leetcode.com/problems/find-the-longest-equal-subarray,Find the Longest Equal Subarray,Medium,36.4%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,87.5%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,48.4%,75.0%
+692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,59.4%,75.0%
+706,https://leetcode.com/problems/design-hashmap,Design HashMap,Easy,65.9%,75.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,75.0%
+88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.1%,75.0%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.0%,75.0%

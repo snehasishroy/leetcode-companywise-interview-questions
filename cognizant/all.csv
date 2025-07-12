@@ -1,0 +1,31 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,87.5%
+7,https://leetcode.com/problems/reverse-integer,Reverse Integer,Medium,30.4%,62.5%
+9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,59.3%,100.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,45.6%,62.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,62.5%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.0%,62.5%
+570,https://leetcode.com/problems/managers-with-at-least-5-direct-reports,Managers with at Least 5 Direct Reports,Medium,48.9%,62.5%
+202,https://leetcode.com/problems/happy-number,Happy Number,Easy,58.2%,62.5%
+2165,https://leetcode.com/problems/smallest-value-of-the-rearranged-number,Smallest Value of the Rearranged Number,Medium,52.8%,100.0%
+704,https://leetcode.com/problems/binary-search,Binary Search,Easy,59.7%,62.5%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,62.9%,62.5%
+509,https://leetcode.com/problems/fibonacci-number,Fibonacci Number,Easy,73.1%,75.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,37.2%,62.5%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,66.8%,75.0%
+204,https://leetcode.com/problems/count-primes,Count Primes,Medium,34.9%,62.5%
+1068,https://leetcode.com/problems/product-sales-analysis-i,Product Sales Analysis I,Easy,84.7%,62.5%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.2%,62.5%
+3392,https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition,Count Subarrays of Length Three With a Condition,Easy,61.9%,100.0%
+26,https://leetcode.com/problems/remove-duplicates-from-sorted-array,Remove Duplicates from Sorted Array,Easy,60.5%,62.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,75.0%
+1280,https://leetcode.com/problems/students-and-examinations,Students and Examinations,Easy,60.4%,62.5%
+412,https://leetcode.com/problems/fizz-buzz,Fizz Buzz,Easy,74.5%,62.5%
+88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.1%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,62.5%
+176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,44.1%,75.0%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,44.0%,62.5%
+2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,46.4%,62.5%
+35,https://leetcode.com/problems/search-insert-position,Search Insert Position,Easy,49.2%,62.5%
+189,https://leetcode.com/problems/rotate-array,Rotate Array,Medium,43.2%,62.5%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,51.2%,62.5%

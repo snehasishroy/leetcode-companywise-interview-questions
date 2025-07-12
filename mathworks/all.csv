@@ -1,0 +1,32 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+526,https://leetcode.com/problems/beautiful-arrangement,Beautiful Arrangement,Medium,64.6%,50.0%
+2861,https://leetcode.com/problems/maximum-number-of-alloys,Maximum Number of Alloys,Medium,39.0%,100.0%
+2514,https://leetcode.com/problems/count-anagrams,Count Anagrams,Hard,35.3%,87.5%
+566,https://leetcode.com/problems/reshape-the-matrix,Reshape the Matrix,Easy,64.0%,87.5%
+2038,https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color,Remove Colored Pieces if Both Neighbors are the Same Color,Medium,62.9%,87.5%
+1048,https://leetcode.com/problems/longest-string-chain,Longest String Chain,Medium,62.1%,62.5%
+1163,https://leetcode.com/problems/last-substring-in-lexicographical-order,Last Substring in Lexicographical Order,Hard,34.6%,87.5%
+1130,https://leetcode.com/problems/minimum-cost-tree-from-leaf-values,Minimum Cost Tree From Leaf Values,Medium,67.7%,87.5%
+3049,https://leetcode.com/problems/earliest-second-to-mark-indices-ii,Earliest Second to Mark Indices II,Hard,20.0%,87.5%
+3048,https://leetcode.com/problems/earliest-second-to-mark-indices-i,Earliest Second to Mark Indices I,Medium,34.8%,87.5%
+3035,https://leetcode.com/problems/maximum-palindromes-after-operations,Maximum Palindromes After Operations,Medium,43.2%,87.5%
+834,https://leetcode.com/problems/sum-of-distances-in-tree,Sum of Distances in Tree,Hard,65.4%,50.0%
+410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,58.3%,62.5%
+2851,https://leetcode.com/problems/string-transformation,String Transformation,Hard,25.5%,87.5%
+2444,https://leetcode.com/problems/count-subarrays-with-fixed-bounds,Count Subarrays With Fixed Bounds,Hard,69.4%,100.0%
+500,https://leetcode.com/problems/keyboard-row,Keyboard Row,Easy,72.6%,87.5%
+2462,https://leetcode.com/problems/total-cost-to-hire-k-workers,Total Cost to Hire K Workers,Medium,43.2%,87.5%
+1328,https://leetcode.com/problems/break-a-palindrome,Break a Palindrome,Medium,51.6%,50.0%
+25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,63.3%,50.0%
+2582,https://leetcode.com/problems/pass-the-pillow,Pass the Pillow,Easy,56.6%,87.5%
+2858,https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable,Minimum Edge Reversals So Every Node Is Reachable,Hard,55.4%,75.0%
+2964,https://leetcode.com/problems/number-of-divisible-triplet-sums,Number of Divisible Triplet Sums,Medium,67.8%,62.5%
+2016,https://leetcode.com/problems/maximum-difference-between-increasing-elements,Maximum Difference Between Increasing Elements,Easy,66.2%,50.0%
+1290,https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer,Convert Binary Number in a Linked List to Integer,Easy,81.2%,50.0%
+424,https://leetcode.com/problems/longest-repeating-character-replacement,Longest Repeating Character Replacement,Medium,57.4%,50.0%
+115,https://leetcode.com/problems/distinct-subsequences,Distinct Subsequences,Hard,50.3%,50.0%
+968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.3%,87.5%
+1648,https://leetcode.com/problems/sell-diminishing-valued-colored-balls,Sell Diminishing-Valued Colored Balls,Medium,30.0%,87.5%
+638,https://leetcode.com/problems/shopping-offers,Shopping Offers,Medium,51.9%,87.5%
+621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,61.7%,50.0%
+108,https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree,Convert Sorted Array to Binary Search Tree,Easy,74.2%,50.0%

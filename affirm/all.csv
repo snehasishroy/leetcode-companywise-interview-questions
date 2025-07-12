@@ -1,0 +1,12 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+3076,https://leetcode.com/problems/shortest-uncommon-substring-in-an-array,Shortest Uncommon Substring in an Array,Medium,48.4%,87.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,75.0%
+362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.2%,75.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,100.0%
+381,https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed,Insert Delete GetRandom O(1) - Duplicates allowed,Hard,35.8%,75.0%
+3163,https://leetcode.com/problems/string-compression-iii,String Compression III,Medium,66.9%,50.0%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,58.3%,75.0%
+736,https://leetcode.com/problems/parse-lisp-expression,Parse Lisp Expression,Hard,52.8%,75.0%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,66.8%,62.5%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,46.7%,62.5%
+933,https://leetcode.com/problems/number-of-recent-calls,Number of Recent Calls,Easy,77.4%,50.0%

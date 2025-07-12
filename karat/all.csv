@@ -1,0 +1,16 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,62.4%,62.5%
+811,https://leetcode.com/problems/subdomain-visit-count,Subdomain Visit Count,Medium,76.9%,50.0%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,48.4%,100.0%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,45.4%,87.5%
+1160,https://leetcode.com/problems/find-words-that-can-be-formed-by-characters,Find Words That Can Be Formed by Characters,Easy,71.1%,87.5%
+1604,https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period,Alert Using Same Key-Card Three or More Times in a One Hour Period,Medium,45.9%,87.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,50.0%
+2133,https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers,Check if Every Row and Column Contains All Numbers,Easy,52.9%,87.5%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,49.4%,62.5%
+212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,37.4%,50.0%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,53.6%,50.0%
+383,https://leetcode.com/problems/ransom-note,Ransom Note,Easy,64.6%,62.5%
+221,https://leetcode.com/problems/maximal-square,Maximal Square,Medium,48.9%,62.5%
+55,https://leetcode.com/problems/jump-game,Jump Game,Medium,39.6%,50.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,50.0%

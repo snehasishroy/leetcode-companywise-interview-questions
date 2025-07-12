@@ -1,0 +1,38 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,75.0%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,56.8%,87.5%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,37.2%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,87.5%
+75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,67.8%,75.0%
+133,https://leetcode.com/problems/clone-graph,Clone Graph,Medium,62.7%,62.5%
+138,https://leetcode.com/problems/copy-list-with-random-pointer,Copy List with Random Pointer,Medium,60.8%,87.5%
+208,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium,68.1%,100.0%
+238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,67.9%,62.5%
+780,https://leetcode.com/problems/reaching-points,Reaching Points,Hard,33.7%,75.0%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,64.7%,87.5%
+881,https://leetcode.com/problems/boats-to-save-people,Boats to Save People,Medium,60.5%,62.5%
+2405,https://leetcode.com/problems/optimal-partition-of-string,Optimal Partition of String,Medium,78.3%,62.5%
+502,https://leetcode.com/problems/ipo,IPO,Hard,53.0%,62.5%
+266,https://leetcode.com/problems/palindrome-permutation,Palindrome Permutation,Easy,68.5%,62.5%
+1797,https://leetcode.com/problems/design-authentication-manager,Design Authentication Manager,Medium,57.9%,87.5%
+171,https://leetcode.com/problems/excel-sheet-column-number,Excel Sheet Column Number,Easy,65.9%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,62.5%
+1466,https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero,Reorder Routes to Make All Paths Lead to the City Zero,Medium,65.1%,62.5%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.4%,75.0%
+285,https://leetcode.com/problems/inorder-successor-in-bst,Inorder Successor in BST,Medium,50.8%,62.5%
+934,https://leetcode.com/problems/shortest-bridge,Shortest Bridge,Medium,58.7%,62.5%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,62.5%
+1448,https://leetcode.com/problems/count-good-nodes-in-binary-tree,Count Good Nodes in Binary Tree,Medium,73.5%,62.5%
+211,https://leetcode.com/problems/design-add-and-search-words-data-structure,Design Add and Search Words Data Structure,Medium,47.2%,62.5%
+1010,https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60,Pairs of Songs With Total Durations Divisible by 60,Medium,53.3%,62.5%
+726,https://leetcode.com/problems/number-of-atoms,Number of Atoms,Hard,65.0%,62.5%
+213,https://leetcode.com/problems/house-robber-ii,House Robber II,Medium,43.7%,62.5%
+12,https://leetcode.com/problems/integer-to-roman,Integer to Roman,Medium,68.8%,75.0%
+1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,87.5%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.2%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,62.5%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,57.0%,62.5%
+3588,https://leetcode.com/problems/find-maximum-area-of-a-triangle,Find Maximum Area of a Triangle,Medium,27.0%,87.5%
+337,https://leetcode.com/problems/house-robber-iii,House Robber III,Medium,55.0%,62.5%
+1368,https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid,Minimum Cost to Make at Least One Valid Path in a Grid,Hard,70.7%,62.5%

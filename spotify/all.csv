@@ -1,0 +1,14 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,87.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,87.5%
+1917,https://leetcode.com/problems/leetcodify-friends-recommendations,Leetcodify Friends Recommendations,Hard,28.0%,87.5%
+1919,https://leetcode.com/problems/leetcodify-similar-friends,Leetcodify Similar Friends,Hard,42.7%,87.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,75.0%
+1152,https://leetcode.com/problems/analyze-user-website-visit-pattern,Analyze User Website Visit Pattern,Medium,43.8%,87.5%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,51.2%,75.0%
+215,https://leetcode.com/problems/kth-largest-element-in-an-array,Kth Largest Element in an Array,Medium,68.1%,75.0%
+346,https://leetcode.com/problems/moving-average-from-data-stream,Moving Average from Data Stream,Easy,80.0%,100.0%
+383,https://leetcode.com/problems/ransom-note,Ransom Note,Easy,64.6%,50.0%
+286,https://leetcode.com/problems/walls-and-gates,Walls and Gates,Medium,63.0%,50.0%
+104,https://leetcode.com/problems/maximum-depth-of-binary-tree,Maximum Depth of Binary Tree,Easy,77.2%,50.0%
+480,https://leetcode.com/problems/sliding-window-median,Sliding Window Median,Hard,38.7%,50.0%

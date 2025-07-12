@@ -1,0 +1,16 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+2021,https://leetcode.com/problems/brightest-position-on-street,Brightest Position on Street,Medium,60.7%,87.5%
+1711,https://leetcode.com/problems/count-good-meals,Count Good Meals,Medium,31.7%,87.5%
+1712,https://leetcode.com/problems/ways-to-split-array-into-three-subarrays,Ways to Split Array Into Three Subarrays,Medium,33.5%,87.5%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,48.4%,62.5%
+1743,https://leetcode.com/problems/restore-the-array-from-adjacent-pairs,Restore the Array From Adjacent Pairs,Medium,74.8%,87.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,62.5%
+1801,https://leetcode.com/problems/number-of-orders-in-the-backlog,Number of Orders in the Backlog,Medium,52.1%,100.0%
+1391,https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid,Check if There is a Valid Path in a Grid,Medium,49.0%,87.5%
+1393,https://leetcode.com/problems/capital-gainloss,Capital Gain/Loss,Medium,84.9%,87.5%
+1684,https://leetcode.com/problems/count-the-number-of-consistent-strings,Count the Number of Consistent Strings,Easy,88.3%,87.5%
+692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,59.4%,75.0%
+1108,https://leetcode.com/problems/defanging-an-ip-address,Defanging an IP Address,Easy,89.7%,50.0%
+529,https://leetcode.com/problems/minesweeper,Minesweeper,Medium,68.2%,62.5%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,64.7%,50.0%
+690,https://leetcode.com/problems/employee-importance,Employee Importance,Medium,68.5%,50.0%

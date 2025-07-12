@@ -1,0 +1,18 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,87.5%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,77.3%,37.5%
+1010,https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60,Pairs of Songs With Total Durations Divisible by 60,Medium,53.3%,75.0%
+545,https://leetcode.com/problems/boundary-of-binary-tree,Boundary of Binary Tree,Medium,47.2%,37.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,62.5%
+2592,https://leetcode.com/problems/maximize-greatness-of-an-array,Maximize Greatness of an Array,Medium,58.9%,37.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,62.5%
+202,https://leetcode.com/problems/happy-number,Happy Number,Easy,58.2%,100.0%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,66.8%,37.5%
+1514,https://leetcode.com/problems/path-with-maximum-probability,Path with Maximum Probability,Medium,65.3%,37.5%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,46.7%,37.5%
+399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,63.2%,75.0%
+2291,https://leetcode.com/problems/maximum-profit-from-trading-stocks,Maximum Profit From Trading Stocks,Medium,46.7%,50.0%
+3004,https://leetcode.com/problems/maximum-subtree-of-the-same-color,Maximum Subtree of the Same Color,Medium,57.1%,75.0%
+3068,https://leetcode.com/problems/find-the-maximum-sum-of-node-values,Find the Maximum Sum of Node Values,Hard,69.8%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,37.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,37.5%

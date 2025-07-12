@@ -1,0 +1,33 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,87.5%
+1610,https://leetcode.com/problems/maximum-number-of-visible-points,Maximum Number of Visible Points,Hard,37.7%,87.5%
+475,https://leetcode.com/problems/heaters,Heaters,Medium,40.1%,75.0%
+951,https://leetcode.com/problems/flip-equivalent-binary-trees,Flip Equivalent Binary Trees,Medium,69.7%,62.5%
+224,https://leetcode.com/problems/basic-calculator,Basic Calculator,Hard,45.7%,50.0%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.5%,87.5%
+227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,45.9%,62.5%
+114,https://leetcode.com/problems/flatten-binary-tree-to-linked-list,Flatten Binary Tree to Linked List,Medium,68.7%,62.5%
+243,https://leetcode.com/problems/shortest-word-distance,Shortest Word Distance,Easy,66.0%,87.5%
+1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,87.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,100.0%
+289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,71.5%,50.0%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,49.4%,87.5%
+244,https://leetcode.com/problems/shortest-word-distance-ii,Shortest Word Distance II,Medium,62.2%,62.5%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.4%,75.0%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.0%,50.0%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,62.9%,50.0%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,53.6%,75.0%
+909,https://leetcode.com/problems/snakes-and-ladders,Snakes and Ladders,Medium,47.9%,50.0%
+287,https://leetcode.com/problems/find-the-duplicate-number,Find the Duplicate Number,Medium,63.0%,50.0%
+708,https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list,Insert into a Sorted Circular Linked List,Medium,38.2%,50.0%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.4%,50.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,50.0%
+1024,https://leetcode.com/problems/video-stitching,Video Stitching,Medium,52.0%,87.5%
+529,https://leetcode.com/problems/minesweeper,Minesweeper,Medium,68.2%,50.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,62.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,50.0%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,57.0%,62.5%
+827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,55.2%,62.5%
+694,https://leetcode.com/problems/number-of-distinct-islands,Number of Distinct Islands,Medium,62.3%,50.0%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,56.8%,50.0%
+818,https://leetcode.com/problems/race-car,Race Car,Hard,44.2%,50.0%

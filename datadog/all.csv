@@ -1,0 +1,20 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+559,https://leetcode.com/problems/maximum-depth-of-n-ary-tree,Maximum Depth of N-ary Tree,Easy,73.0%,87.5%
+408,https://leetcode.com/problems/valid-word-abbreviation,Valid Word Abbreviation,Easy,36.9%,87.5%
+568,https://leetcode.com/problems/maximum-vacation-days,Maximum Vacation Days,Hard,46.4%,62.5%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,46.7%,100.0%
+622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,52.8%,87.5%
+480,https://leetcode.com/problems/sliding-window-median,Sliding Window Median,Hard,38.7%,62.5%
+124,https://leetcode.com/problems/binary-tree-maximum-path-sum,Binary Tree Maximum Path Sum,Hard,41.3%,62.5%
+1232,https://leetcode.com/problems/check-if-it-is-a-straight-line,Check If It Is a Straight Line,Easy,39.7%,50.0%
+819,https://leetcode.com/problems/most-common-word,Most Common Word,Easy,44.6%,87.5%
+1038,https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree,Binary Search Tree to Greater Sum Tree,Medium,88.3%,50.0%
+1452,https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list,People Whose List of Favorite Companies Is Not a Subset of Another List,Medium,59.5%,62.5%
+2451,https://leetcode.com/problems/odd-string-difference,Odd String Difference,Easy,61.1%,50.0%
+1160,https://leetcode.com/problems/find-words-that-can-be-formed-by-characters,Find Words That Can Be Formed by Characters,Easy,71.1%,50.0%
+1071,https://leetcode.com/problems/greatest-common-divisor-of-strings,Greatest Common Divisor of Strings,Easy,52.8%,50.0%
+211,https://leetcode.com/problems/design-add-and-search-words-data-structure,Design Add and Search Words Data Structure,Medium,47.2%,62.5%
+1229,https://leetcode.com/problems/meeting-scheduler,Meeting Scheduler,Medium,55.2%,87.5%
+213,https://leetcode.com/problems/house-robber-ii,House Robber II,Medium,43.7%,50.0%
+198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.4%,62.5%
+112,https://leetcode.com/problems/path-sum,Path Sum,Easy,53.2%,50.0%

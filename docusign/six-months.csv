@@ -1,0 +1,11 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,75.0%
+726,https://leetcode.com/problems/number-of-atoms,Number of Atoms,Hard,65.0%,75.0%
+208,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium,68.1%,100.0%
+213,https://leetcode.com/problems/house-robber-ii,House Robber II,Medium,43.7%,75.0%
+12,https://leetcode.com/problems/integer-to-roman,Integer to Roman,Medium,68.8%,87.5%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.2%,75.0%
+1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,87.5%
+3588,https://leetcode.com/problems/find-maximum-area-of-a-triangle,Find Maximum Area of a Triangle,Medium,27.0%,100.0%
+337,https://leetcode.com/problems/house-robber-iii,House Robber III,Medium,55.0%,75.0%
+1368,https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid,Minimum Cost to Make at Least One Valid Path in a Grid,Hard,70.7%,75.0%
