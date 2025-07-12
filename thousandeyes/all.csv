@@ -1,0 +1,6 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+133,https://leetcode.com/problems/clone-graph,Clone Graph,Medium,62.7%,100.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,87.5%
+588,https://leetcode.com/problems/design-in-memory-file-system,Design In-Memory File System,Hard,48.2%,87.5%
+2622,https://leetcode.com/problems/cache-with-time-limit,Cache With Time Limit,Medium,75.8%,87.5%
