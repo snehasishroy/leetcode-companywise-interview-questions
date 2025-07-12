@@ -1,5 +1,7 @@
 # Leetcode Companywise Interview Questions
 
+![leetcode-companywise-interview-questions](https://socialify.git.ci/snehasishroy/leetcode-companywise-interview-questions/image?description=1&font=JetBrains+Mono&forks=1&language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Dark)
+
 This repository contains Company Wise Questions of LeetCode which appeared in the last 6 months.
 
 > This repository contains the snapshot as of **19th Nov 2022**.
