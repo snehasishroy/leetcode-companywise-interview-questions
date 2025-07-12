@@ -1,10 +1,19 @@
 # Leetcode Companywise Interview Questions
 
-This repository contains Company Wise Questions of LeetCode which appeared in the last 6 months.
+![leetcode-companywise-interview-questions](https://socialify.git.ci/snehasishroy/leetcode-companywise-interview-questions/image?description=1&font=JetBrains+Mono&forks=1&language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Dark)
 
-> This repository contains the snapshot as of **19th Nov 2022**.
+This repository contains Company Wise Questions of LeetCode, categorized based on their recency.
+* 30 Days
+* Last 3 Months
+* Last 6 Months
+* Last 1 Year
+* All
+
+Attributes like Difficulty, Acceptance %, Frequency % are also added to enable filtering.
+
+> This repository contains the snapshot as of **12th July 2025**.
 >
-> If you need to sort/filter the questions based on frequency/difficulty, please clone the repo and perform operations in any CSV Editor (Excel/Google Sheets/OpenOffice Calc)
+> If you need to sort/filter the questions based on frequency/difficulty, please clone the repo and perform operations in any CSV Editor (Excel / Google Sheets / OpenOffice Calc)
 
 ## If you have LeetCode Premium and want to contribute back
 * Code to scrap the solutions is present [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java).
@@ -14,7 +23,7 @@ Run the scraper after filling in your UserName and Password [here](https://githu
 
 * In case you get a timeout during page reloads, do increase the default timeout value set [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java#L19)
 
-* Once the code is finished (which should take ~30 minutes), create a Pull Request and I will be happy to merge it. Thank you for your contribution :) 
+* Once the code is finished (which should take ~60 minutes), create a Pull Request and I will be happy to merge it. Thank you for your contribution :) 
 
 ## Happy LeetCoding. May the force be with you.
 
