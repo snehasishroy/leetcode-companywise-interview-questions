@@ -1,0 +1,15 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+983,https://leetcode.com/problems/minimum-cost-for-tickets,Minimum Cost For Tickets,Medium,67.4%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,75.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,75.0%
+74,https://leetcode.com/problems/search-a-2d-matrix,Search a 2D Matrix,Medium,52.4%,62.5%
+1073,https://leetcode.com/problems/adding-two-negabinary-numbers,Adding Two Negabinary Numbers,Medium,36.9%,100.0%
+2086,https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters,Minimum Number of Food Buckets to Feed the Hamsters,Medium,47.1%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,75.0%
+1253,https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix,Reconstruct a 2-Row Binary Matrix,Medium,47.8%,100.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,62.5%
+71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,48.1%,62.5%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.5%,75.0%
+1404,https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one,Number of Steps to Reduce a Number in Binary Representation to One,Medium,61.4%,62.5%
+721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,59.8%,62.5%

@@ -1,0 +1,20 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,62.5%
+3070,https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k,Count Submatrices with Top-Left Element and Sum Less Than k,Medium,57.3%,100.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,37.2%,75.0%
+46,https://leetcode.com/problems/permutations,Permutations,Medium,80.8%,62.5%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.2%,62.5%
+88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.1%,62.5%
+871,https://leetcode.com/problems/minimum-number-of-refueling-stops,Minimum Number of Refueling Stops,Hard,40.6%,75.0%
+2961,https://leetcode.com/problems/double-modular-exponentiation,Double Modular Exponentiation,Medium,47.2%,100.0%
+2127,https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting,Maximum Employees to Be Invited to a Meeting,Hard,62.0%,75.0%
+205,https://leetcode.com/problems/isomorphic-strings,Isomorphic Strings,Easy,47.0%,75.0%
+2833,https://leetcode.com/problems/furthest-point-from-origin,Furthest Point From Origin,Easy,64.5%,100.0%
+3080,https://leetcode.com/problems/mark-elements-on-array-by-performing-queries,Mark Elements on Array by Performing Queries,Medium,47.8%,100.0%
+234,https://leetcode.com/problems/palindrome-linked-list,Palindrome Linked List,Easy,56.1%,62.5%
+386,https://leetcode.com/problems/lexicographical-numbers,Lexicographical Numbers,Medium,76.0%,62.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,75.0%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.6%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,62.5%
+3474,https://leetcode.com/problems/lexicographically-smallest-generated-string,Lexicographically Smallest Generated String,Hard,29.0%,87.5%
+176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,44.1%,62.5%

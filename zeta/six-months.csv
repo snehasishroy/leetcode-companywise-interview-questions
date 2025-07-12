@@ -1,0 +1,9 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,87.5%
+250,https://leetcode.com/problems/count-univalue-subtrees,Count Univalue Subtrees,Medium,57.2%,87.5%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,87.5%
+410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,58.3%,100.0%
+402,https://leetcode.com/problems/remove-k-digits,Remove K Digits,Medium,35.1%,87.5%
+132,https://leetcode.com/problems/palindrome-partitioning-ii,Palindrome Partitioning II,Hard,35.4%,87.5%
+475,https://leetcode.com/problems/heaters,Heaters,Medium,40.1%,87.5%
+76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,45.5%,87.5%

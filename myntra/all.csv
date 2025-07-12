@@ -1,0 +1,24 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,75.0%
+2008,https://leetcode.com/problems/maximum-earnings-from-taxi,Maximum Earnings From Taxi,Medium,45.0%,100.0%
+114,https://leetcode.com/problems/flatten-binary-tree-to-linked-list,Flatten Binary Tree to Linked List,Medium,68.7%,62.5%
+735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,45.7%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,75.0%
+179,https://leetcode.com/problems/largest-number,Largest Number,Medium,41.4%,75.0%
+221,https://leetcode.com/problems/maximal-square,Maximal Square,Medium,48.9%,62.5%
+459,https://leetcode.com/problems/repeated-substring-pattern,Repeated Substring Pattern,Easy,47.0%,75.0%
+1443,https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree,Minimum Time to Collect All Apples in a Tree,Medium,63.1%,62.5%
+236,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Lowest Common Ancestor of a Binary Tree,Medium,67.0%,62.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,62.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,62.5%
+84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,47.6%,75.0%
+41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,41.2%,75.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,37.2%,75.0%
+280,https://leetcode.com/problems/wiggle-sort,Wiggle Sort,Medium,68.3%,62.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,56.8%,75.0%
+494,https://leetcode.com/problems/target-sum,Target Sum,Medium,50.9%,62.5%
+462,https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii,Minimum Moves to Equal Array Elements II,Medium,61.0%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,62.5%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,57.9%,75.0%
+1302,https://leetcode.com/problems/deepest-leaves-sum,Deepest Leaves Sum,Medium,86.4%,75.0%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,45.4%,62.5%

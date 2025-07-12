@@ -1,0 +1,21 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.0%,75.0%
+2509,https://leetcode.com/problems/cycle-length-queries-in-a-tree,Cycle Length Queries in a Tree,Hard,58.6%,100.0%
+2024,https://leetcode.com/problems/maximize-the-confusion-of-an-exam,Maximize the Confusion of an Exam,Medium,68.8%,100.0%
+124,https://leetcode.com/problems/binary-tree-maximum-path-sum,Binary Tree Maximum Path Sum,Hard,41.3%,62.5%
+1567,https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product,Maximum Length of Subarray With Positive Product,Medium,44.4%,100.0%
+188,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv,Best Time to Buy and Sell Stock IV,Hard,47.4%,62.5%
+198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.4%,75.0%
+1686,https://leetcode.com/problems/stone-game-vi,Stone Game VI,Medium,59.2%,62.5%
+2211,https://leetcode.com/problems/count-collisions-on-a-road,Count Collisions on a Road,Medium,44.4%,100.0%
+2327,https://leetcode.com/problems/number-of-people-aware-of-a-secret,Number of People Aware of a Secret,Medium,46.4%,100.0%
+886,https://leetcode.com/problems/possible-bipartition,Possible Bipartition,Medium,51.6%,75.0%
+1312,https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome,Minimum Insertion Steps to Make a String Palindrome,Hard,72.7%,62.5%
+2035,https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference,Partition Array Into Two Arrays to Minimize Sum Difference,Hard,21.9%,100.0%
+72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,59.0%,62.5%
+3250,https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i,Find the Count of Monotonic Pairs I,Hard,46.6%,62.5%
+152,https://leetcode.com/problems/maximum-product-subarray,Maximum Product Subarray,Medium,35.1%,62.5%
+130,https://leetcode.com/problems/surrounded-regions,Surrounded Regions,Medium,43.1%,62.5%
+75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,67.8%,62.5%
+31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,43.3%,62.5%
+50,https://leetcode.com/problems/powx-n,"Pow(x, n)",Medium,37.2%,62.5%

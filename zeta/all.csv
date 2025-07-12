@@ -1,0 +1,26 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+3071,https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid,Minimum Operations to Write the Letter Y on a Grid,Medium,62.2%,62.5%
+1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.4%,75.0%
+621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,61.7%,75.0%
+381,https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed,Insert Delete GetRandom O(1) - Duplicates allowed,Hard,35.8%,62.5%
+399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,63.2%,75.0%
+2896,https://leetcode.com/problems/apply-operations-to-make-two-strings-equal,Apply Operations to Make Two Strings Equal,Medium,27.2%,100.0%
+502,https://leetcode.com/problems/ipo,IPO,Hard,53.1%,75.0%
+1901,https://leetcode.com/problems/find-a-peak-element-ii,Find a Peak Element II,Medium,53.4%,62.5%
+503,https://leetcode.com/problems/next-greater-element-ii,Next Greater Element II,Medium,66.6%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,62.5%
+25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,63.3%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,62.5%
+97,https://leetcode.com/problems/interleaving-string,Interleaving String,Medium,42.3%,62.5%
+30,https://leetcode.com/problems/substring-with-concatenation-of-all-words,Substring with Concatenation of All Words,Hard,33.1%,62.5%
+1011,https://leetcode.com/problems/capacity-to-ship-packages-within-d-days,Capacity To Ship Packages Within D Days,Medium,72.3%,62.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,62.5%
+250,https://leetcode.com/problems/count-univalue-subtrees,Count Univalue Subtrees,Medium,57.2%,62.5%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,75.0%
+76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,45.5%,75.0%
+32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,36.5%,62.5%
+410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,58.3%,75.0%
+402,https://leetcode.com/problems/remove-k-digits,Remove K Digits,Medium,35.1%,62.5%
+85,https://leetcode.com/problems/maximal-rectangle,Maximal Rectangle,Hard,54.0%,62.5%
+132,https://leetcode.com/problems/palindrome-partitioning-ii,Palindrome Partitioning II,Hard,35.4%,62.5%
+475,https://leetcode.com/problems/heaters,Heaters,Medium,40.1%,62.5%

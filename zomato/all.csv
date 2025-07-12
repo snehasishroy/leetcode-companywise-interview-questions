@@ -1,0 +1,26 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+2931,https://leetcode.com/problems/maximum-spending-after-buying-items,Maximum Spending After Buying Items,Hard,60.2%,100.0%
+62,https://leetcode.com/problems/unique-paths,Unique Paths,Medium,65.9%,62.5%
+63,https://leetcode.com/problems/unique-paths-ii,Unique Paths II,Medium,43.3%,62.5%
+2584,https://leetcode.com/problems/split-the-array-to-make-coprime-products,Split the Array to Make Coprime Products,Hard,28.1%,100.0%
+2505,https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums,Bitwise OR of All Subsequence Sums,Medium,64.8%,100.0%
+2608,https://leetcode.com/problems/shortest-cycle-in-a-graph,Shortest Cycle in a Graph,Hard,37.6%,100.0%
+2147,https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor,Number of Ways to Divide a Long Corridor,Hard,48.8%,100.0%
+741,https://leetcode.com/problems/cherry-pickup,Cherry Pickup,Hard,38.0%,75.0%
+2747,https://leetcode.com/problems/count-zero-request-servers,Count Zero Request Servers,Medium,34.3%,75.0%
+403,https://leetcode.com/problems/frog-jump,Frog Jump,Hard,46.6%,62.5%
+890,https://leetcode.com/problems/find-and-replace-pattern,Find and Replace Pattern,Medium,76.8%,75.0%
+465,https://leetcode.com/problems/optimal-account-balancing,Optimal Account Balancing,Hard,50.0%,62.5%
+2462,https://leetcode.com/problems/total-cost-to-hire-k-workers,Total Cost to Hire K Workers,Medium,43.2%,87.5%
+84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,47.6%,62.5%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,37.2%,62.5%
+41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,41.2%,75.0%
+460,https://leetcode.com/problems/lfu-cache,LFU Cache,Hard,46.8%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,62.5%
+335,https://leetcode.com/problems/self-crossing,Self Crossing,Hard,32.3%,62.5%
+2145,https://leetcode.com/problems/count-the-hidden-sequences,Count the Hidden Sequences,Medium,56.7%,100.0%
+45,https://leetcode.com/problems/jump-game-ii,Jump Game II,Medium,41.6%,62.5%
+167,https://leetcode.com/problems/two-sum-ii-input-array-is-sorted,Two Sum II - Input Array Is Sorted,Medium,63.5%,62.5%
+909,https://leetcode.com/problems/snakes-and-ladders,Snakes and Ladders,Medium,47.9%,62.5%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.2%,62.5%
+40,https://leetcode.com/problems/combination-sum-ii,Combination Sum II,Medium,57.8%,62.5%

@@ -1,0 +1,13 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+10,https://leetcode.com/problems/regular-expression-matching,Regular Expression Matching,Hard,29.4%,62.5%
+2488,https://leetcode.com/problems/count-subarrays-with-median-k,Count Subarrays With Median K,Hard,45.7%,50.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,100.0%
+36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,62.4%,87.5%
+37,https://leetcode.com/problems/sudoku-solver,Sudoku Solver,Hard,64.0%,87.5%
+44,https://leetcode.com/problems/wildcard-matching,Wildcard Matching,Hard,30.1%,50.0%
+2627,https://leetcode.com/problems/debounce,Debounce,Medium,91.8%,62.5%
+2604,https://leetcode.com/problems/minimum-time-to-eat-all-grains,Minimum Time to Eat All Grains,Hard,39.4%,87.5%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.4%,100.0%
+726,https://leetcode.com/problems/number-of-atoms,Number of Atoms,Hard,65.0%,50.0%
+1797,https://leetcode.com/problems/design-authentication-manager,Design Authentication Manager,Medium,57.9%,62.5%
+39,https://leetcode.com/problems/combination-sum,Combination Sum,Medium,74.9%,62.5%

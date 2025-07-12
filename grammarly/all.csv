@@ -1,0 +1,28 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+139,https://leetcode.com/problems/word-break,Word Break,Medium,48.4%,62.5%
+140,https://leetcode.com/problems/word-break-ii,Word Break II,Hard,53.8%,62.5%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,77.3%,75.0%
+1209,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii,Remove All Adjacent Duplicates in String II,Medium,59.7%,87.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,100.0%
+187,https://leetcode.com/problems/repeated-dna-sequences,Repeated DNA Sequences,Medium,51.5%,87.5%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.6%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,62.5%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,45.4%,62.5%
+1047,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string,Remove All Adjacent Duplicates In String,Easy,71.7%,87.5%
+844,https://leetcode.com/problems/backspace-string-compare,Backspace String Compare,Easy,49.5%,62.5%
+966,https://leetcode.com/problems/vowel-spellchecker,Vowel Spellchecker,Medium,51.6%,87.5%
+507,https://leetcode.com/problems/perfect-number,Perfect Number,Easy,45.1%,75.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,87.5%
+359,https://leetcode.com/problems/logger-rate-limiter,Logger Rate Limiter,Easy,76.6%,62.5%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.0%,87.5%
+404,https://leetcode.com/problems/sum-of-left-leaves,Sum of Left Leaves,Easy,61.7%,50.0%
+761,https://leetcode.com/problems/special-binary-string,Special Binary String,Hard,63.7%,50.0%
+2075,https://leetcode.com/problems/decode-the-slanted-ciphertext,Decode the Slanted Ciphertext,Medium,49.2%,50.0%
+150,https://leetcode.com/problems/evaluate-reverse-polish-notation,Evaluate Reverse Polish Notation,Medium,55.1%,50.0%
+208,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium,68.1%,62.5%
+645,https://leetcode.com/problems/set-mismatch,Set Mismatch,Easy,45.1%,50.0%
+3035,https://leetcode.com/problems/maximum-palindromes-after-operations,Maximum Palindromes After Operations,Medium,43.2%,50.0%
+69,https://leetcode.com/problems/sqrtx,Sqrt(x),Easy,40.5%,75.0%
+133,https://leetcode.com/problems/clone-graph,Clone Graph,Medium,62.7%,50.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,50.0%
+62,https://leetcode.com/problems/unique-paths,Unique Paths,Medium,65.9%,50.0%

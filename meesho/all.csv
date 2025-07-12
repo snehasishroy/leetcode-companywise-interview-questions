@@ -1,0 +1,34 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+2831,https://leetcode.com/problems/find-the-longest-equal-subarray,Find the Longest Equal Subarray,Medium,36.4%,50.0%
+2858,https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable,Minimum Edge Reversals So Every Node Is Reachable,Hard,55.4%,100.0%
+827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,55.2%,75.0%
+2930,https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring,Number of Strings Which Can Be Rearranged to Contain Substring,Medium,55.4%,100.0%
+2565,https://leetcode.com/problems/subsequence-with-the-minimum-score,Subsequence With the Minimum Score,Hard,32.5%,62.5%
+2959,https://leetcode.com/problems/number-of-possible-sets-of-closing-branches,Number of Possible Sets of Closing Branches,Hard,48.7%,100.0%
+2953,https://leetcode.com/problems/count-complete-substrings,Count Complete Substrings,Hard,28.8%,100.0%
+1326,https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden,Minimum Number of Taps to Open to Water a Garden,Hard,50.7%,75.0%
+740,https://leetcode.com/problems/delete-and-earn,Delete and Earn,Medium,56.8%,75.0%
+1761,https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph,Minimum Degree of a Connected Trio in a Graph,Hard,43.5%,50.0%
+2742,https://leetcode.com/problems/painting-the-walls,Painting the Walls,Hard,48.6%,75.0%
+2771,https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays,Longest Non-decreasing Subarray From Two Arrays,Medium,29.9%,50.0%
+55,https://leetcode.com/problems/jump-game,Jump Game,Medium,39.6%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,62.5%
+1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,50.0%
+180,https://leetcode.com/problems/consecutive-numbers,Consecutive Numbers,Medium,46.2%,50.0%
+2444,https://leetcode.com/problems/count-subarrays-with-fixed-bounds,Count Subarrays With Fixed Bounds,Hard,69.4%,75.0%
+176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,44.1%,50.0%
+2187,https://leetcode.com/problems/minimum-time-to-complete-trips,Minimum Time to Complete Trips,Medium,39.1%,75.0%
+1639,https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary,Number of Ways to Form a Target String Given a Dictionary,Hard,57.0%,62.5%
+735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,45.7%,50.0%
+1944,https://leetcode.com/problems/number-of-visible-people-in-a-queue,Number of Visible People in a Queue,Hard,71.4%,50.0%
+355,https://leetcode.com/problems/design-twitter,Design Twitter,Medium,42.8%,75.0%
+696,https://leetcode.com/problems/count-binary-substrings,Count Binary Substrings,Easy,66.0%,50.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,50.0%
+1094,https://leetcode.com/problems/car-pooling,Car Pooling,Medium,56.1%,50.0%
+3513,https://leetcode.com/problems/number-of-unique-xor-triplets-i,Number of Unique XOR Triplets I,Medium,25.0%,100.0%
+3514,https://leetcode.com/problems/number-of-unique-xor-triplets-ii,Number of Unique XOR Triplets II,Medium,29.6%,100.0%
+31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,43.3%,62.5%
+328,https://leetcode.com/problems/odd-even-linked-list,Odd Even Linked List,Medium,62.0%,50.0%
+886,https://leetcode.com/problems/possible-bipartition,Possible Bipartition,Medium,51.6%,50.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,37.2%,50.0%
+2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,37.1%,50.0%

@@ -1,0 +1,28 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,57.9%,75.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,37.2%,62.5%
+31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,43.3%,62.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,62.5%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,45.4%,62.5%
+2903,https://leetcode.com/problems/find-indices-with-index-and-value-difference-i,Find Indices With Index and Value Difference I,Easy,60.3%,100.0%
+2905,https://leetcode.com/problems/find-indices-with-index-and-value-difference-ii,Find Indices With Index and Value Difference II,Medium,31.9%,100.0%
+1047,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string,Remove All Adjacent Duplicates In String,Easy,71.7%,100.0%
+128,https://leetcode.com/problems/longest-consecutive-sequence,Longest Consecutive Sequence,Medium,47.0%,62.5%
+142,https://leetcode.com/problems/linked-list-cycle-ii,Linked List Cycle II,Medium,55.2%,87.5%
+151,https://leetcode.com/problems/reverse-words-in-a-string,Reverse Words in a String,Medium,52.3%,62.5%
+153,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array,Find Minimum in Rotated Sorted Array,Medium,52.8%,62.5%
+155,https://leetcode.com/problems/min-stack,Min Stack,Medium,56.6%,100.0%
+2401,https://leetcode.com/problems/longest-nice-subarray,Longest Nice Subarray,Medium,64.8%,100.0%
+2439,https://leetcode.com/problems/minimize-maximum-of-array,Minimize Maximum of Array,Medium,46.4%,100.0%
+2475,https://leetcode.com/problems/number-of-unequal-triplets-in-array,Number of Unequal Triplets in Array,Easy,72.7%,100.0%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,79.3%,62.5%
+2950,https://leetcode.com/problems/number-of-divisible-substrings,Number of Divisible Substrings,Medium,73.2%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,62.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,75.0%
+176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,44.1%,62.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,62.5%
+122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,69.6%,62.5%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,58.3%,62.5%
+907,https://leetcode.com/problems/sum-of-subarray-minimums,Sum of Subarray Minimums,Medium,37.7%,62.5%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.0%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,62.5%

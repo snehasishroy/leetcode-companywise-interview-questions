@@ -1,0 +1,26 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,87.5%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,44.0%,87.5%
+17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,64.0%,87.5%
+1001,https://leetcode.com/problems/grid-illumination,Grid Illumination,Hard,38.2%,87.5%
+609,https://leetcode.com/problems/find-duplicate-file-in-system,Find Duplicate File in System,Medium,67.6%,100.0%
+2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,61.4%,100.0%
+140,https://leetcode.com/problems/word-break-ii,Word Break II,Hard,53.8%,87.5%
+695,https://leetcode.com/problems/max-area-of-island,Max Area of Island,Medium,73.2%,87.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,50.0%
+1236,https://leetcode.com/problems/web-crawler,Web Crawler,Medium,68.8%,87.5%
+1178,https://leetcode.com/problems/number-of-valid-words-for-each-puzzle,Number of Valid Words for Each Puzzle,Hard,47.2%,87.5%
+290,https://leetcode.com/problems/word-pattern,Word Pattern,Easy,43.1%,87.5%
+289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,71.5%,87.5%
+291,https://leetcode.com/problems/word-pattern-ii,Word Pattern II,Medium,48.6%,87.5%
+2296,https://leetcode.com/problems/design-a-text-editor,Design a Text Editor,Hard,47.3%,87.5%
+1242,https://leetcode.com/problems/web-crawler-multithreaded,Web Crawler Multithreaded,Medium,50.2%,87.5%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,64.7%,62.5%
+1250,https://leetcode.com/problems/check-if-it-is-a-good-array,Check If It Is a Good Array,Hard,61.5%,87.5%
+362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.2%,87.5%
+1845,https://leetcode.com/problems/seat-reservation-manager,Seat Reservation Manager,Medium,66.5%,87.5%
+924,https://leetcode.com/problems/minimize-malware-spread,Minimize Malware Spread,Hard,42.5%,87.5%
+928,https://leetcode.com/problems/minimize-malware-spread-ii,Minimize Malware Spread II,Hard,44.7%,87.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,62.5%
+305,https://leetcode.com/problems/number-of-islands-ii,Number of Islands II,Hard,40.1%,50.0%
+843,https://leetcode.com/problems/guess-the-word,Guess the Word,Hard,37.6%,62.5%

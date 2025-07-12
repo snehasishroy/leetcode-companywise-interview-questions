@@ -1,0 +1,16 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,87.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,87.5%
+39,https://leetcode.com/problems/combination-sum,Combination Sum,Medium,74.9%,75.0%
+2617,https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid,Minimum Number of Visited Cells in a Grid,Hard,22.8%,100.0%
+679,https://leetcode.com/problems/24-game,24 Game,Hard,50.1%,75.0%
+179,https://leetcode.com/problems/largest-number,Largest Number,Medium,41.4%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,75.0%
+1702,https://leetcode.com/problems/maximum-binary-string-after-change,Maximum Binary String After Change,Medium,47.6%,100.0%
+394,https://leetcode.com/problems/decode-string,Decode String,Medium,61.3%,87.5%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,77.3%,75.0%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.0%,75.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.2%,62.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,75.0%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.5%,62.5%
+85,https://leetcode.com/problems/maximal-rectangle,Maximal Rectangle,Hard,54.0%,62.5%

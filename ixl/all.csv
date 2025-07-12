@@ -1,0 +1,18 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,57.0%,87.5%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.4%,87.5%
+1465,https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts,Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts,Medium,41.2%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,87.5%
+592,https://leetcode.com/problems/fraction-addition-and-subtraction,Fraction Addition and Subtraction,Medium,66.2%,87.5%
+598,https://leetcode.com/problems/range-addition-ii,Range Addition II,Easy,57.4%,100.0%
+353,https://leetcode.com/problems/design-snake-game,Design Snake Game,Medium,39.7%,87.5%
+634,https://leetcode.com/problems/find-the-derangement-of-an-array,Find the Derangement of An Array,Medium,41.8%,87.5%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,62.5%
+162,https://leetcode.com/problems/find-peak-element,Find Peak Element,Medium,46.5%,75.0%
+166,https://leetcode.com/problems/fraction-to-recurring-decimal,Fraction to Recurring Decimal,Medium,26.3%,87.5%
+691,https://leetcode.com/problems/stickers-to-spell-word,Stickers to Spell Word,Hard,50.1%,87.5%
+1347,https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram,Minimum Number of Steps to Make Two Strings Anagram,Medium,82.2%,75.0%
+227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,45.9%,62.5%
+234,https://leetcode.com/problems/palindrome-linked-list,Palindrome Linked List,Easy,56.1%,87.5%
+717,https://leetcode.com/problems/1-bit-and-2-bit-characters,1-bit and 2-bit Characters,Easy,45.2%,62.5%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,49.4%,50.0%

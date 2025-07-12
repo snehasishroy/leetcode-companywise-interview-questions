@@ -1,0 +1,25 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,87.5%
+2477,https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital,Minimum Fuel Cost to Report to the Capital,Medium,64.4%,62.5%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,37.2%,75.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,50.0%
+1521,https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target,Find a Value of a Mysterious Function Closest to Target,Hard,45.8%,87.5%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,51.2%,62.5%
+3013,https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii,Divide an Array Into Subarrays With Minimum Cost II,Hard,30.5%,87.5%
+3010,https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i,Divide an Array Into Subarrays With Minimum Cost I,Easy,65.9%,87.5%
+1647,https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique,Minimum Deletions to Make Character Frequencies Unique,Medium,61.3%,100.0%
+258,https://leetcode.com/problems/add-digits,Add Digits,Easy,68.0%,62.5%
+1201,https://leetcode.com/problems/ugly-number-iii,Ugly Number III,Medium,30.5%,87.5%
+2278,https://leetcode.com/problems/percentage-of-letter-in-string,Percentage of Letter in String,Easy,74.5%,87.5%
+1224,https://leetcode.com/problems/maximum-equal-frequency,Maximum Equal Frequency,Hard,37.5%,100.0%
+2202,https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves,Maximize the Topmost Element After K Moves,Medium,23.5%,87.5%
+2317,https://leetcode.com/problems/maximum-xor-after-operations,Maximum XOR After Operations,Medium,79.3%,87.5%
+1253,https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix,Reconstruct a 2-Row Binary Matrix,Medium,47.8%,50.0%
+1775,https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations,Equal Sum Arrays With Minimum Number of Operations,Medium,54.0%,87.5%
+2997,https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k,Minimum Number of Operations to Make Array XOR Equal to K,Medium,85.4%,87.5%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,66.8%,75.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,50.0%
+189,https://leetcode.com/problems/rotate-array,Rotate Array,Medium,43.2%,62.5%
+46,https://leetcode.com/problems/permutations,Permutations,Medium,80.8%,50.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,62.5%
+205,https://leetcode.com/problems/isomorphic-strings,Isomorphic Strings,Easy,47.0%,50.0%

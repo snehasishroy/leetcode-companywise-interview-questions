@@ -1,0 +1,32 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,75.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,45.6%,62.5%
+2838,https://leetcode.com/problems/maximum-coins-heroes-can-collect,Maximum Coins Heroes Can Collect,Medium,68.4%,87.5%
+1981,https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements,Minimize the Difference Between Target and Chosen Elements,Medium,35.9%,87.5%
+2039,https://leetcode.com/problems/the-time-when-the-network-becomes-idle,The Time When the Network Becomes Idle,Medium,54.0%,87.5%
+2030,https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter,Smallest K-Length Subsequence With Occurrences of a Letter,Hard,39.0%,100.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,75.0%
+122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,69.6%,62.5%
+2968,https://leetcode.com/problems/apply-operations-to-maximize-frequency-score,Apply Operations to Maximize Frequency Score,Hard,36.5%,87.5%
+2106,https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps,Maximum Fruits Harvested After at Most K Steps,Hard,36.7%,62.5%
+215,https://leetcode.com/problems/kth-largest-element-in-an-array,Kth Largest Element in an Array,Medium,68.1%,50.0%
+2141,https://leetcode.com/problems/maximum-running-time-of-n-computers,Maximum Running Time of N Computers,Hard,49.8%,87.5%
+735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,45.7%,75.0%
+2137,https://leetcode.com/problems/pour-water-between-buckets-to-make-water-levels-equal,Pour Water Between Buckets to Make Water Levels Equal,Medium,67.0%,87.5%
+3068,https://leetcode.com/problems/find-the-maximum-sum-of-node-values,Find the Maximum Sum of Node Values,Hard,69.8%,87.5%
+3102,https://leetcode.com/problems/minimize-manhattan-distances,Minimize Manhattan Distances,Hard,31.6%,50.0%
+2751,https://leetcode.com/problems/robot-collisions,Robot Collisions,Hard,56.1%,87.5%
+344,https://leetcode.com/problems/reverse-string,Reverse String,Easy,79.8%,50.0%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.1%,75.0%
+1827,https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing,Minimum Operations to Make the Array Increasing,Easy,81.2%,87.5%
+881,https://leetcode.com/problems/boats-to-save-people,Boats to Save People,Medium,60.5%,75.0%
+904,https://leetcode.com/problems/fruit-into-baskets,Fruit Into Baskets,Medium,46.7%,50.0%
+1838,https://leetcode.com/problems/frequency-of-the-most-frequent-element,Frequency of the Most Frequent Element,Medium,44.2%,62.5%
+468,https://leetcode.com/problems/validate-ip-address,Validate IP Address,Medium,27.8%,50.0%
+2869,https://leetcode.com/problems/minimum-operations-to-collect-elements,Minimum Operations to Collect Elements,Easy,61.2%,87.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,56.8%,50.0%
+706,https://leetcode.com/problems/design-hashmap,Design HashMap,Easy,65.9%,50.0%
+2735,https://leetcode.com/problems/collecting-chocolates,Collecting Chocolates,Medium,33.8%,75.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,50.0%
+977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.3%,50.0%
+151,https://leetcode.com/problems/reverse-words-in-a-string,Reverse Words in a String,Medium,52.3%,50.0%

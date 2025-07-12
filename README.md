@@ -23,7 +23,7 @@ Run the scraper after filling in your UserName and Password [here](https://githu
 
 * In case you get a timeout during page reloads, do increase the default timeout value set [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java#L19)
 
-* Once the code is finished (which should take ~60 minutes), create a Pull Request and I will be happy to merge it. Thank you for your contribution :) 
+* Once the code is finished (which should take ~3 hours), create a Pull Request and I will be happy to merge it. Thank you for your contribution :) 
 
 # Star History
 ![Alt text](https://api.star-history.com/svg?repos=snehasishroy/leetcode-companywise-interview-questions)

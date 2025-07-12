@@ -1,0 +1,21 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1256,https://leetcode.com/problems/encode-number,Encode Number,Medium,70.1%,87.5%
+717,https://leetcode.com/problems/1-bit-and-2-bit-characters,1-bit and 2-bit Characters,Easy,45.2%,87.5%
+1329,https://leetcode.com/problems/sort-the-matrix-diagonally,Sort the Matrix Diagonally,Medium,83.0%,87.5%
+1935,https://leetcode.com/problems/maximum-number-of-words-you-can-type,Maximum Number of Words You Can Type,Easy,74.7%,87.5%
+2080,https://leetcode.com/problems/range-frequency-queries,Range Frequency Queries,Medium,40.0%,87.5%
+795,https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum,Number of Subarrays with Bounded Maximum,Medium,54.1%,50.0%
+855,https://leetcode.com/problems/exam-room,Exam Room,Medium,42.9%,87.5%
+1281,https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer,Subtract the Product and Sum of Digits of an Integer,Easy,86.6%,87.5%
+1295,https://leetcode.com/problems/find-numbers-with-even-number-of-digits,Find Numbers with Even Number of Digits,Easy,79.4%,87.5%
+2269,https://leetcode.com/problems/find-the-k-beauty-of-a-number,Find the K-Beauty of a Number,Easy,61.8%,87.5%
+923,https://leetcode.com/problems/3sum-with-multiplicity,3Sum With Multiplicity,Medium,45.8%,87.5%
+1876,https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters,Substrings of Size Three with Distinct Characters,Easy,75.6%,87.5%
+1878,https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid,Get Biggest Three Rhombus Sums in a Grid,Medium,49.4%,87.5%
+1354,https://leetcode.com/problems/construct-target-array-with-multiple-sums,Construct Target Array With Multiple Sums,Hard,36.3%,100.0%
+1865,https://leetcode.com/problems/finding-pairs-with-a-certain-sum,Finding Pairs With a Certain Sum,Medium,61.8%,87.5%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,45.6%,62.5%
+968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.3%,50.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,62.5%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,48.4%,50.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,45.6%,50.0%
