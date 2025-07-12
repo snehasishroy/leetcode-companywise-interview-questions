@@ -3,7 +3,7 @@
 ![leetcode-companywise-interview-questions](https://socialify.git.ci/snehasishroy/leetcode-companywise-interview-questions/image?description=1&font=JetBrains+Mono&forks=1&language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Dark)
 
 This repository contains Company Wise Questions of LeetCode, categorized based on their recency.
-* 30 Days
+* Last 30 Days
 * Last 3 Months
 * Last 6 Months
 * Last 1 Year
@@ -24,6 +24,9 @@ Run the scraper after filling in your UserName and Password [here](https://githu
 * In case you get a timeout during page reloads, do increase the default timeout value set [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java#L19)
 
 * Once the code is finished (which should take ~60 minutes), create a Pull Request and I will be happy to merge it. Thank you for your contribution :) 
+
+# Star History
+![Alt text](https://api.star-history.com/svg?repos=snehasishroy/leetcode-companywise-interview-questions)
 
 ## Happy LeetCoding. May the force be with you.
 
