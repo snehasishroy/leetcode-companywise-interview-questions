@@ -1,0 +1,21 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+12,https://leetcode.com/problems/integer-to-roman,Integer to Roman,Medium,68.8%,75.0%
+76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,45.5%,75.0%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,56.8%,75.0%
+152,https://leetcode.com/problems/maximum-product-subarray,Maximum Product Subarray,Medium,35.1%,87.5%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,64.7%,87.5%
+692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,59.4%,100.0%
+3046,https://leetcode.com/problems/split-the-array,Split the Array,Easy,59.4%,75.0%
+238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,67.9%,75.0%
+329,https://leetcode.com/problems/longest-increasing-path-in-a-matrix,Longest Increasing Path in a Matrix,Hard,55.4%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,87.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,75.0%
+424,https://leetcode.com/problems/longest-repeating-character-replacement,Longest Repeating Character Replacement,Medium,57.4%,75.0%
+169,https://leetcode.com/problems/majority-element,Majority Element,Easy,65.8%,75.0%
+91,https://leetcode.com/problems/decode-ways,Decode Ways,Medium,36.6%,75.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,87.5%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,47.7%,75.0%
+74,https://leetcode.com/problems/search-a-2d-matrix,Search a 2D Matrix,Medium,52.4%,75.0%
+904,https://leetcode.com/problems/fruit-into-baskets,Fruit Into Baskets,Medium,46.7%,75.0%
+51,https://leetcode.com/problems/n-queens,N-Queens,Hard,73.1%,75.0%
+864,https://leetcode.com/problems/shortest-path-to-get-all-keys,Shortest Path to Get All Keys,Hard,53.9%,75.0%

@@ -41,18 +41,21 @@ public class Scraper {
         driver.findElement(By.xpath("// *[ @ id = 'id_password']")).sendKeys(PASSWORD);
         driver.findElement(By.xpath("// *[ @ id = 'id_password']")).sendKeys(Keys.ENTER);
         Thread.sleep(LOGIN_PAGE_WAIT_MILLIS); // Wait for the login to happen, then visit the problems pages
-//        driver.get("https://leetcode.com/problemset/all/");
-//        List<WebElement> companies = driver.findElements(By.cssSelector(".mb-4.mr-3"));
-//        for (WebElement company : companies) {
-//            String link = company.getAttribute("href");
-//            log.info(link);
-//            companyURLs.add(link);
-//        }
-//        for (String companyURL : companyURLs) {
-        for (String recency : new String[]{"amazon-30-days", "amazon-three-months", "amazon-six-months", "amazon-more-than-six-months", "amazon-all" }) {
-            visitCompanies(String.format("https://leetcode.com/company/amazon/?favoriteSlug=%s", recency), driver, recency);
+        driver.get("https://leetcode.com/problemset/all/");
+        List<WebElement> companies = driver.findElements(By.cssSelector(".mb-4.mr-3"));
+        List<String> companyURLs = new ArrayList<>();
+        for (WebElement company : companies) {
+            String link = company.getAttribute("href");
+            log.info(link);
+            companyURLs.add(link);
         }
-//        }
+
+        for (String companyURL : companyURLs) {
+            String companyName = extractCompanyNameWithRegex(companyURL);
+            for (String recency : new String[]{"thirty-days", "three-months", "six-months", "more-than-six-months", "all"}) {
+                visitCompanies(String.format("https://leetcode.com/company/%s/?favoriteSlug=%s-%s", companyName, companyName, recency), driver, recency);
+            }
+        }
     }
 
     private void visitCompanies(String companyURL, WebDriver driver, String recency) throws InterruptedException {
@@ -83,7 +86,7 @@ public class Scraper {
         throw new IllegalArgumentException("Invalid company URL format: " + companyURL);
     }
 
-    public static void loadAllProblems(WebDriver driver) {
+    private static void loadAllProblems(WebDriver driver) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         int maxScrolls = 30; // Maximum number of scrolls
         int consecutiveNoChange = 0; // Counter for consecutive scrolls with no new content
@@ -137,7 +140,7 @@ public class Scraper {
         }
     }
 
-    public static List<ProblemStatement> extractProblems(Document doc) {
+    private static List<ProblemStatement> extractProblems(Document doc) {
         List<ProblemStatement> problems = new ArrayList<>();
 
         // Find all problem links
@@ -146,7 +149,7 @@ public class Scraper {
         for (Element link : problemLinks) {
             try {
                 // Extract ID from the id attribute
-                String id = link.attr("id");
+                String id = "";
 
                 // Extract URL from href attribute
                 String url = link.attr("href");
@@ -162,6 +165,7 @@ public class Scraper {
                     title = titleElement.text().trim();
                     // Remove the number prefix if present (e.g., "22. Generate Parentheses" -> "Generate Parentheses")
                     if (title.matches("^\\d+\\.\\s*.*")) {
+                        id = title.replaceFirst("^(\\d+)\\.\\s*.*", "$1");
                         title = title.replaceFirst("^\\d+\\.\\s*", "");
                     }
                 }
@@ -202,7 +206,7 @@ public class Scraper {
                             validCount++;
                         }
                     }
-                    double frequency = validCount * 12.5; // Each valid div represents 12.5%
+                    double frequency = validCount * 12.5; // Each valid div represents approx 12.5%
                     frequencyPercentage = frequency + "%";
                 }
 
@@ -212,8 +216,9 @@ public class Scraper {
                             id, url, title, difficulty, acceptancePercentage, frequencyPercentage
                     );
                     problems.add(problem);
+                } else {
+                    log.error("Invalid problem data: ID={}, URL={}, Title={}", id, url, title);
                 }
-
             } catch (Exception e) {
                 log.error("Error processing problem element: ", e);
             }
@@ -225,12 +230,12 @@ public class Scraper {
     @SneakyThrows
     private void exportToCSV(List<ProblemStatement> problems, String companyName, String recency) {
         // Create directory structure: companyName/recency/
-        Path outputDir = Paths.get(companyName, recency);
+        Path outputDir = Paths.get(companyName);
         if (!Files.exists(outputDir)) {
             Files.createDirectories(outputDir);
         }
 
-        Path filePath = outputDir.resolve("problems.csv");
+        Path filePath = outputDir.resolve(String.format("%s.csv", recency));
 
         try (FileWriter writer = new FileWriter(filePath.toFile())) {
             writer.append("ID,URL,Title,Difficulty,Acceptance %,Frequency %\n");

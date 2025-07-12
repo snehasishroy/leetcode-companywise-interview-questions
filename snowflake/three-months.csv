@@ -1,0 +1,25 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+588,https://leetcode.com/problems/design-in-memory-file-system,Design In-Memory File System,Hard,48.2%,62.5%
+202,https://leetcode.com/problems/happy-number,Happy Number,Easy,58.2%,87.5%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,53.6%,100.0%
+212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,37.4%,75.0%
+76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,45.5%,62.5%
+2303,https://leetcode.com/problems/calculate-amount-paid-in-taxes,Calculate Amount Paid in Taxes,Easy,67.7%,75.0%
+1600,https://leetcode.com/problems/throne-inheritance,Throne Inheritance,Medium,65.3%,62.5%
+224,https://leetcode.com/problems/basic-calculator,Basic Calculator,Hard,45.7%,62.5%
+438,https://leetcode.com/problems/find-all-anagrams-in-a-string,Find All Anagrams in a String,Medium,52.3%,87.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,62.5%
+2096,https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another,Step-By-Step Directions From a Binary Tree Node to Another,Medium,56.3%,100.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,75.0%
+695,https://leetcode.com/problems/max-area-of-island,Max Area of Island,Medium,73.2%,62.5%
+402,https://leetcode.com/problems/remove-k-digits,Remove K Digits,Medium,35.1%,62.5%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.0%,62.5%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,57.0%,62.5%
+138,https://leetcode.com/problems/copy-list-with-random-pointer,Copy List with Random Pointer,Medium,60.8%,62.5%
+116,https://leetcode.com/problems/populating-next-right-pointers-in-each-node,Populating Next Right Pointers in Each Node,Medium,65.6%,62.5%
+71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,48.1%,62.5%
+947,https://leetcode.com/problems/most-stones-removed-with-same-row-or-column,Most Stones Removed with Same Row or Column,Medium,62.3%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,62.5%
+1242,https://leetcode.com/problems/web-crawler-multithreaded,Web Crawler Multithreaded,Medium,50.2%,62.5%
+1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.4%,62.5%
+1233,https://leetcode.com/problems/remove-sub-folders-from-the-filesystem,Remove Sub-Folders from the Filesystem,Medium,75.8%,62.5%

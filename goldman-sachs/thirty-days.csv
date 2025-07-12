@@ -1,0 +1,11 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,100.0%
+166,https://leetcode.com/problems/fraction-to-recurring-decimal,Fraction to Recurring Decimal,Medium,26.3%,75.0%
+153,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array,Find Minimum in Rotated Sorted Array,Medium,52.8%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,75.0%
+979,https://leetcode.com/problems/distribute-coins-in-binary-tree,Distribute Coins in Binary Tree,Medium,77.2%,62.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,62.5%
+1262,https://leetcode.com/problems/greatest-sum-divisible-by-three,Greatest Sum Divisible by Three,Medium,51.0%,62.5%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,44.0%,62.5%
+64,https://leetcode.com/problems/minimum-path-sum,Minimum Path Sum,Medium,66.7%,75.0%
+2007,https://leetcode.com/problems/find-original-array-from-doubled-array,Find Original Array From Doubled Array,Medium,40.5%,62.5%
