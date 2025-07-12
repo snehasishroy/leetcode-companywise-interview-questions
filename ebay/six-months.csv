@@ -1,0 +1,13 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,100.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,100.0%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,77.3%,75.0%
+473,https://leetcode.com/problems/matchsticks-to-square,Matchsticks to Square,Medium,41.0%,75.0%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.4%,87.5%
+50,https://leetcode.com/problems/powx-n,"Pow(x, n)",Medium,37.2%,87.5%
+73,https://leetcode.com/problems/set-matrix-zeroes,Set Matrix Zeroes,Medium,60.9%,100.0%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,56.8%,87.5%
+752,https://leetcode.com/problems/open-the-lock,Open the Lock,Medium,60.8%,75.0%
+1909,https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing,Remove One Element to Make the Array Strictly Increasing,Easy,28.8%,75.0%
+581,https://leetcode.com/problems/shortest-unsorted-continuous-subarray,Shortest Unsorted Continuous Subarray,Medium,37.5%,75.0%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,57.0%,75.0%

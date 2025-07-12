@@ -1,0 +1,10 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,100.0%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,46.7%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,75.0%
+1760,https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag,Minimum Limit of Balls in a Bag,Medium,67.2%,75.0%
+66,https://leetcode.com/problems/plus-one,Plus One,Easy,47.7%,100.0%
+628,https://leetcode.com/problems/maximum-product-of-three-numbers,Maximum Product of Three Numbers,Easy,45.4%,75.0%
+354,https://leetcode.com/problems/russian-doll-envelopes,Russian Doll Envelopes,Hard,37.4%,75.0%
+759,https://leetcode.com/problems/employee-free-time,Employee Free Time,Hard,72.6%,75.0%
+1647,https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique,Minimum Deletions to Make Character Frequencies Unique,Medium,61.3%,75.0%

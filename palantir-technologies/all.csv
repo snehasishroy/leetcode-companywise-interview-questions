@@ -1,0 +1,31 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,57.0%,62.5%
+539,https://leetcode.com/problems/minimum-time-difference,Minimum Time Difference,Medium,62.4%,87.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,62.5%
+2918,https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros,Minimum Equal Sum of Two Arrays After Replacing Zeros,Medium,50.2%,50.0%
+136,https://leetcode.com/problems/single-number,Single Number,Easy,76.1%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,75.0%
+3006,https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i,Find Beautiful Indices in the Given Array I,Medium,38.6%,100.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,50.0%
+721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,59.8%,50.0%
+217,https://leetcode.com/problems/contains-duplicate,Contains Duplicate,Easy,63.3%,75.0%
+219,https://leetcode.com/problems/contains-duplicate-ii,Contains Duplicate II,Easy,49.2%,75.0%
+220,https://leetcode.com/problems/contains-duplicate-iii,Contains Duplicate III,Hard,23.7%,75.0%
+733,https://leetcode.com/problems/flood-fill,Flood Fill,Easy,66.7%,50.0%
+3008,https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii,Find Beautiful Indices in the Given Array II,Hard,26.6%,87.5%
+245,https://leetcode.com/problems/shortest-word-distance-iii,Shortest Word Distance III,Medium,59.1%,62.5%
+427,https://leetcode.com/problems/construct-quad-tree,Construct Quad Tree,Medium,77.2%,62.5%
+273,https://leetcode.com/problems/integer-to-english-words,Integer to English Words,Hard,34.4%,87.5%
+303,https://leetcode.com/problems/range-sum-query-immutable,Range Sum Query - Immutable,Easy,68.9%,75.0%
+1232,https://leetcode.com/problems/check-if-it-is-a-straight-line,Check If It Is a Straight Line,Easy,39.7%,75.0%
+325,https://leetcode.com/problems/maximum-size-subarray-sum-equals-k,Maximum Size Subarray Sum Equals k,Medium,50.6%,75.0%
+2225,https://leetcode.com/problems/find-players-with-zero-or-one-losses,Find Players With Zero or One Losses,Medium,72.6%,50.0%
+2312,https://leetcode.com/problems/selling-pieces-of-wood,Selling Pieces of Wood,Hard,51.6%,75.0%
+2192,https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph,All Ancestors of a Node in a Directed Acyclic Graph,Medium,61.9%,50.0%
+2964,https://leetcode.com/problems/number-of-divisible-triplet-sums,Number of Divisible Triplet Sums,Medium,67.8%,50.0%
+407,https://leetcode.com/problems/trapping-rain-water-ii,Trapping Rain Water II,Hard,58.9%,50.0%
+2539,https://leetcode.com/problems/count-the-number-of-good-subsequences,Count the Number of Good Subsequences,Medium,50.4%,50.0%
+148,https://leetcode.com/problems/sort-list,Sort List,Medium,62.1%,50.0%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.5%,50.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,50.0%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.4%,50.0%
