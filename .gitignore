@@ -124,7 +124,9 @@ local.properties
 hs_err_pid*
 
 ### Maven ###
-target/
+target/classes
+target/generated-sources
+target/maven-status
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
