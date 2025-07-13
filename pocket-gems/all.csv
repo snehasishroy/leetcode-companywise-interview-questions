@@ -1,0 +1,16 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+28,https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string,Find the Index of the First Occurrence in a String,Easy,45.1%,100.0%
+75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,67.8%,100.0%
+600,https://leetcode.com/problems/non-negative-integers-without-consecutive-ones,Non-negative Integers without Consecutive Ones,Hard,40.4%,100.0%
+133,https://leetcode.com/problems/clone-graph,Clone Graph,Medium,62.7%,100.0%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,48.4%,100.0%
+692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,59.4%,100.0%
+214,https://leetcode.com/problems/shortest-palindrome,Shortest Palindrome,Hard,40.8%,100.0%
+215,https://leetcode.com/problems/kth-largest-element-in-an-array,Kth Largest Element in an Array,Medium,68.1%,100.0%
+269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,36.7%,100.0%
+772,https://leetcode.com/problems/basic-calculator-iii,Basic Calculator III,Hard,52.6%,100.0%
+285,https://leetcode.com/problems/inorder-successor-in-bst,Inorder Successor in BST,Medium,50.8%,100.0%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,64.7%,100.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,100.0%
+424,https://leetcode.com/problems/longest-repeating-character-replacement,Longest Repeating Character Replacement,Medium,57.4%,100.0%
+442,https://leetcode.com/problems/find-all-duplicates-in-an-array,Find All Duplicates in an Array,Medium,76.4%,100.0%

@@ -1,0 +1,9 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.1%,87.5%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,62.9%,100.0%
+849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.1%,100.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.5%,100.0%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,51.2%,75.0%
+228,https://leetcode.com/problems/summary-ranges,Summary Ranges,Easy,53.1%,87.5%
+1493,https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element,Longest Subarray of 1's After Deleting One Element,Medium,69.3%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,75.0%

@@ -1,0 +1,5 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1234,https://leetcode.com/problems/replace-the-substring-for-balanced-string,Replace the Substring for Balanced String,Medium,39.7%,100.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,75.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,75.0%
+735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,45.7%,75.0%

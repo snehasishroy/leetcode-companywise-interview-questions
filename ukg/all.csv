@@ -1,0 +1,12 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+128,https://leetcode.com/problems/longest-consecutive-sequence,Longest Consecutive Sequence,Medium,47.0%,75.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,62.5%
+761,https://leetcode.com/problems/special-binary-string,Special Binary String,Hard,63.7%,87.5%
+1344,https://leetcode.com/problems/angle-between-hands-of-a-clock,Angle Between Hands of a Clock,Medium,64.2%,62.5%
+3138,https://leetcode.com/problems/minimum-length-of-anagram-concatenation,Minimum Length of Anagram Concatenation,Medium,39.7%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,62.5%
+3380,https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-i,Maximum Area Rectangle With Point Constraints I,Medium,49.9%,100.0%
+3382,https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-ii,Maximum Area Rectangle With Point Constraints II,Hard,20.2%,100.0%
+2539,https://leetcode.com/problems/count-the-number-of-good-subsequences,Count the Number of Good Subsequences,Medium,50.4%,75.0%
+3136,https://leetcode.com/problems/valid-word,Valid Word,Easy,38.9%,75.0%
+3511,https://leetcode.com/problems/make-a-positive-array,Make a Positive Array,Medium,37.8%,62.5%

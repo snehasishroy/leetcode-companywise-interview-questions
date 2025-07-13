@@ -1,0 +1,22 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,44.0%,100.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.5%,100.0%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,77.3%,100.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,100.0%
+52,https://leetcode.com/problems/n-queens-ii,N-Queens II,Hard,76.9%,100.0%
+109,https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree,Convert Sorted List to Binary Search Tree,Medium,64.6%,100.0%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,51.2%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,100.0%
+155,https://leetcode.com/problems/min-stack,Min Stack,Medium,56.6%,100.0%
+168,https://leetcode.com/problems/excel-sheet-column-title,Excel Sheet Column Title,Easy,43.8%,100.0%
+169,https://leetcode.com/problems/majority-element,Majority Element,Easy,65.8%,100.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,100.0%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,79.3%,100.0%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,49.4%,100.0%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,53.6%,100.0%
+229,https://leetcode.com/problems/majority-element-ii,Majority Element II,Medium,54.6%,100.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,47.7%,100.0%
+251,https://leetcode.com/problems/flatten-2d-vector,Flatten 2D Vector,Medium,50.2%,100.0%
+255,https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree,Verify Preorder Sequence in Binary Search Tree,Medium,51.4%,100.0%
+261,https://leetcode.com/problems/graph-valid-tree,Graph Valid Tree,Medium,49.4%,100.0%
+317,https://leetcode.com/problems/shortest-distance-from-all-buildings,Shortest Distance from All Buildings,Hard,44.5%,100.0%

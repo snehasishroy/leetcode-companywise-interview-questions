@@ -1,0 +1,17 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+3131,https://leetcode.com/problems/find-the-integer-added-to-array-i,Find the Integer Added to Array I,Easy,82.1%,100.0%
+3132,https://leetcode.com/problems/find-the-integer-added-to-array-ii,Find the Integer Added to Array II,Medium,32.0%,100.0%
+3144,https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency,Minimum Substring Partition of Equal Character Frequency,Medium,39.1%,100.0%
+3213,https://leetcode.com/problems/construct-string-with-minimum-cost,Construct String with Minimum Cost,Hard,19.1%,100.0%
+3180,https://leetcode.com/problems/maximum-total-reward-using-operations-i,Maximum Total Reward Using Operations I,Medium,30.0%,100.0%
+3181,https://leetcode.com/problems/maximum-total-reward-using-operations-ii,Maximum Total Reward Using Operations II,Hard,20.7%,100.0%
+3097,https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii,Shortest Subarray With OR at Least K II,Medium,50.2%,100.0%
+3095,https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-i,Shortest Subarray With OR at Least K I,Easy,42.9%,100.0%
+3128,https://leetcode.com/problems/right-triangles,Right Triangles,Medium,47.2%,100.0%
+556,https://leetcode.com/problems/next-greater-element-iii,Next Greater Element III,Medium,34.6%,62.5%
+2978,https://leetcode.com/problems/symmetric-coordinates,Symmetric Coordinates,Medium,40.7%,100.0%
+118,https://leetcode.com/problems/pascals-triangle,Pascal's Triangle,Easy,77.1%,75.0%
+6,https://leetcode.com/problems/zigzag-conversion,Zigzag Conversion,Medium,51.8%,62.5%
+45,https://leetcode.com/problems/jump-game-ii,Jump Game II,Medium,41.6%,62.5%
+31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,43.3%,75.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.5%,62.5%

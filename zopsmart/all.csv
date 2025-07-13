@@ -1,0 +1,20 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+6,https://leetcode.com/problems/zigzag-conversion,Zigzag Conversion,Medium,51.8%,100.0%
+2074,https://leetcode.com/problems/reverse-nodes-in-even-length-groups,Reverse Nodes in Even Length Groups,Medium,61.4%,87.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,87.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,62.5%
+76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,45.5%,75.0%
+592,https://leetcode.com/problems/fraction-addition-and-subtraction,Fraction Addition and Subtraction,Medium,66.2%,62.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,50.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,37.2%,50.0%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,57.9%,62.5%
+402,https://leetcode.com/problems/remove-k-digits,Remove K Digits,Medium,35.1%,62.5%
+299,https://leetcode.com/problems/bulls-and-cows,Bulls and Cows,Medium,51.5%,62.5%
+2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,46.4%,50.0%
+17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,64.0%,50.0%
+151,https://leetcode.com/problems/reverse-words-in-a-string,Reverse Words in a String,Medium,52.4%,62.5%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,79.3%,50.0%
+25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,63.3%,50.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,50.0%
+75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,67.8%,50.0%
+3602,https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion,Hexadecimal and Hexatrigesimal Conversion,Easy,79.2%,50.0%

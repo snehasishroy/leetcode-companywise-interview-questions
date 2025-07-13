@@ -1,0 +1,21 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+12,https://leetcode.com/problems/integer-to-roman,Integer to Roman,Medium,68.8%,87.5%
+545,https://leetcode.com/problems/boundary-of-binary-tree,Boundary of Binary Tree,Medium,47.2%,75.0%
+36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,62.4%,87.5%
+41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,41.2%,75.0%
+1404,https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one,Number of Steps to Reduce a Number in Binary Representation to One,Medium,61.4%,87.5%
+1219,https://leetcode.com/problems/path-with-maximum-gold,Path with Maximum Gold,Medium,68.1%,75.0%
+315,https://leetcode.com/problems/count-of-smaller-numbers-after-self,Count of Smaller Numbers After Self,Hard,42.9%,62.5%
+394,https://leetcode.com/problems/decode-string,Decode String,Medium,61.3%,62.5%
+1405,https://leetcode.com/problems/longest-happy-string,Longest Happy String,Medium,65.5%,75.0%
+2384,https://leetcode.com/problems/largest-palindromic-number,Largest Palindromic Number,Medium,36.5%,100.0%
+3119,https://leetcode.com/problems/maximum-number-of-potholes-that-can-be-fixed,Maximum Number of Potholes That Can Be Fixed,Medium,53.1%,100.0%
+2061,https://leetcode.com/problems/number-of-spaces-cleaning-robot-cleaned,Number of Spaces Cleaning Robot Cleaned,Medium,62.1%,75.0%
+13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,65.0%,62.5%
+2850,https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid,Minimum Moves to Spread Stones Over Grid,Medium,44.4%,62.5%
+2086,https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters,Minimum Number of Food Buckets to Feed the Hamsters,Medium,47.1%,75.0%
+122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,69.7%,62.5%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,46.7%,87.5%
+309,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown,Best Time to Buy and Sell Stock with Cooldown,Medium,60.6%,87.5%
+1386,https://leetcode.com/problems/cinema-seat-allocation,Cinema Seat Allocation,Medium,42.9%,62.5%
+1047,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string,Remove All Adjacent Duplicates In String,Easy,71.7%,62.5%
