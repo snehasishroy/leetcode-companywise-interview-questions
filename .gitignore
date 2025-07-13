@@ -1,4 +1,3 @@
-/target/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -47,9 +46,6 @@ local.properties
 
 # PDT-specific (PHP Development Tools)
 .buildpath
-
-# sbteclipse plugin
-.target
 
 # Tern plugin
 .tern-project
@@ -192,7 +188,6 @@ build/
 .settings
 bin
 build
-target
 dependency-reduced-pom.xml
 *.sublime-*
 /scratch
