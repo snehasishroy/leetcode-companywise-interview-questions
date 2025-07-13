@@ -1,0 +1,11 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,59.3%,75.0%
+2220,https://leetcode.com/problems/minimum-bit-flips-to-convert-number,Minimum Bit Flips to Convert Number,Easy,87.6%,100.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.5%,75.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,87.5%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,66.8%,62.5%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.2%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,62.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,62.5%
+88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.1%,62.5%

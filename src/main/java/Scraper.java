@@ -64,8 +64,8 @@ public class Scraper {
 
         // Create directory structure: companyName/recency/
         Path outputDir = Paths.get(companyName, String.format("%s.csv", recency));
-        if (Files.exists(outputDir)) {
-            log.info("File already exists: {}", outputDir.toAbsolutePath());
+        if (Files.exists(outputDir)) { // this check acts as a checkpoint
+            log.warn("File already exists: {}, Skipping", outputDir.toAbsolutePath());
             return;
         }
 
@@ -103,6 +103,10 @@ public class Scraper {
 
         for (int i = 0; i < maxScrolls; i++) {
             int currentCount = driver.findElements(By.cssSelector("a[href*='/problems/'][id]")).size();
+            if (currentCount == 0) {
+                log.info("Scroll {}: No problems found, stopping.", i + 1);
+                break;
+            }
             boolean scrolled = performScroll(driver, js);
             if (!scrolled) {
                 log.info("Scroll {}: Unable to scroll further, stopping.", i + 1);

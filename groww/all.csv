@@ -1,0 +1,9 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,62.5%
+2998,https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal,Minimum Number of Operations to Make X and Y Equal,Medium,47.5%,100.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,75.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,62.5%
+3026,https://leetcode.com/problems/maximum-good-subarray-sum,Maximum Good Subarray Sum,Medium,20.3%,62.5%
+122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,69.7%,62.5%
+123,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii,Best Time to Buy and Sell Stock III,Hard,51.4%,62.5%
+75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,67.8%,62.5%
