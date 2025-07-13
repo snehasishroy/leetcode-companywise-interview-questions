@@ -1,0 +1,8 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+1992,https://leetcode.com/problems/find-all-groups-of-farmland,Find All Groups of Farmland,Medium,75.5%,100.0%
+2840,https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii,Check if Strings Can be Made Equal With Operations II,Medium,55.3%,100.0%
+2839,https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i,Check if Strings Can be Made Equal With Operations I,Easy,47.2%,100.0%
+1383,https://leetcode.com/problems/maximum-performance-of-a-team,Maximum Performance of a Team,Hard,47.5%,100.0%
+19,https://leetcode.com/problems/remove-nth-node-from-end-of-list,Remove Nth Node From End of List,Medium,49.2%,62.5%
+1010,https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60,Pairs of Songs With Total Durations Divisible by 60,Medium,53.3%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,62.5%
