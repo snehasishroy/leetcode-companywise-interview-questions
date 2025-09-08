@@ -8,3 +8,4 @@ ID,URL,Title,Difficulty,Acceptance %,Frequency %
 88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.1%,75.0%
 362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.2%,75.0%
 200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,75.0%
+112,https://leetcode.com/problems/path-sum, Easy, 53.5%
