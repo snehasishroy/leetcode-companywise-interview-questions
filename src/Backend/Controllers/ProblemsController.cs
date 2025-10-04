@@ -19,6 +19,13 @@ namespace Backend.Controllers
         }
 
         [HttpGet]
+        [Route("")]
+        public ActionResult<string> GetHome()
+        {
+            return Ok("Leetcode Wrapper Backend is running.");
+        }
+
+        [HttpGet]
         [Route("problems")]
         public async Task<ActionResult<ProblemPublicModel>> GetProblems(
             [FromQuery(Name = QueryParam.Skip)] int skip = 0,
@@ -36,7 +43,8 @@ namespace Backend.Controllers
         [Route("problems/{id}")]
         public async Task<ActionResult<ProblemPublicModel>> GetProblems(string id)
         {
-            if (appContext.dataProvider.problemsCache.TryGetValue(id, out var problem))
+            var problem = await appContext.dataProvider.GetProblemByIdAsync(id);
+            if (problem != null)
             {
                 return Ok(problem);
             }
