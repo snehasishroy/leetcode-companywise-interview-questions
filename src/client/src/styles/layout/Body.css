@@ -47,3 +47,8 @@
 .error-message button:hover {
   background-color: #c82333;
 }
+
+/* Add to styles/layout/Body.css */
+.body-content {
+  min-height: 60vh;
+}

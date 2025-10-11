@@ -1,8 +1,17 @@
 import React from "react";
 import ProblemGrid from "../problems/ProblemGrid";
+import Pagination from "./Pagination"; // Add this import
 import "../../styles/layout/Body.css";
 
-const Body = ({ problems, loading, error, filters }) => {
+const Body = ({ 
+  problems, 
+  loading, 
+  error, 
+  filters, 
+  currentPage, 
+  totalPages, 
+  onPageChange 
+}) => {
   if (loading) {
     return (
       <div className="body loading">
@@ -26,6 +35,11 @@ const Body = ({ problems, loading, error, filters }) => {
     <main className="body">
       <div className="body-content">
         <ProblemGrid problems={problems} filters={filters} />
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={onPageChange}
+        />
       </div>
     </main>
   );
