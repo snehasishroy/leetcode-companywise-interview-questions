@@ -4,6 +4,7 @@ import {
   getDifficultyClass,
 } from "../../constants/difficulty";
 import "../../styles/components/ProblemCard.css";
+import { Link } from "react-router-dom";
 
 const TIME_PERIOD_LABELS = {
   "thirty-days": "Last 30 Days",
@@ -43,9 +44,7 @@ const ProblemCard = ({ problem }) => {
     <div className="problem-card">
       <div className="problem-header">
         <h3>
-          <a href={problem.url} target="_blank" rel="noopener noreferrer">
-            {problem.title}
-          </a>
+          <Link to={`/problems/${problem.id}`}>{problem.title}</Link>
         </h3>
         <span className={`difficulty ${difficultyClass}`}>
           {difficultyText}

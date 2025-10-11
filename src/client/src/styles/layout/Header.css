@@ -1,22 +1,229 @@
 .header {
   width: 100%;
-  background-color: #1a1a1a;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d1b69 50%, #1a1a1a 100%);
   color: white;
-  padding: 1rem 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.25rem 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(255, 161, 22, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(0, 102, 204, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(67, 160, 71, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(255, 161, 22, 0.6) 25%, 
+    rgba(0, 102, 204, 0.6) 50%, 
+    rgba(255, 161, 22, 0.6) 75%, 
+    transparent 100%);
 }
 
 .header-content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.header-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+}
+
+.header-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 161, 22, 0.1), rgba(0, 102, 204, 0.1));
+  border-radius: 12px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.header-link:hover {
+  transform: translateY(-2px);
+  text-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+.header-link:hover::before {
+  opacity: 1;
+}
+
+.header-link:active {
+  transform: translateY(0);
 }
 
 .header h1 {
   margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #ffffff 0%, #ffa116 50%, #0099ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+.header h1::after {
+  content: '🔍';
+  position: absolute;
+  top: 50%;
+  right: -2rem;
+  transform: translateY(-50%);
   font-size: 1.5rem;
-  font-weight: 600;
+  opacity: 0.8;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Code-inspired decoration */
+.header-content::before {
+  content: '{ }';
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: rgba(255, 161, 22, 0.6);
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.header-content::after {
+  content: '</>';
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: rgba(0, 102, 204, 0.6);
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-50%) rotate(10deg);
+  }
+}
+
+/* Glow effect on hover */
+@keyframes textGlow {
+  0%, 100% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 30px rgba(255, 161, 22, 0.5), 0 0 40px rgba(0, 102, 204, 0.3);
+  }
+}
+
+.header-link:hover h1 {
+  animation: textGlow 2s ease-in-out infinite;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem 0;
+  }
+  
+  .header-content {
+    padding: 0 1rem;
+  }
+  
+  .header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .header h1::after {
+    right: -1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .header-content::before,
+  .header-content::after {
+    display: none; /* Hide code symbols on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.25rem;
+    letter-spacing: -0.25px;
+  }
+  
+  .header h1::after {
+    display: none; /* Hide emoji on very small screens */
+  }
+  
+  .header-link {
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .header-link {
+    transition: none;
+  }
+  
+  .header-link:hover {
+    transform: none;
+  }
+  
+  .header h1::after {
+    animation: none;
+  }
+  
+  .header-link:hover h1 {
+    animation: none;
+  }
+}
+
+/* Dark theme optimization */
+@media (prefers-color-scheme: dark) {
+  .header {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a0f4d 50%, #0a0a0a 100%);
+  }
 }

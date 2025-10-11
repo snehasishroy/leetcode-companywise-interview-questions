@@ -1,9 +1,7 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { fetchProblems } from "../../services/api";
-import Header from "./Header";
 import Nav from "./Nav";
 import Body from "./Body";
-import Footer from "./Footer";
 import "../../styles/layout/Main.css";
 
 const Main = () => {
@@ -53,7 +51,6 @@ const Main = () => {
 
   return (
     <div className="main-container">
-      <Header />
       <Nav
         filters={filters}
         onFilterChange={handleFilterChange}
@@ -65,7 +62,6 @@ const Main = () => {
         error={error}
         filters={filters}
       />
-      <Footer />
     </div>
   );
 };

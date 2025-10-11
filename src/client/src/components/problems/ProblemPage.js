@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getProblemById } from "../../services/api";
+import "../../styles/components/ProblemPage.css";
 
 const tagOrder = ["thirty-days", "three-months", "six-months", "one-year", "all"];
 
