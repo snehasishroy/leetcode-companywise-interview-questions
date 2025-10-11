@@ -43,7 +43,7 @@ public class Program
         {
             options.AddPolicy("AllowReactApp",
                 builder => builder
-                    .WithOrigins("http://localhost:3000") 
+                    .AllowAnyOrigin()
                     .AllowAnyMethod()
                     .AllowAnyHeader());
         });
@@ -62,13 +62,10 @@ public class Program
         // Register AppContext as singleton
         var config = builder.Configuration;
         var cosmosClient = new CosmosClient(config["ApplicationSettings:CosmosDbUri"], config["ApplicationSettings:CosmosDbPrimaryKey"]);
-        builder.Services.AddSingleton(s => 
-            new AppContext(
-                cosmosClient,
-                builder.Configuration,
-                s.GetRequiredService<ILogger<DataProvider>>()
-            )
-        );
+        builder.Services.AddSingleton<CosmosClient>(cosmosClient);
+        builder.Services.AddSingleton<DataProvider>();
+        builder.Services.AddSingleton<GSEngine>();
+        builder.Services.AddSingleton<AppContext>();
 
         var app = builder.Build();
         ILogger logger = app.Logger;
