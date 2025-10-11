@@ -1,0 +1,21 @@
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.no-problems {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .problem-grid {
+    grid-template-columns: 1fr;
+  }
+}
