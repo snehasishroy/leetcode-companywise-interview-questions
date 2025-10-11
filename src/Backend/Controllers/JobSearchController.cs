@@ -3,6 +3,7 @@ namespace Backend.Controllers
     using Microsoft.AspNetCore.Mvc;
 
     [ApiController]
+    [Route("api")]
     public class JobSearchController : ControllerBase
     {
         private readonly AppContext appContext;
@@ -19,13 +20,22 @@ namespace Backend.Controllers
             var result = await gsEngine.SearchAndScrapeJobsAsync(query);
             if (result != null)
             {
+                var levels = await this.appContext.aiEngine.GetJobLevelAsync(result);
+                foreach (var level in levels)
+                {
+                    var job = result.FirstOrDefault(j => j.jobId == level.Key);
+                    if (job != null)
+                    {
+                        job.tags.Add(level.Value);
+                    }
+                }
                 return Ok(result);
             }
             return StatusCode(500, "Error occurred while searching for jobs.");
         }
 
         [HttpGet]
-        [Route("/jobs/latest")]
+        [Route("/jobs")]
         public ActionResult<string> GetLatestJobs()
         {
             // Placeholder implementation for latest jobs

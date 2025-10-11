@@ -39,7 +39,7 @@ namespace Backend.Operations
                     logger.LogError("SearchAsync returned null result.");
                     break;
                 }
-                else if (res.queries.request[0].count == 0)
+                else if (string.IsNullOrEmpty(res.queries.request[0].totalResults) || res.items == null)
                 {
                     logger.LogInformation($"No results found for query: {url}");
                     break;

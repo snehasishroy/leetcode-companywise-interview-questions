@@ -65,6 +65,7 @@ public class Program
         builder.Services.AddSingleton<CosmosClient>(cosmosClient);
         builder.Services.AddSingleton<DataProvider>();
         builder.Services.AddSingleton<GSEngine>();
+        builder.Services.AddSingleton<AIEngine>();
         builder.Services.AddSingleton<AppContext>();
 
         var app = builder.Build();
