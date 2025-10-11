@@ -1,0 +1,96 @@
+.problem-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.problem-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.problem-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.problem-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.problem-header a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.problem-header a:hover {
+  color: #0066cc;
+}
+
+.difficulty {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.difficulty.easy {
+  background-color: #e7f6e7;
+  color: #2cbb5d;
+}
+
+.difficulty.medium {
+  background-color: #fff7e6;
+  color: #ffa116;
+}
+
+.difficulty.hard {
+  background-color: #ffe6e6;
+  color: #ff375f;
+}
+
+.problem-stats {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.problem-companies {
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+.problem-companies small {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.company-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.company-tag {
+  background: #f5f5f5;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.recent-indicator {
+  font-size: 0.8rem;
+}
