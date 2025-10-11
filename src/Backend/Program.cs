@@ -38,6 +38,16 @@ public class Program
         builder.Services.AddApplicationInsightsTelemetry();
         builder.Services.AddControllers();
         
+        // Add CORS
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("AllowReactApp",
+                builder => builder
+                    .WithOrigins("http://localhost:3000") 
+                    .AllowAnyMethod()
+                    .AllowAnyHeader());
+        });
+        
         SetupLogging(builder.Logging, builder.Configuration);
 
         if (builder.Environment.IsDevelopment())
@@ -72,7 +82,11 @@ public class Program
             app.UseSwaggerUI();
         }
 
-        app.UseHttpsRedirection();
+        // Commenting out HTTPS redirection to allow HTTP
+        // app.UseHttpsRedirection();
+
+        // Use CORS before other middleware
+        app.UseCors("AllowReactApp");
 
         app.UseAuthorization();
 

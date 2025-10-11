@@ -6,6 +6,7 @@ namespace Backend.Controllers
     using ProblemPublicModel = Common.Models.Problem;
 
     [ApiController]
+    [Route("api/[controller]")]
     public class ProblemsController : ControllerBase
     {
         private AppContext appContext;
@@ -19,15 +20,14 @@ namespace Backend.Controllers
         }
 
         [HttpGet]
-        [Route("")]
+        [Route("~/api/home")]
         public ActionResult<string> GetHome()
         {
             return Ok("Leetcode Wrapper Backend is running.");
         }
 
         [HttpGet]
-        [Route("problems")]
-        public async Task<ActionResult<ProblemPublicModel>> GetProblems(
+        public async Task<ActionResult<IEnumerable<ProblemPublicModel>>> GetProblems(
             [FromQuery(Name = QueryParam.Skip)] int skip = 0,
             [FromQuery(Name = QueryParam.Limit)] int limit = 50,
             [FromQuery(Name = QueryParam.Company)] List<string>? companies = null,
