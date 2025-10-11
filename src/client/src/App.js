@@ -1,0 +1,23 @@
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Main from "./components/layout/Main";
+import ProblemPage from "./components/problems/ProblemPage";
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/problems/:id" element={<ProblemPage />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
+  );
+}
+
+export default App;

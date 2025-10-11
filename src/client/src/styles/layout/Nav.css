@@ -1,0 +1,11 @@
+.nav {
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1rem 0;
+}
+
+.nav-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

@@ -1,0 +1,54 @@
+.body {
+  flex: 1;
+  padding: 2rem 0;
+  background-color: #f5f5f5;
+}
+
+.body-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.loading-spinner {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
+}
+
+.error-message button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-message button:hover {
+  background-color: #c82333;
+}
+
+/* Add to styles/layout/Body.css */
+.body-content {
+  min-height: 60vh;
+}
