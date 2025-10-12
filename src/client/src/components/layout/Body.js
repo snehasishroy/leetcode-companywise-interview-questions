@@ -1,21 +1,26 @@
 import React from "react";
 import ProblemGrid from "../problems/ProblemGrid";
-import Pagination from "./Pagination"; // Add this import
+import Pagination from "./Pagination";
 import "../../styles/layout/Body.css";
 
-const Body = ({ 
-  problems, 
-  loading, 
-  error, 
-  filters, 
-  currentPage, 
-  totalPages, 
-  onPageChange 
+const Body = ({
+  problems,
+  loading,
+  error,
+  filters,
+  currentPage,
+  totalPages,
+  onPageChange,
+  hasActiveFilters,
 }) => {
   if (loading) {
     return (
       <div className="body loading">
-        <div className="loading-spinner">Loading problems...</div>
+        <div className="loading-spinner">
+          {hasActiveFilters
+            ? "Loading filtered problems..."
+            : "Loading problems..."}
+        </div>
       </div>
     );
   }
@@ -34,7 +39,7 @@ const Body = ({
   return (
     <main className="body">
       <div className="body-content">
-        <ProblemGrid problems={problems} filters={filters} />
+        <ProblemGrid problems={problems} hasActiveFilters={hasActiveFilters} />
         <Pagination
           currentPage={currentPage}
           totalPages={totalPages}

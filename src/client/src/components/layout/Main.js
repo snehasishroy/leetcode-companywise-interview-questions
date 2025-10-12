@@ -18,19 +18,25 @@ const Main = () => {
 
   const PROBLEMS_PER_PAGE = 50;
 
+  // Check if any filters are active
+  const hasActiveFilters = useMemo(() => {
+    return !!(filters.company || filters.timePeriod || filters.difficulty);
+  }, [filters]);
+
   useEffect(() => {
     const loadProblems = async () => {
       setLoading(true);
       try {
+        // ALWAYS pass filters to API - backend will ignore empty ones
         const data = await fetchProblems(currentPage, PROBLEMS_PER_PAGE, filters);
         setProblems(data);
         setError(null);
         
         // Estimate total pages based on response
         if (data.length < PROBLEMS_PER_PAGE) {
-          setTotalPages(currentPage);
+          setTotalPages(currentPage); // This is the last page
         } else {
-          setTotalPages(currentPage + 1);
+          setTotalPages(currentPage + 1); // There might be more pages
         }
       } catch (err) {
         setError("Failed to fetch problems. Please try again later.");
@@ -41,10 +47,12 @@ const Main = () => {
     };
 
     loadProblems();
-  }, [currentPage, filters]);
+  }, [currentPage, filters]); // Re-fetch when page OR filters change
 
-  // Extract unique company names from problems
+  // Extract unique company names from ALL problems (initial load for dropdown)
   const companies = useMemo(() => {
+    // We need to load companies separately or keep the existing approach
+    // For now, let's keep the current implementation
     const companySet = new Set();
     problems.forEach((problem) => {
       if (problem.companies) {
@@ -63,7 +71,6 @@ const Main = () => {
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
-    // Scroll to top when page changes
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -82,6 +89,7 @@ const Main = () => {
         currentPage={currentPage}
         totalPages={totalPages}
         onPageChange={handlePageChange}
+        hasActiveFilters={hasActiveFilters}
       />
     </div>
   );
