@@ -27,7 +27,9 @@ const ProblemGrid = ({ problems, hasActiveFilters, currentView, onViewChange }) 
           ))}
         </div>
       ) : (
-        <ProblemList problems={problems} />
+        <div className="problem-list-container">
+          <ProblemList problems={problems} />
+        </div>
       )}
     </div>
   );

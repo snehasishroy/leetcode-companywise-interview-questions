@@ -1,3 +1,4 @@
+/* styles/layout/Body.css */
 .body {
   flex: 1;
   padding: 0.5rem 0;
@@ -10,6 +11,8 @@
   margin: 0 auto;
   padding: 0 1rem;
   min-height: auto;
+  /* Ensure no extra padding at bottom */
+  padding-bottom: 0;
 }
 
 .loading {
@@ -48,4 +51,9 @@
 
 .error-message button:hover {
   background-color: #c82333;
+}
+
+/* Remove any bottom margin from the last element in body */
+.body-content > *:last-child {
+  margin-bottom: 0;
 }

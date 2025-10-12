@@ -1,5 +1,6 @@
 .problem-container {
   margin-bottom: 1rem;
+  padding-bottom: 0;
 }
 
 .problem-grid {
@@ -16,6 +17,12 @@
   border-radius: 8px;
   color: #666;
   margin: 1rem 0;
+}
+
+/* Ensure list view takes only needed space */
+.problem-list-container {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* Responsive adjustments */

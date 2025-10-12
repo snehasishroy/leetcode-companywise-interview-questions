@@ -1,3 +1,4 @@
+/* styles/components/ProblemList.css */
 .problem-list {
   background: white;
   border-radius: 8px;
@@ -12,37 +13,24 @@
   gap: 1rem;
   padding: 0.75rem 1.5rem;
   background: #f8fafc;
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 2px solid #e2e8f0;
   font-weight: 600;
   color: #4a5568;
   font-size: 0.9rem;
   align-items: center;
 }
 
-/* Explicit alignment for each column */
-.header-id {
-  text-align: left;
-  justify-self: start;
-}
-
-.header-title {
-  text-align: left;
-  justify-self: start;
-}
-
-.header-difficulty {
-  text-align: center;
-  justify-self: center;
-}
-
+/* Left align all headers explicitly */
+.header-id,
+.header-title,
+.header-difficulty,
 .header-acceptance {
-  text-align: center;
-  justify-self: center;
+  text-align: left;
+  justify-self: start;
 }
 
 .list-content {
-  max-height: 400px;
-  overflow-y: auto;
+  min-height: auto;
 }
 
 .problem-list-item {
@@ -53,17 +41,29 @@
   border-bottom: 1px solid #f1f5f9;
   transition: background-color 0.2s ease;
   align-items: center;
+  min-height: 60px;
+}
+
+/* Alternate background colors for rows */
+.problem-list-item:nth-child(even) {
+  background-color: #fafbfc;
+}
+
+.problem-list-item:nth-child(odd) {
+  background-color: #ffffff;
 }
 
 .problem-list-item:hover {
-  background: #f7fafc;
+  background: #f0f7ff !important; /* Override alternate colors on hover */
+  border-left: 3px solid #0066cc;
+  margin-left: -3px;
 }
 
 .problem-list-item:last-child {
   border-bottom: none;
 }
 
-/* Explicit alignment for each data cell */
+/* Left align all content cells */
 .problem-id {
   color: #666;
   font-weight: 500;
@@ -97,29 +97,38 @@
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
-  justify-self: center;
+  justify-self: start; /* Changed to left align */
+  width: fit-content;
 }
 
 .problem-acceptance {
   color: #666;
   font-size: 0.9rem;
-  text-align: center;
-  justify-self: center;
+  text-align: left; /* Changed to left align */
+  justify-self: start;
 }
 
 .problem-difficulty.easy {
   background: #e7f6e7;
   color: #2cbb5d;
+  border: 1px solid #c8e6c9;
 }
 
 .problem-difficulty.medium {
   background: #fff7e6;
   color: #ffa116;
+  border: 1px solid #ffe0b2;
 }
 
 .problem-difficulty.hard {
   background: #ffe6e6;
   color: #ff375f;
+  border: 1px solid #ffcdd2;
+}
+
+/* Ensure no extra space when empty */
+.problem-list:empty {
+  display: none;
 }
 
 /* Responsive Design */
@@ -143,4 +152,14 @@
     font-size: 0.75rem;
     padding: 0.2rem 0.5rem;
   }
+}
+
+/* Enhanced hover effects */
+.problem-list-item {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.problem-list-item:hover {
+  transform: translateX(4px);
+  box-shadow: 2px 0 8px rgba(0, 102, 204, 0.1);
 }

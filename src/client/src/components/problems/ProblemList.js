@@ -24,20 +24,20 @@ const ProblemList = ({ problems }) => {
         <span className="header-acceptance">Acceptance</span>
       </div>
       <div className="list-content">
-        {problems.map((problem) => (
-          <ProblemListItem key={problem.id} problem={problem} />
+        {problems.map((problem, index) => (
+          <ProblemListItem key={problem.id} problem={problem} index={index} />
         ))}
       </div>
     </div>
   );
 };
 
-const ProblemListItem = ({ problem }) => {
+const ProblemListItem = ({ problem, index }) => {
   const difficultyText = getDifficultyText(problem.difficulty);
   const difficultyClass = getDifficultyClass(problem.difficulty);
 
   return (
-    <div className="problem-list-item">
+    <div className="problem-list-item" data-index={index}>
       <div className="problem-id">{problem.id}</div>
       <div className="problem-title">
         <Link to={`/problems/${problem.id}`}>{problem.title}</Link>

@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Main from "./components/layout/Main";
 import ProblemPage from "./components/problems/ProblemPage";
 import Header from "./components/layout/Header";
-import Footer from "./components/layout/Footer";
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/problems/:id" element={<ProblemPage />} />
         </Routes>
-        {/* <Footer /> */}
       </Router>
     </div>
   );
