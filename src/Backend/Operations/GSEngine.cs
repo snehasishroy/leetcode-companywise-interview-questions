@@ -21,14 +21,14 @@ namespace Backend.Operations
             this.httpClient = new HttpClient();
         }
 
-        public async Task<List<ScrappedJob>> SearchAndScrapeJobsAsync(string query)
+        public async Task<List<ScrappedJob>> SearchAndScrapeJobsAsync(string query, int nPreviousDays = 1)
         {
             var allJobs = new List<ScrappedJob>();
             int startIndex = 1, totalResults = 0;
 
             var template = $"{this.baseUrl}?key={apiKey}&cx={searchEngineId}&q={Uri.EscapeDataString(query)}";
-            template += AddLocationToQuery() + AddDateRestrictionToQuery() + AddNegativeTermToQuery() +
-                AddPositiveTermToQuery() + RemoveSiteSearchFromQuery() + AddAdditionalSearchTerms();
+            template += AddLocationToQuery() + AddDateRestrictionToQuery($"d{nPreviousDays}") + AddNegativeTermToQuery() +
+                AddPositiveTermToQuery() + AddAdditionalSearchTerms(); // + RemoveSiteSearchFromQuery()
 
             do
             {

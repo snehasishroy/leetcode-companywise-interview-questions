@@ -14,10 +14,12 @@ namespace Backend.Controllers
 
         [HttpGet]
         [Route("/jobs/search")]
-        public async Task<ActionResult<List<Models.Internal.ScrappedJob>>> SearchJobs([FromQuery(Name = "q")] string query)
+        public async Task<ActionResult<List<Models.Internal.ScrappedJob>>> SearchJobs(
+            [FromQuery(Name = "q")] string query,
+            [FromQuery(Name = "d")] int nPreviousDays)
         {
             var gsEngine = this.appContext.gsEngine;
-            var result = await gsEngine.SearchAndScrapeJobsAsync(query);
+            var result = await gsEngine.SearchAndScrapeJobsAsync(query, nPreviousDays);
             if (result != null)
             {
                 var levels = await this.appContext.aiEngine.GetJobLevelAsync(result);
