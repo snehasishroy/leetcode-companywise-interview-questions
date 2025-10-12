@@ -22,12 +22,13 @@ namespace Backend.Operations
             List<Common.Models.Problem> filteredProblems = problems;
 
             // TODO: Add tags filtering logic with company 
-            if (companies != null && companies.Count > 0)
+            if ((companies != null && companies.Count > 0) || (tags != null && tags.Count > 0))
             {
                 filteredProblems = filteredProblems.Where(
                     p => p.companies != null &&
-                    p.companies.Keys.Any(
-                        c => this.companies.Contains(c, StringComparer.OrdinalIgnoreCase))).ToList();
+                    p.companies.Any(kv =>
+                        (this.companies == null || this.companies.Count== 0 || this.companies.Contains(kv.Key, StringComparer.OrdinalIgnoreCase)) &&
+                        kv.Value.Any(t => this.tags == null || this.tags.Count == 0 || this.tags.Contains(t, StringComparer.OrdinalIgnoreCase)))).ToList();
             }
 
             if (difficulties != null && difficulties.Count > 0)

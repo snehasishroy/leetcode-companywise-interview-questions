@@ -78,6 +78,7 @@ namespace Backend.Operations
                     }
 
                     lastLoadedTime = DateTime.UtcNow;
+                    results = results.OrderBy(p => int.TryParse(p.id, out int id) ? id : -1).ToList();
                     problemsCache = results.ToDictionary(p => p.id, StringComparer.OrdinalIgnoreCase);
                     this.logger.LogInformation($"Loaded {problemsCache.Count} problems from Cosmos DB at {lastLoadedTime}");
                     break;
