@@ -25,6 +25,8 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+obj/
+ZTest/
 
 # External tool builders
 .externalToolBuilders/
