@@ -1,0 +1,146 @@
+.problem-list {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 0.5rem 0;
+}
+
+.list-header {
+  display: grid;
+  grid-template-columns: 80px 1fr 120px 100px;
+  gap: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+  font-weight: 600;
+  color: #4a5568;
+  font-size: 0.9rem;
+  align-items: center;
+}
+
+/* Explicit alignment for each column */
+.header-id {
+  text-align: left;
+  justify-self: start;
+}
+
+.header-title {
+  text-align: left;
+  justify-self: start;
+}
+
+.header-difficulty {
+  text-align: center;
+  justify-self: center;
+}
+
+.header-acceptance {
+  text-align: center;
+  justify-self: center;
+}
+
+.list-content {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.problem-list-item {
+  display: grid;
+  grid-template-columns: 80px 1fr 120px 100px;
+  gap: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid #f1f5f9;
+  transition: background-color 0.2s ease;
+  align-items: center;
+}
+
+.problem-list-item:hover {
+  background: #f7fafc;
+}
+
+.problem-list-item:last-child {
+  border-bottom: none;
+}
+
+/* Explicit alignment for each data cell */
+.problem-id {
+  color: #666;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: left;
+  justify-self: start;
+}
+
+.problem-title {
+  font-weight: 500;
+  text-align: left;
+  justify-self: start;
+}
+
+.problem-title a {
+  color: #2d3748;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  display: block;
+  width: 100%;
+}
+
+.problem-title a:hover {
+  color: #0066cc;
+}
+
+.problem-difficulty {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  justify-self: center;
+}
+
+.problem-acceptance {
+  color: #666;
+  font-size: 0.9rem;
+  text-align: center;
+  justify-self: center;
+}
+
+.problem-difficulty.easy {
+  background: #e7f6e7;
+  color: #2cbb5d;
+}
+
+.problem-difficulty.medium {
+  background: #fff7e6;
+  color: #ffa116;
+}
+
+.problem-difficulty.hard {
+  background: #ffe6e6;
+  color: #ff375f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .list-header {
+    grid-template-columns: 60px 1fr 100px;
+    padding: 0.75rem 1rem;
+  }
+  
+  .problem-list-item {
+    grid-template-columns: 60px 1fr 100px;
+    padding: 0.75rem 1rem;
+  }
+  
+  .header-acceptance,
+  .problem-acceptance {
+    display: none;
+  }
+  
+  .problem-difficulty {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+  }
+}

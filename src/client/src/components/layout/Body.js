@@ -12,6 +12,8 @@ const Body = ({
   totalPages,
   onPageChange,
   hasActiveFilters,
+  currentView,
+  onViewChange
 }) => {
   if (loading) {
     return (
@@ -39,7 +41,12 @@ const Body = ({
   return (
     <main className="body">
       <div className="body-content">
-        <ProblemGrid problems={problems} hasActiveFilters={hasActiveFilters} />
+        <ProblemGrid 
+          problems={problems} 
+          hasActiveFilters={hasActiveFilters}
+          currentView={currentView}
+          onViewChange={onViewChange}
+        />
         <Pagination
           currentPage={currentPage}
           totalPages={totalPages}

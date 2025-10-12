@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/problems/:id" element={<ProblemPage />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   );

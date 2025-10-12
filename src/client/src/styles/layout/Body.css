@@ -1,20 +1,22 @@
 .body {
   flex: 1;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
   background-color: #f5f5f5;
+  min-height: auto;
 }
 
 .body-content {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+  min-height: auto;
 }
 
 .loading {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 400px;
+  min-height: 200px;
 }
 
 .loading-spinner {
@@ -26,7 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 400px;
+  min-height: 200px;
 }
 
 .error-message {
@@ -46,9 +48,4 @@
 
 .error-message button:hover {
   background-color: #c82333;
-}
-
-/* Add to styles/layout/Body.css */
-.body-content {
-  min-height: 60vh;
 }

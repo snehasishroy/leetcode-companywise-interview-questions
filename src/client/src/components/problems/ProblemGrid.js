@@ -1,9 +1,10 @@
 import React from "react";
 import ProblemCard from "./ProblemCard";
+import ProblemList from "./ProblemList";
+import ViewToggle from "../layout/ViewToggle";
 import "../../styles/components/ProblemGrid.css";
 
-const ProblemGrid = ({ problems, hasActiveFilters }) => {
-
+const ProblemGrid = ({ problems, hasActiveFilters, currentView, onViewChange }) => {
   if (problems.length === 0) {
     return (
       <div className="no-problems">
@@ -16,10 +17,18 @@ const ProblemGrid = ({ problems, hasActiveFilters }) => {
   }
 
   return (
-    <div className="problem-grid">
-      {problems.map((problem) => (
-        <ProblemCard key={problem.id} problem={problem} />
-      ))}
+    <div className="problem-container">
+      <ViewToggle currentView={currentView} onViewChange={onViewChange} />
+      
+      {currentView === 'grid' ? (
+        <div className="problem-grid">
+          {problems.map((problem) => (
+            <ProblemCard key={problem.id} problem={problem} />
+          ))}
+        </div>
+      ) : (
+        <ProblemList problems={problems} />
+      )}
     </div>
   );
 };

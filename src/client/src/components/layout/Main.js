@@ -15,6 +15,7 @@ const Main = () => {
   });
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
+  const [currentView, setCurrentView] = useState('list'); // s states 'list' or 'grid'
 
   const PROBLEMS_PER_PAGE = 50;
 
@@ -51,8 +52,6 @@ const Main = () => {
 
   // Extract unique company names from ALL problems (initial load for dropdown)
   const companies = useMemo(() => {
-    // We need to load companies separately or keep the existing approach
-    // For now, let's keep the current implementation
     const companySet = new Set();
     problems.forEach((problem) => {
       if (problem.companies) {
@@ -90,6 +89,8 @@ const Main = () => {
         totalPages={totalPages}
         onPageChange={handlePageChange}
         hasActiveFilters={hasActiveFilters}
+        currentView={currentView}
+        onViewChange={setCurrentView}
       />
     </div>
   );
