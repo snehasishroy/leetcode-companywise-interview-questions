@@ -10,13 +10,13 @@ export const fetchProblems = async (page = 1, limit = 50, filters = {}) => {
 
   // Add filter parameters if they exist
   if (filters.company) {
-    params.append('companies', filters.company);
+    params.append('company', filters.company);
   }
   if (filters.difficulty) {
-    params.append('difficulties', filters.difficulty);
+    params.append('difficulty', filters.difficulty);
   }
   if (filters.timePeriod) {
-    params.append('tags', filters.timePeriod);
+    params.append('tag', filters.timePeriod);
   }
 
   const response = await fetch(`${API_BASE_URL}/problems?${params}`);
