@@ -198,3 +198,4 @@ README.html
 *.iml
 .idea
 .exercism
+/src/.vs
