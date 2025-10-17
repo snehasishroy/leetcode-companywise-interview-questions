@@ -7,7 +7,7 @@ namespace Backend.Operations
     using Azure.AI.Projects;
     using Azure.AI.Agents.Persistent;
     using System.Diagnostics;
-    using Backend.Models.Internal;
+    using Common.Models;
     using Newtonsoft.Json;
 
     public class AIEngine

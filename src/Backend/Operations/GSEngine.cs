@@ -1,8 +1,6 @@
 namespace Backend.Operations
 {
-    using System.Data.Common;
-    using Backend.Models.Internal;
-    using Microsoft.Azure.Cosmos.Linq;
+    using Common.Models;
     using Newtonsoft.Json;
     public class GSEngine
     {
@@ -61,14 +59,14 @@ namespace Backend.Operations
             return allJobs;
         }
 
-        public async Task<Models.Public.GSResult?> SearchRawUrlAsync(string url)
+        public async Task<GSResult?> SearchRawUrlAsync(string url)
         {
             try
             {
                 var response = await httpClient.GetAsync(url);
                 response.EnsureSuccessStatusCode();
                 var content = await response.Content.ReadAsStringAsync();
-                return JsonConvert.DeserializeObject<Models.Public.GSResult>(content);
+                return JsonConvert.DeserializeObject<GSResult>(content);
             }
             catch (Exception ex)
             {

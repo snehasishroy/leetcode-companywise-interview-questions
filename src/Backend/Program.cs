@@ -94,6 +94,9 @@ public class Program
         services.AddTransient<DataProvider>();
         #endregion
 
+        services.AddSingleton<GSEngine>();
+        services.AddSingleton<AIEngine>();
+
         var app = builder.Build();
         ILogger logger = app.Logger;
 

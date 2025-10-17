@@ -1,28 +1,33 @@
 namespace Backend.Controllers
 {
+    using Backend.Operations;
     using Microsoft.AspNetCore.Mvc;
+    using Common.Models;
 
     [ApiController]
     [Route("api")]
     public class JobSearchController : ControllerBase
     {
-        private readonly AppContext appContext;
-        public JobSearchController(AppContext appContext)
+        private readonly GSEngine gsEngine;
+        private readonly AIEngine aiEngine;
+        private readonly ILogger<JobSearchController> logger;
+        public JobSearchController(GSEngine gsEngine, AIEngine aiEngine, ILogger<JobSearchController> logger)
         {
-            this.appContext = appContext;
+            this.gsEngine = gsEngine;
+            this.aiEngine = aiEngine;
+            this.logger = logger;
         }
 
         [HttpGet]
         [Route("/jobs/search")]
-        public async Task<ActionResult<List<Models.Internal.ScrappedJob>>> SearchJobs(
+        public async Task<ActionResult<List<ScrappedJob>>> SearchJobs(
             [FromQuery(Name = "q")] string query,
             [FromQuery(Name = "d")] int nPreviousDays)
         {
-            var gsEngine = this.appContext.gsEngine;
-            var result = await gsEngine.SearchAndScrapeJobsAsync(query, nPreviousDays);
+            var result = await this.gsEngine.SearchAndScrapeJobsAsync(query, nPreviousDays);
             if (result != null)
             {
-                var levels = await this.appContext.aiEngine.GetJobLevelAsync(result);
+                var levels = await this.aiEngine.GetJobLevelAsync(result);
                 foreach (var level in levels)
                 {
                     var job = result.FirstOrDefault(j => j.jobId == level.Key);

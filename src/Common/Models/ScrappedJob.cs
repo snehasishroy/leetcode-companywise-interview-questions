@@ -1,4 +1,4 @@
-namespace Backend.Models.Internal
+namespace Common.Models
 {
     public class ScrappedJob
     {
@@ -12,7 +12,7 @@ namespace Backend.Models.Internal
         public List<string> tags { get; set; } = new List<string>();
 
         public ScrappedJob() { }
-        public ScrappedJob(Models.Public.Item item, DateTime scrappedTime)
+        public ScrappedJob(Item item, DateTime scrappedTime)
         {
             this.title = item.title;
             this.displayLink = item.displayLink;
