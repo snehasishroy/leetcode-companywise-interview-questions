@@ -1,24 +1,18 @@
 namespace Backend.Operations
 {
+    using Backend.Filters;
+    using Common.Cache;
+    using Common.Constants;
     using Common.Models;
-    using Microsoft.Azure.Cosmos;
 
     public class DataProvider
     {
-        private const int RefreshIntervalInHours = 3;
-        private CosmosClient cosmosClient;
-        private readonly IConfiguration configuration;
-        ILogger<DataProvider> logger;
-        private DateTime lastLoadedTime = DateTime.MinValue;
-        private Task backgroundRefreshTask;
-        private Dictionary<string, Problem> problemsCache = new Dictionary<string, Problem>(StringComparer.OrdinalIgnoreCase);
-
-        public DataProvider(CosmosClient client, IConfiguration configuration, ILogger<DataProvider> logger)
+        private ICache _problemCache;
+        private ILogger<DataProvider> _logger;
+        public DataProvider([FromKeyedServices(CacheConstants.ProblemCacheKey)] ICache problemCache, ILogger<DataProvider> logger)
         {
-            this.cosmosClient = client;
-            this.configuration = configuration;
-            this.logger = logger;
-            this.backgroundRefreshTask = Task.Run(() => this.StartBackgroundRefreshAsync(CancellationToken.None));
+            _problemCache = problemCache;
+            _logger = logger;
         }
 
         public async Task<List<Problem>> GetProblemsAsync(IFilter? filter = null)
@@ -43,68 +37,17 @@ namespace Backend.Operations
 
         private async Task<Dictionary<string, Problem>> GetAllProblemsAsync()
         {
-            if (problemsCache.Count == 0)
+            if (_problemCache.Contains(CacheConstants.ProblemCacheKey))
             {
-                await LoadLatestDataAsync();
-                if (problemsCache.Count == 0)
-                {
-                    this.logger.LogWarning("No problems found in the cache after loading data.");
-                }
+                _logger.LogInformation("Problem cache hit. Retrieving data from cache.");
             }
-            return problemsCache;
-        }
-
-        private async Task LoadLatestDataAsync()
-        {
-            int maxRetries = 3;
-            for(int i = 0; i < maxRetries; i++)
+            else
             {
-                try
-                {
-                    var dbId = configuration.GetValue<string>("ApplicationSettings:CosmosDbDatabaseId");
-                    var containerId = configuration.GetValue<string>("ApplicationSettings:CosmosDbContainerId");
-                    var db = cosmosClient.GetDatabase(dbId);
-                    var container = db.GetContainer(containerId);
-
-                    var query = "SELECT * FROM c";
-                    var queryDefinition = new QueryDefinition(query);
-                    var queryResultSetIterator = container.GetItemQueryIterator<ProblemSchema>(queryDefinition);
-
-                    List<Problem> results = new List<Problem>();
-                    while (queryResultSetIterator.HasMoreResults)
-                    {
-                        var response = await queryResultSetIterator.ReadNextAsync();
-                        results.AddRange(response.Select(item => new Problem(item)));
-                    }
-
-                    lastLoadedTime = DateTime.UtcNow;
-                    problemsCache = results.ToDictionary(p => p.id, StringComparer.OrdinalIgnoreCase);
-                    this.logger.LogInformation($"Loaded {problemsCache.Count} problems from Cosmos DB at {lastLoadedTime}");
-                    break;
-                }
-                catch (Exception ex)
-                {
-                    this.logger.LogError($"Error loading data from Cosmos DB. {ex}");
-                    await Task.Delay(TimeSpan.FromSeconds(2 * (i + 1)));
-                }
+                _logger.LogInformation("Problem cache miss. Loading data into cache.");
+                await _problemCache.Populate();
             }
-        }
-        
-        public async Task StartBackgroundRefreshAsync(CancellationToken cancellationToken)
-        {
-            while (!cancellationToken.IsCancellationRequested)
-            {
-                try
-                {
-                    await LoadLatestDataAsync();
-                }
-                catch (Exception ex)
-                {
-                    this.logger.LogError($"Error during background data refresh: {ex}");
-                }
-
-                await Task.Delay(TimeSpan.FromHours(RefreshIntervalInHours), cancellationToken);
-            }
+            
+            return _problemCache.Get<Dictionary<string, Problem>>(CacheConstants.ProblemCacheKey) ?? new Dictionary<string, Problem>(StringComparer.OrdinalIgnoreCase);
         }
     }
 }

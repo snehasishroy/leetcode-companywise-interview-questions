@@ -1,9 +1,13 @@
 namespace Backend;
 
-using System.Data;
 using Backend.Operations;
+using Common.Cache;
+using Common.Constants;
+using Common.Factories;
+using Common.Repositories;
 using Microsoft.Azure.Cosmos;
 using Microsoft.Extensions.Logging.ApplicationInsights;
+using System.Data;
 
 public class Program
 {
@@ -33,6 +37,7 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        var services = builder.Services;
 
         // Add services to the container.
         builder.Services.AddApplicationInsightsTelemetry();
@@ -61,12 +66,33 @@ public class Program
 
         // Register AppContext as singleton
         var config = builder.Configuration;
-        var cosmosClient = new CosmosClient(config["ApplicationSettings:CosmosDbUri"], config["ApplicationSettings:CosmosDbPrimaryKey"]);
-        builder.Services.AddSingleton<CosmosClient>(cosmosClient);
-        builder.Services.AddSingleton<DataProvider>();
-        builder.Services.AddSingleton<GSEngine>();
-        builder.Services.AddSingleton<AIEngine>();
-        builder.Services.AddSingleton<AppContext>();
+
+        #region Register Cosmos related services
+        services.AddSingleton<CosmosClient>(s =>
+        {
+            var cosmosDbUri = config[ConfigurationConstants.CosmosDBUriKey];
+            var cosmosDbAccountKey = config[ConfigurationConstants.CosmosDBAccountKey];
+            if (string.IsNullOrEmpty(cosmosDbUri) || string.IsNullOrEmpty(cosmosDbAccountKey))
+            {
+                throw new DataException("Cosmos DB configuration is missing or invalid.");
+            }
+            return new CosmosClient(cosmosDbUri, cosmosDbAccountKey);
+        });
+
+        services.AddTransient<ICosmosContainerFactory, CosmosContainerFactory>();
+        #endregion
+
+        #region Register Cache
+        services.AddKeyedSingleton<ICache, ProblemCache>(CacheConstants.ProblemCacheKey);
+        #endregion
+
+        #region Register Repositories
+        services.AddTransient<IProblemRepository, ProblemRepository>();
+        #endregion
+
+        #region Register Miscellaneous Services
+        services.AddTransient<DataProvider>();
+        #endregion
 
         var app = builder.Build();
         ILogger logger = app.Logger;
