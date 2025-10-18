@@ -1,5 +1,5 @@
 // services/api.js
-const API_BASE_URL = "http://localhost:5164/api";
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "http://default-fallback.com/api";
 
 export const fetchProblems = async (page = 1, limit = 50, filters = {}) => {
   const skip = (page - 1) * limit;
