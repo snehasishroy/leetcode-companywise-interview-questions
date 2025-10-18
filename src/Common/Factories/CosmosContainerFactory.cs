@@ -21,16 +21,24 @@ namespace Common.Factories
         public Container GetContainer(CosmosContainerEnum container)
         {
             var containerDetails = LoadContainerDetails();
+            string dbId;
+            string containerId;
             switch (container)
             {
                 case CosmosContainerEnum.ProblemsContainer:
-                    var dbId = containerDetails[container].DatabaseName;
-                    var containerId = containerDetails[container].ContainerName;
-                    var db = _cosmosClient.GetDatabase(dbId);
-                    return db.GetContainer(containerId);
+                    dbId = containerDetails[container].DatabaseName;
+                    containerId = containerDetails[container].ContainerName;
+                    break;
+                case CosmosContainerEnum.JobsContainer:
+                    dbId = "JobDataBase";
+                    containerId = "JobDetailsContainer";
+                    break;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(container), container, null);
             }
+            
+            var db = _cosmosClient.GetDatabase(dbId);
+            return db.GetContainer(containerId);
         }
 
         private Dictionary<CosmosContainerEnum, ContainerDetails> LoadContainerDetails()

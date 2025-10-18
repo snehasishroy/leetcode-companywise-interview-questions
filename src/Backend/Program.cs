@@ -96,6 +96,9 @@ public class Program
 
         services.AddSingleton<GSEngine>();
         services.AddSingleton<AIEngine>();
+        services.AddSingleton<JobsRepository>();
+        services.AddSingleton<JobScrapperSettingsManager>();
+        services.AddSingleton<JobScrapperManager>();
 
         var app = builder.Build();
         ILogger logger = app.Logger;

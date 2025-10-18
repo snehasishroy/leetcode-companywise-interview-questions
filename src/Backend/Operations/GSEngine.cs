@@ -1,6 +1,8 @@
 namespace Backend.Operations
 {
     using Common.Models;
+    using Common.Models.Public;
+    using Microsoft.AspNetCore.Mvc.ModelBinding;
     using Newtonsoft.Json;
     public class GSEngine
     {
@@ -19,14 +21,21 @@ namespace Backend.Operations
             this.httpClient = new HttpClient();
         }
 
-        public async Task<List<ScrappedJob>> SearchAndScrapeJobsAsync(string query, int nPreviousDays = 1)
+        public async Task<List<ScrappedJob>> SearchQueryAsync(JobScrapperSettings settings)
         {
+            var qsettings = settings.Settings;
             var allJobs = new List<ScrappedJob>();
             int startIndex = 1, totalResults = 0;
 
-            var template = $"{this.baseUrl}?key={apiKey}&cx={searchEngineId}&q={Uri.EscapeDataString(query)}";
-            template += AddLocationToQuery() + AddDateRestrictionToQuery($"d{nPreviousDays}") + AddNegativeTermToQuery() +
-                AddPositiveTermToQuery() + AddAdditionalSearchTerms(); // + RemoveSiteSearchFromQuery()
+            var template = $"{this.baseUrl}?key={apiKey}&cx={searchEngineId}&q={Uri.EscapeDataString(qsettings.Query)}";
+            template += AddDateRestrictionToQuery(qsettings.lookBackDays);
+
+            if (!string.IsNullOrEmpty(qsettings.ExactTerms)) template += AddExactTermsToQuery(qsettings.ExactTerms);
+            if (!string.IsNullOrEmpty(qsettings.NegativeTerms)) template += AddNegativeTermToQuery(qsettings.NegativeTerms);
+            if (!string.IsNullOrEmpty(qsettings.Location)) template += AddClientLocationToQuery(qsettings.Location);
+            if (!string.IsNullOrEmpty(qsettings.SiteToInclude)) template += AddSiteSearchToQuery(qsettings.SiteToExclude);
+            if (!string.IsNullOrEmpty(qsettings.SiteToExclude)) template += AddExcludeSiteSearchFromQuery(qsettings.SiteToExclude);
+            if (!string.IsNullOrEmpty(qsettings.AdditionalSearchterms)) template += AddAdditionalSearchTerms(qsettings.AdditionalSearchterms);
 
             do
             {
@@ -42,7 +51,7 @@ namespace Backend.Operations
                     logger.LogInformation($"No results found for query: {url}");
                     break;
                 }
-    
+
                 foreach (var item in res.items)
                 {
                     var job = new ScrappedJob(item, DateTime.UtcNow);
@@ -50,13 +59,29 @@ namespace Backend.Operations
                 }
 
                 totalResults = int.Parse(res.queries.request[0].totalResults);
-                startIndex += res.queries.request[0].count;            
+                startIndex += res.queries.request[0].count;
             }
             while (startIndex < maxResultsPerSearch && startIndex < totalResults);
 
             this.logger.LogInformation($"Fetched {allJobs.Count} jobs. Total available: {totalResults}. Using url template: {template}");
 
             return allJobs;
+        }
+
+        public async Task<List<ScrappedJob>> SearchBasicQueryAsync(string query, int nPreviousDays = 1)
+        {
+            var qsettings = new Common.Models.Public.QuerySettings
+            {
+                query = query,
+                additionalTerms = "India",
+                exactTerms = "Software Engineer",
+                negativeTerms = "Manager",
+                location = "India",
+                siteToExclude = "linkedin.com"
+            };
+            var settings = new JobScrapperSettings("basic-search", qsettings, true);
+            settings.Settings.lookBackDays = nPreviousDays;
+            return await SearchQueryAsync(settings);
         }
 
         public async Task<GSResult?> SearchRawUrlAsync(string url)
@@ -76,14 +101,14 @@ namespace Backend.Operations
             return null;
         }
 
-        private string AddLocationToQuery(string location = "in")
+        private string AddClientLocationToQuery(string location = "in")
         {
             return $"&gl={location}";
         }
 
-        private string AddDateRestrictionToQuery(string dateRestrict = "d1")
+        private string AddDateRestrictionToQuery(int previousNDays = 1)
         {
-            return $"&dateRestrict={dateRestrict}";
+            return $"&dateRestrict=d{previousNDays}";
         }
 
         private string AddNegativeTermToQuery(string phrase = "manager")
@@ -91,7 +116,7 @@ namespace Backend.Operations
             return $"&excludeTerms={Uri.EscapeDataString(phrase)}";
         }
 
-        private string AddPositiveTermToQuery(string phrase = "Software Engineer")
+        private string AddExactTermsToQuery(string phrase = "Software Engineer")
         {
             return $"&exactTerms={Uri.EscapeDataString(phrase)}";
         }
@@ -101,7 +126,7 @@ namespace Backend.Operations
             return $"&siteSearch={site}&siteSearchFilter=i";
         }
 
-        private string RemoveSiteSearchFromQuery(string site = "linkedin.com")
+        private string AddExcludeSiteSearchFromQuery(string site = "linkedin.com")
         {
             return $"&siteSearch={site}&siteSearchFilter=e";
         }

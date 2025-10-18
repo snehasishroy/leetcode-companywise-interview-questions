@@ -63,13 +63,13 @@ namespace Backend.Operations
                     var prompt = JsonConvert.SerializeObject(batch);
                     var response = await GetResponseInternalAsync(prompt);
                     sw.Stop();
-                    this.logger.LogInformation($"Processed jobs: {string.Join(",", batch.Select(j => j.jobId))} | response: {response}");
+                    this.logger.LogInformation($"Processed jobs: {string.Join(",", batch.Select(j => j.id))} | response: {response}");
                     var kvList = response.Split(",").Select(kvs => kvs.Split(":")).Where(kv => kv.Length == 2).Select(kv => new KeyValuePair<string, string>(kv[0].Trim(), kv[1].Trim())).ToList();
                     results.AddRange(kvList);
                 }
                 catch (Exception ex)
                 {
-                    this.logger.LogError($"Error processing batch: {string.Join(",", batch.Select(j => j.jobId))}  | {ex.Message}");
+                    this.logger.LogError($"Error processing batch: {string.Join(",", batch.Select(j => j.id))}  | {ex.Message}");
                 }
             }
             return results;
