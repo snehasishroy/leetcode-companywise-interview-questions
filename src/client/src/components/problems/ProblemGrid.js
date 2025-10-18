@@ -9,7 +9,7 @@ const ProblemGrid = ({
   hasActiveFilters, 
   currentView, 
   onViewChange,
-  solvedProblems 
+  solvedProblems
 }) => {
   if (problems.length === 0) {
     return (
@@ -24,7 +24,11 @@ const ProblemGrid = ({
 
   return (
     <div className="problem-container">
-      <ViewToggle currentView={currentView} onViewChange={onViewChange} />
+      <ViewToggle 
+        currentView={currentView} 
+        onViewChange={onViewChange}
+        solvedProblems={solvedProblems}
+      />
       
       {currentView === 'grid' ? (
         <div className="problem-grid">
@@ -40,7 +44,7 @@ const ProblemGrid = ({
         <div className="problem-list-container">
           <ProblemList 
             problems={problems} 
-            solvedProblems={solvedProblems} 
+            solvedProblems={solvedProblems}
           />
         </div>
       )}
