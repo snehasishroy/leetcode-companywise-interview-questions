@@ -7,5 +7,6 @@ namespace Backend.Models.Public
         public const string Difficulty = "difficulty";
         public const string Company = "company";
         public const string Tag = "tag";
+        public const string Shuffle = "shuffle";
     }
 }

@@ -34,11 +34,12 @@ namespace Backend.Controllers
         public async Task<ActionResult<IEnumerable<Problem>>> GetProblems(
             [FromQuery(Name = QueryParam.Skip)] int skip = 0,
             [FromQuery(Name = QueryParam.Limit)] int limit = 50,
+            [FromQuery(Name = QueryParam.Shuffle)] int shuffle = -1,
             [FromQuery(Name = QueryParam.Company)] List<string>? companies = null,
             [FromQuery(Name = QueryParam.Difficulty)] List<Difficulty>? difficulties = null,
             [FromQuery(Name = QueryParam.Tag)] List<string>? tags = null)
         {
-            var filter = new ProblemFilter(skip, limit, companies, difficulties, tags);
+            var filter = new ProblemFilter(skip, limit, shuffle, companies, difficulties, tags);
             var filteredProblems = await dataProvider.GetProblemsAsync(filter);
             return Ok(filteredProblems);
         }
