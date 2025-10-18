@@ -1,22 +1,22 @@
 /* styles/components/ProblemList.css */
 .problem-list {
   background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  margin: 0.5rem 0;
+  margin: 0.25rem 0;
 }
 
 .list-header {
   display: grid;
-  grid-template-columns: 80px 1fr 120px 100px;
-  gap: 1rem;
-  padding: 0.75rem 1.5rem;
+  grid-template-columns: 60px 1fr 90px 80px; /* Reduced column widths */
+  gap: 0.75rem; /* Reduced from 1rem */
+  padding: 0.5rem 1rem; /* Reduced padding */
   background: #f8fafc;
-  border-bottom: 2px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0; /* Thinner border */
   font-weight: 600;
   color: #4a5568;
-  font-size: 0.9rem;
+  font-size: 0.8rem; /* Smaller font */
   align-items: center;
 }
 
@@ -35,18 +35,18 @@
 
 .problem-list-item {
   display: grid;
-  grid-template-columns: 80px 1fr 120px 100px;
-  gap: 1rem;
-  padding: 0.75rem 1.5rem;
+  grid-template-columns: 60px 1fr 90px 80px; /* Reduced column widths */
+  gap: 0.75rem; /* Reduced from 1rem */
+  padding: 0.5rem 1rem; /* Reduced from 0.75rem 1.5rem */
   border-bottom: 1px solid #f1f5f9;
   transition: background-color 0.2s ease;
   align-items: center;
-  min-height: 60px;
+  min-height: 44px; /* Reduced from 60px */
 }
 
 /* Alternate background colors for rows */
 .problem-list-item:nth-child(even) {
-  background-color: #fafbfc;
+  background-color: #fcfcfc;
 }
 
 .problem-list-item:nth-child(odd) {
@@ -54,9 +54,9 @@
 }
 
 .problem-list-item:hover {
-  background: #f0f7ff !important; /* Override alternate colors on hover */
-  border-left: 3px solid #0066cc;
-  margin-left: -3px;
+  background: #f0f7ff !important;
+  border-left: 2px solid #0066cc; /* Thinner border */
+  margin-left: -2px;
 }
 
 .problem-list-item:last-child {
@@ -67,7 +67,7 @@
 .problem-id {
   color: #666;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 0.8rem; /* Smaller font */
   text-align: left;
   justify-self: start;
 }
@@ -84,6 +84,8 @@
   transition: color 0.2s ease;
   display: block;
   width: 100%;
+  font-size: 0.85rem; /* Smaller font */
+  line-height: 1.3;
 }
 
 .problem-title a:hover {
@@ -91,21 +93,23 @@
 }
 
 .problem-difficulty {
-  padding: 0.25rem 0.75rem;
-  border-radius: 12px;
-  font-size: 0.8rem;
-  font-weight: 500;
+  padding: 0.2rem 0.5rem; /* Reduced padding */
+  border-radius: 8px; /* Smaller radius */
+  font-size: 0.7rem; /* Smaller font */
+  font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  justify-self: start; /* Changed to left align */
+  justify-self: start;
   width: fit-content;
+  min-width: 60px; /* Ensure consistent width */
 }
 
 .problem-acceptance {
   color: #666;
-  font-size: 0.9rem;
-  text-align: left; /* Changed to left align */
+  font-size: 0.8rem; /* Smaller font */
+  text-align: left;
   justify-self: start;
+  font-weight: 500;
 }
 
 .problem-difficulty.easy {
@@ -131,16 +135,30 @@
   display: none;
 }
 
-/* Responsive Design */
+/* Compact hover effects */
+.problem-list-item {
+  transition: all 0.2s ease;
+}
+
+.problem-list-item:hover {
+  transform: translateX(2px); /* Reduced movement */
+  box-shadow: 1px 0 4px rgba(0, 102, 204, 0.1);
+}
+
+/* Responsive Design - More compact */
 @media (max-width: 768px) {
   .list-header {
-    grid-template-columns: 60px 1fr 100px;
-    padding: 0.75rem 1rem;
+    grid-template-columns: 50px 1fr 70px;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.75rem;
+    gap: 0.5rem;
   }
   
   .problem-list-item {
-    grid-template-columns: 60px 1fr 100px;
-    padding: 0.75rem 1rem;
+    grid-template-columns: 50px 1fr 70px;
+    padding: 0.4rem 0.75rem;
+    gap: 0.5rem;
+    min-height: 40px;
   }
   
   .header-acceptance,
@@ -149,17 +167,35 @@
   }
   
   .problem-difficulty {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.4rem;
+    min-width: 55px;
+  }
+  
+  .problem-title a {
+    font-size: 0.8rem;
+  }
+  
+  .problem-id {
     font-size: 0.75rem;
-    padding: 0.2rem 0.5rem;
   }
 }
 
-/* Enhanced hover effects */
-.problem-list-item {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.problem-list-item:hover {
-  transform: translateX(4px);
-  box-shadow: 2px 0 8px rgba(0, 102, 204, 0.1);
+/* Ultra-compact for very small screens */
+@media (max-width: 480px) {
+  .list-header {
+    padding: 0.3rem 0.5rem;
+    gap: 0.4rem;
+  }
+  
+  .problem-list-item {
+    padding: 0.3rem 0.5rem;
+    gap: 0.4rem;
+    min-height: 36px;
+  }
+  
+  .problem-difficulty {
+    min-width: 50px;
+    font-size: 0.6rem;
+  }
 }
