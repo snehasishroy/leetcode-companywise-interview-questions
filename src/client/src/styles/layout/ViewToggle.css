@@ -6,9 +6,26 @@
   gap: 1rem;
 }
 
+.left-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .view-toggle {
   display: flex;
   gap: 0.5rem;
+}
+
+.shuffle-control {
+  display: flex;
+  align-items: center;
 }
 
 .toggle-btn {
@@ -63,12 +80,19 @@
     gap: 0.75rem;
   }
   
-  .view-toggle {
+  .left-controls {
     justify-content: center;
+    width: 100%;
   }
   
-  .clear-all-btn {
-    order: -1; /* Move clear button to top on mobile */
+  .right-controls {
+    justify-content: space-between;
+    width: 100%;
+    order: -1; 
+  }
+  
+  .view-toggle {
+    justify-content: center;
   }
   
   .toggle-btn {
