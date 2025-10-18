@@ -4,7 +4,13 @@ import ProblemList from "./ProblemList";
 import ViewToggle from "../layout/ViewToggle";
 import "../../styles/components/ProblemGrid.css";
 
-const ProblemGrid = ({ problems, hasActiveFilters, currentView, onViewChange }) => {
+const ProblemGrid = ({ 
+  problems, 
+  hasActiveFilters, 
+  currentView, 
+  onViewChange,
+  solvedProblems 
+}) => {
   if (problems.length === 0) {
     return (
       <div className="no-problems">
@@ -23,12 +29,19 @@ const ProblemGrid = ({ problems, hasActiveFilters, currentView, onViewChange }) 
       {currentView === 'grid' ? (
         <div className="problem-grid">
           {problems.map((problem) => (
-            <ProblemCard key={problem.id} problem={problem} />
+            <ProblemCard 
+              key={problem.id} 
+              problem={problem} 
+              solvedProblems={solvedProblems}
+            />
           ))}
         </div>
       ) : (
         <div className="problem-list-container">
-          <ProblemList problems={problems} />
+          <ProblemList 
+            problems={problems} 
+            solvedProblems={solvedProblems} 
+          />
         </div>
       )}
     </div>

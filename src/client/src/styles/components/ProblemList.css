@@ -9,18 +9,19 @@
 
 .list-header {
   display: grid;
-  grid-template-columns: 60px 1fr 90px 80px; /* Reduced column widths */
-  gap: 0.75rem; /* Reduced from 1rem */
-  padding: 0.5rem 1rem; /* Reduced padding */
+  grid-template-columns: 50px 60px 1fr 90px 80px; /* Adjusted column widths */
+  gap: 0.75rem;
+  padding: 0.5rem 1rem;
   background: #f8fafc;
-  border-bottom: 1px solid #e2e8f0; /* Thinner border */
+  border-bottom: 1px solid #e2e8f0;
   font-weight: 600;
   color: #4a5568;
-  font-size: 0.8rem; /* Smaller font */
+  font-size: 0.8rem;
   align-items: center;
 }
 
-/* Left align all headers explicitly */
+/* Header alignment */
+.header-solved,
 .header-id,
 .header-title,
 .header-difficulty,
@@ -29,19 +30,30 @@
   justify-self: start;
 }
 
+.header-solved {
+  text-align: center;
+  justify-self: center;
+}
+
 .list-content {
   min-height: auto;
 }
 
 .problem-list-item {
   display: grid;
-  grid-template-columns: 60px 1fr 90px 80px; /* Reduced column widths */
-  gap: 0.75rem; /* Reduced from 1rem */
-  padding: 0.5rem 1rem; /* Reduced from 0.75rem 1.5rem */
+  grid-template-columns: 50px 60px 1fr 90px 80px; /* Adjusted column widths */
+  gap: 0.75rem;
+  padding: 0.5rem 1rem;
   border-bottom: 1px solid #f1f5f9;
-  transition: background-color 0.2s ease;
+  transition: all 0.2s ease;
   align-items: center;
-  min-height: 44px; /* Reduced from 60px */
+  min-height: 44px;
+}
+
+/* Solved row styling */
+.problem-list-item.solved {
+  background-color: #f0f9f0 !important;
+  border-left: 2px solid #10b981;
 }
 
 /* Alternate background colors for rows */
@@ -55,7 +67,7 @@
 
 .problem-list-item:hover {
   background: #f0f7ff !important;
-  border-left: 2px solid #0066cc; /* Thinner border */
+  border-left: 2px solid #0066cc;
   margin-left: -2px;
 }
 
@@ -63,11 +75,60 @@
   border-bottom: none;
 }
 
+/* Custom Checkbox Styling */
+.problem-solved {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.solved-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 2px solid #d1d5db;
+  border-radius: 4px;
+  background: white;
+  position: relative;
+  transition: all 0.2s ease;
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.solved-checkbox:checked {
+  background: #10b981;
+  border-color: #10b981;
+}
+
+.solved-checkbox:checked::before {
+  content: '✓';
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.solved-checkbox:hover {
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+}
+
+.solved-checkbox:focus {
+  outline: none;
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+}
+
 /* Left align all content cells */
 .problem-id {
   color: #666;
   font-weight: 500;
-  font-size: 0.8rem; /* Smaller font */
+  font-size: 0.8rem;
   text-align: left;
   justify-self: start;
 }
@@ -84,7 +145,7 @@
   transition: color 0.2s ease;
   display: block;
   width: 100%;
-  font-size: 0.85rem; /* Smaller font */
+  font-size: 0.85rem;
   line-height: 1.3;
 }
 
@@ -93,20 +154,20 @@
 }
 
 .problem-difficulty {
-  padding: 0.2rem 0.5rem; /* Reduced padding */
-  border-radius: 8px; /* Smaller radius */
-  font-size: 0.7rem; /* Smaller font */
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  font-size: 0.7rem;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
   justify-self: start;
   width: fit-content;
-  min-width: 60px; /* Ensure consistent width */
+  min-width: 60px;
 }
 
 .problem-acceptance {
   color: #666;
-  font-size: 0.8rem; /* Smaller font */
+  font-size: 0.8rem;
   text-align: left;
   justify-self: start;
   font-weight: 500;
@@ -141,21 +202,21 @@
 }
 
 .problem-list-item:hover {
-  transform: translateX(2px); /* Reduced movement */
+  transform: translateX(2px);
   box-shadow: 1px 0 4px rgba(0, 102, 204, 0.1);
 }
 
 /* Responsive Design - More compact */
 @media (max-width: 768px) {
   .list-header {
-    grid-template-columns: 50px 1fr 70px;
+    grid-template-columns: 40px 50px 1fr 70px; /* Hide acceptance on mobile */
     padding: 0.4rem 0.75rem;
     font-size: 0.75rem;
     gap: 0.5rem;
   }
   
   .problem-list-item {
-    grid-template-columns: 50px 1fr 70px;
+    grid-template-columns: 40px 50px 1fr 70px;
     padding: 0.4rem 0.75rem;
     gap: 0.5rem;
     min-height: 40px;
@@ -178,6 +239,15 @@
   
   .problem-id {
     font-size: 0.75rem;
+  }
+  
+  .solved-checkbox {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .solved-checkbox:checked::before {
+    font-size: 12px;
   }
 }
 
