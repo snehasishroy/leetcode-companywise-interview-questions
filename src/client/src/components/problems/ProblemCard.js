@@ -14,9 +14,14 @@ const TIME_PERIOD_LABELS = {
   all: "All Time",
 };
 
-const ProblemCard = ({ problem }) => {
+const ProblemCard = ({ problem, solvedProblems }) => {
   const difficultyText = getDifficultyText(problem.difficulty);
   const difficultyClass = getDifficultyClass(problem.difficulty);
+  const isSolved = solvedProblems.isSolved(problem.id);
+
+  const handleCheckboxChange = () => {
+    solvedProblems.toggleSolved(problem.id);
+  };
 
   const getTopCompanies = (companies) => {
     if (!companies) return [];
@@ -41,7 +46,17 @@ const ProblemCard = ({ problem }) => {
   const topCompanies = getTopCompanies(problem.companies);
 
   return (
-    <div className="problem-card">
+    <div className={`problem-card ${isSolved ? 'solved' : ''}`}>
+      {/* Checkbox in top-right corner */}
+      <div className="problem-card-checkbox">
+        <input
+          type="checkbox"
+          checked={isSolved}
+          onChange={handleCheckboxChange}
+          className="solved-checkbox"
+        />
+      </div>
+      
       <div className="problem-header">
         <h3>
           <Link to={`/problems/${problem.id}`}>{problem.title}</Link>

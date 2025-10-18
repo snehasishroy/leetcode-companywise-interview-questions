@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import { fetchProblems } from "../../services/api";
 import Nav from "./Nav";
 import Body from "./Body";
+import useSolvedProblems from "../hooks/useSolvedProblems";
 import "../../styles/layout/Main.css";
 
 const Main = () => {
@@ -15,7 +16,9 @@ const Main = () => {
   });
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
-  const [currentView, setCurrentView] = useState('list'); // s states 'list' or 'grid'
+  const [currentView, setCurrentView] = useState('list');
+  // Use the solved problems hook
+  const solvedProblems = useSolvedProblems();
 
   const PROBLEMS_PER_PAGE = 50;
 
@@ -48,7 +51,7 @@ const Main = () => {
     };
 
     loadProblems();
-  }, [currentPage, filters]); // Re-fetch when page OR filters change
+  }, [currentPage, filters]);
 
   // Extract unique company names from ALL problems (initial load for dropdown)
   const companies = useMemo(() => {
@@ -91,6 +94,7 @@ const Main = () => {
         hasActiveFilters={hasActiveFilters}
         currentView={currentView}
         onViewChange={setCurrentView}
+        solvedProblems={solvedProblems}
       />
     </div>
   );

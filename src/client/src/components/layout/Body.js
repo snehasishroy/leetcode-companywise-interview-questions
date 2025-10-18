@@ -13,7 +13,8 @@ const Body = ({
   onPageChange,
   hasActiveFilters,
   currentView,
-  onViewChange
+  onViewChange,
+  solvedProblems,
 }) => {
   if (loading) {
     return (
@@ -41,11 +42,12 @@ const Body = ({
   return (
     <main className="body">
       <div className="body-content">
-        <ProblemGrid 
-          problems={problems} 
+        <ProblemGrid
+          problems={problems}
           hasActiveFilters={hasActiveFilters}
           currentView={currentView}
           onViewChange={onViewChange}
+          solvedProblems={solvedProblems}
         />
         <Pagination
           currentPage={currentPage}
