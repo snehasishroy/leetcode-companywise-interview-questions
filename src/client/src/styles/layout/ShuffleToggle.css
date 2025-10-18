@@ -1,0 +1,80 @@
+.shuffle-toggle-container {
+  display: flex;
+  align-items: center;
+}
+
+.shuffle-toggle {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+}
+
+.shuffle-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  color: #4a5568;
+  margin: 0;
+}
+
+.shuffle-checkbox {
+  display: none;
+}
+
+.shuffle-slider {
+  width: 40px;
+  height: 20px;
+  background: #cbd5e0;
+  border-radius: 20px;
+  position: relative;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.shuffle-slider::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: white;
+  top: 2px;
+  left: 2px;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.shuffle-checkbox:checked + .shuffle-slider {
+  background: #0066cc;
+}
+
+.shuffle-checkbox:checked + .shuffle-slider::before {
+  transform: translateX(20px);
+}
+
+.shuffle-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .shuffle-toggle {
+    padding: 0.4rem;
+  }
+  
+  .shuffle-label {
+    gap: 0.4rem;
+  }
+  
+  .shuffle-text {
+    font-size: 0.75rem;
+  }
+}
