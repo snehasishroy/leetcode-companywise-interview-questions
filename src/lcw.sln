@@ -9,10 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synchronizer", "Synchronizer\Synchronizer.csproj", "{BF0FF8B1-3D65-459E-8CA1-A7C0ED4F97B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetProjectAzFunctions", "PetProjectAzFunctions\PetProjectAzFunctions.csproj", "{31C50D63-3018-4679-92FD-F080D47A32D0}"
+EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -58,5 +57,20 @@ Global
 		{BF0FF8B1-3D65-459E-8CA1-A7C0ED4F97B9}.Release|x64.Build.0 = Release|Any CPU
 		{BF0FF8B1-3D65-459E-8CA1-A7C0ED4F97B9}.Release|x86.ActiveCfg = Release|Any CPU
 		{BF0FF8B1-3D65-459E-8CA1-A7C0ED4F97B9}.Release|x86.Build.0 = Release|Any CPU
+		{31C50D63-3018-4679-92FD-F080D47A32D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C50D63-3018-4679-92FD-F080D47A32D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C50D63-3018-4679-92FD-F080D47A32D0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{31C50D63-3018-4679-92FD-F080D47A32D0}.Debug|x64.Build.0 = Debug|Any CPU
+		{31C50D63-3018-4679-92FD-F080D47A32D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{31C50D63-3018-4679-92FD-F080D47A32D0}.Debug|x86.Build.0 = Debug|Any CPU
+		{31C50D63-3018-4679-92FD-F080D47A32D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C50D63-3018-4679-92FD-F080D47A32D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C50D63-3018-4679-92FD-F080D47A32D0}.Release|x64.ActiveCfg = Release|Any CPU
+		{31C50D63-3018-4679-92FD-F080D47A32D0}.Release|x64.Build.0 = Release|Any CPU
+		{31C50D63-3018-4679-92FD-F080D47A32D0}.Release|x86.ActiveCfg = Release|Any CPU
+		{31C50D63-3018-4679-92FD-F080D47A32D0}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

@@ -1,3 +1,5 @@
+using Common.DatabaseModels;
+
 namespace Common.Models
 {
     public enum Difficulty

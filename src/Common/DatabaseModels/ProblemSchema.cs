@@ -1,30 +1,32 @@
-namespace Common.Models
+using Common.Models;
+
+namespace Common.DatabaseModels
 {
     public class ProblemSchema
     {
         public ProblemSchema() { }
         public ProblemSchema(ProblemSchema ps)
         {
-            this.id = ps.id;
-            this.title = ps.title;
-            this.url = ps.url;
-            this.difficulty = ps.difficulty;
-            this.acceptance = ps.acceptance;
-            this.frequency = ps.frequency;
-            this.companyList = new List<KeyValuePair<string, List<string>>>();
-            this.metadataList = new List<KeyValuePair<string, string>>();
+            id = ps.id;
+            title = ps.title;
+            url = ps.url;
+            difficulty = ps.difficulty;
+            acceptance = ps.acceptance;
+            frequency = ps.frequency;
+            companyList = new List<KeyValuePair<string, List<string>>>();
+            metadataList = new List<KeyValuePair<string, string>>();
         }
 
         public ProblemSchema(Problem p)
         {
-            this.id = p.id;
-            this.title = p.title;
-            this.url = p.url;
-            this.difficulty = p.difficulty;
-            this.acceptance = p.acceptance;
-            this.frequency = p.frequency;
-            this.companyList = p.companies.Select(kv => new KeyValuePair<string, List<string>>(kv.Key, kv.Value.ToList())).ToList();
-            this.metadataList = p.metadata.Select(kv => new KeyValuePair<string, string>(kv.Key, kv.Value)).ToList();
+            id = p.id;
+            title = p.title;
+            url = p.url;
+            difficulty = p.difficulty;
+            acceptance = p.acceptance;
+            frequency = p.frequency;
+            companyList = p.companies.Select(kv => new KeyValuePair<string, List<string>>(kv.Key, kv.Value.ToList())).ToList();
+            metadataList = p.metadata.Select(kv => new KeyValuePair<string, string>(kv.Key, kv.Value)).ToList();
         }
 
         public string id { get; set; } = string.Empty;
