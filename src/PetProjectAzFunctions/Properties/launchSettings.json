@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "PetProjectAzFunctions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7149"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 31027,
+      "useSSL": false
+    }
+  }
+}

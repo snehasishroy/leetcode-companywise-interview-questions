@@ -1,6 +1,7 @@
 namespace Backend.Operations
 {
     using Backend.Filters;
+    using Common;
     using Common.Cache;
     using Common.Constants;
     using Common.Models;
@@ -15,7 +16,7 @@ namespace Backend.Operations
             _logger = logger;
         }
 
-        public async Task<List<Problem>> GetProblemsAsync(IFilter? filter = null)
+        public async Task<List<Problem>> GetProblemsAsync(IFilter<Problem>? filter = null)
         {
             var allProblems = await GetAllProblemsAsync();
             if (filter != null)

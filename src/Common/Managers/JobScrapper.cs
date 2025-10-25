@@ -1,23 +1,30 @@
-namespace Backend.Operations
+namespace Common.Managers
+
 {
-    using Common.Models;
+    using Common.DatabaseModels;
+    using Common.Engines;
     using Common.Repositories;
+    using Microsoft.Extensions.Logging;
 
     public class JobScrapper
     {
         private JobScrapperSettings settings;
         private GSEngine gsEngine;
         private AIEngine aiEngine;
-        private JobsRepository jobsContainer;
+        private JobsRepository jobsRepository;
         private ILogger logger;
 
-        public JobScrapper(JobScrapperSettings settings, GSEngine gsEngine, AIEngine aiEngine, JobsRepository jobsRepo, ILogger logger)
+        public JobScrapper(GSEngine gsEngine, AIEngine aiEngine, JobsRepository jobsRepo, ILogger logger)
         {
             this.logger = logger;
             this.gsEngine = gsEngine;
             this.aiEngine = aiEngine;
+            this.jobsRepository = jobsRepo;
+        }
+
+        public void ConfigureSettings(JobScrapperSettings settings)
+        {
             this.settings = settings;
-            this.jobsContainer = jobsRepo;
         }
 
         public async Task RunAsync()
@@ -49,7 +56,7 @@ namespace Backend.Operations
 
             foreach (var job in searchResults)
             {
-                var success = await this.jobsContainer.CreateOrUpdateJobAsync(job);
+                var success = await this.jobsRepository.CreateIfNotExistsAsync(job);
                 if (!success)
                 {
                     this.logger.LogError($"Failed to push job {job.id} to JobsRepository.");

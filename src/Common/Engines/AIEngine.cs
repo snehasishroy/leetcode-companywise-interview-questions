@@ -1,4 +1,4 @@
-namespace Backend.Operations
+namespace Common.Engines
 {
     using Azure;
     using Azure.AI;
@@ -7,8 +7,10 @@ namespace Backend.Operations
     using Azure.AI.Projects;
     using Azure.AI.Agents.Persistent;
     using System.Diagnostics;
-    using Common.Models;
     using Newtonsoft.Json;
+    using Microsoft.Extensions.Logging;
+    using Microsoft.Extensions.Configuration;
+    using Common.DatabaseModels;
 
     public class AIEngine
     {
@@ -79,51 +81,52 @@ namespace Backend.Operations
         {
             if (!IsReady())
             {
-                this.logger.LogError($"AIEngine is not properly initialized. Given input: {input}");
-                throw new InvalidOperationException("AIEngine is not properly initialized.");
+                logger.LogError($"AIEngine is not properly initialized. Input: {input}");
+                throw new InvalidOperationException("AIEngine not initialized.");
             }
 
-            PersistentAgentThread thread = agentsClient.Threads.CreateThread();
-            
-            PersistentThreadMessage messageResponse = agentsClient.Messages.CreateMessage(
-                thread.Id,
-                MessageRole.User,
-                input);
+            var threadResponse = await agentsClient.Threads.CreateThreadAsync();
+            var thread = threadResponse.Value;
 
-            ThreadRun run = agentsClient.Runs.CreateRun(
-                thread.Id,
-                agent.Id);
-
-            // Poll until the run reaches a terminal status
-            do
+            try
             {
-                await Task.Delay(TimeSpan.FromMilliseconds(500));
-                run = agentsClient.Runs.GetRun(thread.Id, run.Id);
-            }
-            while (run.Status == RunStatus.Queued
-                || run.Status == RunStatus.InProgress);
-            if (run.Status != RunStatus.Completed)
-            {
-                this.logger.LogError($"Run failed or was canceled. ThreadId: {thread.Id} Last error: {run.LastError?.Message}");
-                throw new InvalidOperationException($"Run failed or was canceled: {run.LastError?.Message}");
-            }
+                await agentsClient.Messages.CreateMessageAsync(thread.Id, MessageRole.User, input);
+                var runResponse = await agentsClient.Runs.CreateRunAsync(thread.Id, agent.Id);
+                var run = runResponse.Value;
 
-            Pageable<PersistentThreadMessage> messages = agentsClient.Messages.GetMessages(
-                thread.Id, order: ListSortOrder.Ascending);
-
-            string response = string.Empty;
-            PersistentThreadMessage lastThreadMessage = messages.Last();
-
-            foreach (MessageContent contentItem in lastThreadMessage.ContentItems)
-            {
-                if (contentItem is MessageTextContent textItem)
+                // Poll until terminal state
+                do
                 {
-                    response += textItem.Text;
+                    await Task.Delay(500);
+                    run = await agentsClient.Runs.GetRunAsync(thread.Id, run.Id);
                 }
-            }
+                while (run.Status == RunStatus.Queued || run.Status == RunStatus.InProgress);
 
-            agentsClient.Threads.DeleteThread(thread.Id);
-            return response;
+                if (run.Status != RunStatus.Completed)
+                {
+                    logger.LogError($"Run failed. ThreadId={thread.Id}, Error={run.LastError?.Message}");
+                    throw new InvalidOperationException($"Run failed: {run.LastError?.Message}");
+                }
+
+                // Fetch all messages in ascending order
+                var messages = agentsClient.Messages.GetMessagesAsync(thread.Id, order: ListSortOrder.Ascending);
+
+                string response = string.Empty;
+                PersistentThreadMessage lastThreadMessage = messages.ToBlockingEnumerable().Last(); 
+                foreach (MessageContent contentItem in lastThreadMessage.ContentItems) 
+                { 
+                    if (contentItem is MessageTextContent textItem) 
+                    {
+                        response += textItem.Text; 
+                    } 
+                }
+
+                return response;
+            }
+            finally
+            {
+                await agentsClient.Threads.DeleteThreadAsync(thread.Id);
+            }
         }
-    }    
+    }
 }

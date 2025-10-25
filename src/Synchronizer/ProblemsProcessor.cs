@@ -1,5 +1,6 @@
 using Microsoft.Azure.Cosmos;
 using Common.Models;
+using Common.DatabaseModels;
 
 namespace Synchronizer;
 
