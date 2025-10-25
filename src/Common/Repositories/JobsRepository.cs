@@ -86,6 +86,15 @@ namespace Common.Repositories
             }
         }
 
+        public async Task<List<ScrappedJob>> GetJobsEasyQueryAsync(string location, string level)
+        {
+            var query = "SELECT * FROM c WHERE EXISTS ( SELECT VALUE t FROM t IN c.tags WHERE CONTAINS(LOWER(t), @location) OR CONTAINS(LOWER(t), @unknown) ) ORDER BY c.scrappedTime DESC OFFSET 0 LIMIT 1000";
+            var queryDefinition = new QueryDefinition(query).WithParameter("@location", location.ToLower()).WithParameter("@unknown", "unknown");
+            var res = await QueryJobsAsync(queryDefinition);
+            res = res.Where(j => j.tags.Any(t => t.Equals(level, StringComparison.OrdinalIgnoreCase))).ToList();
+            return res;
+        }
+
 
         private async Task<List<ScrappedJob>> QueryJobsAsync(string query)
         {

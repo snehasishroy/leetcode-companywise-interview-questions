@@ -17,7 +17,7 @@ namespace Common.DatabaseModels
         public List<string> exactTerms { get; set; }
         public List<string> negativeTerms { get; set; }
         public int lookBackDays { get; set; } = 1;
-        public List<string> additionalSearchterms { get; set; }
+        public List<string> additionalSearchTerms { get; set; }
 
         public QuerySettings(PublicSettingsModel qs)
         {
@@ -27,7 +27,7 @@ namespace Common.DatabaseModels
             sitesToExclude = qs.sitesToExclude;
             exactTerms = qs.exactTerms;
             negativeTerms = qs.negativeTerms;
-            additionalSearchterms = qs.additionalTerms;
+            additionalSearchTerms = qs.additionalSearchTerms;
         }
     }
 }

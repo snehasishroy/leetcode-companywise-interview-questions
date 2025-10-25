@@ -83,9 +83,9 @@ namespace Common.Engines
             }
 
             // Additional terms (hq)
-            if (qsettings.additionalSearchterms != null && qsettings.additionalSearchterms.Any())
+            if (qsettings.additionalSearchTerms != null && qsettings.additionalSearchTerms.Any())
             {
-                var add = string.Join(" ", qsettings.additionalSearchterms.Where(s => !string.IsNullOrWhiteSpace(s)));
+                var add = string.Join(" ", qsettings.additionalSearchTerms.Where(s => !string.IsNullOrWhiteSpace(s)));
                 if (!string.IsNullOrWhiteSpace(add)) sb.Append(AddadditionalSearchterms(add));
             }
 

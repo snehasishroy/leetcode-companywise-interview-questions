@@ -40,13 +40,21 @@ namespace Common.Managers
                 return;
             }
 
-            var mp = searchResults.ToDictionary(j => j.id, j => j);
+            var mp = new Dictionary<string, ScrappedJob>(StringComparer.OrdinalIgnoreCase);
+            foreach (var job in searchResults)
+            {
+                if (!mp.ContainsKey(job.id))
+                {
+                    mp[job.id] = job;
+                }
+            }
+            
             var levels = await this.aiEngine.GetJobLevelAsync(searchResults);
             foreach (var level in levels)
             {
                 if (mp.ContainsKey(level.Key))
                 {
-                    mp[level.Key].tags.Add(level.Value);
+                    mp[level.Key].tags.AddRange(level.Value.Split("-"));
                 }
                 else
                 {

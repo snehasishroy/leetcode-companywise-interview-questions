@@ -25,51 +25,36 @@ namespace Common.Managers
                 throw new ArgumentNullException(nameof(publicSettings), "Public settings cannot be null");
             }
 
-            var settingsInDb = _scrapperSettingsContainer.GetItemQueryIterator<JobScrapperSettings>($"SELECT TOP 1* from ScraperSettingsContainer where Id = {id}");
-
-            int count = 0;
-            var existingSettingsList = new List<JobScrapperSettings>();
-            var returnSettings = default(JobScrapperSettings);
-            while (settingsInDb.HasMoreResults)
+            var settingsInDb =  await this.GetAllSettings();
+            JobScrapperSettings current = null;
+            if(!string.IsNullOrEmpty(id) && settingsInDb.Any(s => s.id.Equals(id, StringComparison.OrdinalIgnoreCase)))
             {
-                var response = await settingsInDb.ReadNextAsync();
-                existingSettingsList.AddRange(response);
+                current = settingsInDb.First(s => s.id.Equals(id, StringComparison.OrdinalIgnoreCase));
             }
 
-            if(count > 0)
+            if (current != null)
             {
-                var existingSettings = existingSettingsList[0];
-                existingSettings.UpdateFromPublicModel(publicSettings);
-                await _scrapperSettingsContainer.ReplaceItemAsync<JobScrapperSettings>(
-                    existingSettings,
-                    existingSettings.id
-                    );
-                returnSettings =  existingSettings;
+                current.UpdateFromPublicModel(publicSettings);
             }
             else
-            {
-                id = Guid.NewGuid().ToString();
-                returnSettings = await _scrapperSettingsContainer.CreateItemAsync<JobScrapperSettings>(
-                    new JobScrapperSettings(
-                        id,
-                        publicSettings.name,
-                        publicSettings.runIntervalInMinutes,
-                        publicSettings.settings,
-                        true)
-                    );
+            {   // TODO: Restrict total number of settings to 5
+                if (settingsInDb.Count >= 5)
+                {
+                    throw new InvalidOperationException("[TooManySettings]: Cannot create more than 5 scrapper settings.");
+                }
+                current = new JobScrapperSettings(id, publicSettings.name, publicSettings.runIntervalInMinutes, publicSettings.settings, true);
             }
-
-            return returnSettings;
+            
+            await _scrapperSettingsContainer.UpsertItemAsync<JobScrapperSettings>(current);
+            return current;
         }
 
         public async Task<JobScrapperSettings> GetSettingsById(string id)
         {
-            var setting = await _scrapperSettingsContainer.ReadItemAsync<JobScrapperSettings>(
-                id,
-                new PartitionKey(id)
-                );
+            var allSettings = await GetAllSettings();
+            var setting = allSettings.FirstOrDefault(s => s.id.Equals(id, StringComparison.OrdinalIgnoreCase));
 
-            if(setting == null)
+            if (setting == null)
             {
                 _logger.LogError($"No JobScrapperSettings found with id: {id}");
                 throw new KeyNotFoundException($"No JobScrapperSettings found with id: {id}");
@@ -77,10 +62,25 @@ namespace Common.Managers
 
             return setting;
         }
+        
+        public async Task<bool> UpdateSettingsAsync(string id, JobScrapperSettings jobSetting)
+        {
+            try
+            {
+                await _scrapperSettingsContainer.UpsertItemAsync<JobScrapperSettings>(jobSetting, new PartitionKey(id));
+                _logger.LogInformation($"Successfully updated JobScrapperSettings with id: {id}");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error updating JobScrapperSettings with id: {id}. Exception: {ex.Message}");
+                return false;
+            }
+            return true;
+        }
 
         public async Task<List<JobScrapperSettings>> GetAllSettings()
         {
-            var settingsInDb = _scrapperSettingsContainer.GetItemQueryIterator<JobScrapperSettings>($"SELECT * from ScraperSettingsContainer");
+            var settingsInDb = _scrapperSettingsContainer.GetItemQueryIterator<JobScrapperSettings>($"SELECT * from c");
             var allSettings = new List<JobScrapperSettings>();
             while (settingsInDb.HasMoreResults)
             {

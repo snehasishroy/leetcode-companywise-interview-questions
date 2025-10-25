@@ -102,6 +102,7 @@ public class Program
         services.AddSingleton<AIEngine>();
         services.AddSingleton<JobsRepository>();
         services.AddSingleton<JobScrapperSettingsManager>();
+        services.AddSingleton<ScrapperRunner>();
 
         var app = builder.Build();
         ILogger logger = app.Logger;

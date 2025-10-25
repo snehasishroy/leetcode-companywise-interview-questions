@@ -68,7 +68,7 @@ namespace Common.DatabaseModels
                     sitesToExclude = this.settings.sitesToExclude,
                     exactTerms = this.settings.exactTerms,
                     negativeTerms = this.settings.negativeTerms,
-                    additionalTerms = this.settings.additionalSearchterms,
+                    additionalSearchTerms = this.settings.additionalSearchTerms,
                     lookBackDays = this.settings.lookBackDays
                 }
             };

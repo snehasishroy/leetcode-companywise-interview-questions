@@ -9,14 +9,14 @@ using Microsoft.AspNetCore.Mvc;
 namespace Backend.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/jobs/scrappers")]
     public class ScrapperSettingsController : ControllerBase
     {
         private readonly JobScrapperSettingsManager _settingsManager;
 
         private readonly ILogger<JobSearchController> _logger;
 
-        public ScrapperSettingsController( JobScrapperSettingsManager jobScrapperSettingsManager,
+        public ScrapperSettingsController(JobScrapperSettingsManager jobScrapperSettingsManager,
             ILogger<JobSearchController> logger)
         {
             _settingsManager = jobScrapperSettingsManager;
@@ -24,7 +24,7 @@ namespace Backend.Controllers
         }
 
         [HttpGet]
-        [Route("jobs/scrappers")]
+        [Route("")]
         public async Task<ActionResult<List<JobScrapperSettings>>> GetAllJobScrappers()
         {
             // Placeholder implementation for getting all scrappers
@@ -32,23 +32,29 @@ namespace Backend.Controllers
         }
 
         [HttpPut]
-        [Route("jobs/scrappers/{id}")]
+        [Route("{id}")]
         public async Task<ActionResult<JobScrapperSettings>> UpdateJobScrapperSettings(string id, [FromBody] ScrapperSettings settings)
         {
-            // Placeholder implementation for updating scrapper settings
-            return Ok(await _settingsManager.CreateOrUpdateSettings(id, settings));
+            try
+            {
+                return Ok(await _settingsManager.CreateOrUpdateSettings(id, settings));
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpPost]
-        [Route("jobs/scrappers/Add")]
+        [Route("add")]
         public async Task<ActionResult<JobScrapperSettings>> CreateNewJobScrapperSettings([FromBody] ScrapperSettings settings)
         {
-            // Placeholder implementation for updating scrapper settings
-            return Ok(await _settingsManager.CreateOrUpdateSettings(string.Empty, settings));
+            return BadRequest("Use PUT api/jobs/scrappers/{id} to create or update scrapper settings.");
+            // return Ok(await _settingsManager.CreateOrUpdateSettings(string.Empty, settings));
         }
 
         [HttpGet]
-        [Route("jobs/scrappers/{id}")]
+        [Route("{id}")]
         public async Task<ActionResult<JobScrapperSettings>> GetJobScrapperSettings(string id)
         {
             // Placeholder implementation for getting scrapper settings

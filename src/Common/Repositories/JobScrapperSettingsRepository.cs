@@ -26,7 +26,7 @@ namespace Common.Repositories
 
         public async Task<List<JobScrapperSettings>> GetAllSettings()
         {
-            var settingsInDb = _scrapperSettingsContainer.GetItemQueryIterator<JobScrapperSettings>($"SELECT * from JobScrapperSettings");
+            var settingsInDb = _scrapperSettingsContainer.GetItemQueryIterator<JobScrapperSettings>($"SELECT * from c");
             var allSettings = new List<JobScrapperSettings>();
             while (settingsInDb.HasMoreResults)
             {

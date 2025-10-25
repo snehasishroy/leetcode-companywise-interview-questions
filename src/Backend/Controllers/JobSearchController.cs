@@ -11,7 +11,7 @@ namespace Backend.Controllers
     using Common.DatabaseModels;
 
     [ApiController]
-    [Route("api")]
+    [Route("api/jobs")]
     public class JobSearchController : ControllerBase
     {
         private readonly JobsRepository jobsRepository;
@@ -23,28 +23,30 @@ namespace Backend.Controllers
         }
 
         [HttpPost]
-        [Route("jobs/search")]
+        [Route("search")]
         public async Task<ActionResult<List<ScrappedJob>>> SearchJobs([FromBody] JobQuery jobquery)
         {
             return Ok(await jobsRepository.GetJobsFromQuery(jobquery));
         }
 
         [HttpGet]
-        [Route("jobs/latest")]
-        public async Task<ActionResult<string>> GetLatestJobsFromDb()
+        [Route("latest")]
+        public async Task<ActionResult<string>> GetLatestJobsFromDb(
+            [FromQuery] string location = "India",
+            [FromQuery] string level = "Mid")
         {
-            return Ok(await this.jobsRepository.GetAllLatestJobsAsync());
+            return Content(JobListView.RenderScrappedJobsHtml(await this.jobsRepository.GetJobsEasyQueryAsync(location, level)), "text/html");
         }
 
         [HttpGet]
-        [Route("jobs/lastOneDay")]
+        [Route("lastOneDay")]
         public async Task<ActionResult<string>> GetLastOneDayJobsFromDb()
         {
             return Ok(await this.jobsRepository.GetAllJobsInLastOneDay());
         }
 
         [HttpGet]
-        [Route("jobs/profile/{id}")]
+        [Route("profile/{id}")]
         public async Task<ActionResult<string>> GetJobById(string id)
         {
             var job = await this.jobsRepository.GetJobByIdAsync(id);
