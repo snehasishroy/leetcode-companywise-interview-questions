@@ -14,6 +14,9 @@ namespace Common.Constants
         public const string ApplicationSettings = "ApplicationSettings";
         public const string LCProjectContainerNameKey = "LCProject:ContainerName";
         public const string LCProjectDatabaseNameKey = "LCProject:DatabaseName";
+        public const string JobsProjectContainerNameKey = "JobProject:ContainerName";
+        public const string JobsScraperSettingsContainerNameKey = "JobProject:ScraperContainerName";
+        public const string JobsProjectDatabaseNameKey = "JobProject:DatabaseName";
         #endregion
     }
 }

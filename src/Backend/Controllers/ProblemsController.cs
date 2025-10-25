@@ -1,7 +1,7 @@
 namespace Backend.Controllers
 {
     using Backend.Filters;
-    using Backend.Models.Public;
+    using Common.Models.Public;
     using Backend.Operations;
     using Common.Models;
     using Microsoft.AspNetCore.Mvc;

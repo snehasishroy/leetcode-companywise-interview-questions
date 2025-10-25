@@ -3,7 +3,9 @@ namespace Backend;
 using Backend.Operations;
 using Common.Cache;
 using Common.Constants;
+using Common.Engines;
 using Common.Factories;
+using Common.Managers;
 using Common.Repositories;
 using Microsoft.Azure.Cosmos;
 using Microsoft.Extensions.Logging.ApplicationInsights;
@@ -59,12 +61,14 @@ public class Program
         {
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen(c =>
+            {
+                c.CustomSchemaIds(type => type.FullName);
+            });
 
             builder.Logging.AddConsole();
         }
 
-        // Register AppContext as singleton
         var config = builder.Configuration;
 
         #region Register Cosmos related services
@@ -93,6 +97,12 @@ public class Program
         #region Register Miscellaneous Services
         services.AddTransient<DataProvider>();
         #endregion
+
+        services.AddSingleton<GSEngine>();
+        services.AddSingleton<AIEngine>();
+        services.AddSingleton<JobsRepository>();
+        services.AddSingleton<JobScrapperSettingsManager>();
+        services.AddSingleton<ScrapperRunner>();
 
         var app = builder.Build();
         ILogger logger = app.Logger;

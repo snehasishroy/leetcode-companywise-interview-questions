@@ -1,4 +1,4 @@
-namespace Backend.Models.Public
+namespace Common.Models.Public
 {
     public class QueryParam
     {

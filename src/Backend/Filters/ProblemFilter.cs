@@ -1,8 +1,9 @@
+using Common;
 using Common.Models;
 
 namespace Backend.Filters
 {
-    public class ProblemFilter : IFilter
+    public class ProblemFilter : IFilter<Problem>
     {
         private int skip = 0;
         private int limit = 50;

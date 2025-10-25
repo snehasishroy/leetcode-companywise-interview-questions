@@ -1,4 +1,5 @@
-﻿using Common.Enums;
+﻿using Common.DatabaseModels;
+using Common.Enums;
 using Common.Factories;
 using Common.Models;
 using Microsoft.Azure.Cosmos;

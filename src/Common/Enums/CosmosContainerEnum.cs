@@ -8,6 +8,8 @@ namespace Common.Enums
 {
     public enum CosmosContainerEnum
     {
-        ProblemsContainer
+        ProblemsContainer,
+        JobsContainer,
+        ScrapperSettingsContainer
     }
 }
