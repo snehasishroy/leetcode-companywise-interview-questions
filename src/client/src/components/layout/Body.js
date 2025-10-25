@@ -13,7 +13,9 @@ const Body = ({
   onPageChange,
   hasActiveFilters,
   currentView,
-  onViewChange
+  onViewChange,
+  solvedProblems,
+  shuffleState
 }) => {
   if (loading) {
     return (
@@ -46,6 +48,8 @@ const Body = ({
           hasActiveFilters={hasActiveFilters}
           currentView={currentView}
           onViewChange={onViewChange}
+          solvedProblems={solvedProblems}
+          shuffleState={shuffleState}
         />
         <Pagination
           currentPage={currentPage}

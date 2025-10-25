@@ -1,12 +1,30 @@
+/* styles/components/ProblemCard.css */
 .problem-card {
   background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-  padding: 1.25rem; /* Reduced from 1.75rem */
+  padding: 1.25rem;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(255, 255, 255, 0.8);
   position: relative;
   overflow: hidden;
+}
+
+/* Solved state for grid cards */
+.problem-card.solved {
+  background: linear-gradient(135deg, #f0f9f0 0%, #e8f5e8 100%);
+  border-left: 4px solid #10b981;
+}
+
+.problem-card.solved::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #10b981, #34d399);
+  transform: scaleX(1);
 }
 
 .problem-card::before {
@@ -22,28 +40,79 @@
 }
 
 .problem-card:hover {
-  transform: translateY(-2px); /* Reduced from -4px */
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12); /* Reduced shadow */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
 .problem-card:hover::before {
   transform: scaleX(1);
 }
 
+/* Checkbox positioning in grid cards */
+.problem-card-checkbox {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10;
+}
+
+/* Custom Checkbox Styling for Grid */
+.problem-card .solved-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 2px solid #d1d5db;
+  border-radius: 4px;
+  background: white;
+  position: relative;
+  transition: all 0.2s ease;
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.problem-card .solved-checkbox:checked {
+  background: #10b981;
+  border-color: #10b981;
+}
+
+.problem-card .solved-checkbox:checked::before {
+  content: '✓';
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.problem-card .solved-checkbox:hover {
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+}
+
+.problem-card .solved-checkbox:focus {
+  outline: none;
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+}
+
 .problem-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 1rem; /* Reduced from 1.25rem */
+  margin-bottom: 1rem;
   gap: 1rem;
+  padding-right: 30px; /* Make space for checkbox */
 }
 
 .problem-header h3 {
   margin: 0;
-  font-size: 1.1rem; /* Slightly smaller */
+  font-size: 1.1rem;
   flex: 1;
   font-weight: 600;
-  line-height: 1.3; /* Tighter line height */
+  line-height: 1.3;
 }
 
 .problem-header a {
@@ -79,9 +148,9 @@
 }
 
 .difficulty {
-  padding: 0.3rem 0.8rem; /* Slightly smaller */
+  padding: 0.3rem 0.8rem;
   border-radius: 20px;
-  font-size: 0.75rem; /* Smaller font */
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -110,9 +179,9 @@
 
 .problem-stats {
   display: flex;
-  gap: 1rem; /* Reduced from 1.5rem */
-  margin-bottom: 1rem; /* Reduced from 1.25rem */
-  font-size: 0.85rem; /* Slightly smaller */
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
 }
 
 .problem-stats span {
@@ -148,16 +217,16 @@
 
 .problem-companies {
   border-top: 1px solid #e2e8f0;
-  padding-top: 1rem; /* Reduced from 1.25rem */
-  margin-top: 0.75rem; /* Reduced from 1rem */
+  padding-top: 1rem;
+  margin-top: 0.75rem;
 }
 
 .problem-companies small {
   display: block;
-  margin-bottom: 0.5rem; /* Reduced from 0.75rem */
+  margin-bottom: 0.5rem;
   color: #718096;
   font-weight: 600;
-  font-size: 0.75rem; /* Smaller */
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -165,17 +234,17 @@
 .company-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem; /* Reduced from 0.6rem */
+  gap: 0.5rem;
 }
 
 .company-tag {
   background: linear-gradient(135deg, #ffffff, #f7fafc);
-  padding: 0.4rem 0.8rem; /* Reduced padding */
+  padding: 0.4rem 0.8rem;
   border-radius: 10px;
-  font-size: 0.75rem; /* Smaller */
+  font-size: 0.75rem;
   display: flex;
   align-items: center;
-  gap: 0.3rem; /* Reduced gap */
+  gap: 0.3rem;
   border: 1px solid #e2e8f0;
   transition: all 0.2s ease;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -185,7 +254,7 @@
 
 .company-tag:hover {
   transform: translateY(-1px);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   border-color: #ffa116;
   background: linear-gradient(135deg, #fffaf0, #fffbeb);
 }
@@ -196,7 +265,7 @@
 }
 
 .recent-indicator {
-  font-size: 0.65rem; /* Smaller */
+  font-size: 0.65rem;
   animation: pulse 2s infinite;
 }
 
@@ -214,18 +283,19 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .problem-card {
-    padding: 1rem; /* Reduced from 1.25rem */
-    margin: 0.25rem; /* Reduced from 0.5rem */
+    padding: 1rem;
+    margin: 0.25rem;
   }
   
   .problem-header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.5rem; /* Reduced from 0.75rem */
+    gap: 0.5rem;
+    padding-right: 0;
   }
   
   .problem-header h3 {
-    font-size: 1rem; /* Smaller on mobile */
+    font-size: 1rem;
     padding-right: 0;
   }
   
@@ -235,7 +305,7 @@
   
   .problem-stats {
     flex-direction: column;
-    gap: 0.25rem; /* Reduced from 0.5rem */
+    gap: 0.25rem;
   }
   
   .problem-stats span::before {
@@ -243,12 +313,26 @@
   }
   
   .company-tags {
-    gap: 0.3rem; /* Reduced from 0.4rem */
+    gap: 0.3rem;
   }
   
   .company-tag {
-    padding: 0.3rem 0.6rem; /* Smaller on mobile */
-    font-size: 0.7rem; /* Smaller on mobile */
+    padding: 0.3rem 0.6rem;
+    font-size: 0.7rem;
+  }
+  
+  .problem-card-checkbox {
+    top: 8px;
+    right: 8px;
+  }
+  
+  .problem-card .solved-checkbox {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .problem-card .solved-checkbox:checked::before {
+    font-size: 12px;
   }
 }
 
@@ -256,7 +340,7 @@
 @keyframes cardEntrance {
   from {
     opacity: 0;
-    transform: translateY(10px); /* Reduced from 20px */
+    transform: translateY(10px);
   }
   to {
     opacity: 1;
