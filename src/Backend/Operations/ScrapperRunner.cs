@@ -1,4 +1,5 @@
 using System.Collections.Concurrent;
+using System.Dynamic;
 using System.Text;
 using Common.Engines;
 using Common.Managers;
@@ -17,10 +18,12 @@ namespace Backend.Operations
         private ConcurrentBag<string> enabledScrappers = new ConcurrentBag<string>();
         private TimeSpan runInterval = TimeSpan.FromHours(3);
         private CancellationTokenSource cts = new CancellationTokenSource();
-        private Task backgroundTask = null;
-        public string CurrentState { get; private set; } = "Stopped";
+        private Task? backgroundTask = null;
+        public string CurrentState => backgroundTask != null && !backgroundTask.IsCompleted ? "Running" : "Stopped";
+
         private string LastError = string.Empty;
         private DateTime lastRunTime = DateTime.MinValue;
+        private ConcurrentDictionary<string, string> lastRunResults = new ConcurrentDictionary<string, string>();
 
         public ScrapperRunner(ILogger<ScrapperRunner> logger, JobScrapperSettingsManager settingsManager, GSEngine gSEngine, AIEngine aIEngine, JobsRepository jobsRepository)
         {
@@ -51,6 +54,7 @@ namespace Backend.Operations
             if (settings == null)
             {
                 logger.LogWarning($"Scrapper settings not found for id: {scrapperId}. Skipping scrapper run.");
+                this.lastRunResults[scrapperId] = $"[{DateTime.Now}] Settings not found.";
                 return;
             }
 
@@ -58,9 +62,10 @@ namespace Backend.Operations
             {
                 var scrapper = new JobScrapper(gsEngine, aiEngine, jobsRepository, logger);
                 scrapper.ConfigureSettings(settings);
-                await scrapper.RunAsync();
-                logger.LogInformation($"Scrapper run completed for id: {scrapperId}");
+                var res = await scrapper.RunAsync();
+                logger.LogInformation($"Scrapper run completed for id: {scrapperId} | Results: {res}");
                 settings.lastRunTime = DateTime.UtcNow;
+                this.lastRunResults[scrapperId] = $"[{DateTime.Now}] {res}";
                 await this.settingsManager.UpdateSettingsAsync(scrapperId, settings);
             }
             catch (Exception ex)
@@ -76,7 +81,6 @@ namespace Backend.Operations
             {
                 cts = new CancellationTokenSource();
                 backgroundTask = RunInBackgroundAsync(cts.Token);
-                this.CurrentState = "Running";
             }
         }
 
@@ -85,32 +89,41 @@ namespace Backend.Operations
             if (cts != null && !cts.IsCancellationRequested)
             {
                 cts.Cancel();
-                this.CurrentState = "Stopped";
             }
         }
 
-        public string GetStatus()
-        {
-            var sb = new StringBuilder();
-            sb.Append($"CurrentState: {this.CurrentState}\n");
-            sb.Append($"AI Engine Ready: {this.aiEngine.IsReady()}\n");
-            sb.Append($"Run Interval: {this.runInterval} | Last Run Time (UTC): {this.lastRunTime}\n");
-            sb.Append($"EnabledScrappers: {string.Join(",", this.enabledScrappers)}\n");
-            sb.Append($"LastError: {this.LastError}");
-            return sb.ToString();
+        public dynamic GetStatus()
+        {            
+            dynamic status = new ExpandoObject();
+            var dict = (IDictionary<string, object>)status;
+
+            dict["CurrentState"] = this.CurrentState;
+            dict["AIEngineReady"] = this.aiEngine?.IsReady() ?? false;
+            dict["RunInterval"] = this.runInterval;
+            dict["LastRunTimeUtc"] = this.lastRunTime;
+            dict["EnabledScrappers"] = this.enabledScrappers.ToArray();
+            // copy concurrent dictionary to a normal dictionary for safe enumeration / serialization
+            dict["LastResults"] = this.lastRunResults.ToDictionary(kv => kv.Key, kv => kv.Value);
+            dict["LastError"] = this.LastError;
+
+            return status;
         }
 
         private async Task RunInBackgroundAsync(CancellationToken cancellationToken)
         {
+            TimeSpan checkInterval = TimeSpan.FromMinutes(5);
             while (!cancellationToken.IsCancellationRequested)
             {
-                lastRunTime = DateTime.UtcNow;
-                foreach (var scrapperId in enabledScrappers)
+                if (DateTime.UtcNow - lastRunTime > runInterval)
                 {
-                    logger.LogInformation($"Starting scrapper run for id: {scrapperId}");
-                    await RunScrapperAsync(scrapperId);
+                    foreach (var scrapperId in enabledScrappers)
+                    {
+                        logger.LogInformation($"Starting scrapper run for id: {scrapperId}");
+                        await RunScrapperAsync(scrapperId);
+                    }
+                    lastRunTime = DateTime.UtcNow;
                 }
-                await Task.Delay(runInterval, cancellationToken);
+                await Task.Delay(checkInterval, cancellationToken);
             }
         }
     }

@@ -27,7 +27,7 @@ namespace Common.Managers
             this.settings = settings;
         }
 
-        public async Task RunAsync()
+        public async Task<string> RunAsync()
         {
             var startTime = DateTime.UtcNow;
             this.logger.LogInformation($"Starting JobScrapper run for settings: {this.settings}");
@@ -37,7 +37,7 @@ namespace Common.Managers
             if (searchResults == null || searchResults.Count == 0)
             {
                 this.logger.LogInformation($"Nothing to process. Query settings: {this.settings}");
-                return;
+                return "No search results, processing skipped.";
             }
 
             var mp = new Dictionary<string, ScrappedJob>(StringComparer.OrdinalIgnoreCase);
@@ -48,6 +48,8 @@ namespace Common.Managers
                     mp[job.id] = job;
                 }
             }
+            
+            // TODO: Filter duplicates by fetching the latest jobs from DB in last 1d.
             
             var levels = await this.aiEngine.GetJobLevelAsync(searchResults);
             foreach (var level in levels)
@@ -62,17 +64,19 @@ namespace Common.Managers
                 }
             }
 
+            var newResults = 0;
             foreach (var job in searchResults)
             {
                 var success = await this.jobsRepository.CreateIfNotExistsAsync(job);
-                if (!success)
+                if (success)
                 {
-                    this.logger.LogError($"Failed to push job {job.id} to JobsRepository.");
+                    newResults++;
                 }
             }
 
             var duration = DateTime.UtcNow - startTime;
             this.logger.LogInformation($"JobScrapper run completed. Duration: {duration}. Processed {searchResults.Count} jobs for settings: {this.settings}");
+            return $"Processed {searchResults.Count} jobs | New addition: {newResults} in {duration.TotalSeconds} seconds.";
         }
 
     }

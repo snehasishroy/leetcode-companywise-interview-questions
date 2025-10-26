@@ -62,8 +62,7 @@ namespace Backend.Controllers
         [Route("scrappers/background/status")]
         public ActionResult<string> GetScrappersInBackgroundStatus()
         {
-            this.scrapperRunner.StopBackgroundRunner();
-            return Ok($"{this.scrapperRunner.GetStatus()}");
+            return Ok(this.scrapperRunner.GetStatus());
         }
     }
 }
