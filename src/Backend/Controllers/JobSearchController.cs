@@ -14,47 +14,37 @@ namespace Backend.Controllers
     [Route("api/jobs")]
     public class JobSearchController : ControllerBase
     {
-        private readonly JobsRepository jobsRepository;
+        private readonly JobDataProvider jobDataProvider;
         private readonly ILogger<JobSearchController> logger;
-        public JobSearchController(JobsRepository jobsRepository, ILogger<JobSearchController> logger)
+        public JobSearchController(JobDataProvider jobDataProvider, ILogger<JobSearchController> logger)
         {
             this.logger = logger;
-            this.jobsRepository = jobsRepository;
+            this.jobDataProvider = jobDataProvider;
         }
 
         [HttpPost]
         [Route("search")]
         public async Task<ActionResult<List<ScrappedJob>>> SearchJobs([FromBody] JobQuery jobquery)
         {
-            return Ok(await jobsRepository.GetJobsFromQuery(jobquery));
+            return await this.jobDataProvider.GetJobsAsync(jobquery);
         }
 
         [HttpGet]
         [Route("latest")]
         public async Task<ActionResult<string>> GetLatestJobsFromDb(
             [FromQuery] string location = "India",
-            [FromQuery] string level = "Mid")
+            [FromQuery] string level = "Mid",
+            [FromQuery] int days = 3)
         {
-            return Content(JobListView.RenderScrappedJobsHtml(await this.jobsRepository.GetJobsEasyQueryAsync(location, level)), "text/html");
+            var jobList = await this.jobDataProvider.GetJobsAsync(location, days, level);
+            return Content(JobListView.RenderScrappedJobsHtml(jobList), "text/html");
         }
 
         [HttpGet]
         [Route("lastOneDay")]
         public async Task<ActionResult<string>> GetLastOneDayJobsFromDb()
         {
-            return Ok(await this.jobsRepository.GetAllJobsInLastOneDay());
-        }
-
-        [HttpGet]
-        [Route("profile/{id}")]
-        public async Task<ActionResult<string>> GetJobById(string id)
-        {
-            var job = await this.jobsRepository.GetJobByIdAsync(id);
-            if (job != null)
-            {
-                return Ok(job);
-            }
-            return Ok("Not found.");
+            return Ok(await this.jobDataProvider.GetAllJobsAsync(1));
         }
     }
 }

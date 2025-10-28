@@ -103,6 +103,7 @@ public class Program
         services.AddSingleton<JobsRepository>();
         services.AddSingleton<JobScrapperSettingsManager>();
         services.AddSingleton<ScrapperRunner>();
+        services.AddSingleton<JobDataProvider>();
 
         var app = builder.Build();
         ILogger logger = app.Logger;

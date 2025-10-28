@@ -40,6 +40,19 @@ namespace Common.Managers
                 return "No search results, processing skipped.";
             }
 
+            var existingJobIds = await this.jobsRepository.GetJobIdsInLastNDaysAsync(1);
+            var hashSetExistingJobIds = new HashSet<string>(existingJobIds, StringComparer.OrdinalIgnoreCase);
+            
+            this.logger.LogInformation($"Search Results count: {searchResults.Count} JobIds in last N(1) days = {hashSetExistingJobIds.Count}");
+            searchResults = searchResults.Where(j => !hashSetExistingJobIds.Contains(j.id)).ToList();
+            this.logger.LogInformation($"Filtered Search Results count: {searchResults.Count}");
+
+            if (searchResults.Count == 0)
+            {
+                this.logger.LogInformation($"All jobs are duplicates. Nothing to process. Query settings: {this.settings}");
+                return "All jobs are duplicates, processing skipped.";
+            }
+
             var mp = new Dictionary<string, ScrappedJob>(StringComparer.OrdinalIgnoreCase);
             foreach (var job in searchResults)
             {
@@ -48,15 +61,18 @@ namespace Common.Managers
                     mp[job.id] = job;
                 }
             }
-            
-            // TODO: Filter duplicates by fetching the latest jobs from DB in last 1d.
-            
+
             var levels = await this.aiEngine.GetJobLevelAsync(searchResults);
             foreach (var level in levels)
             {
                 if (mp.ContainsKey(level.Key))
                 {
                     mp[level.Key].tags.AddRange(level.Value.Split("-"));
+                    mp[level.Key].jobType = level.Value.Split("-").FirstOrDefault() ?? mp[level.Key].jobType;
+                    if (level.Value.Split("-").Length > 1)
+                    {
+                        mp[level.Key].location = level.Value.Split("-")[1];
+                    }
                 }
                 else
                 {
