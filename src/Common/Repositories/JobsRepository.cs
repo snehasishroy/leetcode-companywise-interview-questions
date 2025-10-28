@@ -22,7 +22,7 @@ namespace Common.Repositories
 
         public async Task<List<ScrappedJob>> GetAllLatestJobsAsync()
         {
-            var query = "SELECT * FROM c ORDER BY c.scrappedTime DESC OFFSET 0 LIMIT 100";
+            var query = "SELECT * FROM c ORDER BY c.scrappedTime DESC OFFSET 0 LIMIT 2000";
             return await QueryJobsAsync(query);
         }
 
@@ -30,26 +30,6 @@ namespace Common.Repositories
         {
             var query = $"SELECT * FROM c WHERE DateTimeToTimestamp(GetCurrentTimestamp()) - DateTimeToTimestamp(c.scrappedTime) < 86400";
             return await QueryJobsAsync(query);
-        }
-
-        public async Task<ScrappedJob> GetJobByIdAsync(string id)
-        {
-            try
-            {
-                // TODO: NOT working as expected
-                var response = await this.jobsContainer.ReadItemAsync<ScrappedJob>(id, new PartitionKey(id));
-                return response.Resource;
-            }
-            catch (CosmosException cosmosEx) when (cosmosEx.StatusCode == System.Net.HttpStatusCode.NotFound)
-            {
-                this.logger.LogWarning($"Job: {id} not found in container.");
-                return null;
-            }
-            catch (Exception ex)
-            {
-                this.logger.LogError($"Failed to retrieve job: {id} from container. Ex: {ex}");
-                return null;
-            }
         }
 
         /// <summary>
@@ -95,6 +75,32 @@ namespace Common.Repositories
             return res;
         }
 
+        public async Task<List<string>> GetJobIdsInLastNDaysAsync(int lookbackdays)
+        {
+            var cutoffDate = DateTime.UtcNow.AddDays(-lookbackdays);
+            var query = "SELECT c.id FROM c WHERE c.scrappedTime >= @cutoffDate";
+            var queryDefinition = new QueryDefinition(query).WithParameter("@cutoffDate", cutoffDate);
+            var queryResultSetIterator = jobsContainer.GetItemQueryIterator<ScrappedJob>(queryDefinition);
+            List<string> results = new List<string>();
+            while (queryResultSetIterator.HasMoreResults)
+            {
+                var response = await queryResultSetIterator.ReadNextAsync();
+                results.AddRange(response.Select(j => j.id));
+            }
+            this.logger.LogInformation($"Retrieved {results.Count} job IDs from Cosmos DB in last {lookbackdays} days.");
+            return results;
+        }
+
+        public async Task<List<ScrappedJob>> GetJobsAsync(string location, int lookbackdays)
+        {
+            var cutoffDate = DateTime.UtcNow.AddDays(-lookbackdays);
+            var query = "SELECT * FROM c WHERE (LOWER(c.location) = @location OR LOWER(c.location) = @unknown) AND c.scrappedTime >= @cutoffDate ORDER BY c.scrappedTime DESC";
+            var queryDefinition = new QueryDefinition(query)
+                .WithParameter("@location", location.ToLower())
+                .WithParameter("@unknown", "unknown")
+                .WithParameter("@cutoffDate", cutoffDate.ToString("yyyy-MM-ddTHH:mm:ss"));
+            return await QueryJobsAsync(queryDefinition);
+        }
 
         private async Task<List<ScrappedJob>> QueryJobsAsync(string query)
         {

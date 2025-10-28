@@ -45,6 +45,13 @@ namespace Backend.Controllers
         }
 
         [HttpGet]
+        [Route("problems-metadata")]
+        public async Task<ActionResult<string>> GetProblemsMetadata()
+        {
+            return Ok(await dataProvider.GetProblemsMetadataAsync());
+        }
+
+        [HttpGet]
         [Route("problems/{id}")]
         public async Task<ActionResult<Problem>> GetProblems(string id)
         {
