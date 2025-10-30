@@ -1,0 +1,164 @@
+/* styles/components/FilterOptions.css */
+.filter-options {
+  display: flex;
+  gap: 1rem; /* Reduced from 2rem */
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 0.75rem 0; /* Reduced from 1.5rem */
+  position: relative;
+  z-index: 10;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem; /* Reduced from 0.75rem */
+  min-width: 180px; /* Reduced from 220px */
+  position: relative;
+  z-index: 1000;
+}
+
+.filter-group label {
+  font-size: 0.75rem; /* Reduced from 0.85rem */
+  color: #4a5568;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px; /* Reduced from 0.5px */
+  margin-bottom: 0;
+}
+
+.filter-group select {
+  padding: 0.5rem 0.75rem; /* Reduced from 0.75rem 1rem */
+  border: 1px solid #e2e8f0; /* Reduced from 2px */
+  border-radius: 6px; /* Reduced from 10px */
+  background-color: white;
+  font-size: 0.85rem; /* Reduced from 0.95rem */
+  color: #2d3748;
+  cursor: pointer;
+  transition: all 0.2s ease; /* Simplified transition */
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%234a5568'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center; /* Adjusted */
+  background-size: 0.875rem; /* Reduced from 1rem */
+  padding-right: 2rem; /* Reduced from 2.5rem */
+  font-weight: 500;
+  position: relative;
+  z-index: 1001;
+  height: 36px; /* Fixed height for consistency */
+}
+
+.filter-group select option {
+  background: white;
+  color: #2d3748;
+  padding: 8px 12px; /* Reduced from 12px 16px */
+  font-size: 0.85rem; /* Reduced from 0.95rem */
+  border-bottom: 1px solid #f1f5f9;
+  position: relative;
+  z-index: 10000;
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1); /* Reduced from 3px */
+  background-color: white;
+  z-index: 1002;
+}
+
+/* Clear filters button - more compact */
+.clear-filters {
+  padding: 0.5rem 1rem; /* Reduced from 0.75rem 1.5rem */
+  background: linear-gradient(135deg, #dc3545, #c82333);
+  color: white;
+  border: none;
+  border-radius: 6px; /* Reduced from 10px */
+  cursor: pointer;
+  font-size: 0.8rem; /* Reduced from 0.9rem */
+  font-weight: 600;
+  height: 36px; /* Match select height */
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.3px; /* Reduced from 0.5px */
+  box-shadow: 0 1px 4px rgba(220, 53, 69, 0.3); /* Reduced shadow */
+  position: relative;
+  z-index: 100;
+  white-space: nowrap;
+}
+
+.clear-filters:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(220, 53, 69, 0.4);
+}
+
+.clear-filters:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Ensure the nav has proper z-index but minimal padding */
+.nav {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border-bottom: 1px solid #e2e8f0;
+  padding: 0;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04); /* Reduced shadow */
+  position: relative;
+  z-index: 100;
+}
+
+.nav-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  position: relative;
+  z-index: 101;
+}
+
+/* Compact layout for filter groups */
+.filter-group select {
+  min-height: 36px; /* Reduced from 48px */
+}
+
+/* Responsive adjustments - more compact */
+@media (max-width: 768px) {
+  .filter-options {
+    flex-direction: column;
+    gap: 0.75rem; /* Reduced from 1.25rem */
+    padding: 0.5rem 0; /* Reduced from 1.25rem */
+    z-index: 1000;
+  }
+
+  .filter-group {
+    width: 100%;
+    min-width: unset;
+    z-index: 1001;
+    gap: 0.3rem; /* Reduced gap */
+  }
+
+  .filter-group select {
+    width: 100%;
+    z-index: 1002;
+  }
+
+  .clear-filters {
+    width: 100%;
+    margin-top: 0.25rem; /* Reduced from 0.5rem */
+    z-index: 100;
+  }
+  
+  .filter-group label {
+    font-size: 0.7rem; /* Even smaller on mobile */
+  }
+}
+
+/* Emergency fix - if dropdown still doesn't show */
+.filter-group select {
+  transform: translateZ(0);
+}
+
+/* Make sure the dropdown has enough space but compact */
+.filter-group {
+  margin-bottom: 0;
+}

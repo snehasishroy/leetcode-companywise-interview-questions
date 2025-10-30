@@ -1,0 +1,60 @@
+/* styles/layout/Body.css */
+.body {
+  flex: 1;
+  padding: 0.125rem 0; /* Further reduced */
+  background-color: #f5f5f5;
+  min-height: auto;
+}
+
+.body-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0.75rem; /* Reduced from 1rem */
+  min-height: auto;
+  padding-bottom: 0;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px; /* Reduced */
+}
+
+.loading-spinner {
+  color: #666;
+  font-size: 1rem; /* Smaller */
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px; /* Reduced */
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
+  font-size: 0.9rem; /* Smaller */
+}
+
+.error-message button {
+  margin-top: 0.75rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.error-message button:hover {
+  background-color: #c82333;
+}
+
+/* Remove any bottom margin from the last element in body */
+.body-content > *:last-child {
+  margin-bottom: 0;
+}

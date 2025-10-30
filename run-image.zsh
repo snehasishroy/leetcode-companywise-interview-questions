@@ -1,0 +1,1 @@
+docker run -p 80:80 -p 443:443 -p 5164:5164 lcw-backend -e ASPNETCORE_ENVIRONMENT=Development -d

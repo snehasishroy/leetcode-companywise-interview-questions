@@ -1,0 +1,353 @@
+/* styles/components/ProblemCard.css */
+.problem-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 1.25rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Solved state for grid cards */
+.problem-card.solved {
+  background: linear-gradient(135deg, #f0f9f0 0%, #e8f5e8 100%);
+  border-left: 4px solid #10b981;
+}
+
+.problem-card.solved::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #10b981, #34d399);
+  transform: scaleX(1);
+}
+
+.problem-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #0066cc, #0099ff);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.problem-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.problem-card:hover::before {
+  transform: scaleX(1);
+}
+
+/* Checkbox positioning in grid cards */
+.problem-card-checkbox {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10;
+}
+
+/* Custom Checkbox Styling for Grid */
+.problem-card .solved-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 2px solid #d1d5db;
+  border-radius: 4px;
+  background: white;
+  position: relative;
+  transition: all 0.2s ease;
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.problem-card .solved-checkbox:checked {
+  background: #10b981;
+  border-color: #10b981;
+}
+
+.problem-card .solved-checkbox:checked::before {
+  content: '✓';
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.problem-card .solved-checkbox:hover {
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+}
+
+.problem-card .solved-checkbox:focus {
+  outline: none;
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+}
+
+.problem-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  padding-right: 30px; /* Make space for checkbox */
+}
+
+.problem-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  flex: 1;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.problem-header a {
+  color: #1a202c;
+  text-decoration: none;
+  background: linear-gradient(90deg, #1a202c, #2d3748);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.problem-header a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #0066cc, #0099ff);
+  transition: width 0.3s ease;
+}
+
+.problem-header a:hover {
+  background: linear-gradient(90deg, #0066cc, #0099ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.problem-header a:hover::after {
+  width: 100%;
+}
+
+.difficulty {
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.difficulty.easy {
+  background: linear-gradient(135deg, #43a047, #4caf50);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.difficulty.medium {
+  background: linear-gradient(135deg, #ffa116, #ffb74d);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.difficulty.hard {
+  background: linear-gradient(135deg, #d32f2f, #f44336);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.problem-stats {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.problem-stats span {
+  display: flex;
+  align-items: center;
+  color: #4a5568;
+  font-weight: 500;
+  position: relative;
+}
+
+.problem-stats span::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #cbd5e0;
+  margin-right: 0.5rem;
+}
+
+.problem-stats span:first-child::before {
+  display: none;
+}
+
+.acceptance {
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.frequency {
+  color: #4a5568;
+}
+
+.problem-companies {
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1rem;
+  margin-top: 0.75rem;
+}
+
+.problem-companies small {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #718096;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.company-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.company-tag {
+  background: linear-gradient(135deg, #ffffff, #f7fafc);
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+  color: #2d3748;
+}
+
+.company-tag:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-color: #ffa116;
+  background: linear-gradient(135deg, #fffaf0, #fffbeb);
+}
+
+.company-name {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.recent-indicator {
+  font-size: 0.65rem;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .problem-card {
+    padding: 1rem;
+    margin: 0.25rem;
+  }
+  
+  .problem-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding-right: 0;
+  }
+  
+  .problem-header h3 {
+    font-size: 1rem;
+    padding-right: 0;
+  }
+  
+  .difficulty {
+    align-self: flex-start;
+  }
+  
+  .problem-stats {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .problem-stats span::before {
+    display: none;
+  }
+  
+  .company-tags {
+    gap: 0.3rem;
+  }
+  
+  .company-tag {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.7rem;
+  }
+  
+  .problem-card-checkbox {
+    top: 8px;
+    right: 8px;
+  }
+  
+  .problem-card .solved-checkbox {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .problem-card .solved-checkbox:checked::before {
+    font-size: 12px;
+  }
+}
+
+/* Animation for card entrance */
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.problem-card {
+  animation: cardEntrance 0.6s ease-out;
+}

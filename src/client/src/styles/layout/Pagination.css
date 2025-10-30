@@ -1,0 +1,94 @@
+/* styles/components/Pagination.css */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.pagination-pages {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.pagination-btn {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #e2e8f0;
+  background: white;
+  color: #4a5568;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  min-width: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-btn:hover:not(:disabled) {
+  background: #f7fafc;
+  border-color: #cbd5e0;
+  transform: translateY(-1px);
+}
+
+.pagination-btn.active {
+  background: #0066cc;
+  color: white;
+  border-color: #0066cc;
+}
+
+.pagination-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Specific styles for navigation buttons */
+.pagination-first,
+.pagination-last {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.pagination-prev,
+.pagination-next {
+  font-weight: bold;
+}
+
+.pagination-info {
+  text-align: center;
+  color: #666;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pagination {
+    gap: 0.25rem;
+  }
+  
+  .pagination-btn {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.9rem;
+    min-width: 2.25rem;
+  }
+  
+  .pagination-pages {
+    gap: 0.125rem;
+  }
+  
+  /* Hide page numbers on very small screens, keep only navigation */
+  @media (max-width: 480px) {
+    .pagination-pages {
+      display: none;
+    }
+    
+    .pagination {
+      gap: 0.5rem;
+    }
+  }
+}

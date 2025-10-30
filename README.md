@@ -1,3 +1,13 @@
+# Wrapper around the leetcode data scrapping
+
+How to start server:
+```
+cd /src/Backend
+dotnet run --ApplicationSettings:CosmosDbPrimaryKey <Key> --ApplicationInsights:ConnectionString <Key>
+```
+
+---
+
 # Leetcode Companywise Interview Questions
 
 ![leetcode-companywise-interview-questions](https://socialify.git.ci/snehasishroy/leetcode-companywise-interview-questions/image?description=1&font=JetBrains+Mono&forks=1&language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Dark)
