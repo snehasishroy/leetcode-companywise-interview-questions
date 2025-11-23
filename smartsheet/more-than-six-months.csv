@@ -1,5 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-695,https://leetcode.com/problems/max-area-of-island,Max Area of Island,Medium,73.2%,100.0%
-692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,59.4%,100.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,100.0%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,64.7%,100.0%
+695,https://leetcode.com/problems/max-area-of-island,Max Area of Island,Medium,73.6%,100.0%
+692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,59.8%,100.0%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.2%,100.0%

@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,57.9%,100.0%
-118,https://leetcode.com/problems/pascals-triangle,Pascal's Triangle,Easy,77.1%,100.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,100.0%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,100.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,100.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,100.0%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.8%,100.0%

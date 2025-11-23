@@ -1,13 +1,28 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-3435,https://leetcode.com/problems/frequencies-of-shortest-supersequences,Frequencies of Shortest Supersequences,Hard,16.0%,100.0%
-659,https://leetcode.com/problems/split-array-into-consecutive-subsequences,Split Array into Consecutive Subsequences,Medium,51.5%,75.0%
-652,https://leetcode.com/problems/find-duplicate-subtrees,Find Duplicate Subtrees,Medium,60.1%,62.5%
-378,https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix,Kth Smallest Element in a Sorted Matrix,Medium,63.7%,62.5%
-473,https://leetcode.com/problems/matchsticks-to-square,Matchsticks to Square,Medium,41.0%,62.5%
-402,https://leetcode.com/problems/remove-k-digits,Remove K Digits,Medium,35.1%,62.5%
-1383,https://leetcode.com/problems/maximum-performance-of-a-team,Maximum Performance of a Team,Hard,47.5%,62.5%
-399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,63.2%,62.5%
-1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.4%,75.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,62.5%
-851,https://leetcode.com/problems/loud-and-rich,Loud and Rich,Medium,61.8%,62.5%
-1657,https://leetcode.com/problems/determine-if-two-strings-are-close,Determine if Two Strings Are Close,Medium,54.2%,62.5%
+1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.5%,75.0%
+851,https://leetcode.com/problems/loud-and-rich,Loud and Rich,Medium,62.7%,75.0%
+1657,https://leetcode.com/problems/determine-if-two-strings-are-close,Determine if Two Strings Are Close,Medium,54.2%,75.0%
+1482,https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets,Minimum Number of Days to Make m Bouquets,Medium,55.9%,100.0%
+2608,https://leetcode.com/problems/shortest-cycle-in-a-graph,Shortest Cycle in a Graph,Hard,38.7%,75.0%
+488,https://leetcode.com/problems/zuma-game,Zuma Game,Hard,30.7%,87.5%
+815,https://leetcode.com/problems/bus-routes,Bus Routes,Hard,47.0%,75.0%
+2929,https://leetcode.com/problems/distribute-candies-among-children-ii,Distribute Candies Among Children II,Medium,55.8%,87.5%
+134,https://leetcode.com/problems/gas-station,Gas Station,Medium,47.1%,75.0%
+834,https://leetcode.com/problems/sum-of-distances-in-tree,Sum of Distances in Tree,Hard,65.5%,75.0%
+1642,https://leetcode.com/problems/furthest-building-you-can-reach,Furthest Building You Can Reach,Medium,50.6%,75.0%
+2484,https://leetcode.com/problems/count-palindromic-subsequences,Count Palindromic Subsequences,Hard,40.5%,75.0%
+3608,https://leetcode.com/problems/minimum-time-for-k-connected-components,Minimum Time for K Connected Components,Medium,44.9%,75.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,75.0%
+2360,https://leetcode.com/problems/longest-cycle-in-a-graph,Longest Cycle in a Graph,Hard,50.2%,75.0%
+514,https://leetcode.com/problems/freedom-trail,Freedom Trail,Hard,59.1%,75.0%
+523,https://leetcode.com/problems/continuous-subarray-sum,Continuous Subarray Sum,Medium,31.1%,75.0%
+864,https://leetcode.com/problems/shortest-path-to-get-all-keys,Shortest Path to Get All Keys,Hard,54.2%,75.0%
+2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,39.0%,87.5%
+546,https://leetcode.com/problems/remove-boxes,Remove Boxes,Hard,49.0%,75.0%
+10,https://leetcode.com/problems/regular-expression-matching,Regular Expression Matching,Hard,30.0%,75.0%
+402,https://leetcode.com/problems/remove-k-digits,Remove K Digits,Medium,35.9%,75.0%
+947,https://leetcode.com/problems/most-stones-removed-with-same-row-or-column,Most Stones Removed with Same Row or Column,Medium,62.5%,75.0%
+473,https://leetcode.com/problems/matchsticks-to-square,Matchsticks to Square,Medium,41.4%,75.0%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,47.5%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,75.0%
+741,https://leetcode.com/problems/cherry-pickup,Cherry Pickup,Hard,38.7%,75.0%

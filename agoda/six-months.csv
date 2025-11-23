@@ -1,8 +1,12 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-63,https://leetcode.com/problems/unique-paths-ii,Unique Paths II,Medium,43.3%,87.5%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,100.0%
-1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,70.7%,100.0%
-739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.5%,87.5%
-844,https://leetcode.com/problems/backspace-string-compare,Backspace String Compare,Easy,49.5%,87.5%
-15,https://leetcode.com/problems/3sum,3Sum,Medium,37.2%,87.5%
-724,https://leetcode.com/problems/find-pivot-index,Find Pivot Index,Easy,60.7%,87.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,100.0%
+1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,71.0%,100.0%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.9%,75.0%
+726,https://leetcode.com/problems/number-of-atoms,Number of Atoms,Hard,65.0%,87.5%
+1921,https://leetcode.com/problems/eliminate-maximum-number-of-monsters,Eliminate Maximum Number of Monsters,Medium,50.9%,100.0%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.8%,87.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,75.0%
+202,https://leetcode.com/problems/happy-number,Happy Number,Easy,58.8%,75.0%
+394,https://leetcode.com/problems/decode-string,Decode String,Medium,61.9%,75.0%
+1011,https://leetcode.com/problems/capacity-to-ship-packages-within-d-days,Capacity To Ship Packages Within D Days,Medium,73.1%,75.0%
+300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,58.7%,75.0%

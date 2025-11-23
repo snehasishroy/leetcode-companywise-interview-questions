@@ -1,9 +1,13 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,100.0%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,44.0%,62.5%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,62.5%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,47.7%,62.5%
-93,https://leetcode.com/problems/restore-ip-addresses,Restore IP Addresses,Medium,53.4%,75.0%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.0%,62.5%
-224,https://leetcode.com/problems/basic-calculator,Basic Calculator,Hard,45.7%,62.5%
-226,https://leetcode.com/problems/invert-binary-tree,Invert Binary Tree,Easy,79.1%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,75.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,75.0%
+93,https://leetcode.com/problems/restore-ip-addresses,Restore IP Addresses,Medium,54.6%,87.5%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,75.0%
+226,https://leetcode.com/problems/invert-binary-tree,Invert Binary Tree,Easy,79.6%,75.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,75.0%
+102,https://leetcode.com/problems/binary-tree-level-order-traversal,Binary Tree Level Order Traversal,Medium,71.6%,75.0%
+2086,https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters,Minimum Number of Food Buckets to Feed the Hamsters,Medium,47.6%,100.0%
+227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,46.4%,75.0%
+43,https://leetcode.com/problems/multiply-strings,Multiply Strings,Medium,43.1%,75.0%
+155,https://leetcode.com/problems/min-stack,Min Stack,Medium,57.3%,75.0%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.1%,75.0%

@@ -1,11 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,45.7%,62.5%
-1160,https://leetcode.com/problems/find-words-that-can-be-formed-by-characters,Find Words That Can Be Formed by Characters,Easy,71.1%,100.0%
-79,https://leetcode.com/problems/word-search,Word Search,Medium,45.4%,87.5%
-300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,58.0%,75.0%
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,56.8%,62.5%
-6,https://leetcode.com/problems/zigzag-conversion,Zigzag Conversion,Medium,51.8%,75.0%
-1202,https://leetcode.com/problems/smallest-string-with-swaps,Smallest String With Swaps,Medium,59.5%,75.0%
-1353,https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended,Maximum Number of Events That Can Be Attended,Medium,38.6%,75.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,62.5%
-238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,67.9%,62.5%
+1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,71.0%,100.0%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,75.0%
+2559,https://leetcode.com/problems/count-vowel-strings-in-ranges,Count Vowel Strings in Ranges,Medium,67.8%,75.0%
+692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,59.8%,75.0%

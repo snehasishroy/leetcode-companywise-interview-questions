@@ -1,4 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-3575,https://leetcode.com/problems/maximum-good-subtree-score,Maximum Good Subtree Score,Hard,44.1%,100.0%
-242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,66.8%,75.0%
-992,https://leetcode.com/problems/subarrays-with-k-different-integers,Subarrays with K Different Integers,Hard,66.1%,62.5%
+134,https://leetcode.com/problems/gas-station,Gas Station,Medium,47.1%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,87.5%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,77.9%,87.5%
+9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,59.9%,87.5%
+516,https://leetcode.com/problems/longest-palindromic-subsequence,Longest Palindromic Subsequence,Medium,64.8%,87.5%

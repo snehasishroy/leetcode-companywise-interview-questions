@@ -1,10 +1,11 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2493,https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups,Divide Nodes Into the Maximum Number of Groups,Hard,67.3%,87.5%
-283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,62.9%,100.0%
-509,https://leetcode.com/problems/fibonacci-number,Fibonacci Number,Easy,73.1%,87.5%
-349,https://leetcode.com/problems/intersection-of-two-arrays,Intersection of Two Arrays,Easy,76.6%,87.5%
-875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.1%,87.5%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,87.5%
-17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,64.0%,87.5%
-7,https://leetcode.com/problems/reverse-integer,Reverse Integer,Medium,30.4%,87.5%
-204,https://leetcode.com/problems/count-primes,Count Primes,Medium,34.9%,87.5%
+17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,64.9%,75.0%
+7,https://leetcode.com/problems/reverse-integer,Reverse Integer,Medium,31.1%,87.5%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,75.0%
+181,https://leetcode.com/problems/employees-earning-more-than-their-managers,Employees Earning More Than Their Managers,Easy,72.3%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,100.0%
+451,https://leetcode.com/problems/sort-characters-by-frequency,Sort Characters By Frequency,Medium,74.8%,75.0%
+485,https://leetcode.com/problems/max-consecutive-ones,Max Consecutive Ones,Easy,63.7%,87.5%
+176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,45.5%,75.0%
+204,https://leetcode.com/problems/count-primes,Count Primes,Medium,35.5%,75.0%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.2%,75.0%

@@ -1,28 +1,37 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,46.4%,100.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,75.0%
-2058,https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points,Find the Minimum and Maximum Number of Nodes Between Critical Points,Medium,69.5%,75.0%
-1171,https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list,Remove Zero Sum Consecutive Nodes from Linked List,Medium,52.9%,87.5%
-1530,https://leetcode.com/problems/number-of-good-leaf-nodes-pairs,Number of Good Leaf Nodes Pairs,Medium,71.8%,75.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,75.0%
-283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,62.9%,100.0%
-2181,https://leetcode.com/problems/merge-nodes-in-between-zeros,Merge Nodes in Between Zeros,Medium,89.6%,75.0%
-2606,https://leetcode.com/problems/find-the-substring-with-maximum-cost,Find the Substring With Maximum Cost,Medium,57.0%,75.0%
-2375,https://leetcode.com/problems/construct-smallest-number-from-di-string,Construct Smallest Number From DI String,Medium,85.8%,75.0%
-2134,https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii,Minimum Swaps to Group All 1's Together II,Medium,65.5%,75.0%
-2824,https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target,Count Pairs Whose Sum is Less than Target,Easy,87.5%,75.0%
-25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,63.3%,75.0%
+2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.3%,75.0%
+1171,https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list,Remove Zero Sum Consecutive Nodes from Linked List,Medium,53.0%,62.5%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.2%,87.5%
+2181,https://leetcode.com/problems/merge-nodes-in-between-zeros,Merge Nodes in Between Zeros,Medium,89.7%,62.5%
+2606,https://leetcode.com/problems/find-the-substring-with-maximum-cost,Find the Substring With Maximum Cost,Medium,57.5%,62.5%
+2375,https://leetcode.com/problems/construct-smallest-number-from-di-string,Construct Smallest Number From DI String,Medium,85.7%,62.5%
+2134,https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii,Minimum Swaps to Group All 1's Together II,Medium,65.6%,62.5%
+2824,https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target,Count Pairs Whose Sum is Less than Target,Easy,87.6%,62.5%
+25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,64.6%,62.5%
 2415,https://leetcode.com/problems/reverse-odd-levels-of-binary-tree,Reverse Odd Levels of Binary Tree,Medium,86.7%,75.0%
-513,https://leetcode.com/problems/find-bottom-left-tree-value,Find Bottom Left Tree Value,Medium,71.8%,75.0%
-2130,https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list,Maximum Twin Sum of a Linked List,Medium,81.5%,87.5%
-1448,https://leetcode.com/problems/count-good-nodes-in-binary-tree,Count Good Nodes in Binary Tree,Medium,73.5%,75.0%
-669,https://leetcode.com/problems/trim-a-binary-search-tree,Trim a Binary Search Tree,Medium,66.4%,75.0%
-402,https://leetcode.com/problems/remove-k-digits,Remove K Digits,Medium,35.1%,75.0%
-179,https://leetcode.com/problems/largest-number,Largest Number,Medium,41.4%,100.0%
-739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.5%,75.0%
-1026,https://leetcode.com/problems/maximum-difference-between-node-and-ancestor,Maximum Difference Between Node and Ancestor,Medium,78.1%,75.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,75.0%
-2381,https://leetcode.com/problems/shifting-letters-ii,Shifting Letters II,Medium,53.4%,75.0%
-226,https://leetcode.com/problems/invert-binary-tree,Invert Binary Tree,Easy,79.1%,75.0%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,75.0%
-2074,https://leetcode.com/problems/reverse-nodes-in-even-length-groups,Reverse Nodes in Even Length Groups,Medium,61.3%,75.0%
+513,https://leetcode.com/problems/find-bottom-left-tree-value,Find Bottom Left Tree Value,Medium,72.0%,62.5%
+2130,https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list,Maximum Twin Sum of a Linked List,Medium,81.6%,87.5%
+1448,https://leetcode.com/problems/count-good-nodes-in-binary-tree,Count Good Nodes in Binary Tree,Medium,73.7%,62.5%
+669,https://leetcode.com/problems/trim-a-binary-search-tree,Trim a Binary Search Tree,Medium,66.5%,62.5%
+402,https://leetcode.com/problems/remove-k-digits,Remove K Digits,Medium,35.9%,62.5%
+179,https://leetcode.com/problems/largest-number,Largest Number,Medium,42.1%,100.0%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.9%,62.5%
+1026,https://leetcode.com/problems/maximum-difference-between-node-and-ancestor,Maximum Difference Between Node and Ancestor,Medium,78.1%,62.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,62.5%
+226,https://leetcode.com/problems/invert-binary-tree,Invert Binary Tree,Easy,79.6%,62.5%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,55.4%,75.0%
+2074,https://leetcode.com/problems/reverse-nodes-in-even-length-groups,Reverse Nodes in Even Length Groups,Medium,62.7%,75.0%
+114,https://leetcode.com/problems/flatten-binary-tree-to-linked-list,Flatten Binary Tree to Linked List,Medium,69.7%,62.5%
+19,https://leetcode.com/problems/remove-nth-node-from-end-of-list,Remove Nth Node From End of List,Medium,50.3%,62.5%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.4%,62.5%
+617,https://leetcode.com/problems/merge-two-binary-trees,Merge Two Binary Trees,Easy,78.9%,62.5%
+132,https://leetcode.com/problems/palindrome-partitioning-ii,Palindrome Partitioning II,Hard,36.2%,62.5%
+1315,https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent,Sum of Nodes with Even-Valued Grandparent,Medium,85.8%,62.5%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.5%,62.5%
+328,https://leetcode.com/problems/odd-even-linked-list,Odd Even Linked List,Medium,62.2%,62.5%
+1325,https://leetcode.com/problems/delete-leaves-with-a-given-value,Delete Leaves With a Given Value,Medium,77.2%,75.0%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,62.5%
+61,https://leetcode.com/problems/rotate-list,Rotate List,Medium,40.8%,62.5%
+515,https://leetcode.com/problems/find-largest-value-in-each-tree-row,Find Largest Value in Each Tree Row,Medium,66.3%,62.5%
+84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,48.7%,62.5%
+463,https://leetcode.com/problems/island-perimeter,Island Perimeter,Easy,74.0%,62.5%

@@ -1,8 +1,11 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1092,https://leetcode.com/problems/shortest-common-supersequence,Shortest Common Supersequence,Hard,61.4%,87.5%
-931,https://leetcode.com/problems/minimum-falling-path-sum,Minimum Falling Path Sum,Medium,61.2%,87.5%
-1475,https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop,Final Prices With a Special Discount in a Shop,Easy,83.3%,87.5%
-1642,https://leetcode.com/problems/furthest-building-you-can-reach,Furthest Building You Can Reach,Medium,50.4%,100.0%
-134,https://leetcode.com/problems/gas-station,Gas Station,Medium,46.5%,87.5%
-2222,https://leetcode.com/problems/number-of-ways-to-select-buildings,Number of Ways to Select Buildings,Medium,50.5%,87.5%
-1526,https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array,Minimum Number of Increments on Subarrays to Form a Target Array,Hard,72.5%,100.0%
+1092,https://leetcode.com/problems/shortest-common-supersequence,Shortest Common Supersequence,Hard,61.6%,75.0%
+931,https://leetcode.com/problems/minimum-falling-path-sum,Minimum Falling Path Sum,Medium,60.8%,87.5%
+1475,https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop,Final Prices With a Special Discount in a Shop,Easy,83.7%,75.0%
+1642,https://leetcode.com/problems/furthest-building-you-can-reach,Furthest Building You Can Reach,Medium,50.6%,87.5%
+2222,https://leetcode.com/problems/number-of-ways-to-select-buildings,Number of Ways to Select Buildings,Medium,50.6%,75.0%
+1526,https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array,Minimum Number of Increments on Subarrays to Form a Target Array,Hard,78.0%,87.5%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,38.0%,75.0%
+64,https://leetcode.com/problems/minimum-path-sum,Minimum Path Sum,Medium,67.4%,75.0%
+735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,46.4%,100.0%
+416,https://leetcode.com/problems/partition-equal-subset-sum,Partition Equal Subset Sum,Medium,49.0%,75.0%

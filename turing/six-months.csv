@@ -1,11 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,100.0%
-983,https://leetcode.com/problems/minimum-cost-for-tickets,Minimum Cost For Tickets,Medium,67.4%,75.0%
-468,https://leetcode.com/problems/validate-ip-address,Validate IP Address,Medium,27.8%,75.0%
-875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.1%,75.0%
-3138,https://leetcode.com/problems/minimum-length-of-anagram-concatenation,Minimum Length of Anagram Concatenation,Medium,39.7%,75.0%
-818,https://leetcode.com/problems/race-car,Race Car,Hard,44.2%,75.0%
-55,https://leetcode.com/problems/jump-game,Jump Game,Medium,39.6%,75.0%
-3153,https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs,Sum of Digit Differences of All Pairs,Medium,42.6%,75.0%
-3091,https://leetcode.com/problems/apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k,Apply Operations to Make Sum of Array Greater Than or Equal to k,Medium,43.5%,87.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,75.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,87.5%
+468,https://leetcode.com/problems/validate-ip-address,Validate IP Address,Medium,28.1%,100.0%
+3138,https://leetcode.com/problems/minimum-length-of-anagram-concatenation,Minimum Length of Anagram Concatenation,Medium,39.8%,87.5%

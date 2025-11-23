@@ -1,7 +1,10 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-754,https://leetcode.com/problems/reach-a-number,Reach a Number,Medium,43.9%,100.0%
-763,https://leetcode.com/problems/partition-labels,Partition Labels,Medium,81.6%,62.5%
-2398,https://leetcode.com/problems/maximum-number-of-robots-within-budget,Maximum Number of Robots Within Budget,Hard,37.0%,62.5%
-684,https://leetcode.com/problems/redundant-connection,Redundant Connection,Medium,66.6%,62.5%
-32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,36.5%,62.5%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,62.5%
+754,https://leetcode.com/problems/reach-a-number,Reach a Number,Medium,44.4%,100.0%
+763,https://leetcode.com/problems/partition-labels,Partition Labels,Medium,81.7%,62.5%
+2398,https://leetcode.com/problems/maximum-number-of-robots-within-budget,Maximum Number of Robots Within Budget,Hard,37.6%,62.5%
+684,https://leetcode.com/problems/redundant-connection,Redundant Connection,Medium,67.0%,62.5%
+32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,37.4%,62.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,62.5%
+1377,https://leetcode.com/problems/frog-position-after-t-seconds,Frog Position After T Seconds,Hard,36.9%,75.0%
+488,https://leetcode.com/problems/zuma-game,Zuma Game,Hard,30.7%,75.0%
+664,https://leetcode.com/problems/strange-printer,Strange Printer,Hard,60.8%,87.5%

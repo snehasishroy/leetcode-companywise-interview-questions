@@ -1,5 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,45.5%,100.0%
-946,https://leetcode.com/problems/validate-stack-sequences,Validate Stack Sequences,Medium,69.7%,100.0%
-560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,45.6%,87.5%
-150,https://leetcode.com/problems/evaluate-reverse-polish-notation,Evaluate Reverse Polish Notation,Medium,55.2%,87.5%
+76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,46.4%,87.5%
+946,https://leetcode.com/problems/validate-stack-sequences,Validate Stack Sequences,Medium,70.0%,100.0%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.3%,87.5%
+150,https://leetcode.com/problems/evaluate-reverse-polish-notation,Evaluate Reverse Polish Notation,Medium,56.2%,87.5%

@@ -1,7 +1,1 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-845,https://leetcode.com/problems/longest-mountain-in-array,Longest Mountain in Array,Medium,41.2%,87.5%
-1347,https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram,Minimum Number of Steps to Make Two Strings Anagram,Medium,82.2%,100.0%
-2472,https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings,Maximum Number of Non-overlapping Palindrome Substrings,Hard,41.7%,75.0%
-76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,45.5%,75.0%
-23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,57.0%,75.0%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,64.7%,75.0%

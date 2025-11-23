@@ -1,2 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-525,https://leetcode.com/problems/contiguous-array,Contiguous Array,Medium,49.5%,100.0%
+678,https://leetcode.com/problems/valid-parenthesis-string,Valid Parenthesis String,Medium,39.6%,100.0%
+240,https://leetcode.com/problems/search-a-2d-matrix-ii,Search a 2D Matrix II,Medium,56.3%,87.5%
+525,https://leetcode.com/problems/contiguous-array,Contiguous Array,Medium,50.1%,87.5%

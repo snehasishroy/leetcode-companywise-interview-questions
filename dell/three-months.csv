@@ -1,2 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,100.0%
+696,https://leetcode.com/problems/count-binary-substrings,Count Binary Substrings,Easy,66.3%,87.5%
+1413,https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum,Minimum Value to Get Positive Step by Step Sum,Easy,64.5%,100.0%

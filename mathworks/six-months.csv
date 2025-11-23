@@ -1,7 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2582,https://leetcode.com/problems/pass-the-pillow,Pass the Pillow,Easy,56.6%,62.5%
-2444,https://leetcode.com/problems/count-subarrays-with-fixed-bounds,Count Subarrays With Fixed Bounds,Hard,69.4%,62.5%
-2858,https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable,Minimum Edge Reversals So Every Node Is Reachable,Hard,55.4%,62.5%
-968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.3%,100.0%
-1648,https://leetcode.com/problems/sell-diminishing-valued-colored-balls,Sell Diminishing-Valued Colored Balls,Medium,30.0%,100.0%
-638,https://leetcode.com/problems/shopping-offers,Shopping Offers,Medium,51.9%,100.0%
+25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,64.6%,100.0%
+621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.3%,100.0%
+3035,https://leetcode.com/problems/maximum-palindromes-after-operations,Maximum Palindromes After Operations,Medium,44.7%,100.0%

@@ -1,3 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2747,https://leetcode.com/problems/count-zero-request-servers,Count Zero Request Servers,Medium,34.4%,100.0%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.0%,87.5%
+2747,https://leetcode.com/problems/count-zero-request-servers,Count Zero Request Servers,Medium,35.2%,100.0%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,87.5%
+1011,https://leetcode.com/problems/capacity-to-ship-packages-within-d-days,Capacity To Ship Packages Within D Days,Medium,73.1%,87.5%
+968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.5%,87.5%
+757,https://leetcode.com/problems/set-intersection-size-at-least-two,Set Intersection Size At Least Two,Hard,58.0%,100.0%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,57.6%,87.5%

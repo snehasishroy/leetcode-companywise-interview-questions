@@ -1,16 +1,17 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,62.5%
-460,https://leetcode.com/problems/lfu-cache,LFU Cache,Hard,46.8%,62.5%
-399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,63.2%,75.0%
-2050,https://leetcode.com/problems/parallel-courses-iii,Parallel Courses III,Hard,66.8%,62.5%
-2484,https://leetcode.com/problems/count-palindromic-subsequences,Count Palindromic Subsequences,Hard,39.4%,100.0%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,87.5%
-647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,71.8%,87.5%
-287,https://leetcode.com/problems/find-the-duplicate-number,Find the Duplicate Number,Medium,63.0%,62.5%
-103,https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal,Binary Tree Zigzag Level Order Traversal,Medium,61.9%,62.5%
-1229,https://leetcode.com/problems/meeting-scheduler,Meeting Scheduler,Medium,55.2%,75.0%
-124,https://leetcode.com/problems/binary-tree-maximum-path-sum,Binary Tree Maximum Path Sum,Hard,41.3%,62.5%
-759,https://leetcode.com/problems/employee-free-time,Employee Free Time,Hard,72.6%,75.0%
-1606,https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests,Find Servers That Handled Most Number of Requests,Hard,44.3%,62.5%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,47.7%,87.5%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,75.0%
+647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.3%,75.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.1%,75.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,87.5%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.9%,100.0%
+1801,https://leetcode.com/problems/number-of-orders-in-the-backlog,Number of Orders in the Backlog,Medium,53.0%,87.5%
+1004,https://leetcode.com/problems/max-consecutive-ones-iii,Max Consecutive Ones III,Medium,66.9%,75.0%
+2598,https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations,Smallest Missing Non-negative Integer After Operations,Medium,56.0%,100.0%
+98,https://leetcode.com/problems/validate-binary-search-tree,Validate Binary Search Tree,Medium,35.0%,75.0%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,54.5%,75.0%
+622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,53.4%,75.0%
+297,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard,59.9%,75.0%
+332,https://leetcode.com/problems/reconstruct-itinerary,Reconstruct Itinerary,Hard,44.0%,75.0%
+127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,44.2%,75.0%

@@ -1,5 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.4%,75.0%
-34,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array,Find First and Last Position of Element in Sorted Array,Medium,47.0%,100.0%
-977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.3%,87.5%
-1701,https://leetcode.com/problems/average-waiting-time,Average Waiting Time,Medium,73.0%,75.0%
+34,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array,Find First and Last Position of Element in Sorted Array,Medium,47.8%,100.0%
+977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.4%,87.5%
+1701,https://leetcode.com/problems/average-waiting-time,Average Waiting Time,Medium,73.1%,100.0%
+3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,56.8%,87.5%
+44,https://leetcode.com/problems/wildcard-matching,Wildcard Matching,Hard,30.9%,75.0%

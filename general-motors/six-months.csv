@@ -1,3 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-323,https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph,Number of Connected Components in an Undirected Graph,Medium,64.3%,100.0%
-64,https://leetcode.com/problems/minimum-path-sum,Minimum Path Sum,Medium,66.7%,62.5%
+323,https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph,Number of Connected Components in an Undirected Graph,Medium,64.6%,100.0%
+208,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium,68.8%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,62.5%

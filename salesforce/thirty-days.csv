@@ -1,7 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2571,https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0,Minimum Operations to Reduce an Integer to 0,Medium,57.7%,75.0%
-3295,https://leetcode.com/problems/report-spam-message,Report Spam Message,Medium,47.7%,62.5%
-3607,https://leetcode.com/problems/power-grid-maintenance,Power Grid Maintenance,Medium,43.8%,100.0%
-1143,https://leetcode.com/problems/longest-common-subsequence,Longest Common Subsequence,Medium,58.3%,62.5%
-628,https://leetcode.com/problems/maximum-product-of-three-numbers,Maximum Product of Three Numbers,Easy,45.4%,62.5%
-460,https://leetcode.com/problems/lfu-cache,LFU Cache,Hard,46.8%,75.0%
+2571,https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0,Minimum Operations to Reduce an Integer to 0,Medium,59.9%,100.0%
+1209,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii,Remove All Adjacent Duplicates in String II,Medium,60.5%,75.0%
+124,https://leetcode.com/problems/binary-tree-maximum-path-sum,Binary Tree Maximum Path Sum,Hard,41.8%,87.5%
+863,https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree,All Nodes Distance K in Binary Tree,Medium,67.1%,75.0%
+740,https://leetcode.com/problems/delete-and-earn,Delete and Earn,Medium,57.0%,75.0%
+332,https://leetcode.com/problems/reconstruct-itinerary,Reconstruct Itinerary,Hard,44.0%,75.0%

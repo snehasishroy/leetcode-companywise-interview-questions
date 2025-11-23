@@ -1,3 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-78,https://leetcode.com/problems/subsets,Subsets,Medium,81.0%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,87.5%
+78,https://leetcode.com/problems/subsets,Subsets,Medium,81.7%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
+189,https://leetcode.com/problems/rotate-array,Rotate Array,Medium,44.0%,100.0%

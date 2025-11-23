@@ -1,5 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,75.0%
-1904,https://leetcode.com/problems/the-number-of-full-rounds-you-have-played,The Number of Full Rounds You Have Played,Medium,43.4%,75.0%
-323,https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph,Number of Connected Components in an Undirected Graph,Medium,64.3%,100.0%
-41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,41.2%,75.0%
+323,https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph,Number of Connected Components in an Undirected Graph,Medium,64.6%,100.0%
+64,https://leetcode.com/problems/minimum-path-sum,Minimum Path Sum,Medium,67.4%,62.5%
+1637,https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points,Widest Vertical Area Between Two Points Containing No Points,Easy,87.1%,62.5%
+1570,https://leetcode.com/problems/dot-product-of-two-sparse-vectors,Dot Product of Two Sparse Vectors,Medium,89.9%,62.5%

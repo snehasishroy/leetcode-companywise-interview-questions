@@ -1,9 +1,10 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1032,https://leetcode.com/problems/stream-of-characters,Stream of Characters,Hard,51.3%,87.5%
-2235,https://leetcode.com/problems/add-two-integers,Add Two Integers,Easy,88.1%,87.5%
-2085,https://leetcode.com/problems/count-common-words-with-one-occurrence,Count Common Words With One Occurrence,Easy,72.5%,100.0%
-399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,63.2%,75.0%
-2809,https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x,Minimum Time to Make Array Sum At Most x,Hard,25.5%,75.0%
-874,https://leetcode.com/problems/walking-robot-simulation,Walking Robot Simulation,Medium,58.3%,87.5%
-2296,https://leetcode.com/problems/design-a-text-editor,Design a Text Editor,Hard,47.3%,75.0%
-415,https://leetcode.com/problems/add-strings,Add Strings,Easy,51.9%,75.0%
+1032,https://leetcode.com/problems/stream-of-characters,Stream of Characters,Hard,51.6%,87.5%
+2085,https://leetcode.com/problems/count-common-words-with-one-occurrence,Count Common Words With One Occurrence,Easy,73.0%,100.0%
+2809,https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x,Minimum Time to Make Array Sum At Most x,Hard,26.5%,75.0%
+874,https://leetcode.com/problems/walking-robot-simulation,Walking Robot Simulation,Medium,58.3%,100.0%
+415,https://leetcode.com/problems/add-strings,Add Strings,Easy,52.0%,87.5%
+1801,https://leetcode.com/problems/number-of-orders-in-the-backlog,Number of Orders in the Backlog,Medium,53.0%,75.0%
+2296,https://leetcode.com/problems/design-a-text-editor,Design a Text Editor,Hard,48.9%,75.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%

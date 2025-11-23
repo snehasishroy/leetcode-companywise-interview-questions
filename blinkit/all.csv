@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1488,https://leetcode.com/problems/avoid-flood-in-the-city,Avoid Flood in The City,Medium,27.5%,100.0%
 540,https://leetcode.com/problems/single-element-in-a-sorted-array,Single Element in a Sorted Array,Medium,59.2%,100.0%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.2%,100.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.7%,100.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.1%,100.0%
+2385,https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected,Amount of Time for Binary Tree to Be Infected,Medium,64.8%,100.0%

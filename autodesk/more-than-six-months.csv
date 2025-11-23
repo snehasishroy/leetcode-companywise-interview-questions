@@ -1,20 +1,30 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-39,https://leetcode.com/problems/combination-sum,Combination Sum,Medium,74.9%,87.5%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,47.7%,100.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,100.0%
-3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,17.0%,75.0%
-36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,62.4%,75.0%
-3034,https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i,Number of Subarrays That Match a Pattern I,Medium,67.0%,75.0%
-3045,https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii,Count Prefix and Suffix Pairs II,Hard,27.3%,75.0%
+39,https://leetcode.com/problems/combination-sum,Combination Sum,Medium,75.6%,75.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.1%,87.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,87.5%
+3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,18.1%,75.0%
+36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,63.7%,75.0%
+3034,https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i,Number of Subarrays That Match a Pattern I,Medium,67.9%,100.0%
+3045,https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii,Count Prefix and Suffix Pairs II,Hard,27.7%,75.0%
 3042,https://leetcode.com/problems/count-prefix-and-suffix-pairs-i,Count Prefix and Suffix Pairs I,Easy,77.7%,75.0%
-3019,https://leetcode.com/problems/number-of-changing-keys,Number of Changing Keys,Easy,79.8%,87.5%
-3069,https://leetcode.com/problems/distribute-elements-into-two-arrays-i,Distribute Elements Into Two Arrays I,Easy,73.0%,75.0%
-3072,https://leetcode.com/problems/distribute-elements-into-two-arrays-ii,Distribute Elements Into Two Arrays II,Hard,29.5%,75.0%
-3036,https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii,Number of Subarrays That Match a Pattern II,Hard,32.3%,75.0%
-238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,67.9%,75.0%
-93,https://leetcode.com/problems/restore-ip-addresses,Restore IP Addresses,Medium,53.4%,75.0%
-25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,63.3%,75.0%
-141,https://leetcode.com/problems/linked-list-cycle,Linked List Cycle,Easy,52.7%,75.0%
-300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,58.0%,75.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,75.0%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.0%,75.0%
+3019,https://leetcode.com/problems/number-of-changing-keys,Number of Changing Keys,Easy,80.2%,87.5%
+3069,https://leetcode.com/problems/distribute-elements-into-two-arrays-i,Distribute Elements Into Two Arrays I,Easy,73.5%,75.0%
+3072,https://leetcode.com/problems/distribute-elements-into-two-arrays-ii,Distribute Elements Into Two Arrays II,Hard,30.0%,75.0%
+3036,https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii,Number of Subarrays That Match a Pattern II,Hard,33.1%,75.0%
+238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,68.3%,75.0%
+25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,64.6%,75.0%
+141,https://leetcode.com/problems/linked-list-cycle,Linked List Cycle,Easy,53.4%,75.0%
+300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,58.7%,75.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,87.5%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,75.0%
+209,https://leetcode.com/problems/minimum-size-subarray-sum,Minimum Size Subarray Sum,Medium,50.3%,75.0%
+169,https://leetcode.com/problems/majority-element,Majority Element,Easy,66.0%,75.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,55.4%,75.0%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.4%,75.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.7%,75.0%
+73,https://leetcode.com/problems/set-matrix-zeroes,Set Matrix Zeroes,Medium,61.9%,75.0%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,87.5%
+390,https://leetcode.com/problems/elimination-game,Elimination Game,Medium,45.5%,75.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,38.0%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,75.0%
+75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,68.6%,75.0%

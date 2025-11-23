@@ -11,12 +11,14 @@ This repository contains Company Wise Questions of LeetCode, categorized based o
 
 Attributes like Difficulty, Acceptance %, Frequency % are also added to enable filtering.
 
-> This repository contains the snapshot as of **12th July 2025**.
+> This repository contains the snapshot as of **22nd November 2025**.
 >
 > If you need to sort/filter the questions based on frequency/difficulty, please clone the repo and perform operations in any CSV Editor (Excel / Google Sheets / OpenOffice Calc)
 
 ## If you have LeetCode Premium and want to contribute back
 * Code to scrap the solutions is present [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java).
+
+* If the selenium browser does not open, you might need to update *selenium-java* to the latest version.
 
 * If you have LeetCode premium and want to contribute back, please clone the repo and setup the Java Project in the IDE of your choice.
 Run the scraper after filling in your UserName and Password [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java#L17), without which the code won't work.

@@ -1,4 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,58.3%,100.0%
-132,https://leetcode.com/problems/palindrome-partitioning-ii,Palindrome Partitioning II,Hard,35.4%,87.5%
-475,https://leetcode.com/problems/heaters,Heaters,Medium,40.1%,87.5%
+2616,https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs,Minimize the Maximum Difference of Pairs,Medium,50.9%,100.0%
+375,https://leetcode.com/problems/guess-number-higher-or-lower-ii,Guess Number Higher or Lower II,Medium,52.1%,100.0%
+979,https://leetcode.com/problems/distribute-coins-in-binary-tree,Distribute Coins in Binary Tree,Medium,77.2%,100.0%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,48.8%,100.0%
+3607,https://leetcode.com/problems/power-grid-maintenance,Power Grid Maintenance,Medium,56.8%,100.0%

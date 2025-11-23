@@ -1,6 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-104,https://leetcode.com/problems/maximum-depth-of-binary-tree,Maximum Depth of Binary Tree,Easy,77.2%,87.5%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.0%,100.0%
-143,https://leetcode.com/problems/reorder-list,Reorder List,Medium,62.7%,87.5%
-79,https://leetcode.com/problems/word-search,Word Search,Medium,45.4%,87.5%
-46,https://leetcode.com/problems/permutations,Permutations,Medium,80.8%,87.5%
+46,https://leetcode.com/problems/permutations,Permutations,Medium,81.3%,87.5%
+138,https://leetcode.com/problems/copy-list-with-random-pointer,Copy List with Random Pointer,Medium,61.8%,100.0%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,54.5%,100.0%
+203,https://leetcode.com/problems/remove-linked-list-elements,Remove Linked List Elements,Easy,53.2%,87.5%
+788,https://leetcode.com/problems/rotated-digits,Rotated Digits,Medium,56.7%,87.5%
+510,https://leetcode.com/problems/inorder-successor-in-bst-ii,Inorder Successor in BST II,Medium,61.1%,87.5%

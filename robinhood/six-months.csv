@@ -1,6 +1,2 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1108,https://leetcode.com/problems/defanging-an-ip-address,Defanging an IP Address,Easy,89.7%,75.0%
-692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,59.4%,100.0%
-529,https://leetcode.com/problems/minesweeper,Minesweeper,Medium,68.2%,87.5%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,64.7%,75.0%
-690,https://leetcode.com/problems/employee-importance,Employee Importance,Medium,68.5%,75.0%
+692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,59.8%,100.0%

@@ -1,4 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 1228,https://leetcode.com/problems/missing-number-in-arithmetic-progression,Missing Number In Arithmetic Progression,Easy,52.1%,100.0%
-1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,70.7%,100.0%
-1747,https://leetcode.com/problems/leetflex-banned-accounts,Leetflex Banned Accounts,Medium,62.2%,100.0%
+1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,71.0%,100.0%
+1747,https://leetcode.com/problems/leetflex-banned-accounts,Leetflex Banned Accounts,Medium,62.0%,100.0%
+767,https://leetcode.com/problems/reorganize-string,Reorganize String,Medium,56.6%,62.5%
+1047,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string,Remove All Adjacent Duplicates In String,Easy,72.3%,62.5%

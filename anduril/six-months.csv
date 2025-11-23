@@ -1,16 +1,21 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,49.4%,75.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,87.5%
-295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.4%,62.5%
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,53.6%,75.0%
-1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,75.0%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,62.5%
-1024,https://leetcode.com/problems/video-stitching,Video Stitching,Medium,52.0%,100.0%
-529,https://leetcode.com/problems/minesweeper,Minesweeper,Medium,68.2%,62.5%
-1610,https://leetcode.com/problems/maximum-number-of-visible-points,Maximum Number of Visible Points,Hard,37.7%,75.0%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,62.5%
-23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,57.0%,62.5%
-827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,55.2%,75.0%
-694,https://leetcode.com/problems/number-of-distinct-islands,Number of Distinct Islands,Medium,62.3%,62.5%
-818,https://leetcode.com/problems/race-car,Race Car,Hard,44.2%,62.5%
-243,https://leetcode.com/problems/shortest-word-distance,Shortest Word Distance,Easy,66.0%,62.5%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.3%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,100.0%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.9%,75.0%
+1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,87.5%
+1024,https://leetcode.com/problems/video-stitching,Video Stitching,Medium,52.4%,62.5%
+827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,55.9%,87.5%
+818,https://leetcode.com/problems/race-car,Race Car,Hard,44.5%,75.0%
+243,https://leetcode.com/problems/shortest-word-distance,Shortest Word Distance,Easy,66.1%,87.5%
+244,https://leetcode.com/problems/shortest-word-distance-ii,Shortest Word Distance II,Medium,62.5%,75.0%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,62.5%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,55.4%,62.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,62.5%
+2244,https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks,Minimum Rounds to Complete All Tasks,Medium,63.1%,75.0%
+721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,60.5%,62.5%
+647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.3%,75.0%
+1091,https://leetcode.com/problems/shortest-path-in-binary-matrix,Shortest Path in Binary Matrix,Medium,50.7%,62.5%
+289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,72.0%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,62.5%
+150,https://leetcode.com/problems/evaluate-reverse-polish-notation,Evaluate Reverse Polish Notation,Medium,56.2%,62.5%
+475,https://leetcode.com/problems/heaters,Heaters,Medium,40.9%,75.0%

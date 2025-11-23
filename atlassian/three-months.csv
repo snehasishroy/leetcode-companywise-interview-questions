@@ -1,15 +1,9 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2034,https://leetcode.com/problems/stock-price-fluctuation,Stock Price Fluctuation,Medium,48.2%,100.0%
-353,https://leetcode.com/problems/design-snake-game,Design Snake Game,Medium,39.7%,75.0%
-432,https://leetcode.com/problems/all-oone-data-structure,All O`one Data Structure,Hard,44.1%,87.5%
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,48.3%,62.5%
-236,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Lowest Common Ancestor of a Binary Tree,Medium,67.0%,87.5%
-605,https://leetcode.com/problems/can-place-flowers,Can Place Flowers,Easy,28.9%,62.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,50.0%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.2%,87.5%
-875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.1%,50.0%
-1970,https://leetcode.com/problems/last-day-where-you-can-still-cross,Last Day Where You Can Still Cross,Hard,62.3%,50.0%
-2933,https://leetcode.com/problems/high-access-employees,High-Access Employees,Medium,46.3%,62.5%
-1366,https://leetcode.com/problems/rank-teams-by-votes,Rank Teams by Votes,Medium,59.5%,50.0%
-1676,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv,Lowest Common Ancestor of a Binary Tree IV,Medium,79.2%,62.5%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,50.0%
+2034,https://leetcode.com/problems/stock-price-fluctuation,Stock Price Fluctuation,Medium,48.6%,100.0%
+353,https://leetcode.com/problems/design-snake-game,Design Snake Game,Medium,39.9%,75.0%
+432,https://leetcode.com/problems/all-oone-data-structure,All O`one Data Structure,Hard,44.1%,100.0%
+236,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Lowest Common Ancestor of a Binary Tree,Medium,68.1%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,100.0%
+1797,https://leetcode.com/problems/design-authentication-manager,Design Authentication Manager,Medium,58.1%,62.5%
+1676,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv,Lowest Common Ancestor of a Binary Tree IV,Medium,79.4%,62.5%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,75.0%

@@ -1,0 +1,8 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,75.0%
+976,https://leetcode.com/problems/largest-perimeter-triangle,Largest Perimeter Triangle,Easy,61.6%,75.0%
+281,https://leetcode.com/problems/zigzag-iterator,Zigzag Iterator,Medium,66.3%,100.0%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,57.6%,87.5%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,55.4%,75.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,100.0%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,77.9%,75.0%

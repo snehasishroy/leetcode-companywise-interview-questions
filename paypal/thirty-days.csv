@@ -1,4 +1,2 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-6,https://leetcode.com/problems/zigzag-conversion,Zigzag Conversion,Medium,51.8%,100.0%
-1202,https://leetcode.com/problems/smallest-string-with-swaps,Smallest String With Swaps,Medium,59.5%,100.0%
-1353,https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended,Maximum Number of Events That Can Be Attended,Medium,38.6%,100.0%
+1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,71.0%,100.0%

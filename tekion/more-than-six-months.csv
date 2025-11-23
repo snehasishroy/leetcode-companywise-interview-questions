@@ -1,8 +1,15 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,75.0%
-238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,67.9%,75.0%
-2954,https://leetcode.com/problems/count-the-number-of-infection-sequences,Count the Number of Infection Sequences,Hard,33.6%,75.0%
-947,https://leetcode.com/problems/most-stones-removed-with-same-row-or-column,Most Stones Removed with Same Row or Column,Medium,62.3%,100.0%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,75.0%
-392,https://leetcode.com/problems/is-subsequence,Is Subsequence,Easy,48.4%,75.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,75.0%
+238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,68.3%,75.0%
+2954,https://leetcode.com/problems/count-the-number-of-infection-sequences,Count the Number of Infection Sequences,Hard,36.1%,75.0%
+947,https://leetcode.com/problems/most-stones-removed-with-same-row-or-column,Most Stones Removed with Same Row or Column,Medium,62.5%,100.0%
+392,https://leetcode.com/problems/is-subsequence,Is Subsequence,Easy,48.7%,75.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,100.0%
+55,https://leetcode.com/problems/jump-game,Jump Game,Medium,40.1%,75.0%
+162,https://leetcode.com/problems/find-peak-element,Find Peak Element,Medium,46.7%,75.0%
+123,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii,Best Time to Buy and Sell Stock III,Hard,52.6%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,87.5%
+1712,https://leetcode.com/problems/ways-to-split-array-into-three-subarrays,Ways to Split Array Into Three Subarrays,Medium,33.9%,75.0%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,75.0%
+410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,59.3%,87.5%
+34,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array,Find First and Last Position of Element in Sorted Array,Medium,47.8%,75.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.7%,87.5%

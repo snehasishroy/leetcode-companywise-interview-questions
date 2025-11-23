@@ -1,4 +1,9 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-543,https://leetcode.com/problems/diameter-of-binary-tree,Diameter of Binary Tree,Easy,63.8%,100.0%
-1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.4%,100.0%
-435,https://leetcode.com/problems/non-overlapping-intervals,Non-overlapping Intervals,Medium,55.7%,100.0%
+1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.5%,100.0%
+435,https://leetcode.com/problems/non-overlapping-intervals,Non-overlapping Intervals,Medium,56.3%,100.0%
+36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,63.7%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
+12,https://leetcode.com/problems/integer-to-roman,Integer to Roman,Medium,69.8%,87.5%
+1233,https://leetcode.com/problems/remove-sub-folders-from-the-filesystem,Remove Sub-Folders from the Filesystem,Medium,78.6%,87.5%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.6%,87.5%
+986,https://leetcode.com/problems/interval-list-intersections,Interval List Intersections,Medium,72.8%,87.5%

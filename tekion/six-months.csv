@@ -1,8 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1712,https://leetcode.com/problems/ways-to-split-array-into-three-subarrays,Ways to Split Array Into Three Subarrays,Medium,33.5%,87.5%
-410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,58.3%,100.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,100.0%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.2%,100.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,65.3%,87.5%
-1352,https://leetcode.com/problems/product-of-the-last-k-numbers,Product of the Last K Numbers,Medium,62.8%,87.5%
-127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,43.1%,87.5%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.9%,87.5%
+713,https://leetcode.com/problems/subarray-product-less-than-k,Subarray Product Less Than K,Medium,53.5%,87.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,57.6%,87.5%
+1048,https://leetcode.com/problems/longest-string-chain,Longest String Chain,Medium,62.6%,100.0%

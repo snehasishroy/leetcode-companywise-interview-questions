@@ -1,6 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1160,https://leetcode.com/problems/find-words-that-can-be-formed-by-characters,Find Words That Can Be Formed by Characters,Easy,71.1%,100.0%
-2133,https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers,Check if Every Row and Column Contains All Numbers,Easy,52.9%,100.0%
-1604,https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period,Alert Using Same Key-Card Three or More Times in a One Hour Period,Medium,45.9%,100.0%
-79,https://leetcode.com/problems/word-search,Word Search,Medium,45.4%,100.0%
-36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,62.4%,75.0%
+2133,https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers,Check if Every Row and Column Contains All Numbers,Easy,53.7%,87.5%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,49.7%,100.0%
+383,https://leetcode.com/problems/ransom-note,Ransom Note,Easy,65.2%,87.5%

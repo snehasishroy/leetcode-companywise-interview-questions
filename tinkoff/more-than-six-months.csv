@@ -1,31 +1,28 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,87.5%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,100.0%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,75.0%
-34,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array,Find First and Last Position of Element in Sorted Array,Medium,47.0%,75.0%
-1493,https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element,Longest Subarray of 1's After Deleting One Element,Medium,69.3%,75.0%
-71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,48.1%,87.5%
-841,https://leetcode.com/problems/keys-and-rooms,Keys and Rooms,Medium,74.8%,87.5%
-844,https://leetcode.com/problems/backspace-string-compare,Backspace String Compare,Easy,49.5%,75.0%
-849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.0%,62.5%
-392,https://leetcode.com/problems/is-subsequence,Is Subsequence,Easy,48.4%,62.5%
-155,https://leetcode.com/problems/min-stack,Min Stack,Medium,56.6%,100.0%
-974,https://leetcode.com/problems/subarray-sums-divisible-by-k,Subarray Sums Divisible by K,Medium,55.7%,62.5%
-977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.3%,62.5%
-74,https://leetcode.com/problems/search-a-2d-matrix,Search a 2D Matrix,Medium,52.4%,75.0%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.0%,75.0%
-1277,https://leetcode.com/problems/count-square-submatrices-with-all-ones,Count Square Submatrices with All Ones,Medium,78.8%,62.5%
-419,https://leetcode.com/problems/battleships-in-a-board,Battleships in a Board,Medium,76.6%,75.0%
-48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,78.1%,87.5%
-184,https://leetcode.com/problems/department-highest-salary,Department Highest Salary,Medium,55.0%,62.5%
-448,https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array,Find All Numbers Disappeared in an Array,Easy,62.5%,75.0%
-256,https://leetcode.com/problems/paint-house,Paint House,Medium,63.8%,62.5%
-2694,https://leetcode.com/problems/event-emitter,Event Emitter,Medium,74.5%,62.5%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.2%,62.5%
-125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,51.2%,62.5%
-560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,45.6%,62.5%
-394,https://leetcode.com/problems/decode-string,Decode String,Medium,61.3%,62.5%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,75.0%
-2605,https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays,Form Smallest Number From Two Digit Arrays,Easy,54.4%,75.0%
-1984,https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores,Minimum Difference Between Highest and Lowest of K Scores,Easy,58.7%,62.5%
-205,https://leetcode.com/problems/isomorphic-strings,Isomorphic Strings,Easy,47.0%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,100.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,75.0%
+34,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array,Find First and Last Position of Element in Sorted Array,Medium,47.8%,87.5%
+1493,https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element,Longest Subarray of 1's After Deleting One Element,Medium,70.9%,62.5%
+71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,49.4%,87.5%
+841,https://leetcode.com/problems/keys-and-rooms,Keys and Rooms,Medium,75.2%,87.5%
+844,https://leetcode.com/problems/backspace-string-compare,Backspace String Compare,Easy,49.6%,75.0%
+849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.4%,62.5%
+155,https://leetcode.com/problems/min-stack,Min Stack,Medium,57.3%,87.5%
+74,https://leetcode.com/problems/search-a-2d-matrix,Search a 2D Matrix,Medium,53.1%,75.0%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,75.0%
+1277,https://leetcode.com/problems/count-square-submatrices-with-all-ones,Count Square Submatrices with All Ones,Medium,80.6%,75.0%
+419,https://leetcode.com/problems/battleships-in-a-board,Battleships in a Board,Medium,77.1%,75.0%
+48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,78.9%,87.5%
+184,https://leetcode.com/problems/department-highest-salary,Department Highest Salary,Medium,56.5%,62.5%
+448,https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array,Find All Numbers Disappeared in an Array,Easy,63.1%,75.0%
+256,https://leetcode.com/problems/paint-house,Paint House,Medium,64.1%,62.5%
+2694,https://leetcode.com/problems/event-emitter,Event Emitter,Medium,74.7%,75.0%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,52.1%,62.5%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.3%,62.5%
+394,https://leetcode.com/problems/decode-string,Decode String,Medium,61.9%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,75.0%
+2605,https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays,Form Smallest Number From Two Digit Arrays,Easy,54.7%,75.0%
+1984,https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores,Minimum Difference Between Highest and Lowest of K Scores,Easy,59.3%,75.0%
+205,https://leetcode.com/problems/isomorphic-strings,Isomorphic Strings,Easy,47.6%,62.5%
+2609,https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string,Find the Longest Balanced Substring of a Binary String,Easy,46.0%,62.5%

@@ -1,2 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,100.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,87.5%
+162,https://leetcode.com/problems/find-peak-element,Find Peak Element,Medium,46.7%,87.5%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.2%,87.5%
+598,https://leetcode.com/problems/range-addition-ii,Range Addition II,Easy,58.0%,100.0%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.9%,87.5%

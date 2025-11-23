@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,59.4%,100.0%
-191,https://leetcode.com/problems/number-of-1-bits,Number of 1 Bits,Easy,74.7%,100.0%
-127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,43.1%,75.0%
+692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,59.8%,100.0%
+191,https://leetcode.com/problems/number-of-1-bits,Number of 1 Bits,Easy,75.7%,87.5%
+965,https://leetcode.com/problems/univalued-binary-tree,Univalued Binary Tree,Easy,72.6%,87.5%
+189,https://leetcode.com/problems/rotate-array,Rotate Array,Medium,44.0%,87.5%

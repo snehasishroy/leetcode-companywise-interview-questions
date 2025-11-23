@@ -1,0 +1,16 @@
+ID,URL,Title,Difficulty,Acceptance %,Frequency %
+975,https://leetcode.com/problems/odd-even-jump,Odd Even Jump,Hard,41.0%,75.0%
+205,https://leetcode.com/problems/isomorphic-strings,Isomorphic Strings,Easy,47.6%,100.0%
+149,https://leetcode.com/problems/max-points-on-a-line,Max Points on a Line,Hard,29.8%,75.0%
+552,https://leetcode.com/problems/student-attendance-record-ii,Student Attendance Record II,Hard,56.2%,75.0%
+1129,https://leetcode.com/problems/shortest-path-with-alternating-colors,Shortest Path with Alternating Colors,Medium,47.5%,75.0%
+2440,https://leetcode.com/problems/create-components-with-same-value,Create Components With Same Value,Hard,52.9%,87.5%
+1463,https://leetcode.com/problems/cherry-pickup-ii,Cherry Pickup II,Hard,72.2%,87.5%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.3%,87.5%
+687,https://leetcode.com/problems/longest-univalue-path,Longest Univalue Path,Medium,43.2%,75.0%
+907,https://leetcode.com/problems/sum-of-subarray-minimums,Sum of Subarray Minimums,Medium,38.1%,87.5%
+918,https://leetcode.com/problems/maximum-sum-circular-subarray,Maximum Sum Circular Subarray,Medium,48.7%,75.0%
+85,https://leetcode.com/problems/maximal-rectangle,Maximal Rectangle,Hard,55.3%,75.0%
+32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,37.4%,75.0%
+403,https://leetcode.com/problems/frog-jump,Frog Jump,Hard,46.9%,75.0%
+456,https://leetcode.com/problems/132-pattern,132 Pattern,Medium,34.4%,75.0%

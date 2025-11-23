@@ -1,5 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-208,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium,68.1%,75.0%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.2%,75.0%
-1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,87.5%
-3588,https://leetcode.com/problems/find-maximum-area-of-a-triangle,Find Maximum Area of a Triangle,Medium,27.0%,100.0%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.5%,100.0%
+1797,https://leetcode.com/problems/design-authentication-manager,Design Authentication Manager,Medium,58.1%,100.0%

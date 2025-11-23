@@ -1,11 +1,9 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.4%,62.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,50.0%
-1380,https://leetcode.com/problems/lucky-numbers-in-a-matrix,Lucky Numbers in a Matrix,Easy,79.9%,62.5%
-412,https://leetcode.com/problems/fizz-buzz,Fizz Buzz,Easy,74.5%,50.0%
-2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,37.1%,100.0%
-1443,https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree,Minimum Time to Collect All Apples in a Tree,Medium,63.1%,75.0%
-48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,78.1%,62.5%
-3607,https://leetcode.com/problems/power-grid-maintenance,Power Grid Maintenance,Medium,43.8%,75.0%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,50.0%
-25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,63.3%,50.0%
+394,https://leetcode.com/problems/decode-string,Decode String,Medium,61.9%,62.5%
+498,https://leetcode.com/problems/diagonal-traverse,Diagonal Traverse,Medium,66.8%,87.5%
+72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,59.7%,75.0%
+212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,37.8%,100.0%
+2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.3%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,62.5%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,46.3%,62.5%
+202,https://leetcode.com/problems/happy-number,Happy Number,Easy,58.8%,62.5%

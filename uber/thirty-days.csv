@@ -1,10 +1,15 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,36.7%,87.5%
-815,https://leetcode.com/problems/bus-routes,Bus Routes,Hard,47.0%,100.0%
-427,https://leetcode.com/problems/construct-quad-tree,Construct Quad Tree,Medium,77.2%,87.5%
-2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,37.1%,87.5%
-84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,47.6%,75.0%
-2101,https://leetcode.com/problems/detonate-the-maximum-bombs,Detonate the Maximum Bombs,Medium,49.3%,75.0%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,75.0%
-1438,https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,56.8%,75.0%
-399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,63.2%,75.0%
+305,https://leetcode.com/problems/number-of-islands-ii,Number of Islands II,Hard,40.3%,87.5%
+1429,https://leetcode.com/problems/first-unique-number,First Unique Number,Medium,56.6%,87.5%
+564,https://leetcode.com/problems/find-the-closest-palindrome,Find the Closest Palindrome,Hard,31.8%,87.5%
+269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,36.9%,87.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,100.0%
+977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.4%,87.5%
+1475,https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop,Final Prices With a Special Discount in a Shop,Easy,83.7%,75.0%
+2571,https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0,Minimum Operations to Reduce an Integer to 0,Medium,59.9%,75.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.2%,75.0%
+212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,37.8%,75.0%
+362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.4%,87.5%
+2791,https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree,Count Paths That Can Form a Palindrome in a Tree,Hard,46.7%,75.0%
+2468,https://leetcode.com/problems/split-message-based-on-limit,Split Message Based on Limit,Hard,42.1%,75.0%
+815,https://leetcode.com/problems/bus-routes,Bus Routes,Hard,47.0%,75.0%

@@ -1,21 +1,22 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.4%,75.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,50.0%
-2016,https://leetcode.com/problems/maximum-difference-between-increasing-elements,Maximum Difference Between Increasing Elements,Easy,66.2%,50.0%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,54.2%,62.5%
-1380,https://leetcode.com/problems/lucky-numbers-in-a-matrix,Lucky Numbers in a Matrix,Easy,79.9%,62.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,75.0%
-48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,78.1%,62.5%
-412,https://leetcode.com/problems/fizz-buzz,Fizz Buzz,Easy,74.5%,62.5%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,62.5%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.2%,50.0%
-149,https://leetcode.com/problems/max-points-on-a-line,Max Points on a Line,Hard,29.1%,50.0%
-567,https://leetcode.com/problems/permutation-in-string,Permutation in String,Medium,47.4%,50.0%
-3508,https://leetcode.com/problems/implement-router,Implement Router,Medium,22.0%,75.0%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,50.0%
-141,https://leetcode.com/problems/linked-list-cycle,Linked List Cycle,Easy,52.7%,50.0%
-2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,37.1%,100.0%
-1443,https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree,Minimum Time to Collect All Apples in a Tree,Medium,63.1%,62.5%
-3607,https://leetcode.com/problems/power-grid-maintenance,Power Grid Maintenance,Medium,43.8%,75.0%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,50.0%
-25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,63.3%,50.0%
+198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.7%,50.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,50.0%
+48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,78.9%,50.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,50.0%
+2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,39.0%,100.0%
+1443,https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree,Minimum Time to Collect All Apples in a Tree,Medium,63.4%,62.5%
+3607,https://leetcode.com/problems/power-grid-maintenance,Power Grid Maintenance,Medium,56.8%,75.0%
+25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,64.6%,50.0%
+151,https://leetcode.com/problems/reverse-words-in-a-string,Reverse Words in a String,Medium,54.4%,50.0%
+394,https://leetcode.com/problems/decode-string,Decode String,Medium,61.9%,62.5%
+498,https://leetcode.com/problems/diagonal-traverse,Diagonal Traverse,Medium,66.8%,62.5%
+72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,59.7%,62.5%
+212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,37.8%,75.0%
+273,https://leetcode.com/problems/integer-to-english-words,Integer to English Words,Hard,34.7%,50.0%
+2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.3%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,50.0%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,46.3%,50.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,50.0%
+76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,46.4%,50.0%
+1143,https://leetcode.com/problems/longest-common-subsequence,Longest Common Subsequence,Medium,58.6%,50.0%
+202,https://leetcode.com/problems/happy-number,Happy Number,Easy,58.8%,50.0%

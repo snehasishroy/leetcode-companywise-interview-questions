@@ -1,2 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1497,https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k,Check If Array Pairs Are Divisible by k,Medium,46.2%,100.0%
+250,https://leetcode.com/problems/count-univalue-subtrees,Count Univalue Subtrees,Medium,57.4%,100.0%
+968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.5%,100.0%

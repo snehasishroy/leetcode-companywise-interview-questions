@@ -1,11 +1,10 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,45.6%,100.0%
-279,https://leetcode.com/problems/perfect-squares,Perfect Squares,Medium,55.7%,87.5%
-438,https://leetcode.com/problems/find-all-anagrams-in-a-string,Find All Anagrams in a String,Medium,52.3%,75.0%
-567,https://leetcode.com/problems/permutation-in-string,Permutation in String,Medium,47.4%,75.0%
-92,https://leetcode.com/problems/reverse-linked-list-ii,Reverse Linked List II,Medium,49.7%,75.0%
-83,https://leetcode.com/problems/remove-duplicates-from-sorted-list,Remove Duplicates from Sorted List,Easy,55.0%,75.0%
-107,https://leetcode.com/problems/binary-tree-level-order-traversal-ii,Binary Tree Level Order Traversal II,Medium,66.2%,75.0%
-528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,48.3%,75.0%
-21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.0%,75.0%
-257,https://leetcode.com/problems/binary-tree-paths,Binary Tree Paths,Easy,66.8%,75.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,100.0%
+279,https://leetcode.com/problems/perfect-squares,Perfect Squares,Medium,56.1%,87.5%
+438,https://leetcode.com/problems/find-all-anagrams-in-a-string,Find All Anagrams in a String,Medium,52.9%,87.5%
+92,https://leetcode.com/problems/reverse-linked-list-ii,Reverse Linked List II,Medium,50.5%,87.5%
+83,https://leetcode.com/problems/remove-duplicates-from-sorted-list,Remove Duplicates from Sorted List,Easy,55.8%,75.0%
+528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,48.7%,62.5%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.5%,62.5%
+257,https://leetcode.com/problems/binary-tree-paths,Binary Tree Paths,Easy,67.7%,87.5%
+268,https://leetcode.com/problems/missing-number,Missing Number,Easy,71.1%,62.5%

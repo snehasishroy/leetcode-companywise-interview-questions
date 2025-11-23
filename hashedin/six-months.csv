@@ -1,7 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2448,https://leetcode.com/problems/minimum-cost-to-make-array-equal,Minimum Cost to Make Array Equal,Hard,46.4%,100.0%
-31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,43.3%,100.0%
-810,https://leetcode.com/problems/chalkboard-xor-game,Chalkboard XOR Game,Hard,63.2%,100.0%
-45,https://leetcode.com/problems/jump-game-ii,Jump Game II,Medium,41.6%,100.0%
-72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,59.0%,100.0%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,57.9%,100.0%
+2594,https://leetcode.com/problems/minimum-time-to-repair-cars,Minimum Time to Repair Cars,Medium,59.7%,87.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,100.0%
+992,https://leetcode.com/problems/subarrays-with-k-different-integers,Subarrays with K Different Integers,Hard,67.0%,100.0%
+974,https://leetcode.com/problems/subarray-sums-divisible-by-k,Subarray Sums Divisible by K,Medium,55.8%,87.5%

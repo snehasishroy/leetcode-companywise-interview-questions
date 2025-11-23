@@ -1,9 +1,34 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 432,https://leetcode.com/problems/all-oone-data-structure,All O`one Data Structure,Hard,44.1%,87.5%
-716,https://leetcode.com/problems/max-stack,Max Stack,Hard,45.5%,100.0%
-1004,https://leetcode.com/problems/max-consecutive-ones-iii,Max Consecutive Ones III,Medium,66.1%,87.5%
-127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,43.1%,87.5%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.0%,100.0%
-156,https://leetcode.com/problems/binary-tree-upside-down,Binary Tree Upside Down,Medium,64.6%,87.5%
-671,https://leetcode.com/problems/second-minimum-node-in-a-binary-tree,Second Minimum Node In a Binary Tree,Easy,45.4%,87.5%
-364,https://leetcode.com/problems/nested-list-weight-sum-ii,Nested List Weight Sum II,Medium,65.6%,87.5%
+364,https://leetcode.com/problems/nested-list-weight-sum-ii,Nested List Weight Sum II,Medium,66.2%,100.0%
+1004,https://leetcode.com/problems/max-consecutive-ones-iii,Max Consecutive Ones III,Medium,66.9%,75.0%
+244,https://leetcode.com/problems/shortest-word-distance-ii,Shortest Word Distance II,Medium,62.5%,75.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,62.5%
+235,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree,Lowest Common Ancestor of a Binary Search Tree,Medium,69.5%,75.0%
+236,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Lowest Common Ancestor of a Binary Tree,Medium,68.1%,62.5%
+17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,64.9%,87.5%
+101,https://leetcode.com/problems/symmetric-tree,Symmetric Tree,Easy,60.2%,75.0%
+277,https://leetcode.com/problems/find-the-celebrity,Find the Celebrity,Medium,48.7%,75.0%
+152,https://leetcode.com/problems/maximum-product-subarray,Maximum Product Subarray,Medium,35.6%,62.5%
+34,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array,Find First and Last Position of Element in Sorted Array,Medium,47.8%,75.0%
+716,https://leetcode.com/problems/max-stack,Max Stack,Hard,45.7%,62.5%
+46,https://leetcode.com/problems/permutations,Permutations,Medium,81.3%,75.0%
+605,https://leetcode.com/problems/can-place-flowers,Can Place Flowers,Easy,29.0%,75.0%
+272,https://leetcode.com/problems/closest-binary-search-tree-value-ii,Closest Binary Search Tree Value II,Hard,60.9%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,87.5%
+205,https://leetcode.com/problems/isomorphic-strings,Isomorphic Strings,Easy,47.6%,87.5%
+187,https://leetcode.com/problems/repeated-dna-sequences,Repeated DNA Sequences,Medium,52.3%,62.5%
+1188,https://leetcode.com/problems/design-bounded-blocking-queue,Design Bounded Blocking Queue,Medium,73.3%,75.0%
+156,https://leetcode.com/problems/binary-tree-upside-down,Binary Tree Upside Down,Medium,65.0%,75.0%
+104,https://leetcode.com/problems/maximum-depth-of-binary-tree,Maximum Depth of Binary Tree,Easy,77.7%,75.0%
+151,https://leetcode.com/problems/reverse-words-in-a-string,Reverse Words in a String,Medium,54.4%,62.5%
+671,https://leetcode.com/problems/second-minimum-node-in-a-binary-tree,Second Minimum Node In a Binary Tree,Easy,45.7%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,62.5%
+360,https://leetcode.com/problems/sort-transformed-array,Sort Transformed Array,Medium,57.6%,75.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.2%,62.5%
+72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,59.7%,62.5%
+617,https://leetcode.com/problems/merge-two-binary-trees,Merge Two Binary Trees,Easy,78.9%,62.5%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.3%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,62.5%
+339,https://leetcode.com/problems/nested-list-weight-sum,Nested List Weight Sum,Medium,85.8%,75.0%
+76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,46.4%,62.5%

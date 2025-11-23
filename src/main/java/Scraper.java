@@ -24,7 +24,7 @@ public class Scraper {
     private static final String USERNAME = ""; // Provide your LeetCode username/email
     private static final String PASSWORD = ""; // Provide your LeetCode password
     public static final int QUESTIONS_PAGE_WAIT_MILLIS = 5000;
-    public static final int LOGIN_PAGE_WAIT_MILLIS = 30000;
+    public static final int LOGIN_PAGE_WAIT_MILLIS = 20000;
     WebDriver driver;
 
     public void setup() throws InterruptedException {

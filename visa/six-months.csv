@@ -1,33 +1,28 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,75.0%
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,48.4%,62.5%
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,45.6%,50.0%
-1861,https://leetcode.com/problems/rotating-the-box,Rotating the Box,Medium,79.1%,87.5%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,75.0%
-1438,https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,56.8%,50.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,62.5%
-15,https://leetcode.com/problems/3sum,3Sum,Medium,37.2%,87.5%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,62.5%,62.5%
-3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,17.0%,75.0%
-127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,43.1%,62.5%
-3459,https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment,Length of Longest V-Shaped Diagonal Segment,Hard,33.7%,100.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,75.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,75.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.1%,62.5%
-3046,https://leetcode.com/problems/split-the-array,Split the Array,Easy,59.4%,50.0%
-162,https://leetcode.com/problems/find-peak-element,Find Peak Element,Medium,46.5%,50.0%
-286,https://leetcode.com/problems/walls-and-gates,Walls and Gates,Medium,63.0%,50.0%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,64.7%,50.0%
-2672,https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color,Number of Adjacent Elements With the Same Color,Medium,56.1%,62.5%
-3071,https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid,Minimum Operations to Write the Letter Y on a Grid,Medium,62.2%,62.5%
-206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,79.3%,62.5%
-2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,38.9%,62.5%
-1876,https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters,Substrings of Size Three with Distinct Characters,Easy,75.6%,50.0%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,49.5%,62.5%
-71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,48.1%,62.5%
-3034,https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i,Number of Subarrays That Match a Pattern I,Medium,67.0%,50.0%
-792,https://leetcode.com/problems/number-of-matching-subsequences,Number of Matching Subsequences,Medium,50.7%,50.0%
-217,https://leetcode.com/problems/contains-duplicate,Contains Duplicate,Easy,63.3%,50.0%
-129,https://leetcode.com/problems/sum-root-to-leaf-numbers,Sum Root to Leaf Numbers,Medium,68.6%,50.0%
-460,https://leetcode.com/problems/lfu-cache,LFU Cache,Hard,46.8%,50.0%
-93,https://leetcode.com/problems/restore-ip-addresses,Restore IP Addresses,Medium,53.4%,50.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,75.0%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,49.7%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,62.5%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,38.0%,75.0%
+3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,18.1%,50.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,75.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,87.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,50.0%
+3071,https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid,Minimum Operations to Write the Letter Y on a Grid,Medium,63.5%,100.0%
+2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,40.8%,87.5%
+71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,49.4%,62.5%
+110,https://leetcode.com/problems/balanced-binary-tree,Balanced Binary Tree,Easy,56.5%,50.0%
+75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,68.6%,50.0%
+2817,https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint,Minimum Absolute Difference Between Elements With Constraint,Medium,35.8%,75.0%
+539,https://leetcode.com/problems/minimum-time-difference,Minimum Time Difference,Medium,62.5%,62.5%
+84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,48.7%,87.5%
+264,https://leetcode.com/problems/ugly-number-ii,Ugly Number II,Medium,49.4%,50.0%
+3552,https://leetcode.com/problems/grid-teleportation-traversal,Grid Teleportation Traversal,Medium,22.5%,75.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.7%,62.5%
+1743,https://leetcode.com/problems/restore-the-array-from-adjacent-pairs,Restore the Array From Adjacent Pairs,Medium,74.9%,50.0%
+202,https://leetcode.com/problems/happy-number,Happy Number,Easy,58.8%,50.0%
+1314,https://leetcode.com/problems/matrix-block-sum,Matrix Block Sum,Medium,76.2%,75.0%
+3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,56.8%,75.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,55.4%,50.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,50.0%
+17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,64.9%,50.0%
+2672,https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color,Number of Adjacent Elements With the Same Color,Medium,57.6%,50.0%

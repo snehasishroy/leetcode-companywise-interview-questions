@@ -1,5 +1,11 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1476,https://leetcode.com/problems/subrectangle-queries,Subrectangle Queries,Medium,86.0%,100.0%
-1610,https://leetcode.com/problems/maximum-number-of-visible-points,Maximum Number of Visible Points,Hard,37.7%,100.0%
-356,https://leetcode.com/problems/line-reflection,Line Reflection,Medium,36.0%,100.0%
-97,https://leetcode.com/problems/interleaving-string,Interleaving String,Medium,42.3%,100.0%
+1476,https://leetcode.com/problems/subrectangle-queries,Subrectangle Queries,Medium,86.1%,62.5%
+1610,https://leetcode.com/problems/maximum-number-of-visible-points,Maximum Number of Visible Points,Hard,37.8%,100.0%
+356,https://leetcode.com/problems/line-reflection,Line Reflection,Medium,36.2%,62.5%
+97,https://leetcode.com/problems/interleaving-string,Interleaving String,Medium,43.0%,62.5%
+494,https://leetcode.com/problems/target-sum,Target Sum,Medium,51.5%,62.5%
+346,https://leetcode.com/problems/moving-average-from-data-stream,Moving Average from Data Stream,Easy,80.1%,62.5%
+1293,https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination,Shortest Path in a Grid with Obstacles Elimination,Hard,45.9%,62.5%
+399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,63.7%,75.0%
+986,https://leetcode.com/problems/interval-list-intersections,Interval List Intersections,Medium,72.8%,62.5%
+1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,62.5%

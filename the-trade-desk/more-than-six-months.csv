@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,100.0%
-3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,56.4%,100.0%
-227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,45.9%,100.0%
+3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,56.8%,100.0%
+227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,46.4%,100.0%
+127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,44.2%,100.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,55.4%,100.0%

@@ -1,6 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,44.1%,100.0%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,44.0%,100.0%
-9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,59.3%,87.5%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,87.5%
-125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,51.2%,87.5%
+176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,45.5%,100.0%
+1148,https://leetcode.com/problems/article-views-i,Article Views I,Easy,76.9%,87.5%
+55,https://leetcode.com/problems/jump-game,Jump Game,Medium,40.1%,87.5%
+509,https://leetcode.com/problems/fibonacci-number,Fibonacci Number,Easy,73.6%,100.0%

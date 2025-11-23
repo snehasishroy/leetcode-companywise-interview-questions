@@ -1,7 +1,8 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2483,https://leetcode.com/problems/minimum-penalty-for-a-shop,Minimum Penalty for a Shop,Medium,67.6%,100.0%
-465,https://leetcode.com/problems/optimal-account-balancing,Optimal Account Balancing,Hard,50.0%,50.0%
-399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,63.2%,75.0%
-1087,https://leetcode.com/problems/brace-expansion,Brace Expansion,Medium,66.7%,50.0%
-787,https://leetcode.com/problems/cheapest-flights-within-k-stops,Cheapest Flights Within K Stops,Medium,40.5%,50.0%
+2483,https://leetcode.com/problems/minimum-penalty-for-a-shop,Minimum Penalty for a Shop,Medium,67.8%,100.0%
+465,https://leetcode.com/problems/optimal-account-balancing,Optimal Account Balancing,Hard,50.1%,62.5%
+399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,63.7%,87.5%
+1087,https://leetcode.com/problems/brace-expansion,Brace Expansion,Medium,66.8%,62.5%
+787,https://leetcode.com/problems/cheapest-flights-within-k-stops,Cheapest Flights Within K Stops,Medium,41.0%,62.5%
 2050,https://leetcode.com/problems/parallel-courses-iii,Parallel Courses III,Hard,66.8%,50.0%
+2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,40.8%,50.0%

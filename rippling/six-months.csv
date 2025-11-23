@@ -1,3 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-3484,https://leetcode.com/problems/design-spreadsheet,Design Spreadsheet,Medium,67.6%,100.0%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,44.0%,62.5%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,100.0%
+2939,https://leetcode.com/problems/maximum-xor-product,Maximum Xor Product,Medium,28.8%,75.0%
+1944,https://leetcode.com/problems/number-of-visible-people-in-a-queue,Number of Visible People in a Queue,Hard,72.0%,62.5%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.2%,75.0%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.2%,62.5%
+737,https://leetcode.com/problems/sentence-similarity-ii,Sentence Similarity II,Medium,50.9%,62.5%

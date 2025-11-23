@@ -1,2 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,42.4%,100.0%
+1411,https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid,Number of Ways to Paint N × 3 Grid,Hard,65.5%,100.0%
+1931,https://leetcode.com/problems/painting-a-grid-with-three-different-colors,Painting a Grid With Three Different Colors,Hard,77.9%,100.0%

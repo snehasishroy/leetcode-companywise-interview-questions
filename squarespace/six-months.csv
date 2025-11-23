@@ -1,3 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,45.4%,87.5%
-88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.1%,100.0%
+88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.9%,100.0%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.5%,75.0%
+1893,https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered,Check if All the Integers in a Range Are Covered,Easy,50.7%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,75.0%

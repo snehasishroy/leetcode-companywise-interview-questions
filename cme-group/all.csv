@@ -1,3 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,55.4%,75.0%
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,45.6%,100.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,100.0%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.2%,75.0%
+134,https://leetcode.com/problems/gas-station,Gas Station,Medium,47.1%,100.0%

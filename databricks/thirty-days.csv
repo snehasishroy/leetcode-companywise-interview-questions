@@ -1,3 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-751,https://leetcode.com/problems/ip-to-cidr,IP to CIDR,Medium,54.7%,100.0%
-348,https://leetcode.com/problems/design-tic-tac-toe,Design Tic-Tac-Toe,Medium,58.6%,100.0%
+362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.4%,100.0%
+751,https://leetcode.com/problems/ip-to-cidr,IP to CIDR,Medium,53.4%,100.0%
+438,https://leetcode.com/problems/find-all-anagrams-in-a-string,Find All Anagrams in a String,Medium,52.9%,87.5%
+2096,https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another,Step-By-Step Directions From a Binary Tree Node to Another,Medium,56.4%,87.5%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.6%,87.5%
+900,https://leetcode.com/problems/rle-iterator,RLE Iterator,Medium,59.0%,75.0%

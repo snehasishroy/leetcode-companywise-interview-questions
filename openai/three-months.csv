@@ -1,3 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2408,https://leetcode.com/problems/design-sql,Design SQL,Medium,69.4%,100.0%
-341,https://leetcode.com/problems/flatten-nested-list-iterator,Flatten Nested List Iterator,Medium,65.3%,75.0%
+271,https://leetcode.com/problems/encode-and-decode-strings,Encode and Decode Strings,Medium,50.7%,100.0%
+2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,49.3%,87.5%
+2408,https://leetcode.com/problems/design-sql,Design SQL,Medium,66.0%,75.0%
+751,https://leetcode.com/problems/ip-to-cidr,IP to CIDR,Medium,53.4%,75.0%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.6%,75.0%

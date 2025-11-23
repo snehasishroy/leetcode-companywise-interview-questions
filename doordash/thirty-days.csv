@@ -1,12 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-286,https://leetcode.com/problems/walls-and-gates,Walls and Gates,Medium,63.0%,100.0%
-124,https://leetcode.com/problems/binary-tree-maximum-path-sum,Binary Tree Maximum Path Sum,Hard,41.3%,87.5%
-329,https://leetcode.com/problems/longest-increasing-path-in-a-matrix,Longest Increasing Path in a Matrix,Hard,55.4%,100.0%
-1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,75.0%
-875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.1%,75.0%
-1166,https://leetcode.com/problems/design-file-system,Design File System,Medium,64.2%,75.0%
-37,https://leetcode.com/problems/sudoku-solver,Sudoku Solver,Hard,64.0%,75.0%
-658,https://leetcode.com/problems/find-k-closest-elements,Find K Closest Elements,Medium,48.8%,75.0%
-827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,55.2%,75.0%
-13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,65.0%,75.0%
-1834,https://leetcode.com/problems/single-threaded-cpu,Single-Threaded CPU,Medium,46.6%,87.5%
+286,https://leetcode.com/problems/walls-and-gates,Walls and Gates,Medium,63.4%,100.0%
+1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.5%,100.0%
