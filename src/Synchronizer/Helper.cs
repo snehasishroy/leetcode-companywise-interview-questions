@@ -8,11 +8,11 @@ internal class Helper
         return csvFiles.ToList();
     }
 
-    public static List<Common.Models.Problem> ReadProblemsFromCsv(string filePath)
+    public static List<Common.Models.Problem> ReadProblemsFromCsv(string filePath, string rootDir)
     {
         var problems = new List<Common.Models.Problem>();
         var lines = File.ReadAllLines(filePath);
-        var relPath = filePath.Split("leetcode/").Last();
+        var relPath = Path.GetRelativePath(rootDir, filePath);
         
         foreach (var line in lines.Skip(1)) // Skip header
         {
@@ -36,8 +36,8 @@ internal class Helper
                 metadata = new Dictionary<string, string>()
             };
 
-            problem.metadata[Common.Models.TagName.FolderName] = relPath.Split('/').First();
-            problem.metadata[Common.Models.TagName.FileName] = relPath.Split('/').Last().Split('.').First();
+            problem.metadata[Common.Models.TagName.FolderName] = Path.GetDirectoryName(filePath)?.Split("/").Last() ?? "NA";
+            problem.metadata[Common.Models.TagName.FileName] = Path.GetFileNameWithoutExtension(filePath);
 
             // Additional metadata can be parsed here if available
             problems.Add(problem);

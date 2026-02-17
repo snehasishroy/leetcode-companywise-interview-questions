@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
-import { fetchProblems } from "../../services/api";
+import { fetchProblems, fetchCompanies } from "../../services/api";
 import Nav from "./Nav";
 import Body from "./Body";
 import useSolvedProblems from "../hooks/useSolvedProblems";
@@ -7,6 +7,7 @@ import "../../styles/layout/Main.css";
 
 const Main = () => {
   const [problems, setProblems] = useState([]);
+  const [companies, setCompanies] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [filters, setFilters] = useState({
@@ -82,17 +83,18 @@ const Main = () => {
     loadProblems();
   }, [currentPage, filters, shuffle, isShuffleEnabled]);
 
-  const companies = useMemo(() => {
-    const companySet = new Set();
-    problems.forEach((problem) => {
-      if (problem.companies) {
-        Object.keys(problem.companies).forEach((company) =>
-          companySet.add(company)
-        );
+  useEffect(() => {
+    const loadCompanies = async () => {
+      try {
+        const companyData = await fetchCompanies();
+        setCompanies(companyData.sort());
+      } catch (err) {
+        console.error("Failed to fetch companies:", err);
       }
-    });
-    return Array.from(companySet).sort();
-  }, [problems]);
+    };
+
+    loadCompanies();
+  }, []);
 
   const handleFilterChange = (newFilters) => {
     setFilters(newFilters);

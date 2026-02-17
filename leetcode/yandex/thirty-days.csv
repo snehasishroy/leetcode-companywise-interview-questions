@@ -1,9 +1,0 @@
-ID,URL,Title,Difficulty,Acceptance %,Frequency %
-392,https://leetcode.com/problems/is-subsequence,Is Subsequence,Easy,48.4%,87.5%
-438,https://leetcode.com/problems/find-all-anagrams-in-a-string,Find All Anagrams in a String,Medium,52.3%,75.0%
-680,https://leetcode.com/problems/valid-palindrome-ii,Valid Palindrome II,Easy,43.1%,100.0%
-443,https://leetcode.com/problems/string-compression,String Compression,Medium,58.3%,75.0%
-849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.0%,100.0%
-658,https://leetcode.com/problems/find-k-closest-elements,Find K Closest Elements,Medium,48.8%,75.0%
-228,https://leetcode.com/problems/summary-ranges,Summary Ranges,Easy,53.1%,75.0%
-2241,https://leetcode.com/problems/design-an-atm-machine,Design an ATM Machine,Medium,42.4%,75.0%

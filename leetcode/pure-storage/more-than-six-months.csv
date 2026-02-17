@@ -1,6 +1,0 @@
-ID,URL,Title,Difficulty,Acceptance %,Frequency %
-300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,58.0%,75.0%
-593,https://leetcode.com/problems/valid-square,Valid Square,Medium,44.3%,100.0%
-1668,https://leetcode.com/problems/maximum-repeating-substring,Maximum Repeating Substring,Easy,39.7%,75.0%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,62.5%
-1206,https://leetcode.com/problems/design-skiplist,Design Skiplist,Hard,58.2%,62.5%

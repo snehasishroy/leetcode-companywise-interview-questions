@@ -1,7 +1,0 @@
-ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,55.9%,100.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.1%,100.0%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.0%,87.5%
-55,https://leetcode.com/problems/jump-game,Jump Game,Medium,39.6%,87.5%
-70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.6%,87.5%
-185,https://leetcode.com/problems/department-top-three-salaries,Department Top Three Salaries,Hard,58.0%,87.5%

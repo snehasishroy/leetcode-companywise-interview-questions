@@ -43,3 +43,11 @@ export const getProblemById = async (id) => {
   }
   return await response.json();
 };
+
+export const fetchCompanies = async () => {
+  const response = await fetch(`${API_BASE_URL}/problems-metadata`);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch companies`);
+  }
+  return await response.json();
+};

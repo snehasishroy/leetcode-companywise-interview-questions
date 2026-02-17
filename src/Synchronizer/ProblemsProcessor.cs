@@ -8,7 +8,7 @@ public class ProblemsProcessor
 {
     private string rootDir;
     private CosmosClient cosmosClient;
-    private DateTime ScrappedDate = new DateTime(2025, 7, 1);
+    private DateTime ScrappedDate = new DateTime(2025, 11, 1);
     private Dictionary<string,string> TagsToReplace =
         new Dictionary<string, string> { { "more-than-six-months", "one-year" } };
 
@@ -27,7 +27,7 @@ public class ProblemsProcessor
 
         foreach (var file in files)
         {
-            var problems = Helper.ReadProblemsFromCsv(file);
+            var problems = Helper.ReadProblemsFromCsv(file, rootDir);
             foreach (var problem in problems)
             {
                 var companyName = problem.metadata[TagName.FolderName];
@@ -64,8 +64,11 @@ public class ProblemsProcessor
         Console.WriteLine($"Total unique problems found: {allProblems.Count}");
         Console.WriteLine($"Recent tags found: {string.Join(", ", recentTags)}");
 
-        // var sampleProblems = allProblems.Values.Take(Math.Min(5, allProblems.Count)).ToList();
-        // foreach (var prob in sampleProblems) Console.WriteLine(prob.ToString());
+        /*
+        // For printing the problems before inserting - validation
+        var sampleProblems = allProblems.Values.Take(Math.Min(5, allProblems.Count)).ToList();
+        foreach (var prob in sampleProblems) Console.WriteLine(prob.ToString());
+        */
 
         var db = cosmosClient.GetDatabase(ComosDbSettings.DatabaseId);
         var container = db.GetContainer(ComosDbSettings.ContainerId);

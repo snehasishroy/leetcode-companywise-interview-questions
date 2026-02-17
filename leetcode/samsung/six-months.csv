@@ -1,9 +1,0 @@
-ID,URL,Title,Difficulty,Acceptance %,Frequency %
-312,https://leetcode.com/problems/burst-balloons,Burst Balloons,Hard,61.6%,62.5%
-886,https://leetcode.com/problems/possible-bipartition,Possible Bipartition,Medium,51.6%,75.0%
-300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,58.0%,100.0%
-785,https://leetcode.com/problems/is-graph-bipartite,Is Graph Bipartite?,Medium,57.9%,62.5%
-713,https://leetcode.com/problems/subarray-product-less-than-k,Subarray Product Less Than K,Medium,53.0%,75.0%
-30,https://leetcode.com/problems/substring-with-concatenation-of-all-words,Substring with Concatenation of All Words,Hard,33.1%,100.0%
-374,https://leetcode.com/problems/guess-number-higher-or-lower,Guess Number Higher or Lower,Easy,55.9%,100.0%
-849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.0%,62.5%

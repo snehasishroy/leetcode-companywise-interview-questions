@@ -61,12 +61,14 @@ internal class Program
     {
         Console.WriteLine("Hello, World!");
 
-        CosmosClient client = new CosmosClient(ComosDbSettings.Uri, ComosDbSettings.PrimaryKey);
+        string rootDir = args.Length > 0 ? args[0] : throw new ArgumentException("Root directory argument is required");
+        string primaryKey = args.Length > 1 ? args[1] : throw new ArgumentException("Primary key of cosmos db is required");
+
+        CosmosClient client = new CosmosClient(ComosDbSettings.Uri, primaryKey);
 
         SetupDb(client);
         // Test(client);
 
-        string rootDir = args.Length > 0 ? args[0] : throw new ArgumentException("Root directory argument is required");
         var processor = new ProblemsProcessor(rootDir, client);
         processor.Run().GetAwaiter().GetResult();
 
@@ -79,5 +81,5 @@ public class ComosDbSettings
     public static string Uri { get; } = "https://lcw-cosmos.documents.azure.com:443/";
     public static string DatabaseId { get; } = "LeetCodeWrapper";
     public static string ContainerId { get; } = "Problems";
-    public static string PrimaryKey { get; } = "";
+    public static string PrimaryKey { get; } = ""; // Get this from command line args
 }
