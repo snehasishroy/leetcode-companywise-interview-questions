@@ -1,60 +1,57 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2468,https://leetcode.com/problems/split-message-based-on-limit,Split Message Based on Limit,Hard,42.1%,50.0%
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,50.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,62.5%
-1472,https://leetcode.com/problems/design-browser-history,Design Browser History,Medium,78.0%,62.5%
-48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,78.9%,62.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,62.5%
-621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.3%,87.5%
-1552,https://leetcode.com/problems/magnetic-force-between-two-balls,Magnetic Force Between Two Balls,Medium,71.7%,62.5%
-1289,https://leetcode.com/problems/minimum-falling-path-sum-ii,Minimum Falling Path Sum II,Hard,63.4%,37.5%
-208,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium,68.8%,62.5%
-721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,60.5%,37.5%
-212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,37.8%,37.5%
-767,https://leetcode.com/problems/reorganize-string,Reorganize String,Medium,56.6%,100.0%
-811,https://leetcode.com/problems/subdomain-visit-count,Subdomain Visit Count,Medium,77.0%,62.5%
-1248,https://leetcode.com/problems/count-number-of-nice-subarrays,Count Number of Nice Subarrays,Medium,74.3%,75.0%
-362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.4%,75.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.1%,50.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,62.5%
+1472,https://leetcode.com/problems/design-browser-history,Design Browser History,Medium,78.2%,50.0%
+48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,79.3%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,50.0%
+621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.6%,87.5%
+1552,https://leetcode.com/problems/magnetic-force-between-two-balls,Magnetic Force Between Two Balls,Medium,71.9%,75.0%
+208,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium,69.2%,62.5%
+721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,60.9%,37.5%
+767,https://leetcode.com/problems/reorganize-string,Reorganize String,Medium,56.8%,100.0%
+811,https://leetcode.com/problems/subdomain-visit-count,Subdomain Visit Count,Medium,77.2%,75.0%
+1248,https://leetcode.com/problems/count-number-of-nice-subarrays,Count Number of Nice Subarrays,Medium,74.8%,75.0%
+362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.6%,75.0%
 1282,https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to,Group the People Given the Group Size They Belong To,Medium,87.5%,75.0%
-1290,https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer,Convert Binary Number in a Linked List to Integer,Easy,82.3%,62.5%
-1280,https://leetcode.com/problems/students-and-examinations,Students and Examinations,Easy,60.7%,62.5%
-1297,https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring,Maximum Number of Occurrences of a Substring,Medium,54.0%,62.5%
-2817,https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint,Minimum Absolute Difference Between Elements With Constraint,Medium,35.8%,62.5%
-1364,https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer,Number of Trusted Contacts of a Customer,Medium,74.8%,62.5%
-1419,https://leetcode.com/problems/minimum-number-of-frogs-croaking,Minimum Number of Frogs Croaking,Medium,51.0%,50.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,37.5%
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,49.7%,87.5%
-2251,https://leetcode.com/problems/number-of-flowers-in-full-bloom,Number of Flowers in Full Bloom,Hard,57.6%,50.0%
-273,https://leetcode.com/problems/integer-to-english-words,Integer to English Words,Hard,34.7%,62.5%
-84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,48.7%,50.0%
-849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.4%,75.0%
-3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,56.8%,62.5%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,55.4%,50.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,50.0%
-759,https://leetcode.com/problems/employee-free-time,Employee Free Time,Hard,72.6%,37.5%
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,57.6%,37.5%
+1290,https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer,Convert Binary Number in a Linked List to Integer,Easy,82.3%,75.0%
+1280,https://leetcode.com/problems/students-and-examinations,Students and Examinations,Easy,60.9%,75.0%
+1297,https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring,Maximum Number of Occurrences of a Substring,Medium,54.2%,75.0%
+2817,https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint,Minimum Absolute Difference Between Elements With Constraint,Medium,37.1%,62.5%
+1364,https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer,Number of Trusted Contacts of a Customer,Medium,74.8%,75.0%
+1419,https://leetcode.com/problems/minimum-number-of-frogs-croaking,Minimum Number of Frogs Croaking,Medium,51.1%,37.5%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,50.4%,87.5%
+2251,https://leetcode.com/problems/number-of-flowers-in-full-bloom,Number of Flowers in Full Bloom,Hard,57.7%,50.0%
+273,https://leetcode.com/problems/integer-to-english-words,Integer to English Words,Hard,34.8%,75.0%
+84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,49.3%,50.0%
+849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.6%,87.5%
+3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,57.0%,62.5%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,56.1%,50.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,62.5%
+759,https://leetcode.com/problems/employee-free-time,Employee Free Time,Hard,72.8%,37.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,37.5%
 2021,https://leetcode.com/problems/brightest-position-on-street,Brightest Position on Street,Medium,60.6%,62.5%
-3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,18.1%,50.0%
-992,https://leetcode.com/problems/subarrays-with-k-different-integers,Subarrays with K Different Integers,Hard,67.0%,50.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,37.5%
-661,https://leetcode.com/problems/image-smoother,Image Smoother,Easy,68.8%,37.5%
+3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,18.4%,62.5%
+992,https://leetcode.com/problems/subarrays-with-k-different-integers,Subarrays with K Different Integers,Hard,67.5%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,37.5%
+661,https://leetcode.com/problems/image-smoother,Image Smoother,Easy,69.1%,37.5%
 128,https://leetcode.com/problems/longest-consecutive-sequence,Longest Consecutive Sequence,Medium,47.0%,37.5%
-45,https://leetcode.com/problems/jump-game-ii,Jump Game II,Medium,42.1%,37.5%
-2672,https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color,Number of Adjacent Elements With the Same Color,Medium,57.6%,50.0%
-1861,https://leetcode.com/problems/rotating-the-box,Rotating the Box,Medium,79.2%,50.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,50.0%
-723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.4%,87.5%
-770,https://leetcode.com/problems/basic-calculator-iv,Basic Calculator IV,Hard,49.5%,37.5%
-933,https://leetcode.com/problems/number-of-recent-calls,Number of Recent Calls,Easy,77.9%,50.0%
-207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.3%,50.0%
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,54.5%,75.0%
+2672,https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color,Number of Adjacent Elements With the Same Color,Medium,58.1%,62.5%
+1861,https://leetcode.com/problems/rotating-the-box,Rotating the Box,Medium,79.2%,62.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,50.0%
+723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.3%,100.0%
+770,https://leetcode.com/problems/basic-calculator-iv,Basic Calculator IV,Hard,49.7%,37.5%
+933,https://leetcode.com/problems/number-of-recent-calls,Number of Recent Calls,Easy,78.1%,50.0%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.8%,62.5%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.0%,87.5%
 2537,https://leetcode.com/problems/count-the-number-of-good-subarrays,Count the Number of Good Subarrays,Medium,65.9%,50.0%
-1743,https://leetcode.com/problems/restore-the-array-from-adjacent-pairs,Restore the Array From Adjacent Pairs,Medium,74.9%,37.5%
-1434,https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other,Number of Ways to Wear Different Hats to Each Other,Hard,45.2%,87.5%
-642,https://leetcode.com/problems/design-search-autocomplete-system,Design Search Autocomplete System,Hard,49.6%,62.5%
-2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,40.8%,62.5%
-3071,https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid,Minimum Operations to Write the Letter Y on a Grid,Medium,63.5%,62.5%
-1814,https://leetcode.com/problems/count-nice-pairs-in-an-array,Count Nice Pairs in an Array,Medium,48.5%,37.5%
-3459,https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment,Length of Longest V-Shaped Diagonal Segment,Hard,56.6%,50.0%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.2%,37.5%
-528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,48.7%,37.5%
+1743,https://leetcode.com/problems/restore-the-array-from-adjacent-pairs,Restore the Array From Adjacent Pairs,Medium,75.0%,37.5%
+1434,https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other,Number of Ways to Wear Different Hats to Each Other,Hard,45.7%,87.5%
+642,https://leetcode.com/problems/design-search-autocomplete-system,Design Search Autocomplete System,Hard,49.7%,75.0%
+2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,41.5%,62.5%
+3071,https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid,Minimum Operations to Write the Letter Y on a Grid,Medium,64.3%,62.5%
+1814,https://leetcode.com/problems/count-nice-pairs-in-an-array,Count Nice Pairs in an Array,Medium,48.4%,37.5%
+3459,https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment,Length of Longest V-Shaped Diagonal Segment,Hard,56.3%,50.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.3%,37.5%
+528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,48.9%,37.5%
+2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,49.7%,37.5%
+359,https://leetcode.com/problems/logger-rate-limiter,Logger Rate Limiter,Easy,76.8%,62.5%

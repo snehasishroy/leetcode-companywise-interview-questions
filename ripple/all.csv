@@ -1,14 +1,14 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,87.5%
-1068,https://leetcode.com/problems/product-sales-analysis-i,Product Sales Analysis I,Easy,85.3%,87.5%
-238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,68.3%,87.5%
-560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.3%,87.5%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
-2034,https://leetcode.com/problems/stock-price-fluctuation,Stock Price Fluctuation,Medium,48.6%,87.5%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.7%,87.5%
-443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.1%,100.0%
-875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.4%,87.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,87.5%
-224,https://leetcode.com/problems/basic-calculator,Basic Calculator,Hard,46.3%,87.5%
-853,https://leetcode.com/problems/car-fleet,Car Fleet,Medium,54.3%,87.5%
-1047,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string,Remove All Adjacent Duplicates In String,Easy,72.3%,87.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,75.0%
+1068,https://leetcode.com/problems/product-sales-analysis-i,Product Sales Analysis I,Easy,85.6%,75.0%
+238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,68.6%,75.0%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.8%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,87.5%
+2034,https://leetcode.com/problems/stock-price-fluctuation,Stock Price Fluctuation,Medium,48.9%,75.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.0%,75.0%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.5%,100.0%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.7%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,100.0%
+224,https://leetcode.com/problems/basic-calculator,Basic Calculator,Hard,46.5%,75.0%
+853,https://leetcode.com/problems/car-fleet,Car Fleet,Medium,54.7%,75.0%
+1047,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string,Remove All Adjacent Duplicates In String,Easy,72.8%,75.0%

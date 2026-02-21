@@ -1,7 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 1002,https://leetcode.com/problems/find-common-characters,Find Common Characters,Easy,74.6%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,75.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,87.5%
-383,https://leetcode.com/problems/ransom-note,Ransom Note,Easy,65.2%,75.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,62.5%
-240,https://leetcode.com/problems/search-a-2d-matrix-ii,Search a 2D Matrix II,Medium,56.3%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,75.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,100.0%
+383,https://leetcode.com/problems/ransom-note,Ransom Note,Easy,65.6%,75.0%
+240,https://leetcode.com/problems/search-a-2d-matrix-ii,Search a 2D Matrix II,Medium,56.8%,62.5%

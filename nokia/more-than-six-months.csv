@@ -1,7 +1,9 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2144,https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount,Minimum Cost of Buying Candies With Discount,Easy,62.6%,100.0%
-1250,https://leetcode.com/problems/check-if-it-is-a-good-array,Check If It Is a Good Array,Hard,63.0%,87.5%
-9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,59.9%,87.5%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
-204,https://leetcode.com/problems/count-primes,Count Primes,Medium,35.5%,87.5%
-242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.4%,87.5%
+2144,https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount,Minimum Cost of Buying Candies With Discount,Easy,62.7%,100.0%
+1250,https://leetcode.com/problems/check-if-it-is-a-good-array,Check If It Is a Good Array,Hard,63.3%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,87.5%
+204,https://leetcode.com/problems/count-primes,Count Primes,Medium,35.7%,87.5%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.8%,87.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,87.5%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.1%,87.5%
+509,https://leetcode.com/problems/fibonacci-number,Fibonacci Number,Easy,73.9%,87.5%

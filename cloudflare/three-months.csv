@@ -1,3 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-780,https://leetcode.com/problems/reaching-points,Reaching Points,Hard,34.0%,100.0%
-15,https://leetcode.com/problems/3sum,3Sum,Medium,38.0%,87.5%
+1381,https://leetcode.com/problems/design-a-stack-with-increment-operation,Design a Stack With Increment Operation,Medium,79.9%,87.5%
+622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,54.0%,100.0%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.8%,75.0%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.8%,75.0%

@@ -1,5 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-79,https://leetcode.com/problems/word-search,Word Search,Medium,46.3%,100.0%
-273,https://leetcode.com/problems/integer-to-english-words,Integer to English Words,Hard,34.7%,100.0%
-591,https://leetcode.com/problems/tag-validator,Tag Validator,Hard,40.0%,87.5%
-2468,https://leetcode.com/problems/split-message-based-on-limit,Split Message Based on Limit,Hard,42.1%,87.5%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,46.8%,100.0%
+273,https://leetcode.com/problems/integer-to-english-words,Integer to English Words,Hard,34.8%,87.5%
+591,https://leetcode.com/problems/tag-validator,Tag Validator,Hard,40.2%,87.5%
+2468,https://leetcode.com/problems/split-message-based-on-limit,Split Message Based on Limit,Hard,42.0%,100.0%

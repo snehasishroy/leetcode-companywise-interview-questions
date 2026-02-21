@@ -1,5 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.1%,87.5%
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,57.6%,87.5%
-40,https://leetcode.com/problems/combination-sum-ii,Combination Sum II,Medium,58.5%,100.0%
-70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.8%,87.5%
+40,https://leetcode.com/problems/combination-sum-ii,Combination Sum II,Medium,59.0%,100.0%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.9%,87.5%

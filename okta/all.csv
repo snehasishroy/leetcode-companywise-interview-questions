@@ -1,18 +1,21 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,87.5%
-739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.9%,75.0%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.2%,87.5%
-1554,https://leetcode.com/problems/strings-differ-by-one-character,Strings Differ by One Character,Medium,40.6%,75.0%
-295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.9%,87.5%
-875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.4%,75.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,100.0%
-863,https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree,All Nodes Distance K in Binary Tree,Medium,67.1%,87.5%
-128,https://leetcode.com/problems/longest-consecutive-sequence,Longest Consecutive Sequence,Medium,47.0%,87.5%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,75.0%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,75.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,75.0%
-2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,70.1%,75.0%
-1487,https://leetcode.com/problems/making-file-names-unique,Making File Names Unique,Medium,38.3%,75.0%
-304,https://leetcode.com/problems/range-sum-query-2d-immutable,Range Sum Query 2D - Immutable,Medium,57.4%,75.0%
-1190,https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses,Reverse Substrings Between Each Pair of Parentheses,Medium,71.9%,75.0%
-126,https://leetcode.com/problems/word-ladder-ii,Word Ladder II,Hard,27.4%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,87.5%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,68.3%,62.5%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.3%,75.0%
+1554,https://leetcode.com/problems/strings-differ-by-one-character,Strings Differ by One Character,Medium,40.1%,62.5%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,54.2%,87.5%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.7%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,100.0%
+863,https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree,All Nodes Distance K in Binary Tree,Medium,67.4%,87.5%
+128,https://leetcode.com/problems/longest-consecutive-sequence,Longest Consecutive Sequence,Medium,47.0%,75.0%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.9%,62.5%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.5%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,62.5%
+2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,69.8%,75.0%
+1487,https://leetcode.com/problems/making-file-names-unique,Making File Names Unique,Medium,38.4%,62.5%
+304,https://leetcode.com/problems/range-sum-query-2d-immutable,Range Sum Query 2D - Immutable,Medium,57.8%,62.5%
+1190,https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses,Reverse Substrings Between Each Pair of Parentheses,Medium,71.9%,62.5%
+126,https://leetcode.com/problems/word-ladder-ii,Word Ladder II,Hard,27.5%,62.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,87.5%
+127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,44.9%,62.5%
+621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.6%,62.5%

@@ -1,42 +1,47 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,75.0%
-15,https://leetcode.com/problems/3sum,3Sum,Medium,38.0%,87.5%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,62.5%
-1011,https://leetcode.com/problems/capacity-to-ship-packages-within-d-days,Capacity To Ship Packages Within D Days,Medium,73.1%,87.5%
-554,https://leetcode.com/problems/brick-wall,Brick Wall,Medium,55.9%,50.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,50.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,62.5%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,38.6%,75.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,62.5%
+1011,https://leetcode.com/problems/capacity-to-ship-packages-within-d-days,Capacity To Ship Packages Within D Days,Medium,73.5%,87.5%
+554,https://leetcode.com/problems/brick-wall,Brick Wall,Medium,56.0%,50.0%
 120,https://leetcode.com/problems/triangle,Triangle,Medium,59.8%,50.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,100.0%
-198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.7%,62.5%
-3178,https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds,Find the Child Who Has the Ball After K Seconds,Easy,61.8%,87.5%
-76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,46.4%,50.0%
-605,https://leetcode.com/problems/can-place-flowers,Can Place Flowers,Easy,29.0%,50.0%
-1636,https://leetcode.com/problems/sort-array-by-increasing-frequency,Sort Array by Increasing Frequency,Easy,80.5%,62.5%
-283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.2%,50.0%
-45,https://leetcode.com/problems/jump-game-ii,Jump Game II,Medium,42.1%,50.0%
-2734,https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation,Lexicographically Smallest String After Substring Operation,Medium,33.9%,50.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,100.0%
+198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.9%,62.5%
+3178,https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds,Find the Child Who Has the Ball After K Seconds,Easy,62.0%,87.5%
+1636,https://leetcode.com/problems/sort-array-by-increasing-frequency,Sort Array by Increasing Frequency,Easy,80.7%,62.5%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.5%,50.0%
+2734,https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation,Lexicographically Smallest String After Substring Operation,Medium,34.5%,50.0%
 1190,https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses,Reverse Substrings Between Each Pair of Parentheses,Medium,71.9%,50.0%
-394,https://leetcode.com/problems/decode-string,Decode String,Medium,61.9%,62.5%
-63,https://leetcode.com/problems/unique-paths-ii,Unique Paths II,Medium,43.8%,75.0%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.2%,50.0%
-12,https://leetcode.com/problems/integer-to-roman,Integer to Roman,Medium,69.8%,62.5%
-496,https://leetcode.com/problems/next-greater-element-i,Next Greater Element I,Easy,75.3%,62.5%
-1283,https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold,Find the Smallest Divisor Given a Threshold,Medium,64.9%,62.5%
-1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,71.0%,87.5%
-977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.4%,50.0%
-739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.9%,87.5%
-88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.9%,50.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,50.0%
-713,https://leetcode.com/problems/subarray-product-less-than-k,Subarray Product Less Than K,Medium,53.5%,50.0%
-844,https://leetcode.com/problems/backspace-string-compare,Backspace String Compare,Easy,49.6%,62.5%
-724,https://leetcode.com/problems/find-pivot-index,Find Pivot Index,Easy,61.5%,62.5%
-1921,https://leetcode.com/problems/eliminate-maximum-number-of-monsters,Eliminate Maximum Number of Monsters,Medium,50.9%,75.0%
-46,https://leetcode.com/problems/permutations,Permutations,Medium,81.3%,50.0%
-300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,58.7%,62.5%
-726,https://leetcode.com/problems/number-of-atoms,Number of Atoms,Hard,65.0%,62.5%
-412,https://leetcode.com/problems/fizz-buzz,Fizz Buzz,Easy,74.9%,50.0%
-1048,https://leetcode.com/problems/longest-string-chain,Longest String Chain,Medium,62.6%,50.0%
-767,https://leetcode.com/problems/reorganize-string,Reorganize String,Medium,56.6%,50.0%
-70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.8%,62.5%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.1%,50.0%
-202,https://leetcode.com/problems/happy-number,Happy Number,Easy,58.8%,50.0%
+394,https://leetcode.com/problems/decode-string,Decode String,Medium,62.2%,75.0%
+63,https://leetcode.com/problems/unique-paths-ii,Unique Paths II,Medium,44.1%,75.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.3%,50.0%
+12,https://leetcode.com/problems/integer-to-roman,Integer to Roman,Medium,70.4%,50.0%
+496,https://leetcode.com/problems/next-greater-element-i,Next Greater Element I,Easy,75.7%,50.0%
+1283,https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold,Find the Smallest Divisor Given a Threshold,Medium,65.4%,62.5%
+1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,75.0%,100.0%
+977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.6%,50.0%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,68.3%,87.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,50.0%
+713,https://leetcode.com/problems/subarray-product-less-than-k,Subarray Product Less Than K,Medium,53.9%,50.0%
+844,https://leetcode.com/problems/backspace-string-compare,Backspace String Compare,Easy,49.8%,62.5%
+724,https://leetcode.com/problems/find-pivot-index,Find Pivot Index,Easy,62.1%,62.5%
+1921,https://leetcode.com/problems/eliminate-maximum-number-of-monsters,Eliminate Maximum Number of Monsters,Medium,51.0%,100.0%
+46,https://leetcode.com/problems/permutations,Permutations,Medium,81.6%,50.0%
+300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,59.0%,50.0%
+726,https://leetcode.com/problems/number-of-atoms,Number of Atoms,Hard,65.1%,87.5%
+412,https://leetcode.com/problems/fizz-buzz,Fizz Buzz,Easy,75.2%,50.0%
+1048,https://leetcode.com/problems/longest-string-chain,Longest String Chain,Medium,62.8%,50.0%
+767,https://leetcode.com/problems/reorganize-string,Reorganize String,Medium,56.8%,50.0%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.9%,62.5%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.4%,62.5%
+202,https://leetcode.com/problems/happy-number,Happy Number,Easy,59.2%,50.0%
+1071,https://leetcode.com/problems/greatest-common-divisor-of-strings,Greatest Common Divisor of Strings,Easy,53.4%,50.0%
+3787,https://leetcode.com/problems/find-diameter-endpoints-of-a-tree,Find Diameter Endpoints of a Tree,Medium,70.2%,87.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,50.0%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,47.9%,50.0%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.8%,50.0%
+122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,70.7%,50.0%
+1209,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii,Remove All Adjacent Duplicates in String II,Medium,60.9%,62.5%
+1331,https://leetcode.com/problems/rank-transform-of-an-array,Rank Transform of an Array,Easy,70.8%,50.0%
+75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,69.1%,50.0%
+55,https://leetcode.com/problems/jump-game,Jump Game,Medium,40.5%,50.0%

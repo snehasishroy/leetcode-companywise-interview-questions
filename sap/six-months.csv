@@ -1,11 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,75.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,100.0%
-9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,59.9%,75.0%
-135,https://leetcode.com/problems/candy,Candy,Hard,47.5%,75.0%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,75.0%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,87.5%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,100.0%
-283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.2%,75.0%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.7%,75.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,75.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,100.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.0%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,100.0%
+236,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Lowest Common Ancestor of a Binary Tree,Medium,68.7%,100.0%
+234,https://leetcode.com/problems/palindrome-linked-list,Palindrome Linked List,Easy,57.4%,100.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,100.0%

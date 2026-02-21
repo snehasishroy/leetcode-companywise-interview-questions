@@ -1,11 +1,10 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 625,https://leetcode.com/problems/minimum-factorization,Minimum Factorization,Medium,33.9%,62.5%
-546,https://leetcode.com/problems/remove-boxes,Remove Boxes,Hard,49.0%,62.5%
-470,https://leetcode.com/problems/implement-rand10-using-rand7,Implement Rand10() Using Rand7(),Medium,46.1%,62.5%
-269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,36.9%,62.5%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,62.5%
-1249,https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses,Minimum Remove to Make Valid Parentheses,Medium,71.1%,62.5%
-184,https://leetcode.com/problems/department-highest-salary,Department Highest Salary,Medium,56.5%,62.5%
-2627,https://leetcode.com/problems/debounce,Debounce,Medium,91.7%,62.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,62.5%
-394,https://leetcode.com/problems/decode-string,Decode String,Medium,61.9%,100.0%
+546,https://leetcode.com/problems/remove-boxes,Remove Boxes,Hard,49.3%,62.5%
+470,https://leetcode.com/problems/implement-rand10-using-rand7,Implement Rand10() Using Rand7(),Medium,46.2%,62.5%
+269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,37.1%,62.5%
+1249,https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses,Minimum Remove to Make Valid Parentheses,Medium,71.3%,62.5%
+184,https://leetcode.com/problems/department-highest-salary,Department Highest Salary,Medium,57.3%,62.5%
+2627,https://leetcode.com/problems/debounce,Debounce,Medium,91.8%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,62.5%
+394,https://leetcode.com/problems/decode-string,Decode String,Medium,62.2%,100.0%

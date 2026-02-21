@@ -1,15 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-132,https://leetcode.com/problems/palindrome-partitioning-ii,Palindrome Partitioning II,Hard,36.2%,100.0%
-475,https://leetcode.com/problems/heaters,Heaters,Medium,40.9%,87.5%
-546,https://leetcode.com/problems/remove-boxes,Remove Boxes,Hard,49.0%,87.5%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.7%,87.5%
-2115,https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies,Find All Possible Recipes from Given Supplies,Medium,56.6%,87.5%
-621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.3%,87.5%
-2616,https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs,Minimize the Maximum Difference of Pairs,Medium,50.9%,87.5%
-375,https://leetcode.com/problems/guess-number-higher-or-lower-ii,Guess Number Higher or Lower II,Medium,52.1%,87.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,87.5%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,87.5%
-76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,46.4%,87.5%
-979,https://leetcode.com/problems/distribute-coins-in-binary-tree,Distribute Coins in Binary Tree,Medium,77.2%,87.5%
-139,https://leetcode.com/problems/word-break,Word Break,Medium,48.8%,87.5%
-3607,https://leetcode.com/problems/power-grid-maintenance,Power Grid Maintenance,Medium,56.8%,87.5%
+2616,https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs,Minimize the Maximum Difference of Pairs,Medium,50.9%,100.0%
+375,https://leetcode.com/problems/guess-number-higher-or-lower-ii,Guess Number Higher or Lower II,Medium,52.4%,100.0%
+979,https://leetcode.com/problems/distribute-coins-in-binary-tree,Distribute Coins in Binary Tree,Medium,77.2%,100.0%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,49.1%,100.0%
+3607,https://leetcode.com/problems/power-grid-maintenance,Power Grid Maintenance,Medium,56.3%,100.0%

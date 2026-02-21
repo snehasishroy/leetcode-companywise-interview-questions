@@ -1,12 +1,11 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2296,https://leetcode.com/problems/design-a-text-editor,Design a Text Editor,Hard,48.9%,87.5%
-490,https://leetcode.com/problems/the-maze,The Maze,Medium,59.9%,87.5%
-2069,https://leetcode.com/problems/walking-robot-simulation-ii,Walking Robot Simulation II,Medium,25.4%,87.5%
-1814,https://leetcode.com/problems/count-nice-pairs-in-an-array,Count Nice Pairs in an Array,Medium,48.5%,87.5%
-2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,40.8%,87.5%
-139,https://leetcode.com/problems/word-break,Word Break,Medium,48.8%,87.5%
-969,https://leetcode.com/problems/pancake-sorting,Pancake Sorting,Medium,71.5%,87.5%
-999,https://leetcode.com/problems/available-captures-for-rook,Available Captures for Rook,Easy,71.0%,87.5%
+490,https://leetcode.com/problems/the-maze,The Maze,Medium,60.3%,87.5%
+2069,https://leetcode.com/problems/walking-robot-simulation-ii,Walking Robot Simulation II,Medium,25.6%,87.5%
+1814,https://leetcode.com/problems/count-nice-pairs-in-an-array,Count Nice Pairs in an Array,Medium,48.4%,87.5%
+2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,41.5%,87.5%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,49.1%,87.5%
+969,https://leetcode.com/problems/pancake-sorting,Pancake Sorting,Medium,71.7%,87.5%
+999,https://leetcode.com/problems/available-captures-for-rook,Available Captures for Rook,Easy,71.5%,87.5%
 1861,https://leetcode.com/problems/rotating-the-box,Rotating the Box,Medium,79.2%,100.0%
-699,https://leetcode.com/problems/falling-squares,Falling Squares,Hard,47.0%,87.5%
+699,https://leetcode.com/problems/falling-squares,Falling Squares,Hard,47.3%,87.5%
 573,https://leetcode.com/problems/squirrel-simulation,Squirrel Simulation,Medium,57.3%,87.5%

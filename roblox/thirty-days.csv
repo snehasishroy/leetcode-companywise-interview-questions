@@ -1,6 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.4%,100.0%
-1434,https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other,Number of Ways to Wear Different Hats to Each Other,Hard,45.2%,100.0%
-642,https://leetcode.com/problems/design-search-autocomplete-system,Design Search Autocomplete System,Hard,49.6%,75.0%
-2817,https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint,Minimum Absolute Difference Between Elements With Constraint,Medium,35.8%,87.5%
-2672,https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color,Number of Adjacent Elements With the Same Color,Medium,57.6%,75.0%
+1434,https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other,Number of Ways to Wear Different Hats to Each Other,Hard,45.7%,87.5%
+359,https://leetcode.com/problems/logger-rate-limiter,Logger Rate Limiter,Easy,76.8%,100.0%

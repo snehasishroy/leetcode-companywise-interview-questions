@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,62.5%
-15,https://leetcode.com/problems/3sum,3Sum,Medium,38.0%,62.5%
-2341,https://leetcode.com/problems/maximum-number-of-pairs-in-array,Maximum Number of Pairs in Array,Easy,75.9%,100.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,62.5%
+2341,https://leetcode.com/problems/maximum-number-of-pairs-in-array,Maximum Number of Pairs in Array,Easy,76.0%,100.0%
+189,https://leetcode.com/problems/rotate-array,Rotate Array,Medium,44.4%,62.5%
+24,https://leetcode.com/problems/swap-nodes-in-pairs,Swap Nodes in Pairs,Medium,68.9%,62.5%

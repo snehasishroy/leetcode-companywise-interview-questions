@@ -1,5 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,100.0%
-912,https://leetcode.com/problems/sort-an-array,Sort an Array,Medium,56.1%,87.5%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,100.0%
-297,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard,59.9%,87.5%
+912,https://leetcode.com/problems/sort-an-array,Sort an Array,Medium,55.9%,87.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,100.0%
+297,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard,60.3%,87.5%
+1162,https://leetcode.com/problems/as-far-from-land-as-possible,As Far from Land as Possible,Medium,52.2%,87.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,87.5%

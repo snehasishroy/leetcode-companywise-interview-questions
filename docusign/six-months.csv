@@ -1,9 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,75.0%
-3588,https://leetcode.com/problems/find-maximum-area-of-a-triangle,Find Maximum Area of a Triangle,Medium,28.4%,100.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,87.5%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.2%,75.0%
-21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.5%,75.0%
-1797,https://leetcode.com/problems/design-authentication-manager,Design Authentication Manager,Medium,58.1%,75.0%
-621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.3%,75.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,75.0%
+1797,https://leetcode.com/problems/design-authentication-manager,Design Authentication Manager,Medium,58.4%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,75.0%

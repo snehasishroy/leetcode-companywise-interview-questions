@@ -1,6 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2062,https://leetcode.com/problems/count-vowel-substrings-of-a-string,Count Vowel Substrings of a String,Easy,72.4%,100.0%
-91,https://leetcode.com/problems/decode-ways,Decode Ways,Medium,37.2%,75.0%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,75.0%
-162,https://leetcode.com/problems/find-peak-element,Find Peak Element,Medium,46.7%,62.5%
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,57.6%,62.5%
+2062,https://leetcode.com/problems/count-vowel-substrings-of-a-string,Count Vowel Substrings of a String,Easy,72.8%,100.0%
+91,https://leetcode.com/problems/decode-ways,Decode Ways,Medium,37.6%,62.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,75.0%
+162,https://leetcode.com/problems/find-peak-element,Find Peak Element,Medium,46.8%,62.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,62.5%

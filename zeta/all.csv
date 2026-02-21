@@ -1,41 +1,36 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-3071,https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid,Minimum Operations to Write the Letter Y on a Grid,Medium,63.5%,62.5%
-1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.5%,75.0%
-621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.3%,75.0%
-381,https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed,Insert Delete GetRandom O(1) - Duplicates allowed,Hard,36.2%,62.5%
-2896,https://leetcode.com/problems/apply-operations-to-make-two-strings-equal,Apply Operations to Make Two Strings Equal,Medium,27.5%,100.0%
-502,https://leetcode.com/problems/ipo,IPO,Hard,53.2%,75.0%
-1901,https://leetcode.com/problems/find-a-peak-element-ii,Find a Peak Element II,Medium,54.0%,62.5%
-503,https://leetcode.com/problems/next-greater-element-ii,Next Greater Element II,Medium,67.5%,75.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,62.5%
-25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,64.6%,62.5%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,62.5%
-97,https://leetcode.com/problems/interleaving-string,Interleaving String,Medium,43.0%,62.5%
-30,https://leetcode.com/problems/substring-with-concatenation-of-all-words,Substring with Concatenation of All Words,Hard,33.6%,62.5%
-1011,https://leetcode.com/problems/capacity-to-ship-packages-within-d-days,Capacity To Ship Packages Within D Days,Medium,73.1%,75.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,62.5%
-250,https://leetcode.com/problems/count-univalue-subtrees,Count Univalue Subtrees,Medium,57.4%,62.5%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.2%,62.5%
-76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,46.4%,75.0%
-32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,37.4%,62.5%
-410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,59.3%,75.0%
-402,https://leetcode.com/problems/remove-k-digits,Remove K Digits,Medium,35.9%,62.5%
-85,https://leetcode.com/problems/maximal-rectangle,Maximal Rectangle,Hard,55.3%,62.5%
-132,https://leetcode.com/problems/palindrome-partitioning-ii,Palindrome Partitioning II,Hard,36.2%,75.0%
-475,https://leetcode.com/problems/heaters,Heaters,Medium,40.9%,62.5%
-546,https://leetcode.com/problems/remove-boxes,Remove Boxes,Hard,49.0%,75.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,62.5%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.7%,62.5%
-2115,https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies,Find All Possible Recipes from Given Supplies,Medium,56.6%,62.5%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.1%,62.5%
+3071,https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid,Minimum Operations to Write the Letter Y on a Grid,Medium,64.3%,62.5%
+621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.6%,75.0%
+2896,https://leetcode.com/problems/apply-operations-to-make-two-strings-equal,Apply Operations to Make Two Strings Equal,Medium,27.6%,100.0%
+502,https://leetcode.com/problems/ipo,IPO,Hard,53.3%,75.0%
+503,https://leetcode.com/problems/next-greater-element-ii,Next Greater Element II,Medium,67.9%,75.0%
+25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,65.3%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,62.5%
+97,https://leetcode.com/problems/interleaving-string,Interleaving String,Medium,43.5%,62.5%
+1011,https://leetcode.com/problems/capacity-to-ship-packages-within-d-days,Capacity To Ship Packages Within D Days,Medium,73.5%,75.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,75.0%
+250,https://leetcode.com/problems/count-univalue-subtrees,Count Univalue Subtrees,Medium,57.5%,62.5%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.3%,62.5%
+76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,46.9%,75.0%
+32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,38.0%,62.5%
+410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,59.8%,87.5%
+402,https://leetcode.com/problems/remove-k-digits,Remove K Digits,Medium,36.4%,62.5%
+85,https://leetcode.com/problems/maximal-rectangle,Maximal Rectangle,Hard,58.1%,62.5%
+132,https://leetcode.com/problems/palindrome-partitioning-ii,Palindrome Partitioning II,Hard,36.6%,75.0%
+475,https://leetcode.com/problems/heaters,Heaters,Medium,41.4%,62.5%
+546,https://leetcode.com/problems/remove-boxes,Remove Boxes,Hard,49.3%,75.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,62.5%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.0%,62.5%
+2115,https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies,Find All Possible Recipes from Given Supplies,Medium,56.8%,62.5%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.4%,62.5%
 2616,https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs,Minimize the Maximum Difference of Pairs,Medium,50.9%,62.5%
-968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.5%,62.5%
-698,https://leetcode.com/problems/partition-to-k-equal-sum-subsets,Partition to K Equal Sum Subsets,Medium,38.3%,62.5%
-375,https://leetcode.com/problems/guess-number-higher-or-lower-ii,Guess Number Higher or Lower II,Medium,52.1%,62.5%
+968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.6%,62.5%
+698,https://leetcode.com/problems/partition-to-k-equal-sum-subsets,Partition to K Equal Sum Subsets,Medium,38.4%,62.5%
+375,https://leetcode.com/problems/guess-number-higher-or-lower-ii,Guess Number Higher or Lower II,Medium,52.4%,62.5%
 2381,https://leetcode.com/problems/shifting-letters-ii,Shifting Letters II,Medium,53.5%,62.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,62.5%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,62.5%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.9%,62.5%
 979,https://leetcode.com/problems/distribute-coins-in-binary-tree,Distribute Coins in Binary Tree,Medium,77.2%,62.5%
-139,https://leetcode.com/problems/word-break,Word Break,Medium,48.8%,62.5%
-3607,https://leetcode.com/problems/power-grid-maintenance,Power Grid Maintenance,Medium,56.8%,62.5%
-198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.7%,62.5%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,49.1%,62.5%
+3607,https://leetcode.com/problems/power-grid-maintenance,Power Grid Maintenance,Medium,56.3%,62.5%
+198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.9%,62.5%

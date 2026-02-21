@@ -1,3 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2005,https://leetcode.com/problems/subtree-removal-game-with-fibonacci-tree,Subtree Removal Game with Fibonacci Tree,Hard,57.2%,100.0%
-528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,48.7%,100.0%
+2005,https://leetcode.com/problems/subtree-removal-game-with-fibonacci-tree,Subtree Removal Game with Fibonacci Tree,Hard,57.9%,100.0%
+528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,48.9%,100.0%
+1512,https://leetcode.com/problems/number-of-good-pairs,Number of Good Pairs,Easy,89.8%,100.0%

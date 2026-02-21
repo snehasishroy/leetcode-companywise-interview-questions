@@ -1,11 +1,12 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,75.0%
-1297,https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring,Maximum Number of Occurrences of a Substring,Medium,54.0%,75.0%
-21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.5%,87.5%
-88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.9%,100.0%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.2%,62.5%
-23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.2%,62.5%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,75.0%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,87.5%
-2386,https://leetcode.com/problems/find-the-k-sum-of-an-array,Find the K-Sum of an Array,Hard,40.5%,62.5%
-277,https://leetcode.com/problems/find-the-celebrity,Find the Celebrity,Medium,48.7%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,87.5%
+1297,https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring,Maximum Number of Occurrences of a Substring,Medium,54.2%,75.0%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.9%,87.5%
+88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,54.4%,100.0%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.8%,50.0%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.8%,50.0%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.5%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,87.5%
+2386,https://leetcode.com/problems/find-the-k-sum-of-an-array,Find the K-Sum of an Array,Hard,41.1%,50.0%
+277,https://leetcode.com/problems/find-the-celebrity,Find the Celebrity,Medium,48.9%,87.5%
+2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,69.8%,62.5%

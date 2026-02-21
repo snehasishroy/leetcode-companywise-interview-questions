@@ -1,27 +1,19 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-286,https://leetcode.com/problems/walls-and-gates,Walls and Gates,Medium,63.4%,100.0%
-556,https://leetcode.com/problems/next-greater-element-iii,Next Greater Element III,Medium,35.0%,62.5%
-317,https://leetcode.com/problems/shortest-distance-from-all-buildings,Shortest Distance from All Buildings,Hard,44.7%,50.0%
-1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.5%,75.0%
-329,https://leetcode.com/problems/longest-increasing-path-in-a-matrix,Longest Increasing Path in a Matrix,Hard,56.0%,87.5%
-826,https://leetcode.com/problems/most-profit-assigning-work,Most Profit Assigning Work,Medium,56.1%,62.5%
-1779,https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate,Find Nearest Point That Has the Same X or Y Coordinate,Easy,69.7%,50.0%
-1166,https://leetcode.com/problems/design-file-system,Design File System,Medium,65.0%,87.5%
-1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,75.0%
-124,https://leetcode.com/problems/binary-tree-maximum-path-sum,Binary Tree Maximum Path Sum,Hard,41.8%,87.5%
-2049,https://leetcode.com/problems/count-nodes-with-the-highest-score,Count Nodes With the Highest Score,Medium,52.1%,50.0%
-875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.4%,75.0%
-1834,https://leetcode.com/problems/single-threaded-cpu,Single-Threaded CPU,Medium,47.0%,75.0%
-658,https://leetcode.com/problems/find-k-closest-elements,Find K Closest Elements,Medium,49.2%,50.0%
-224,https://leetcode.com/problems/basic-calculator,Basic Calculator,Hard,46.3%,50.0%
-827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,55.9%,62.5%
-588,https://leetcode.com/problems/design-in-memory-file-system,Design In-Memory File System,Hard,48.3%,50.0%
-37,https://leetcode.com/problems/sudoku-solver,Sudoku Solver,Hard,65.3%,50.0%
-13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,65.8%,50.0%
-735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,46.4%,50.0%
-31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,44.2%,50.0%
+286,https://leetcode.com/problems/walls-and-gates,Walls and Gates,Medium,63.8%,100.0%
+1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.6%,75.0%
+329,https://leetcode.com/problems/longest-increasing-path-in-a-matrix,Longest Increasing Path in a Matrix,Hard,56.3%,75.0%
+1779,https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate,Find Nearest Point That Has the Same X or Y Coordinate,Easy,69.9%,62.5%
+1166,https://leetcode.com/problems/design-file-system,Design File System,Medium,65.1%,75.0%
+1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.2%,75.0%
+124,https://leetcode.com/problems/binary-tree-maximum-path-sum,Binary Tree Maximum Path Sum,Hard,42.0%,87.5%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.7%,50.0%
+1834,https://leetcode.com/problems/single-threaded-cpu,Single-Threaded CPU,Medium,47.3%,75.0%
+827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,56.3%,50.0%
+735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,47.1%,62.5%
 1790,https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal,Check if One String Swap Can Make Strings Equal,Easy,49.5%,62.5%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.1%,50.0%
-1347,https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram,Minimum Number of Steps to Make Two Strings Anagram,Medium,82.4%,50.0%
-12,https://leetcode.com/problems/integer-to-roman,Integer to Roman,Medium,69.8%,50.0%
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,57.6%,50.0%
+1347,https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram,Minimum Number of Steps to Make Two Strings Anagram,Medium,82.5%,62.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,50.0%
+456,https://leetcode.com/problems/132-pattern,132 Pattern,Medium,34.5%,75.0%
+859,https://leetcode.com/problems/buddy-strings,Buddy Strings,Easy,33.9%,50.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.4%,50.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,50.0%

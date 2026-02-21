@@ -1,8 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2408,https://leetcode.com/problems/design-sql,Design SQL,Medium,66.0%,75.0%
-2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,49.3%,87.5%
-271,https://leetcode.com/problems/encode-and-decode-strings,Encode and Decode Strings,Medium,50.7%,100.0%
-631,https://leetcode.com/problems/design-excel-sum-formula,Design Excel Sum Formula,Hard,40.4%,75.0%
-751,https://leetcode.com/problems/ip-to-cidr,IP to CIDR,Medium,53.4%,75.0%
-981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.6%,87.5%
-71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,49.4%,75.0%
+2408,https://leetcode.com/problems/design-sql,Design SQL,Medium,64.7%,75.0%
+2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,49.7%,87.5%
+271,https://leetcode.com/problems/encode-and-decode-strings,Encode and Decode Strings,Medium,51.2%,100.0%
+751,https://leetcode.com/problems/ip-to-cidr,IP to CIDR,Medium,53.7%,87.5%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.7%,75.0%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,75.0%

@@ -1,11 +1,11 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-527,https://leetcode.com/problems/word-abbreviation,Word Abbreviation,Hard,62.5%,62.5%
-529,https://leetcode.com/problems/minesweeper,Minesweeper,Medium,68.5%,62.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,75.0%
-622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,53.4%,50.0%
-296,https://leetcode.com/problems/best-meeting-point,Best Meeting Point,Hard,61.3%,62.5%
-317,https://leetcode.com/problems/shortest-distance-from-all-buildings,Shortest Distance from All Buildings,Hard,44.7%,100.0%
+527,https://leetcode.com/problems/word-abbreviation,Word Abbreviation,Hard,62.7%,50.0%
+529,https://leetcode.com/problems/minesweeper,Minesweeper,Medium,68.7%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,75.0%
+622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,54.0%,50.0%
+296,https://leetcode.com/problems/best-meeting-point,Best Meeting Point,Hard,61.4%,62.5%
+317,https://leetcode.com/problems/shortest-distance-from-all-buildings,Shortest Distance from All Buildings,Hard,44.8%,100.0%
 609,https://leetcode.com/problems/find-duplicate-file-in-system,Find Duplicate File in System,Medium,67.6%,75.0%
-34,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array,Find First and Last Position of Element in Sorted Array,Medium,47.8%,75.0%
-706,https://leetcode.com/problems/design-hashmap,Design HashMap,Easy,66.2%,50.0%
-1091,https://leetcode.com/problems/shortest-path-in-binary-matrix,Shortest Path in Binary Matrix,Medium,50.7%,50.0%
+34,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array,Find First and Last Position of Element in Sorted Array,Medium,48.3%,75.0%
+1091,https://leetcode.com/problems/shortest-path-in-binary-matrix,Shortest Path in Binary Matrix,Medium,51.1%,50.0%
+289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,72.3%,50.0%

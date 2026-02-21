@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 2849,https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time,Determine if a Cell Is Reachable at a Given Time,Medium,37.2%,100.0%
-645,https://leetcode.com/problems/set-mismatch,Set Mismatch,Easy,45.3%,100.0%
-263,https://leetcode.com/problems/ugly-number,Ugly Number,Easy,42.8%,100.0%
+645,https://leetcode.com/problems/set-mismatch,Set Mismatch,Easy,44.2%,87.5%
+263,https://leetcode.com/problems/ugly-number,Ugly Number,Easy,43.1%,100.0%
+1531,https://leetcode.com/problems/string-compression-ii,String Compression II,Hard,52.2%,87.5%

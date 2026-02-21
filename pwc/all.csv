@@ -1,8 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,87.5%
-169,https://leetcode.com/problems/majority-element,Majority Element,Easy,66.0%,87.5%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,75.0%
-13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,65.8%,75.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,100.0%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,75.0%
-26,https://leetcode.com/problems/remove-duplicates-from-sorted-array,Remove Duplicates from Sorted Array,Easy,61.6%,75.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.1%,75.0%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.9%,75.0%
+13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,66.2%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,100.0%

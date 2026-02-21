@@ -1,6 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,62.5%
-3164,https://leetcode.com/problems/find-the-number-of-good-pairs-ii,Find the Number of Good Pairs II,Medium,26.4%,100.0%
-3162,https://leetcode.com/problems/find-the-number-of-good-pairs-i,Find the Number of Good Pairs I,Easy,86.1%,100.0%
-3224,https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal,Minimum Array Changes to Make Differences Equal,Medium,23.9%,100.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,75.0%
+3164,https://leetcode.com/problems/find-the-number-of-good-pairs-ii,Find the Number of Good Pairs II,Medium,26.6%,100.0%
+3162,https://leetcode.com/problems/find-the-number-of-good-pairs-i,Find the Number of Good Pairs I,Easy,86.3%,100.0%
+3224,https://leetcode.com/problems/minimum-array-changes-to-make-differences-equal,Minimum Array Changes to Make Differences Equal,Medium,24.3%,100.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,75.0%

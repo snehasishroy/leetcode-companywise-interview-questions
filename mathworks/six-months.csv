@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,64.6%,100.0%
-621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.3%,100.0%
-3035,https://leetcode.com/problems/maximum-palindromes-after-operations,Maximum Palindromes After Operations,Medium,44.7%,100.0%
+2918,https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros,Minimum Equal Sum of Two Arrays After Replacing Zeros,Medium,50.2%,100.0%
+621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.6%,87.5%
+1220,https://leetcode.com/problems/count-vowels-permutation,Count Vowels Permutation,Hard,61.4%,87.5%
+2462,https://leetcode.com/problems/total-cost-to-hire-k-workers,Total Cost to Hire K Workers,Medium,43.5%,87.5%

@@ -1,19 +1,9 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-134,https://leetcode.com/problems/gas-station,Gas Station,Medium,47.1%,75.0%
-3576,https://leetcode.com/problems/transform-array-to-all-equal-elements,Transform Array to All Equal Elements,Medium,32.8%,100.0%
-1192,https://leetcode.com/problems/critical-connections-in-a-network,Critical Connections in a Network,Hard,58.9%,75.0%
-939,https://leetcode.com/problems/minimum-area-rectangle,Minimum Area Rectangle,Medium,55.2%,75.0%
-850,https://leetcode.com/problems/rectangle-area-ii,Rectangle Area II,Hard,55.4%,75.0%
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,57.6%,75.0%
-407,https://leetcode.com/problems/trapping-rain-water-ii,Trapping Rain Water II,Hard,63.9%,75.0%
-658,https://leetcode.com/problems/find-k-closest-elements,Find K Closest Elements,Medium,49.2%,62.5%
-84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,48.7%,75.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,62.5%
-749,https://leetcode.com/problems/contain-virus,Contain Virus,Hard,53.8%,75.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,62.5%
-62,https://leetcode.com/problems/unique-paths,Unique Paths,Medium,66.3%,62.5%
-221,https://leetcode.com/problems/maximal-square,Maximal Square,Medium,49.6%,62.5%
-295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.9%,62.5%
-31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,44.2%,62.5%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,62.5%
-155,https://leetcode.com/problems/min-stack,Min Stack,Medium,57.3%,62.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,100.0%
+221,https://leetcode.com/problems/maximal-square,Maximal Square,Medium,50.0%,87.5%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,54.2%,87.5%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.5%,100.0%
+503,https://leetcode.com/problems/next-greater-element-ii,Next Greater Element II,Medium,67.9%,87.5%
+1423,https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards,Maximum Points You Can Obtain from Cards,Medium,57.2%,100.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,87.5%
+417,https://leetcode.com/problems/pacific-atlantic-water-flow,Pacific Atlantic Water Flow,Medium,60.6%,87.5%

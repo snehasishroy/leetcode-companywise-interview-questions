@@ -1,7 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,62.5%
-2998,https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal,Minimum Number of Operations to Make X and Y Equal,Medium,48.1%,100.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,75.0%
-3026,https://leetcode.com/problems/maximum-good-subarray-sum,Maximum Good Subarray Sum,Medium,20.9%,75.0%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,62.5%
-1239,https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters,Maximum Length of a Concatenated String with Unique Characters,Medium,54.4%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,62.5%
+2998,https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal,Minimum Number of Operations to Make X and Y Equal,Medium,48.4%,100.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,75.0%
+3026,https://leetcode.com/problems/maximum-good-subarray-sum,Maximum Good Subarray Sum,Medium,21.4%,75.0%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.5%,62.5%
+1239,https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters,Maximum Length of a Concatenated String with Unique Characters,Medium,54.6%,62.5%

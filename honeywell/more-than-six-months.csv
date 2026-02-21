@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 1848,https://leetcode.com/problems/minimum-distance-to-the-target-element,Minimum Distance to the Target Element,Easy,54.2%,87.5%
-1975,https://leetcode.com/problems/maximum-matrix-sum,Maximum Matrix Sum,Medium,65.8%,87.5%
-2747,https://leetcode.com/problems/count-zero-request-servers,Count Zero Request Servers,Medium,35.2%,100.0%
+1975,https://leetcode.com/problems/maximum-matrix-sum,Maximum Matrix Sum,Medium,67.6%,87.5%
+2747,https://leetcode.com/problems/count-zero-request-servers,Count Zero Request Servers,Medium,35.6%,100.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,87.5%

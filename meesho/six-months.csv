@@ -1,9 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-886,https://leetcode.com/problems/possible-bipartition,Possible Bipartition,Medium,52.1%,75.0%
-2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,39.0%,75.0%
-754,https://leetcode.com/problems/reach-a-number,Reach a Number,Medium,44.4%,100.0%
-197,https://leetcode.com/problems/rising-temperature,Rising Temperature,Easy,50.8%,100.0%
-805,https://leetcode.com/problems/split-array-with-same-average,Split Array With Same Average,Hard,26.5%,75.0%
-626,https://leetcode.com/problems/exchange-seats,Exchange Seats,Medium,73.5%,100.0%
-2751,https://leetcode.com/problems/robot-collisions,Robot Collisions,Hard,56.1%,75.0%
-587,https://leetcode.com/problems/erect-the-fence,Erect the Fence,Hard,52.6%,75.0%
+197,https://leetcode.com/problems/rising-temperature,Rising Temperature,Easy,51.0%,87.5%
+626,https://leetcode.com/problems/exchange-seats,Exchange Seats,Medium,73.8%,87.5%
+587,https://leetcode.com/problems/erect-the-fence,Erect the Fence,Hard,52.7%,87.5%
+115,https://leetcode.com/problems/distinct-subsequences,Distinct Subsequences,Hard,51.5%,100.0%
+1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.6%,87.5%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.0%,87.5%

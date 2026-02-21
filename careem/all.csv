@@ -1,5 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.4%,100.0%
-1094,https://leetcode.com/problems/car-pooling,Car Pooling,Medium,56.1%,100.0%
-485,https://leetcode.com/problems/max-consecutive-ones,Max Consecutive Ones,Easy,63.7%,100.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,100.0%
+362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.6%,100.0%
+1094,https://leetcode.com/problems/car-pooling,Car Pooling,Medium,56.2%,100.0%
+485,https://leetcode.com/problems/max-consecutive-ones,Max Consecutive Ones,Easy,64.6%,100.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,100.0%
+122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,70.7%,100.0%

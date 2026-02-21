@@ -1,26 +1,38 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2846,https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree,Minimum Edge Weight Equilibrium Queries in a Tree,Hard,44.7%,62.5%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,62.5%
-547,https://leetcode.com/problems/number-of-provinces,Number of Provinces,Medium,69.6%,62.5%
-2897,https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares,Apply Operations on Array to Maximize Sum of Squares,Hard,43.9%,62.5%
-735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,46.4%,62.5%
-763,https://leetcode.com/problems/partition-labels,Partition Labels,Medium,81.7%,62.5%
-2751,https://leetcode.com/problems/robot-collisions,Robot Collisions,Hard,56.1%,62.5%
-297,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard,59.9%,75.0%
-75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,68.6%,62.5%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,62.5%
-3031,https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii,Minimum Time to Revert Word to Initial State II,Hard,34.8%,62.5%
-3029,https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-i,Minimum Time to Revert Word to Initial State I,Medium,41.9%,62.5%
-2440,https://leetcode.com/problems/create-components-with-same-value,Create Components With Same Value,Hard,52.9%,62.5%
+2846,https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree,Minimum Edge Weight Equilibrium Queries in a Tree,Hard,45.4%,62.5%
+2897,https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares,Apply Operations on Array to Maximize Sum of Squares,Hard,44.2%,62.5%
+735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,47.1%,62.5%
+297,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard,60.3%,62.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,62.5%
+3031,https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii,Minimum Time to Revert Word to Initial State II,Hard,35.0%,62.5%
+3029,https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-i,Minimum Time to Revert Word to Initial State I,Medium,42.3%,62.5%
+2440,https://leetcode.com/problems/create-components-with-same-value,Create Components With Same Value,Hard,53.3%,87.5%
 1746,https://leetcode.com/problems/maximum-subarray-sum-after-one-operation,Maximum Subarray Sum After One Operation,Medium,65.2%,62.5%
-2546,https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal,Apply Bitwise Operations to Make Strings Equal,Medium,42.3%,62.5%
-2518,https://leetcode.com/problems/number-of-great-partitions,Number of Great Partitions,Hard,33.0%,62.5%
-2999,https://leetcode.com/problems/count-the-number-of-powerful-integers,Count the Number of Powerful Integers,Hard,46.4%,62.5%
-2955,https://leetcode.com/problems/number-of-same-end-substrings,Number of Same-End Substrings,Medium,61.5%,62.5%
-1799,https://leetcode.com/problems/maximize-score-after-n-operations,Maximize Score After N Operations,Hard,58.0%,62.5%
-2378,https://leetcode.com/problems/choose-edges-to-maximize-score-in-a-tree,Choose Edges to Maximize Score in a Tree,Medium,56.2%,62.5%
-1755,https://leetcode.com/problems/closest-subsequence-sum,Closest Subsequence Sum,Hard,42.6%,62.5%
-2048,https://leetcode.com/problems/next-greater-numerically-balanced-number,Next Greater Numerically Balanced Number,Medium,63.0%,75.0%
-41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,41.9%,62.5%
-3414,https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals,Maximum Score of Non-overlapping Intervals,Hard,30.6%,100.0%
-10,https://leetcode.com/problems/regular-expression-matching,Regular Expression Matching,Hard,30.0%,62.5%
+2546,https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal,Apply Bitwise Operations to Make Strings Equal,Medium,42.5%,62.5%
+2518,https://leetcode.com/problems/number-of-great-partitions,Number of Great Partitions,Hard,33.3%,62.5%
+2999,https://leetcode.com/problems/count-the-number-of-powerful-integers,Count the Number of Powerful Integers,Hard,46.3%,62.5%
+2955,https://leetcode.com/problems/number-of-same-end-substrings,Number of Same-End Substrings,Medium,61.6%,62.5%
+1799,https://leetcode.com/problems/maximize-score-after-n-operations,Maximize Score After N Operations,Hard,57.9%,62.5%
+2378,https://leetcode.com/problems/choose-edges-to-maximize-score-in-a-tree,Choose Edges to Maximize Score in a Tree,Medium,56.6%,62.5%
+1755,https://leetcode.com/problems/closest-subsequence-sum,Closest Subsequence Sum,Hard,43.2%,62.5%
+2048,https://leetcode.com/problems/next-greater-numerically-balanced-number,Next Greater Numerically Balanced Number,Medium,63.0%,62.5%
+41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,42.4%,62.5%
+3414,https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals,Maximum Score of Non-overlapping Intervals,Hard,31.0%,100.0%
+10,https://leetcode.com/problems/regular-expression-matching,Regular Expression Matching,Hard,30.4%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,62.5%
+546,https://leetcode.com/problems/remove-boxes,Remove Boxes,Hard,49.3%,62.5%
+907,https://leetcode.com/problems/sum-of-subarray-minimums,Sum of Subarray Minimums,Medium,38.3%,75.0%
+975,https://leetcode.com/problems/odd-even-jump,Odd Even Jump,Hard,41.1%,62.5%
+205,https://leetcode.com/problems/isomorphic-strings,Isomorphic Strings,Easy,48.0%,75.0%
+149,https://leetcode.com/problems/max-points-on-a-line,Max Points on a Line,Hard,30.2%,62.5%
+552,https://leetcode.com/problems/student-attendance-record-ii,Student Attendance Record II,Hard,56.4%,62.5%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.8%,75.0%
+1129,https://leetcode.com/problems/shortest-path-with-alternating-colors,Shortest Path with Alternating Colors,Medium,47.7%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,62.5%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,54.2%,62.5%
+1463,https://leetcode.com/problems/cherry-pickup-ii,Cherry Pickup II,Hard,72.3%,75.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,62.5%
+687,https://leetcode.com/problems/longest-univalue-path,Longest Univalue Path,Medium,43.5%,62.5%
+85,https://leetcode.com/problems/maximal-rectangle,Maximal Rectangle,Hard,58.1%,62.5%
+918,https://leetcode.com/problems/maximum-sum-circular-subarray,Maximum Sum Circular Subarray,Medium,49.4%,62.5%
+32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,38.0%,62.5%

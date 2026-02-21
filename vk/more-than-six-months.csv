@@ -1,8 +1,11 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.2%,100.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,100.0%
-849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.4%,100.0%
-125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,52.1%,75.0%
-228,https://leetcode.com/problems/summary-ranges,Summary Ranges,Easy,53.6%,87.5%
-165,https://leetcode.com/problems/compare-version-numbers,Compare Version Numbers,Medium,45.8%,75.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,75.0%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.5%,87.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,87.5%
+849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.6%,100.0%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,52.8%,75.0%
+228,https://leetcode.com/problems/summary-ranges,Summary Ranges,Easy,53.9%,75.0%
+165,https://leetcode.com/problems/compare-version-numbers,Compare Version Numbers,Medium,46.1%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,75.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,75.0%
+1493,https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element,Longest Subarray of 1's After Deleting One Element,Medium,71.0%,75.0%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.9%,75.0%

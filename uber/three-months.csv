@@ -1,37 +1,44 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-564,https://leetcode.com/problems/find-the-closest-palindrome,Find the Closest Palindrome,Hard,31.8%,87.5%
-815,https://leetcode.com/problems/bus-routes,Bus Routes,Hard,47.0%,100.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,100.0%
-230,https://leetcode.com/problems/kth-smallest-element-in-a-bst,Kth Smallest Element in a BST,Medium,76.1%,62.5%
-977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.4%,87.5%
-269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,36.9%,87.5%
-427,https://leetcode.com/problems/construct-quad-tree,Construct Quad Tree,Medium,77.8%,87.5%
-1438,https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,57.1%,87.5%
-305,https://leetcode.com/problems/number-of-islands-ii,Number of Islands II,Hard,40.3%,100.0%
-1429,https://leetcode.com/problems/first-unique-number,First Unique Number,Medium,56.6%,100.0%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,62.5%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.2%,75.0%
-934,https://leetcode.com/problems/shortest-bridge,Shortest Bridge,Medium,59.1%,50.0%
-741,https://leetcode.com/problems/cherry-pickup,Cherry Pickup,Hard,38.7%,87.5%
-588,https://leetcode.com/problems/design-in-memory-file-system,Design In-Memory File System,Hard,48.3%,75.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,50.0%
-953,https://leetcode.com/problems/verifying-an-alien-dictionary,Verifying an Alien Dictionary,Easy,55.8%,50.0%
-79,https://leetcode.com/problems/word-search,Word Search,Medium,46.3%,75.0%
-788,https://leetcode.com/problems/rotated-digits,Rotated Digits,Medium,56.7%,50.0%
-549,https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii,Binary Tree Longest Consecutive Sequence II,Medium,49.6%,50.0%
-2258,https://leetcode.com/problems/escape-the-spreading-fire,Escape the Spreading Fire,Hard,36.9%,50.0%
-2858,https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable,Minimum Edge Reversals So Every Node Is Reachable,Hard,56.2%,75.0%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.1%,62.5%
-1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.5%,50.0%
-1475,https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop,Final Prices With a Special Discount in a Shop,Easy,83.7%,75.0%
-365,https://leetcode.com/problems/water-and-jug-problem,Water and Jug Problem,Medium,44.2%,50.0%
-2571,https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0,Minimum Operations to Reduce an Integer to 0,Medium,59.9%,75.0%
-729,https://leetcode.com/problems/my-calendar-i,My Calendar I,Medium,58.2%,50.0%
-212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,37.8%,62.5%
-792,https://leetcode.com/problems/number-of-matching-subsequences,Number of Matching Subsequences,Medium,50.6%,50.0%
-362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.4%,62.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,50.0%
-381,https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed,Insert Delete GetRandom O(1) - Duplicates allowed,Hard,36.2%,50.0%
-2791,https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree,Count Paths That Can Form a Palindrome in a Tree,Hard,46.7%,50.0%
-2468,https://leetcode.com/problems/split-message-based-on-limit,Split Message Based on Limit,Hard,42.1%,50.0%
-207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.3%,50.0%
+564,https://leetcode.com/problems/find-the-closest-palindrome,Find the Closest Palindrome,Hard,31.8%,62.5%
+815,https://leetcode.com/problems/bus-routes,Bus Routes,Hard,47.1%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,62.5%
+230,https://leetcode.com/problems/kth-smallest-element-in-a-bst,Kth Smallest Element in a BST,Medium,76.5%,62.5%
+977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.6%,75.0%
+269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,37.1%,87.5%
+427,https://leetcode.com/problems/construct-quad-tree,Construct Quad Tree,Medium,78.1%,87.5%
+1438,https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,57.3%,100.0%
+305,https://leetcode.com/problems/number-of-islands-ii,Number of Islands II,Hard,40.4%,100.0%
+1429,https://leetcode.com/problems/first-unique-number,First Unique Number,Medium,57.0%,87.5%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.5%,62.5%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.3%,62.5%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,46.8%,75.0%
+2858,https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable,Minimum Edge Reversals So Every Node Is Reachable,Hard,57.2%,100.0%
+1475,https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop,Final Prices With a Special Discount in a Shop,Easy,84.0%,75.0%
+2571,https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0,Minimum Operations to Reduce an Integer to 0,Medium,61.0%,62.5%
+212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,38.1%,62.5%
+362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.6%,87.5%
+2791,https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree,Count Paths That Can Form a Palindrome in a Tree,Hard,48.3%,100.0%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.8%,62.5%
+1101,https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends,The Earliest Moment When Everyone Become Friends,Medium,65.9%,62.5%
+399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,64.0%,62.5%
+1428,https://leetcode.com/problems/leftmost-column-with-at-least-a-one,Leftmost Column with at Least a One,Medium,55.1%,75.0%
+410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,59.8%,62.5%
+934,https://leetcode.com/problems/shortest-bridge,Shortest Bridge,Medium,59.3%,62.5%
+2163,https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements,Minimum Difference in Sums After Removal of Elements,Hard,69.9%,62.5%
+204,https://leetcode.com/problems/count-primes,Count Primes,Medium,35.7%,62.5%
+752,https://leetcode.com/problems/open-the-lock,Open the Lock,Medium,61.1%,62.5%
+2402,https://leetcode.com/problems/meeting-rooms-iii,Meeting Rooms III,Hard,51.7%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,62.5%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,49.1%,62.5%
+227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,46.6%,62.5%
+787,https://leetcode.com/problems/cheapest-flights-within-k-stops,Cheapest Flights Within K Stops,Medium,41.4%,62.5%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.8%,62.5%
+827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,56.3%,75.0%
+2092,https://leetcode.com/problems/find-all-people-with-secret,Find All People With Secret,Hard,48.4%,62.5%
+2561,https://leetcode.com/problems/rearranging-fruits,Rearranging Fruits,Hard,57.5%,62.5%
+502,https://leetcode.com/problems/ipo,IPO,Hard,53.3%,62.5%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.7%,62.5%
+545,https://leetcode.com/problems/boundary-of-binary-tree,Boundary of Binary Tree,Medium,47.9%,62.5%
+3629,https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation,Minimum Jumps to Reach End via Prime Teleportation,Medium,31.8%,62.5%
+2503,https://leetcode.com/problems/maximum-number-of-points-from-grid-queries,Maximum Number of Points From Grid Queries,Hard,59.3%,62.5%
+864,https://leetcode.com/problems/shortest-path-to-get-all-keys,Shortest Path to Get All Keys,Hard,54.3%,62.5%

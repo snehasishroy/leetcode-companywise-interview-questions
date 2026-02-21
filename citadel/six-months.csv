@@ -1,17 +1,18 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,75.0%
-647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.3%,75.0%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.1%,75.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,87.5%
-295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.9%,100.0%
-1801,https://leetcode.com/problems/number-of-orders-in-the-backlog,Number of Orders in the Backlog,Medium,53.0%,87.5%
-1004,https://leetcode.com/problems/max-consecutive-ones-iii,Max Consecutive Ones III,Medium,66.9%,75.0%
-2598,https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations,Smallest Missing Non-negative Integer After Operations,Medium,56.0%,100.0%
-98,https://leetcode.com/problems/validate-binary-search-tree,Validate Binary Search Tree,Medium,35.0%,75.0%
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,54.5%,75.0%
-622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,53.4%,75.0%
-297,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard,59.9%,75.0%
-332,https://leetcode.com/problems/reconstruct-itinerary,Reconstruct Itinerary,Hard,44.0%,75.0%
-127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,44.2%,75.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.4%,62.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,62.5%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,54.2%,100.0%
+1801,https://leetcode.com/problems/number-of-orders-in-the-backlog,Number of Orders in the Backlog,Medium,53.6%,100.0%
+1004,https://leetcode.com/problems/max-consecutive-ones-iii,Max Consecutive Ones III,Medium,67.3%,75.0%
+2598,https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations,Smallest Missing Non-negative Integer After Operations,Medium,55.9%,87.5%
+98,https://leetcode.com/problems/validate-binary-search-tree,Validate Binary Search Tree,Medium,35.3%,62.5%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.0%,62.5%
+127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,44.9%,62.5%
+465,https://leetcode.com/problems/optimal-account-balancing,Optimal Account Balancing,Hard,50.3%,62.5%
+348,https://leetcode.com/problems/design-tic-tac-toe,Design Tic-Tac-Toe,Medium,58.7%,75.0%
+155,https://leetcode.com/problems/min-stack,Min Stack,Medium,57.7%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,62.5%
+150,https://leetcode.com/problems/evaluate-reverse-polish-notation,Evaluate Reverse Polish Notation,Medium,57.0%,75.0%
+1244,https://leetcode.com/problems/design-a-leaderboard,Design A Leaderboard,Medium,68.1%,62.5%
+31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,44.7%,62.5%

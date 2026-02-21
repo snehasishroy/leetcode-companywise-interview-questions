@@ -1,10 +1,9 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-18,https://leetcode.com/problems/4sum,4Sum,Medium,39.3%,100.0%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.1%,87.5%
-875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.4%,87.5%
-23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.2%,87.5%
-15,https://leetcode.com/problems/3sum,3Sum,Medium,38.0%,87.5%
-138,https://leetcode.com/problems/copy-list-with-random-pointer,Copy List with Random Pointer,Medium,61.8%,87.5%
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,87.5%
-1642,https://leetcode.com/problems/furthest-building-you-can-reach,Furthest Building You Can Reach,Medium,50.6%,100.0%
-337,https://leetcode.com/problems/house-robber-iii,House Robber III,Medium,55.4%,87.5%
+18,https://leetcode.com/problems/4sum,4Sum,Medium,40.0%,87.5%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.7%,100.0%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.8%,87.5%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,38.6%,87.5%
+138,https://leetcode.com/problems/copy-list-with-random-pointer,Copy List with Random Pointer,Medium,62.4%,87.5%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.1%,87.5%
+1642,https://leetcode.com/problems/furthest-building-you-can-reach,Furthest Building You Can Reach,Medium,50.7%,100.0%
+337,https://leetcode.com/problems/house-robber-iii,House Robber III,Medium,55.6%,87.5%

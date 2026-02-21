@@ -1,7 +1,8 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-785,https://leetcode.com/problems/is-graph-bipartite,Is Graph Bipartite?,Medium,58.5%,100.0%
-1951,https://leetcode.com/problems/all-the-pairs-with-the-maximum-number-of-common-followers,All the Pairs With the Maximum Number of Common Followers,Medium,69.4%,100.0%
-1022,https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers,Sum of Root To Leaf Binary Numbers,Easy,73.6%,87.5%
+785,https://leetcode.com/problems/is-graph-bipartite,Is Graph Bipartite?,Medium,58.9%,100.0%
+1951,https://leetcode.com/problems/all-the-pairs-with-the-maximum-number-of-common-followers,All the Pairs With the Maximum Number of Common Followers,Medium,69.5%,100.0%
+1022,https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers,Sum of Root To Leaf Binary Numbers,Easy,73.7%,87.5%
 2545,https://leetcode.com/problems/sort-the-students-by-their-kth-score,Sort the Students by Their Kth Score,Medium,86.0%,87.5%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,100.0%
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,49.7%,100.0%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.5%,100.0%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,50.4%,100.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,87.5%

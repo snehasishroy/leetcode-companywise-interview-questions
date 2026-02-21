@@ -1,4 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.4%,100.0%
-443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.1%,100.0%
-777,https://leetcode.com/problems/swap-adjacent-in-lr-string,Swap Adjacent in LR String,Medium,37.7%,75.0%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.8%,100.0%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.5%,100.0%
+777,https://leetcode.com/problems/swap-adjacent-in-lr-string,Swap Adjacent in LR String,Medium,37.9%,75.0%
+38,https://leetcode.com/problems/count-and-say,Count and Say,Medium,62.3%,87.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,75.0%

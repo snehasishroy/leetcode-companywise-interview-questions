@@ -1,37 +1,35 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,87.5%
-560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.3%,75.0%
-9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,59.9%,87.5%
-7,https://leetcode.com/problems/reverse-integer,Reverse Integer,Medium,31.1%,75.0%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.7%,87.5%
-283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.2%,62.5%
-176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,45.5%,87.5%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,55.4%,75.0%
-242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.4%,75.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,62.5%
-122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,70.3%,62.5%
-75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,68.6%,87.5%
-152,https://leetcode.com/problems/maximum-product-subarray,Maximum Product Subarray,Medium,35.6%,75.0%
-875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.4%,62.5%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,75.0%
-35,https://leetcode.com/problems/search-insert-position,Search Insert Position,Easy,50.1%,62.5%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,87.5%
-1068,https://leetcode.com/problems/product-sales-analysis-i,Product Sales Analysis I,Easy,85.3%,62.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,62.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,100.0%
-81,https://leetcode.com/problems/search-in-rotated-sorted-array-ii,Search in Rotated Sorted Array II,Medium,39.4%,62.5%
-34,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array,Find First and Last Position of Element in Sorted Array,Medium,47.8%,62.5%
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,75.0%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,75.0%
-312,https://leetcode.com/problems/burst-balloons,Burst Balloons,Hard,62.5%,62.5%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,75.0%
-169,https://leetcode.com/problems/majority-element,Majority Element,Easy,66.0%,75.0%
-67,https://leetcode.com/problems/add-binary,Add Binary,Easy,56.4%,62.5%
-2095,https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list,Delete the Middle Node of a Linked List,Medium,59.5%,62.5%
-344,https://leetcode.com/problems/reverse-string,Reverse String,Easy,80.2%,75.0%
-287,https://leetcode.com/problems/find-the-duplicate-number,Find the Duplicate Number,Medium,63.6%,62.5%
-1752,https://leetcode.com/problems/check-if-array-is-sorted-and-rotated,Check if Array Is Sorted and Rotated,Easy,55.5%,62.5%
-28,https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string,Find the Index of the First Occurrence in a String,Easy,45.8%,62.5%
-13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,65.8%,62.5%
-621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.3%,62.5%
-202,https://leetcode.com/problems/happy-number,Happy Number,Easy,58.8%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,50.0%
+9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,60.2%,50.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.0%,62.5%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.5%,62.5%
+176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,46.3%,50.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,56.1%,62.5%
+75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,69.1%,50.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,50.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,100.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.1%,62.5%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.9%,62.5%
+312,https://leetcode.com/problems/burst-balloons,Burst Balloons,Hard,62.9%,50.0%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,44.1%,50.0%
+169,https://leetcode.com/problems/majority-element,Majority Element,Easy,66.1%,50.0%
+621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.6%,75.0%
+1015,https://leetcode.com/problems/smallest-integer-divisible-by-k,Smallest Integer Divisible by K,Medium,54.3%,50.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,62.5%
+50,https://leetcode.com/problems/powx-n,"Pow(x, n)",Medium,38.2%,50.0%
+17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,65.5%,50.0%
+8,https://leetcode.com/problems/string-to-integer-atoi,String to Integer (atoi),Medium,20.6%,50.0%
+67,https://leetcode.com/problems/add-binary,Add Binary,Easy,57.6%,62.5%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.8%,50.0%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,52.8%,50.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,38.6%,50.0%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.8%,62.5%
+2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.9%,62.5%
+18,https://leetcode.com/problems/4sum,4Sum,Medium,40.0%,50.0%
+27,https://leetcode.com/problems/remove-element,Remove Element,Easy,61.3%,50.0%
+344,https://leetcode.com/problems/reverse-string,Reverse String,Easy,80.5%,50.0%
+28,https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string,Find the Index of the First Occurrence in a String,Easy,46.2%,62.5%
+189,https://leetcode.com/problems/rotate-array,Rotate Array,Medium,44.4%,50.0%
+485,https://leetcode.com/problems/max-consecutive-ones,Max Consecutive Ones,Easy,64.6%,50.0%
+977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.6%,50.0%
+516,https://leetcode.com/problems/longest-palindromic-subsequence,Longest Palindromic Subsequence,Medium,65.1%,50.0%

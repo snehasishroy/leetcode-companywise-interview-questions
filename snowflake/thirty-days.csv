@@ -1,3 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-588,https://leetcode.com/problems/design-in-memory-file-system,Design In-Memory File System,Hard,48.3%,87.5%
-2050,https://leetcode.com/problems/parallel-courses-iii,Parallel Courses III,Hard,66.8%,100.0%
+545,https://leetcode.com/problems/boundary-of-binary-tree,Boundary of Binary Tree,Medium,47.9%,87.5%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.0%,100.0%
+261,https://leetcode.com/problems/graph-valid-tree,Graph Valid Tree,Medium,49.8%,87.5%
+243,https://leetcode.com/problems/shortest-word-distance,Shortest Word Distance,Easy,66.2%,87.5%

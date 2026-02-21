@@ -1,6 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,100.0%
-2942,https://leetcode.com/problems/find-words-containing-character,Find Words Containing Character,Easy,90.4%,87.5%
-987,https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree,Vertical Order Traversal of a Binary Tree,Hard,52.7%,87.5%
-1248,https://leetcode.com/problems/count-number-of-nice-subarrays,Count Number of Nice Subarrays,Medium,74.3%,87.5%
-301,https://leetcode.com/problems/remove-invalid-parentheses,Remove Invalid Parentheses,Hard,49.6%,87.5%
+1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.2%,100.0%
+2942,https://leetcode.com/problems/find-words-containing-character,Find Words Containing Character,Easy,90.4%,100.0%
+987,https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree,Vertical Order Traversal of a Binary Tree,Hard,53.2%,100.0%
+1248,https://leetcode.com/problems/count-number-of-nice-subarrays,Count Number of Nice Subarrays,Medium,74.8%,100.0%
+301,https://leetcode.com/problems/remove-invalid-parentheses,Remove Invalid Parentheses,Hard,49.8%,100.0%
+1797,https://leetcode.com/problems/design-authentication-manager,Design Authentication Manager,Medium,58.4%,100.0%

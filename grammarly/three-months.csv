@@ -1,11 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,100.0%
-966,https://leetcode.com/problems/vowel-spellchecker,Vowel Spellchecker,Medium,61.5%,87.5%
-187,https://leetcode.com/problems/repeated-dna-sequences,Repeated DNA Sequences,Medium,52.3%,75.0%
-70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.8%,87.5%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,87.5%
-359,https://leetcode.com/problems/logger-rate-limiter,Logger Rate Limiter,Easy,76.7%,87.5%
-1461,https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k,Check If a String Contains All Binary Codes of Size K,Medium,56.8%,75.0%
-1047,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string,Remove All Adjacent Duplicates In String,Easy,72.3%,87.5%
-404,https://leetcode.com/problems/sum-of-left-leaves,Sum of Left Leaves,Easy,62.1%,75.0%
-1209,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii,Remove All Adjacent Duplicates in String II,Medium,60.5%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,100.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.3%,100.0%
+359,https://leetcode.com/problems/logger-rate-limiter,Logger Rate Limiter,Easy,76.8%,100.0%

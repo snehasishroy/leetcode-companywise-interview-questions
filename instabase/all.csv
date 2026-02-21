@@ -1,3 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2334,https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold,Subarray With Elements Greater Than Varying Threshold,Hard,45.0%,100.0%
-208,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium,68.8%,100.0%
+2334,https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold,Subarray With Elements Greater Than Varying Threshold,Hard,45.2%,100.0%
+208,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium,69.2%,100.0%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.0%,100.0%

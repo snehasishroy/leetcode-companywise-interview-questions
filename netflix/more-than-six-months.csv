@@ -1,31 +1,26 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,50.0%
-41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,41.9%,62.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,62.5%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,87.5%
-341,https://leetcode.com/problems/flatten-nested-list-iterator,Flatten Nested List Iterator,Medium,65.5%,62.5%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.2%,75.0%
-359,https://leetcode.com/problems/logger-rate-limiter,Logger Rate Limiter,Easy,76.7%,87.5%
-528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,48.7%,62.5%
-981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.6%,62.5%
-228,https://leetcode.com/problems/summary-ranges,Summary Ranges,Easy,53.6%,75.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,62.5%
-692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,59.8%,50.0%
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,54.5%,50.0%
-739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.9%,62.5%
-232,https://leetcode.com/problems/implement-queue-using-stacks,Implement Queue using Stacks,Easy,68.8%,50.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,62.5%
-219,https://leetcode.com/problems/contains-duplicate-ii,Contains Duplicate II,Easy,50.1%,62.5%
-2622,https://leetcode.com/problems/cache-with-time-limit,Cache With Time Limit,Medium,75.9%,62.5%
-2704,https://leetcode.com/problems/to-be-or-not-to-be,To Be Or Not To Be,Easy,63.1%,50.0%
-2251,https://leetcode.com/problems/number-of-flowers-in-full-bloom,Number of Flowers in Full Bloom,Hard,57.6%,50.0%
-322,https://leetcode.com/problems/coin-change,Coin Change,Medium,47.5%,50.0%
-139,https://leetcode.com/problems/word-break,Word Break,Medium,48.8%,50.0%
-743,https://leetcode.com/problems/network-delay-time,Network Delay Time,Medium,59.0%,50.0%
-79,https://leetcode.com/problems/word-search,Word Search,Medium,46.3%,62.5%
-332,https://leetcode.com/problems/reconstruct-itinerary,Reconstruct Itinerary,Hard,44.0%,87.5%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,50.0%
-875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.4%,62.5%
-217,https://leetcode.com/problems/contains-duplicate,Contains Duplicate,Easy,63.8%,62.5%
-220,https://leetcode.com/problems/contains-duplicate-iii,Contains Duplicate III,Hard,24.2%,62.5%
+41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,42.4%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,50.0%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.5%,87.5%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.8%,50.0%
+359,https://leetcode.com/problems/logger-rate-limiter,Logger Rate Limiter,Easy,76.8%,100.0%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.7%,87.5%
+228,https://leetcode.com/problems/summary-ranges,Summary Ranges,Easy,53.9%,75.0%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.0%,62.5%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,68.3%,62.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,50.0%
+219,https://leetcode.com/problems/contains-duplicate-ii,Contains Duplicate II,Easy,50.8%,75.0%
+2622,https://leetcode.com/problems/cache-with-time-limit,Cache With Time Limit,Medium,76.0%,75.0%
+2704,https://leetcode.com/problems/to-be-or-not-to-be,To Be Or Not To Be,Easy,63.3%,50.0%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,47.9%,50.0%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,49.1%,62.5%
+743,https://leetcode.com/problems/network-delay-time,Network Delay Time,Medium,59.7%,75.0%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,46.8%,75.0%
+332,https://leetcode.com/problems/reconstruct-itinerary,Reconstruct Itinerary,Hard,44.3%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,75.0%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.7%,62.5%
+217,https://leetcode.com/problems/contains-duplicate,Contains Duplicate,Easy,64.1%,75.0%
+220,https://leetcode.com/problems/contains-duplicate-iii,Contains Duplicate III,Hard,24.4%,75.0%
+633,https://leetcode.com/problems/sum-of-square-numbers,Sum of Square Numbers,Medium,36.7%,50.0%
+904,https://leetcode.com/problems/fruit-into-baskets,Fruit Into Baskets,Medium,50.5%,50.0%

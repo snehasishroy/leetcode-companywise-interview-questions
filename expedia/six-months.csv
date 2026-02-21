@@ -1,10 +1,8 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2062,https://leetcode.com/problems/count-vowel-substrings-of-a-string,Count Vowel Substrings of a String,Easy,72.4%,100.0%
-3035,https://leetcode.com/problems/maximum-palindromes-after-operations,Maximum Palindromes After Operations,Medium,44.7%,100.0%
-926,https://leetcode.com/problems/flip-string-to-monotone-increasing,Flip String to Monotone Increasing,Medium,61.7%,87.5%
-724,https://leetcode.com/problems/find-pivot-index,Find Pivot Index,Easy,61.5%,87.5%
-1963,https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced,Minimum Number of Swaps to Make the String Balanced,Medium,78.1%,87.5%
-127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,44.2%,87.5%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,100.0%
-1962,https://leetcode.com/problems/remove-stones-to-minimize-the-total,Remove Stones to Minimize the Total,Medium,65.2%,87.5%
-787,https://leetcode.com/problems/cheapest-flights-within-k-stops,Cheapest Flights Within K Stops,Medium,41.0%,87.5%
+3035,https://leetcode.com/problems/maximum-palindromes-after-operations,Maximum Palindromes After Operations,Medium,45.6%,100.0%
+724,https://leetcode.com/problems/find-pivot-index,Find Pivot Index,Easy,62.1%,87.5%
+127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,44.9%,87.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,87.5%
+1962,https://leetcode.com/problems/remove-stones-to-minimize-the-total,Remove Stones to Minimize the Total,Medium,65.5%,100.0%
+38,https://leetcode.com/problems/count-and-say,Count and Say,Medium,62.3%,100.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.4%,87.5%

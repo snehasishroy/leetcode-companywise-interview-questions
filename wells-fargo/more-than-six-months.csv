@@ -1,11 +1,17 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2892,https://leetcode.com/problems/minimizing-array-after-replacing-pairs-with-their-product,Minimizing Array After Replacing Pairs With Their Product,Medium,40.5%,87.5%
-2904,https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string,Shortest and Lexicographically Smallest Beautiful String,Medium,40.5%,87.5%
-238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,68.3%,75.0%
-796,https://leetcode.com/problems/rotate-string,Rotate String,Easy,64.7%,75.0%
-1307,https://leetcode.com/problems/verbal-arithmetic-puzzle,Verbal Arithmetic Puzzle,Hard,34.8%,100.0%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,55.4%,75.0%
+2892,https://leetcode.com/problems/minimizing-array-after-replacing-pairs-with-their-product,Minimizing Array After Replacing Pairs With Their Product,Medium,40.7%,87.5%
+2904,https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string,Shortest and Lexicographically Smallest Beautiful String,Medium,40.8%,87.5%
+238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,68.6%,75.0%
+796,https://leetcode.com/problems/rotate-string,Rotate String,Easy,65.1%,75.0%
+1307,https://leetcode.com/problems/verbal-arithmetic-puzzle,Verbal Arithmetic Puzzle,Hard,34.9%,100.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,56.1%,75.0%
 1768,https://leetcode.com/problems/merge-strings-alternately,Merge Strings Alternately,Easy,82.1%,75.0%
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,75.0%
-703,https://leetcode.com/problems/kth-largest-element-in-a-stream,Kth Largest Element in a Stream,Easy,60.4%,75.0%
-1953,https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work,Maximum Number of Weeks for Which You Can Work,Medium,42.0%,75.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.1%,75.0%
+703,https://leetcode.com/problems/kth-largest-element-in-a-stream,Kth Largest Element in a Stream,Easy,60.7%,75.0%
+1953,https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work,Maximum Number of Weeks for Which You Can Work,Medium,42.3%,75.0%
+570,https://leetcode.com/problems/managers-with-at-least-5-direct-reports,Managers with at Least 5 Direct Reports,Medium,48.9%,75.0%
+2696,https://leetcode.com/problems/minimum-string-length-after-removing-substrings,Minimum String Length After Removing Substrings,Easy,77.1%,75.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.0%,75.0%
+2062,https://leetcode.com/problems/count-vowel-substrings-of-a-string,Count Vowel Substrings of a String,Easy,72.8%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,75.0%
+460,https://leetcode.com/problems/lfu-cache,LFU Cache,Hard,48.6%,75.0%

@@ -1,14 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-179,https://leetcode.com/problems/largest-number,Largest Number,Medium,42.1%,100.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,75.0%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,55.4%,87.5%
-19,https://leetcode.com/problems/remove-nth-node-from-end-of-list,Remove Nth Node From End of List,Medium,50.3%,75.0%
-617,https://leetcode.com/problems/merge-two-binary-trees,Merge Two Binary Trees,Easy,78.9%,75.0%
-1315,https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent,Sum of Nodes with Even-Valued Grandparent,Medium,85.8%,75.0%
-21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.5%,75.0%
-1325,https://leetcode.com/problems/delete-leaves-with-a-given-value,Delete Leaves With a Given Value,Medium,77.2%,75.0%
-2074,https://leetcode.com/problems/reverse-nodes-in-even-length-groups,Reverse Nodes in Even Length Groups,Medium,62.7%,75.0%
-61,https://leetcode.com/problems/rotate-list,Rotate List,Medium,40.8%,75.0%
-515,https://leetcode.com/problems/find-largest-value-in-each-tree-row,Find Largest Value in Each Tree Row,Medium,66.3%,75.0%
-463,https://leetcode.com/problems/island-perimeter,Island Perimeter,Easy,74.0%,75.0%
-1026,https://leetcode.com/problems/maximum-difference-between-node-and-ancestor,Maximum Difference Between Node and Ancestor,Medium,78.1%,75.0%
+179,https://leetcode.com/problems/largest-number,Largest Number,Medium,42.6%,100.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,56.1%,100.0%
+2074,https://leetcode.com/problems/reverse-nodes-in-even-length-groups,Reverse Nodes in Even Length Groups,Medium,63.6%,100.0%
+515,https://leetcode.com/problems/find-largest-value-in-each-tree-row,Find Largest Value in Each Tree Row,Medium,66.3%,100.0%

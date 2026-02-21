@@ -1,47 +1,47 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,87.5%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,75.0%
-17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,64.9%,75.0%
-15,https://leetcode.com/problems/3sum,3Sum,Medium,38.0%,62.5%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,87.5%
-25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,64.6%,50.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,87.5%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
-198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.7%,50.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,100.0%
-227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,46.4%,100.0%
-283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.2%,62.5%
-297,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard,59.9%,50.0%
-341,https://leetcode.com/problems/flatten-nested-list-iterator,Flatten Nested List Iterator,Medium,65.5%,50.0%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.2%,87.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,87.5%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.5%,62.5%
+17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,65.5%,75.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,38.6%,62.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,87.5%
+25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,65.3%,50.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,87.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,87.5%
+227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,46.6%,87.5%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.5%,50.0%
+297,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard,60.3%,50.0%
+341,https://leetcode.com/problems/flatten-nested-list-iterator,Flatten Nested List Iterator,Medium,65.6%,50.0%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.8%,75.0%
 348,https://leetcode.com/problems/design-tic-tac-toe,Design Tic-Tac-Toe,Medium,58.7%,50.0%
-2325,https://leetcode.com/problems/decode-the-message,Decode the Message,Easy,85.7%,50.0%
-1275,https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game,Find Winner on a Tic Tac Toe Game,Easy,54.3%,50.0%
-695,https://leetcode.com/problems/max-area-of-island,Max Area of Island,Medium,73.6%,50.0%
-767,https://leetcode.com/problems/reorganize-string,Reorganize String,Medium,56.6%,62.5%
+2325,https://leetcode.com/problems/decode-the-message,Decode the Message,Easy,85.8%,50.0%
+695,https://leetcode.com/problems/max-area-of-island,Max Area of Island,Medium,73.8%,50.0%
+767,https://leetcode.com/problems/reorganize-string,Reorganize String,Medium,56.8%,75.0%
 1729,https://leetcode.com/problems/find-followers-count,Find Followers Count,Easy,69.5%,100.0%
-622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,53.4%,87.5%
-1758,https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string,Minimum Changes To Make Alternating Binary String,Easy,63.7%,100.0%
-40,https://leetcode.com/problems/combination-sum-ii,Combination Sum II,Medium,58.5%,50.0%
-392,https://leetcode.com/problems/is-subsequence,Is Subsequence,Easy,48.7%,50.0%
-242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.4%,62.5%
-268,https://leetcode.com/problems/missing-number,Missing Number,Easy,71.1%,50.0%
-976,https://leetcode.com/problems/largest-perimeter-triangle,Largest Perimeter Triangle,Easy,61.6%,50.0%
-1117,https://leetcode.com/problems/building-h2o,Building H2O,Medium,58.2%,87.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,50.0%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,100.0%
-346,https://leetcode.com/problems/moving-average-from-data-stream,Moving Average from Data Stream,Easy,80.1%,50.0%
-187,https://leetcode.com/problems/repeated-dna-sequences,Repeated DNA Sequences,Medium,52.3%,50.0%
-41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,41.9%,50.0%
-224,https://leetcode.com/problems/basic-calculator,Basic Calculator,Hard,46.3%,50.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,87.5%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.7%,62.5%
+622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,54.0%,87.5%
+1758,https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string,Minimum Changes To Make Alternating Binary String,Easy,63.8%,100.0%
+40,https://leetcode.com/problems/combination-sum-ii,Combination Sum II,Medium,59.0%,50.0%
+392,https://leetcode.com/problems/is-subsequence,Is Subsequence,Easy,48.8%,50.0%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.8%,62.5%
+1117,https://leetcode.com/problems/building-h2o,Building H2O,Medium,58.3%,87.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,50.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,100.0%
+346,https://leetcode.com/problems/moving-average-from-data-stream,Moving Average from Data Stream,Easy,80.2%,50.0%
+41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,42.4%,50.0%
+224,https://leetcode.com/problems/basic-calculator,Basic Calculator,Hard,46.5%,50.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,87.5%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.0%,62.5%
 128,https://leetcode.com/problems/longest-consecutive-sequence,Longest Consecutive Sequence,Medium,47.0%,50.0%
-160,https://leetcode.com/problems/intersection-of-two-linked-lists,Intersection of Two Linked Lists,Easy,62.5%,50.0%
-207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.3%,50.0%
-48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,78.9%,50.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,62.5%
-150,https://leetcode.com/problems/evaluate-reverse-polish-notation,Evaluate Reverse Polish Notation,Medium,56.2%,50.0%
-206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,79.9%,50.0%
-355,https://leetcode.com/problems/design-twitter,Design Twitter,Medium,43.7%,50.0%
-934,https://leetcode.com/problems/shortest-bridge,Shortest Bridge,Medium,59.1%,50.0%
+160,https://leetcode.com/problems/intersection-of-two-linked-lists,Intersection of Two Linked Lists,Easy,63.2%,50.0%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.8%,50.0%
+48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,79.3%,50.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,62.5%
+150,https://leetcode.com/problems/evaluate-reverse-polish-notation,Evaluate Reverse Polish Notation,Medium,57.0%,50.0%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,80.2%,50.0%
+355,https://leetcode.com/problems/design-twitter,Design Twitter,Medium,44.2%,50.0%
+934,https://leetcode.com/problems/shortest-bridge,Shortest Bridge,Medium,59.3%,50.0%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,50.0%
+202,https://leetcode.com/problems/happy-number,Happy Number,Easy,59.2%,50.0%
+393,https://leetcode.com/problems/utf-8-validation,UTF-8 Validation,Medium,46.0%,50.0%
+399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,64.0%,50.0%
+1603,https://leetcode.com/problems/design-parking-system,Design Parking System,Easy,87.1%,50.0%

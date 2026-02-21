@@ -1,10 +1,10 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1227,https://leetcode.com/problems/airplane-seat-assignment-probability,Airplane Seat Assignment Probability,Medium,67.0%,75.0%
-6,https://leetcode.com/problems/zigzag-conversion,Zigzag Conversion,Medium,52.9%,100.0%
-844,https://leetcode.com/problems/backspace-string-compare,Backspace String Compare,Easy,49.6%,87.5%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.2%,75.0%
-419,https://leetcode.com/problems/battleships-in-a-board,Battleships in a Board,Medium,77.1%,75.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,75.0%
-2184,https://leetcode.com/problems/number-of-ways-to-build-sturdy-brick-wall,Number of Ways to Build Sturdy Brick Wall,Medium,49.4%,75.0%
-46,https://leetcode.com/problems/permutations,Permutations,Medium,81.3%,75.0%
+1227,https://leetcode.com/problems/airplane-seat-assignment-probability,Airplane Seat Assignment Probability,Medium,67.2%,75.0%
+6,https://leetcode.com/problems/zigzag-conversion,Zigzag Conversion,Medium,53.5%,100.0%
+844,https://leetcode.com/problems/backspace-string-compare,Backspace String Compare,Easy,49.8%,87.5%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.8%,75.0%
+419,https://leetcode.com/problems/battleships-in-a-board,Battleships in a Board,Medium,77.3%,75.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,75.0%
+2184,https://leetcode.com/problems/number-of-ways-to-build-sturdy-brick-wall,Number of Ways to Build Sturdy Brick Wall,Medium,49.5%,75.0%
+46,https://leetcode.com/problems/permutations,Permutations,Medium,81.6%,75.0%
 1963,https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced,Minimum Number of Swaps to Make the String Balanced,Medium,78.1%,75.0%

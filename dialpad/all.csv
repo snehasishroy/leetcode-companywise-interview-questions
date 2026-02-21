@@ -1,4 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2484,https://leetcode.com/problems/count-palindromic-subsequences,Count Palindromic Subsequences,Hard,40.5%,100.0%
-242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.4%,100.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,100.0%
+2484,https://leetcode.com/problems/count-palindromic-subsequences,Count Palindromic Subsequences,Hard,41.0%,87.5%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.8%,87.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,100.0%

@@ -1,17 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.5%,100.0%
-1326,https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden,Minimum Number of Taps to Open to Water a Garden,Hard,50.8%,75.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,62.5%
-2221,https://leetcode.com/problems/find-triangular-sum-of-an-array,Find Triangular Sum of an Array,Medium,82.0%,62.5%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,75.0%
-3628,https://leetcode.com/problems/maximum-number-of-subsequences-after-one-inserting,Maximum Number of Subsequences After One Inserting,Medium,28.2%,100.0%
-44,https://leetcode.com/problems/wildcard-matching,Wildcard Matching,Hard,30.9%,62.5%
-752,https://leetcode.com/problems/open-the-lock,Open the Lock,Medium,61.0%,62.5%
-767,https://leetcode.com/problems/reorganize-string,Reorganize String,Medium,56.6%,62.5%
-2222,https://leetcode.com/problems/number-of-ways-to-select-buildings,Number of Ways to Select Buildings,Medium,50.6%,62.5%
-2434,https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string,Using a Robot to Print the Lexicographically Smallest String,Medium,62.5%,62.5%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.1%,62.5%
-962,https://leetcode.com/problems/maximum-width-ramp,Maximum Width Ramp,Medium,55.8%,62.5%
-128,https://leetcode.com/problems/longest-consecutive-sequence,Longest Consecutive Sequence,Medium,47.0%,62.5%
-1048,https://leetcode.com/problems/longest-string-chain,Longest String Chain,Medium,62.6%,62.5%
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,57.6%,62.5%
+968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.6%,100.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,62.5%
+3628,https://leetcode.com/problems/maximum-number-of-subsequences-after-one-inserting,Maximum Number of Subsequences After One Inserting,Medium,31.7%,62.5%
+1048,https://leetcode.com/problems/longest-string-chain,Longest String Chain,Medium,62.8%,62.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,62.5%
+668,https://leetcode.com/problems/kth-smallest-number-in-multiplication-table,Kth Smallest Number in Multiplication Table,Hard,53.8%,62.5%

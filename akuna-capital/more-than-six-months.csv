@@ -1,19 +1,17 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2204,https://leetcode.com/problems/distance-to-a-cycle-in-undirected-graph,Distance to a Cycle in Undirected Graph,Hard,73.1%,87.5%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,87.5%
-1370,https://leetcode.com/problems/increasing-decreasing-string,Increasing Decreasing String,Easy,77.1%,87.5%
-1177,https://leetcode.com/problems/can-make-palindrome-from-substring,Can Make Palindrome from Substring,Medium,41.0%,87.5%
-1319,https://leetcode.com/problems/number-of-operations-to-make-network-connected,Number of Operations to Make Network Connected,Medium,65.8%,87.5%
-740,https://leetcode.com/problems/delete-and-earn,Delete and Earn,Medium,57.0%,100.0%
-677,https://leetcode.com/problems/map-sum-pairs,Map Sum Pairs,Medium,57.0%,87.5%
-1425,https://leetcode.com/problems/constrained-subsequence-sum,Constrained Subsequence Sum,Hard,56.4%,87.5%
-741,https://leetcode.com/problems/cherry-pickup,Cherry Pickup,Hard,38.7%,87.5%
-743,https://leetcode.com/problems/network-delay-time,Network Delay Time,Medium,59.0%,87.5%
-1326,https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden,Minimum Number of Taps to Open to Water a Garden,Hard,50.8%,87.5%
-1649,https://leetcode.com/problems/create-sorted-array-through-instructions,Create Sorted Array through Instructions,Hard,40.9%,87.5%
-1665,https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks,Minimum Initial Energy to Finish Tasks,Hard,60.4%,87.5%
-1338,https://leetcode.com/problems/reduce-array-size-to-the-half,Reduce Array Size to The Half,Medium,69.3%,87.5%
-1819,https://leetcode.com/problems/number-of-different-subsequences-gcds,Number of Different Subsequences GCDs,Hard,44.5%,87.5%
-1223,https://leetcode.com/problems/dice-roll-simulation,Dice Roll Simulation,Hard,50.5%,87.5%
-2497,https://leetcode.com/problems/maximum-star-sum-of-a-graph,Maximum Star Sum of a Graph,Medium,41.6%,100.0%
-1192,https://leetcode.com/problems/critical-connections-in-a-network,Critical Connections in a Network,Hard,58.9%,87.5%
+1370,https://leetcode.com/problems/increasing-decreasing-string,Increasing Decreasing String,Easy,77.2%,75.0%
+1177,https://leetcode.com/problems/can-make-palindrome-from-substring,Can Make Palindrome from Substring,Medium,41.3%,87.5%
+1319,https://leetcode.com/problems/number-of-operations-to-make-network-connected,Number of Operations to Make Network Connected,Medium,66.1%,75.0%
+740,https://leetcode.com/problems/delete-and-earn,Delete and Earn,Medium,57.1%,87.5%
+677,https://leetcode.com/problems/map-sum-pairs,Map Sum Pairs,Medium,57.1%,75.0%
+1425,https://leetcode.com/problems/constrained-subsequence-sum,Constrained Subsequence Sum,Hard,56.4%,75.0%
+741,https://leetcode.com/problems/cherry-pickup,Cherry Pickup,Hard,39.1%,75.0%
+743,https://leetcode.com/problems/network-delay-time,Network Delay Time,Medium,59.7%,75.0%
+1326,https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden,Minimum Number of Taps to Open to Water a Garden,Hard,51.0%,75.0%
+1649,https://leetcode.com/problems/create-sorted-array-through-instructions,Create Sorted Array through Instructions,Hard,41.3%,75.0%
+1665,https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks,Minimum Initial Energy to Finish Tasks,Hard,60.6%,75.0%
+1338,https://leetcode.com/problems/reduce-array-size-to-the-half,Reduce Array Size to The Half,Medium,69.3%,75.0%
+1819,https://leetcode.com/problems/number-of-different-subsequences-gcds,Number of Different Subsequences GCDs,Hard,44.9%,75.0%
+1223,https://leetcode.com/problems/dice-roll-simulation,Dice Roll Simulation,Hard,50.7%,75.0%
+2497,https://leetcode.com/problems/maximum-star-sum-of-a-graph,Maximum Star Sum of a Graph,Medium,41.9%,100.0%
+1192,https://leetcode.com/problems/critical-connections-in-a-network,Critical Connections in a Network,Hard,59.3%,75.0%

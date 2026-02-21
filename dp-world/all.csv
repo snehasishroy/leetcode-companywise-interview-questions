@@ -1,12 +1,14 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,57.6%,87.5%
-2747,https://leetcode.com/problems/count-zero-request-servers,Count Zero Request Servers,Medium,35.2%,100.0%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,87.5%
-1011,https://leetcode.com/problems/capacity-to-ship-packages-within-d-days,Capacity To Ship Packages Within D Days,Medium,73.1%,100.0%
-968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.5%,87.5%
-757,https://leetcode.com/problems/set-intersection-size-at-least-two,Set Intersection Size At Least Two,Hard,58.0%,100.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,87.5%
-287,https://leetcode.com/problems/find-the-duplicate-number,Find the Duplicate Number,Medium,63.6%,87.5%
-221,https://leetcode.com/problems/maximal-square,Maximal Square,Medium,49.6%,87.5%
-735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,46.4%,87.5%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,87.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,87.5%
+2747,https://leetcode.com/problems/count-zero-request-servers,Count Zero Request Servers,Medium,35.6%,87.5%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,44.1%,87.5%
+1011,https://leetcode.com/problems/capacity-to-ship-packages-within-d-days,Capacity To Ship Packages Within D Days,Medium,73.5%,100.0%
+968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.6%,87.5%
+757,https://leetcode.com/problems/set-intersection-size-at-least-two,Set Intersection Size At Least Two,Hard,57.9%,100.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,87.5%
+287,https://leetcode.com/problems/find-the-duplicate-number,Find the Duplicate Number,Medium,64.0%,87.5%
+221,https://leetcode.com/problems/maximal-square,Maximal Square,Medium,50.0%,87.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,87.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,87.5%
+781,https://leetcode.com/problems/rabbits-in-forest,Rabbits in Forest,Medium,58.0%,87.5%
+399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,64.0%,87.5%

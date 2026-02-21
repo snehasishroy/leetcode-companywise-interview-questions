@@ -1,4 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-881,https://leetcode.com/problems/boats-to-save-people,Boats to Save People,Medium,61.0%,100.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,100.0%
-103,https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal,Binary Tree Zigzag Level Order Traversal,Medium,62.7%,100.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,100.0%
+103,https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal,Binary Tree Zigzag Level Order Traversal,Medium,63.1%,87.5%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.5%,87.5%

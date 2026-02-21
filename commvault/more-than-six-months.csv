@@ -1,5 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-91,https://leetcode.com/problems/decode-ways,Decode Ways,Medium,37.2%,87.5%
-2062,https://leetcode.com/problems/count-vowel-substrings-of-a-string,Count Vowel Substrings of a String,Easy,72.4%,100.0%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,100.0%
-162,https://leetcode.com/problems/find-peak-element,Find Peak Element,Medium,46.7%,87.5%
+2062,https://leetcode.com/problems/count-vowel-substrings-of-a-string,Count Vowel Substrings of a String,Easy,72.8%,100.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,100.0%
+162,https://leetcode.com/problems/find-peak-element,Find Peak Element,Medium,46.8%,87.5%
+91,https://leetcode.com/problems/decode-ways,Decode Ways,Medium,37.6%,87.5%

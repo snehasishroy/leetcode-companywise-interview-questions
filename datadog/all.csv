@@ -1,18 +1,17 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-559,https://leetcode.com/problems/maximum-depth-of-n-ary-tree,Maximum Depth of N-ary Tree,Easy,73.3%,87.5%
+559,https://leetcode.com/problems/maximum-depth-of-n-ary-tree,Maximum Depth of N-ary Tree,Easy,73.4%,87.5%
 408,https://leetcode.com/problems/valid-word-abbreviation,Valid Word Abbreviation,Easy,37.0%,87.5%
-568,https://leetcode.com/problems/maximum-vacation-days,Maximum Vacation Days,Hard,46.6%,75.0%
-322,https://leetcode.com/problems/coin-change,Coin Change,Medium,47.5%,100.0%
-622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,53.4%,87.5%
-480,https://leetcode.com/problems/sliding-window-median,Sliding Window Median,Hard,38.8%,75.0%
-124,https://leetcode.com/problems/binary-tree-maximum-path-sum,Binary Tree Maximum Path Sum,Hard,41.8%,62.5%
-1232,https://leetcode.com/problems/check-if-it-is-a-straight-line,Check If It Is a Straight Line,Easy,39.9%,50.0%
-819,https://leetcode.com/problems/most-common-word,Most Common Word,Easy,44.9%,100.0%
-1038,https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree,Binary Search Tree to Greater Sum Tree,Medium,88.3%,50.0%
-1452,https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list,People Whose List of Favorite Companies Is Not a Subset of Another List,Medium,60.3%,75.0%
-1160,https://leetcode.com/problems/find-words-that-can-be-formed-by-characters,Find Words That Can Be Formed by Characters,Easy,71.3%,50.0%
-211,https://leetcode.com/problems/design-add-and-search-words-data-structure,Design Add and Search Words Data Structure,Medium,47.8%,75.0%
+568,https://leetcode.com/problems/maximum-vacation-days,Maximum Vacation Days,Hard,46.7%,75.0%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,47.9%,100.0%
+622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,54.0%,87.5%
+480,https://leetcode.com/problems/sliding-window-median,Sliding Window Median,Hard,38.9%,75.0%
+124,https://leetcode.com/problems/binary-tree-maximum-path-sum,Binary Tree Maximum Path Sum,Hard,42.0%,50.0%
+1232,https://leetcode.com/problems/check-if-it-is-a-straight-line,Check If It Is a Straight Line,Easy,40.0%,50.0%
+819,https://leetcode.com/problems/most-common-word,Most Common Word,Easy,45.0%,100.0%
+1038,https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree,Binary Search Tree to Greater Sum Tree,Medium,88.4%,50.0%
+1452,https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list,People Whose List of Favorite Companies Is Not a Subset of Another List,Medium,60.5%,75.0%
+211,https://leetcode.com/problems/design-add-and-search-words-data-structure,Design Add and Search Words Data Structure,Medium,48.1%,87.5%
 1229,https://leetcode.com/problems/meeting-scheduler,Meeting Scheduler,Medium,55.2%,87.5%
-213,https://leetcode.com/problems/house-robber-ii,House Robber II,Medium,44.3%,50.0%
-198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.7%,62.5%
-112,https://leetcode.com/problems/path-sum,Path Sum,Easy,53.9%,50.0%
+213,https://leetcode.com/problems/house-robber-ii,House Robber II,Medium,44.6%,50.0%
+198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.9%,62.5%
+112,https://leetcode.com/problems/path-sum,Path Sum,Easy,54.4%,50.0%

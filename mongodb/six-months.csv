@@ -1,7 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-349,https://leetcode.com/problems/intersection-of-two-arrays,Intersection of Two Arrays,Easy,77.1%,87.5%
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,49.7%,75.0%
-2759,https://leetcode.com/problems/convert-json-string-to-object,Convert JSON String to Object,Hard,61.0%,87.5%
-208,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium,68.8%,100.0%
+349,https://leetcode.com/problems/intersection-of-two-arrays,Intersection of Two Arrays,Easy,77.5%,75.0%
+208,https://leetcode.com/problems/implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium,69.2%,100.0%
 1146,https://leetcode.com/problems/snapshot-array,Snapshot Array,Medium,36.7%,87.5%
-139,https://leetcode.com/problems/word-break,Word Break,Medium,48.8%,75.0%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.5%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,75.0%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,49.1%,75.0%

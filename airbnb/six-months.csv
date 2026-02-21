@@ -1,8 +1,9 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.5%,87.5%
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,49.7%,100.0%
-251,https://leetcode.com/problems/flatten-2d-vector,Flatten 2D Vector,Medium,50.4%,100.0%
-39,https://leetcode.com/problems/combination-sum,Combination Sum,Medium,75.6%,100.0%
-631,https://leetcode.com/problems/design-excel-sum-formula,Design Excel Sum Formula,Hard,40.4%,87.5%
-638,https://leetcode.com/problems/shopping-offers,Shopping Offers,Medium,52.1%,87.5%
-1298,https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes,Maximum Candies You Can Get from Boxes,Hard,68.1%,87.5%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,50.4%,87.5%
+251,https://leetcode.com/problems/flatten-2d-vector,Flatten 2D Vector,Medium,50.4%,87.5%
+638,https://leetcode.com/problems/shopping-offers,Shopping Offers,Medium,52.2%,100.0%
+1298,https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes,Maximum Candies You Can Get from Boxes,Hard,67.9%,100.0%
+269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,37.1%,87.5%
+1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.6%,100.0%
+721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,60.9%,87.5%
+631,https://leetcode.com/problems/design-excel-sum-formula,Design Excel Sum Formula,Hard,39.8%,87.5%

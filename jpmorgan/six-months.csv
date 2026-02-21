@@ -1,25 +1,22 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,87.5%
-2273,https://leetcode.com/problems/find-resultant-array-after-removing-anagrams,Find Resultant Array After Removing Anagrams,Easy,69.8%,62.5%
-696,https://leetcode.com/problems/count-binary-substrings,Count Binary Substrings,Easy,66.3%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,62.5%
-384,https://leetcode.com/problems/shuffle-an-array,Shuffle an Array,Medium,59.4%,62.5%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,62.5%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,100.0%
-1347,https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram,Minimum Number of Steps to Make Two Strings Anagram,Medium,82.4%,87.5%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.1%,87.5%
-1167,https://leetcode.com/problems/minimum-cost-to-connect-sticks,Minimum Cost to Connect Sticks,Medium,71.6%,62.5%
-2270,https://leetcode.com/problems/number-of-ways-to-split-array,Number of Ways to Split Array,Medium,56.0%,62.5%
-476,https://leetcode.com/problems/number-complement,Number Complement,Easy,70.4%,62.5%
-2491,https://leetcode.com/problems/divide-players-into-teams-of-equal-skill,Divide Players Into Teams of Equal Skill,Medium,68.9%,87.5%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,62.5%
-1535,https://leetcode.com/problems/find-the-winner-of-an-array-game,Find the Winner of an Array Game,Medium,56.8%,62.5%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,75.0%
-3147,https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon,Taking Maximum Energy From the Mystic Dungeon,Medium,60.9%,75.0%
-1974,https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter,Minimum Time to Type Word Using Special Typewriter,Easy,78.2%,75.0%
-974,https://leetcode.com/problems/subarray-sums-divisible-by-k,Subarray Sums Divisible by K,Medium,55.8%,62.5%
-1046,https://leetcode.com/problems/last-stone-weight,Last Stone Weight,Easy,66.2%,62.5%
-13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,65.8%,62.5%
-115,https://leetcode.com/problems/distinct-subsequences,Distinct Subsequences,Hard,51.1%,62.5%
-1208,https://leetcode.com/problems/get-equal-substrings-within-budget,Get Equal Substrings Within Budget,Medium,59.3%,62.5%
-295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.9%,62.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,87.5%
+696,https://leetcode.com/problems/count-binary-substrings,Count Binary Substrings,Easy,70.2%,100.0%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.5%,87.5%
+1347,https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram,Minimum Number of Steps to Make Two Strings Anagram,Medium,82.5%,75.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.4%,87.5%
+1167,https://leetcode.com/problems/minimum-cost-to-connect-sticks,Minimum Cost to Connect Sticks,Medium,71.8%,62.5%
+2270,https://leetcode.com/problems/number-of-ways-to-split-array,Number of Ways to Split Array,Medium,55.9%,62.5%
+476,https://leetcode.com/problems/number-complement,Number Complement,Easy,70.4%,75.0%
+2491,https://leetcode.com/problems/divide-players-into-teams-of-equal-skill,Divide Players Into Teams of Equal Skill,Medium,68.9%,100.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,100.0%
+3147,https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon,Taking Maximum Energy From the Mystic Dungeon,Medium,61.0%,75.0%
+1974,https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter,Minimum Time to Type Word Using Special Typewriter,Easy,78.4%,75.0%
+974,https://leetcode.com/problems/subarray-sums-divisible-by-k,Subarray Sums Divisible by K,Medium,56.0%,62.5%
+13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,66.2%,62.5%
+1208,https://leetcode.com/problems/get-equal-substrings-within-budget,Get Equal Substrings Within Budget,Medium,59.5%,75.0%
+412,https://leetcode.com/problems/fizz-buzz,Fizz Buzz,Easy,75.2%,62.5%
+2054,https://leetcode.com/problems/two-best-non-overlapping-events,Two Best Non-Overlapping Events,Medium,64.0%,62.5%
+1629,https://leetcode.com/problems/slowest-key,Slowest Key,Easy,59.5%,62.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,75.0%
+1529,https://leetcode.com/problems/minimum-suffix-flips,Minimum Suffix Flips,Medium,73.9%,62.5%
+2182,https://leetcode.com/problems/construct-string-with-repeat-limit,Construct String With Repeat Limit,Medium,70.9%,62.5%

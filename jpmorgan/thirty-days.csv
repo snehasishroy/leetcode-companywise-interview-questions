@@ -1,7 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,87.5%
-1974,https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter,Minimum Time to Type Word Using Special Typewriter,Easy,78.2%,87.5%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,100.0%
-974,https://leetcode.com/problems/subarray-sums-divisible-by-k,Subarray Sums Divisible by K,Medium,55.8%,87.5%
-2491,https://leetcode.com/problems/divide-players-into-teams-of-equal-skill,Divide Players Into Teams of Equal Skill,Medium,68.9%,87.5%
-1208,https://leetcode.com/problems/get-equal-substrings-within-budget,Get Equal Substrings Within Budget,Medium,59.3%,87.5%
+696,https://leetcode.com/problems/count-binary-substrings,Count Binary Substrings,Easy,70.2%,100.0%
+2182,https://leetcode.com/problems/construct-string-with-repeat-limit,Construct String With Repeat Limit,Medium,70.9%,87.5%

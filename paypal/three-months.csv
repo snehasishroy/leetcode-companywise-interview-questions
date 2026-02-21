@@ -1,5 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,71.0%,100.0%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,75.0%
-2559,https://leetcode.com/problems/count-vowel-strings-in-ranges,Count Vowel Strings in Ranges,Medium,67.8%,75.0%
-692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,59.8%,75.0%
+1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,75.0%,100.0%
+300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,59.0%,87.5%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,54.2%,87.5%
+3820,https://leetcode.com/problems/pythagorean-distance-nodes-in-a-tree,Pythagorean Distance Nodes in a Tree,Medium,57.7%,87.5%

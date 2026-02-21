@@ -1,7 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1929,https://leetcode.com/problems/concatenation-of-array,Concatenation of Array,Easy,90.7%,100.0%
-399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,63.7%,87.5%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,75.0%
-236,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Lowest Common Ancestor of a Binary Tree,Medium,68.1%,75.0%
-853,https://leetcode.com/problems/car-fleet,Car Fleet,Medium,54.3%,62.5%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,62.5%
+1929,https://leetcode.com/problems/concatenation-of-array,Concatenation of Array,Easy,90.5%,100.0%
+399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,64.0%,87.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,75.0%
+853,https://leetcode.com/problems/car-fleet,Car Fleet,Medium,54.7%,62.5%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.9%,62.5%

@@ -1,25 +1,25 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,62.5%
-17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,64.9%,62.5%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,87.5%
-460,https://leetcode.com/problems/lfu-cache,LFU Cache,Hard,47.9%,62.5%
-217,https://leetcode.com/problems/contains-duplicate,Contains Duplicate,Easy,63.8%,62.5%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,100.0%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,87.5%
-206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,79.9%,75.0%
-21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.5%,87.5%
-41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,41.9%,62.5%
-2064,https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store,Minimized Maximum of Products Distributed to Any Store,Medium,62.8%,62.5%
-3187,https://leetcode.com/problems/peaks-in-array,Peaks in Array,Hard,26.7%,62.5%
-61,https://leetcode.com/problems/rotate-list,Rotate List,Medium,40.8%,62.5%
-242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.4%,62.5%
-234,https://leetcode.com/problems/palindrome-linked-list,Palindrome Linked List,Easy,56.9%,62.5%
-1845,https://leetcode.com/problems/seat-reservation-manager,Seat Reservation Manager,Medium,66.8%,62.5%
-26,https://leetcode.com/problems/remove-duplicates-from-sorted-array,Remove Duplicates from Sorted Array,Easy,61.6%,62.5%
-628,https://leetcode.com/problems/maximum-product-of-three-numbers,Maximum Product of Three Numbers,Easy,45.6%,62.5%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,75.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,87.5%
+217,https://leetcode.com/problems/contains-duplicate,Contains Duplicate,Easy,64.1%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,100.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,87.5%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,80.3%,75.0%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.9%,75.0%
+41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,42.4%,62.5%
+2064,https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store,Minimized Maximum of Products Distributed to Any Store,Medium,63.0%,62.5%
+3187,https://leetcode.com/problems/peaks-in-array,Peaks in Array,Hard,27.1%,62.5%
+61,https://leetcode.com/problems/rotate-list,Rotate List,Medium,41.2%,62.5%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.8%,62.5%
+234,https://leetcode.com/problems/palindrome-linked-list,Palindrome Linked List,Easy,57.4%,62.5%
+26,https://leetcode.com/problems/remove-duplicates-from-sorted-array,Remove Duplicates from Sorted Array,Easy,62.2%,62.5%
+628,https://leetcode.com/problems/maximum-product-of-three-numbers,Maximum Product of Three Numbers,Easy,45.7%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,62.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,62.5%
+218,https://leetcode.com/problems/the-skyline-problem,The Skyline Problem,Hard,45.0%,75.0%
+921,https://leetcode.com/problems/minimum-add-to-make-parentheses-valid,Minimum Add to Make Parentheses Valid,Medium,74.4%,62.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,62.5%
+9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,60.2%,62.5%
+152,https://leetcode.com/problems/maximum-product-subarray,Maximum Product Subarray,Medium,36.0%,62.5%
 1344,https://leetcode.com/problems/angle-between-hands-of-a-clock,Angle Between Hands of a Clock,Medium,64.4%,62.5%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,75.0%
-218,https://leetcode.com/problems/the-skyline-problem,The Skyline Problem,Hard,44.6%,62.5%
-921,https://leetcode.com/problems/minimum-add-to-make-parentheses-valid,Minimum Add to Make Parentheses Valid,Medium,74.5%,62.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,62.5%
+260,https://leetcode.com/problems/single-number-iii,Single Number III,Medium,70.4%,62.5%

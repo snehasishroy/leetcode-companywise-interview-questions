@@ -1,5 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,100.0%
-166,https://leetcode.com/problems/fraction-to-recurring-decimal,Fraction to Recurring Decimal,Medium,30.2%,100.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,100.0%
-1086,https://leetcode.com/problems/high-five,High Five,Easy,74.2%,100.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,87.5%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.5%,100.0%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.9%,87.5%
+695,https://leetcode.com/problems/max-area-of-island,Max Area of Island,Medium,73.8%,87.5%
+64,https://leetcode.com/problems/minimum-path-sum,Minimum Path Sum,Medium,67.8%,87.5%

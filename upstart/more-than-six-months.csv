@@ -1,4 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,49.4%,87.5%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.7%,100.0%
-31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,44.2%,62.5%
+71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,50.0%,75.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.0%,100.0%
+31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,44.7%,62.5%
+304,https://leetcode.com/problems/range-sum-query-2d-immutable,Range Sum Query 2D - Immutable,Medium,57.8%,62.5%
+120,https://leetcode.com/problems/triangle,Triangle,Medium,59.8%,62.5%

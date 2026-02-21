@@ -1,42 +1,44 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,87.5%
-1610,https://leetcode.com/problems/maximum-number-of-visible-points,Maximum Number of Visible Points,Hard,37.8%,87.5%
-475,https://leetcode.com/problems/heaters,Heaters,Medium,40.9%,75.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,87.5%
+1610,https://leetcode.com/problems/maximum-number-of-visible-points,Maximum Number of Visible Points,Hard,37.9%,75.0%
+475,https://leetcode.com/problems/heaters,Heaters,Medium,41.4%,75.0%
 951,https://leetcode.com/problems/flip-equivalent-binary-trees,Flip Equivalent Binary Trees,Medium,69.6%,50.0%
-739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.9%,75.0%
-227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,46.4%,50.0%
-114,https://leetcode.com/problems/flatten-binary-tree-to-linked-list,Flatten Binary Tree to Linked List,Medium,69.7%,50.0%
-243,https://leetcode.com/problems/shortest-word-distance,Shortest Word Distance,Easy,66.1%,87.5%
-1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,75.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,100.0%
-289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,72.0%,62.5%
-207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.3%,87.5%
-244,https://leetcode.com/problems/shortest-word-distance-ii,Shortest Word Distance II,Medium,62.5%,75.0%
-295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.9%,75.0%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,50.0%
-283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.2%,50.0%
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,54.5%,75.0%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,68.3%,62.5%
+227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,46.6%,50.0%
+114,https://leetcode.com/problems/flatten-binary-tree-to-linked-list,Flatten Binary Tree to Linked List,Medium,70.2%,50.0%
+243,https://leetcode.com/problems/shortest-word-distance,Shortest Word Distance,Easy,66.2%,87.5%
+1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.2%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,100.0%
+289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,72.3%,62.5%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.8%,75.0%
+244,https://leetcode.com/problems/shortest-word-distance-ii,Shortest Word Distance II,Medium,62.7%,75.0%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,54.2%,75.0%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,44.1%,50.0%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.5%,50.0%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.0%,75.0%
 909,https://leetcode.com/problems/snakes-and-ladders,Snakes and Ladders,Medium,48.0%,50.0%
-287,https://leetcode.com/problems/find-the-duplicate-number,Find the Duplicate Number,Medium,63.6%,50.0%
+287,https://leetcode.com/problems/find-the-duplicate-number,Find the Duplicate Number,Medium,64.0%,50.0%
 708,https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list,Insert into a Sorted Circular Linked List,Medium,38.5%,50.0%
-981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.6%,50.0%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,55.4%,62.5%
-1024,https://leetcode.com/problems/video-stitching,Video Stitching,Medium,52.4%,87.5%
-529,https://leetcode.com/problems/minesweeper,Minesweeper,Medium,68.5%,50.0%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,75.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,50.0%
-23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.2%,62.5%
-827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,55.9%,75.0%
-694,https://leetcode.com/problems/number-of-distinct-islands,Number of Distinct Islands,Medium,62.6%,50.0%
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,57.6%,50.0%
-818,https://leetcode.com/problems/race-car,Race Car,Hard,44.5%,62.5%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,50.0%
-443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.1%,50.0%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,50.0%
-2244,https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks,Minimum Rounds to Complete All Tasks,Medium,63.1%,62.5%
-150,https://leetcode.com/problems/evaluate-reverse-polish-notation,Evaluate Reverse Polish Notation,Medium,56.2%,50.0%
-721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,60.5%,50.0%
-647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.3%,50.0%
-953,https://leetcode.com/problems/verifying-an-alien-dictionary,Verifying an Alien Dictionary,Easy,55.8%,50.0%
-1091,https://leetcode.com/problems/shortest-path-in-binary-matrix,Shortest Path in Binary Matrix,Medium,50.7%,50.0%
-695,https://leetcode.com/problems/max-area-of-island,Max Area of Island,Medium,73.6%,50.0%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.7%,62.5%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,56.1%,62.5%
+1024,https://leetcode.com/problems/video-stitching,Video Stitching,Medium,52.5%,87.5%
+529,https://leetcode.com/problems/minesweeper,Minesweeper,Medium,68.7%,50.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,62.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,50.0%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.8%,62.5%
+827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,56.3%,75.0%
+694,https://leetcode.com/problems/number-of-distinct-islands,Number of Distinct Islands,Medium,62.7%,50.0%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,50.0%
+818,https://leetcode.com/problems/race-car,Race Car,Hard,44.6%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,50.0%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.5%,50.0%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.5%,50.0%
+2244,https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks,Minimum Rounds to Complete All Tasks,Medium,63.2%,62.5%
+150,https://leetcode.com/problems/evaluate-reverse-polish-notation,Evaluate Reverse Polish Notation,Medium,57.0%,50.0%
+721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,60.9%,50.0%
+647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.5%,50.0%
+953,https://leetcode.com/problems/verifying-an-alien-dictionary,Verifying an Alien Dictionary,Easy,55.9%,50.0%
+1091,https://leetcode.com/problems/shortest-path-in-binary-matrix,Shortest Path in Binary Matrix,Medium,51.1%,50.0%
+695,https://leetcode.com/problems/max-area-of-island,Max Area of Island,Medium,73.8%,50.0%
+838,https://leetcode.com/problems/push-dominoes,Push Dominoes,Medium,63.0%,62.5%
+1828,https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle,Queries on Number of Points Inside a Circle,Medium,86.8%,50.0%

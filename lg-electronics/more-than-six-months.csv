@@ -1,4 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.4%,100.0%
-443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.1%,100.0%
-777,https://leetcode.com/problems/swap-adjacent-in-lr-string,Swap Adjacent in LR String,Medium,37.7%,75.0%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.8%,100.0%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.5%,100.0%
+777,https://leetcode.com/problems/swap-adjacent-in-lr-string,Swap Adjacent in LR String,Medium,37.9%,75.0%

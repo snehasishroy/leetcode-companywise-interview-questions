@@ -1,5 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-467,https://leetcode.com/problems/unique-substrings-in-wraparound-string,Unique Substrings in Wraparound String,Medium,42.2%,87.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,87.5%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,100.0%
-84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,48.7%,87.5%
+467,https://leetcode.com/problems/unique-substrings-in-wraparound-string,Unique Substrings in Wraparound String,Medium,42.6%,87.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,87.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,100.0%
+84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,49.3%,87.5%
+176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,46.3%,87.5%
+516,https://leetcode.com/problems/longest-palindromic-subsequence,Longest Palindromic Subsequence,Medium,65.1%,87.5%

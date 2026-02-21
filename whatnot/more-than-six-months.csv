@@ -1,8 +1,8 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,100.0%
-680,https://leetcode.com/problems/valid-palindrome-ii,Valid Palindrome II,Easy,43.7%,100.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,75.0%
-1047,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string,Remove All Adjacent Duplicates In String,Easy,72.3%,87.5%
-240,https://leetcode.com/problems/search-a-2d-matrix-ii,Search a 2D Matrix II,Medium,56.3%,75.0%
-79,https://leetcode.com/problems/word-search,Word Search,Medium,46.3%,75.0%
-977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.4%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,100.0%
+680,https://leetcode.com/problems/valid-palindrome-ii,Valid Palindrome II,Easy,44.0%,100.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,75.0%
+1047,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string,Remove All Adjacent Duplicates In String,Easy,72.8%,87.5%
+240,https://leetcode.com/problems/search-a-2d-matrix-ii,Search a 2D Matrix II,Medium,56.8%,75.0%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,46.8%,75.0%
+977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.6%,75.0%

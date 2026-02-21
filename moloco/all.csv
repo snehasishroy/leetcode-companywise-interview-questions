@@ -1,9 +1,13 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1381,https://leetcode.com/problems/design-a-stack-with-increment-operation,Design a Stack With Increment Operation,Medium,80.0%,87.5%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,87.5%
-1048,https://leetcode.com/problems/longest-string-chain,Longest String Chain,Medium,62.6%,100.0%
-540,https://leetcode.com/problems/single-element-in-a-sorted-array,Single Element in a Sorted Array,Medium,59.2%,87.5%
-1438,https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,57.1%,87.5%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,87.5%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
-827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,55.9%,87.5%
+1381,https://leetcode.com/problems/design-a-stack-with-increment-operation,Design a Stack With Increment Operation,Medium,79.9%,87.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,75.0%
+1048,https://leetcode.com/problems/longest-string-chain,Longest String Chain,Medium,62.8%,100.0%
+540,https://leetcode.com/problems/single-element-in-a-sorted-array,Single Element in a Sorted Array,Medium,59.2%,75.0%
+1438,https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,57.3%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,75.0%
+827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,56.3%,75.0%
+130,https://leetcode.com/problems/surrounded-regions,Surrounded Regions,Medium,44.7%,75.0%
+2116,https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid,Check if a Parentheses String Can Be Valid,Medium,45.1%,75.0%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.0%,75.0%
+394,https://leetcode.com/problems/decode-string,Decode String,Medium,62.2%,75.0%

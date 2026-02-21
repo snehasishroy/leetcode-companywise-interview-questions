@@ -1,3 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,100.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,100.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,100.0%
+38,https://leetcode.com/problems/count-and-say,Count and Say,Medium,62.3%,100.0%
+155,https://leetcode.com/problems/min-stack,Min Stack,Medium,57.7%,100.0%

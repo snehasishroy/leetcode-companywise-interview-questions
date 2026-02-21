@@ -1,29 +1,38 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2930,https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring,Number of Strings Which Can Be Rearranged to Contain Substring,Medium,56.5%,75.0%
-2858,https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable,Minimum Edge Reversals So Every Node Is Reachable,Hard,56.2%,87.5%
-1326,https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden,Minimum Number of Taps to Open to Water a Garden,Hard,50.8%,75.0%
-827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,55.9%,62.5%
-740,https://leetcode.com/problems/delete-and-earn,Delete and Earn,Medium,57.0%,62.5%
-1761,https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph,Minimum Degree of a Connected Trio in a Graph,Hard,44.0%,62.5%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,75.0%
-2959,https://leetcode.com/problems/number-of-possible-sets-of-closing-branches,Number of Possible Sets of Closing Branches,Hard,50.1%,62.5%
-2953,https://leetcode.com/problems/count-complete-substrings,Count Complete Substrings,Hard,29.5%,62.5%
-2742,https://leetcode.com/problems/painting-the-walls,Painting the Walls,Hard,48.7%,75.0%
-2771,https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays,Longest Non-decreasing Subarray From Two Arrays,Medium,30.7%,62.5%
-55,https://leetcode.com/problems/jump-game,Jump Game,Medium,40.1%,62.5%
-1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.1%,62.5%
-180,https://leetcode.com/problems/consecutive-numbers,Consecutive Numbers,Medium,47.3%,75.0%
-355,https://leetcode.com/problems/design-twitter,Design Twitter,Medium,43.7%,75.0%
-1094,https://leetcode.com/problems/car-pooling,Car Pooling,Medium,56.1%,62.5%
-2187,https://leetcode.com/problems/minimum-time-to-complete-trips,Minimum Time to Complete Trips,Medium,39.4%,75.0%
+2930,https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring,Number of Strings Which Can Be Rearranged to Contain Substring,Medium,57.0%,62.5%
+2858,https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable,Minimum Edge Reversals So Every Node Is Reachable,Hard,57.2%,75.0%
+1326,https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden,Minimum Number of Taps to Open to Water a Garden,Hard,51.0%,75.0%
+740,https://leetcode.com/problems/delete-and-earn,Delete and Earn,Medium,57.1%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,75.0%
+2959,https://leetcode.com/problems/number-of-possible-sets-of-closing-branches,Number of Possible Sets of Closing Branches,Hard,50.6%,62.5%
+2953,https://leetcode.com/problems/count-complete-substrings,Count Complete Substrings,Hard,29.9%,62.5%
+2742,https://leetcode.com/problems/painting-the-walls,Painting the Walls,Hard,48.9%,75.0%
+2771,https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays,Longest Non-decreasing Subarray From Two Arrays,Medium,31.0%,62.5%
+55,https://leetcode.com/problems/jump-game,Jump Game,Medium,40.5%,75.0%
+1268,https://leetcode.com/problems/search-suggestions-system,Search Suggestions System,Medium,65.2%,62.5%
+180,https://leetcode.com/problems/consecutive-numbers,Consecutive Numbers,Medium,47.8%,75.0%
+355,https://leetcode.com/problems/design-twitter,Design Twitter,Medium,44.2%,75.0%
+2187,https://leetcode.com/problems/minimum-time-to-complete-trips,Minimum Time to Complete Trips,Medium,39.6%,75.0%
 2444,https://leetcode.com/problems/count-subarrays-with-fixed-bounds,Count Subarrays With Fixed Bounds,Hard,69.3%,75.0%
-176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,45.5%,62.5%
-735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,46.4%,75.0%
-1639,https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary,Number of Ways to Form a Target String Given a Dictionary,Hard,56.7%,75.0%
-1944,https://leetcode.com/problems/number-of-visible-people-in-a-queue,Number of Visible People in a Queue,Hard,72.0%,62.5%
-328,https://leetcode.com/problems/odd-even-linked-list,Odd Even Linked List,Medium,62.2%,62.5%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,62.5%
-696,https://leetcode.com/problems/count-binary-substrings,Count Binary Substrings,Easy,66.3%,62.5%
-3513,https://leetcode.com/problems/number-of-unique-xor-triplets-i,Number of Unique XOR Triplets I,Medium,25.9%,100.0%
-3514,https://leetcode.com/problems/number-of-unique-xor-triplets-ii,Number of Unique XOR Triplets II,Medium,31.8%,100.0%
-31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,44.2%,75.0%
+176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,46.3%,62.5%
+735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,47.1%,62.5%
+1639,https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary,Number of Ways to Form a Target String Given a Dictionary,Hard,56.6%,75.0%
+1944,https://leetcode.com/problems/number-of-visible-people-in-a-queue,Number of Visible People in a Queue,Hard,72.3%,62.5%
+328,https://leetcode.com/problems/odd-even-linked-list,Odd Even Linked List,Medium,62.3%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,62.5%
+696,https://leetcode.com/problems/count-binary-substrings,Count Binary Substrings,Easy,70.2%,62.5%
+3513,https://leetcode.com/problems/number-of-unique-xor-triplets-i,Number of Unique XOR Triplets I,Medium,26.4%,100.0%
+3514,https://leetcode.com/problems/number-of-unique-xor-triplets-ii,Number of Unique XOR Triplets II,Medium,32.3%,100.0%
+31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,44.7%,75.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,38.6%,62.5%
+886,https://leetcode.com/problems/possible-bipartition,Possible Bipartition,Medium,52.3%,75.0%
+2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,39.6%,62.5%
+754,https://leetcode.com/problems/reach-a-number,Reach a Number,Medium,44.6%,75.0%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,54.2%,62.5%
+197,https://leetcode.com/problems/rising-temperature,Rising Temperature,Easy,51.0%,87.5%
+626,https://leetcode.com/problems/exchange-seats,Exchange Seats,Medium,73.8%,62.5%
+805,https://leetcode.com/problems/split-array-with-same-average,Split Array With Same Average,Hard,26.8%,62.5%
+1193,https://leetcode.com/problems/monthly-transactions-i,Monthly Transactions I,Medium,58.9%,62.5%
+2751,https://leetcode.com/problems/robot-collisions,Robot Collisions,Hard,56.1%,62.5%
+76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,46.9%,62.5%
+584,https://leetcode.com/problems/find-customer-referee,Find Customer Referee,Easy,72.6%,62.5%

@@ -1,5 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,100.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,87.5%
-2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.3%,87.5%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,87.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,100.0%
+2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.9%,100.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,100.0%
+36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,64.1%,100.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,100.0%

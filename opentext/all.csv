@@ -1,5 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,62.5%
 2264,https://leetcode.com/problems/largest-3-same-digit-number-in-string,Largest 3-Same-Digit Number in String,Easy,72.7%,100.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,75.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,75.0%
 3662,https://leetcode.com/problems/filter-characters-by-frequency,Filter Characters by Frequency,Easy,87.1%,100.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.1%,62.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,62.5%

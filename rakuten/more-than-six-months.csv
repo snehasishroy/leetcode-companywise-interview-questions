@@ -1,5 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 1405,https://leetcode.com/problems/longest-happy-string,Longest Happy String,Medium,65.5%,100.0%
-122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,70.3%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,100.0%
-48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,78.9%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,100.0%
+48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,79.3%,100.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,38.6%,100.0%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.5%,100.0%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,100.0%

@@ -1,10 +1,10 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 1405,https://leetcode.com/problems/longest-happy-string,Longest Happy String,Medium,65.5%,87.5%
-122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,70.3%,87.5%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
-48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,78.9%,100.0%
-15,https://leetcode.com/problems/3sum,3Sum,Medium,38.0%,87.5%
-443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.1%,87.5%
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,57.6%,87.5%
-40,https://leetcode.com/problems/combination-sum-ii,Combination Sum II,Medium,58.5%,100.0%
-70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.8%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,87.5%
+48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,79.3%,87.5%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,38.6%,87.5%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.5%,87.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,87.5%
+40,https://leetcode.com/problems/combination-sum-ii,Combination Sum II,Medium,59.0%,100.0%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.9%,87.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,87.5%

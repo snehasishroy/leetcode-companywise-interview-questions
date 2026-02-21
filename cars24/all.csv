@@ -1,8 +1,8 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-781,https://leetcode.com/problems/rabbits-in-forest,Rabbits in Forest,Medium,58.1%,100.0%
-299,https://leetcode.com/problems/bulls-and-cows,Bulls and Cows,Medium,51.9%,87.5%
-911,https://leetcode.com/problems/online-election,Online Election,Medium,52.4%,100.0%
-752,https://leetcode.com/problems/open-the-lock,Open the Lock,Medium,61.0%,87.5%
-981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.6%,100.0%
-198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.7%,87.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,87.5%
+781,https://leetcode.com/problems/rabbits-in-forest,Rabbits in Forest,Medium,58.0%,100.0%
+299,https://leetcode.com/problems/bulls-and-cows,Bulls and Cows,Medium,52.2%,87.5%
+911,https://leetcode.com/problems/online-election,Online Election,Medium,52.7%,100.0%
+752,https://leetcode.com/problems/open-the-lock,Open the Lock,Medium,61.1%,87.5%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.7%,87.5%
+198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.9%,87.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,87.5%

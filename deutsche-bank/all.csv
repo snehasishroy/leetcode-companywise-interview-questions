@@ -1,23 +1,22 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,62.5%
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,62.5%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.1%,62.5%
 2838,https://leetcode.com/problems/maximum-coins-heroes-can-collect,Maximum Coins Heroes Can Collect,Medium,68.7%,100.0%
-2039,https://leetcode.com/problems/the-time-when-the-network-becomes-idle,The Time When the Network Becomes Idle,Medium,54.8%,100.0%
-2030,https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter,Smallest K-Length Subsequence With Occurrences of a Letter,Hard,39.4%,100.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,62.5%
-122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,70.3%,62.5%
-2968,https://leetcode.com/problems/apply-operations-to-maximize-frequency-score,Apply Operations to Maximize Frequency Score,Hard,37.9%,100.0%
-2141,https://leetcode.com/problems/maximum-running-time-of-n-computers,Maximum Running Time of N Computers,Hard,49.8%,100.0%
-2137,https://leetcode.com/problems/pour-water-between-buckets-to-make-water-levels-equal,Pour Water Between Buckets to Make Water Levels Equal,Medium,67.5%,100.0%
-3068,https://leetcode.com/problems/find-the-maximum-sum-of-node-values,Find the Maximum Sum of Node Values,Hard,69.6%,100.0%
-3102,https://leetcode.com/problems/minimize-manhattan-distances,Minimize Manhattan Distances,Hard,32.4%,62.5%
-1827,https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing,Minimum Operations to Make the Array Increasing,Easy,81.6%,100.0%
-2869,https://leetcode.com/problems/minimum-operations-to-collect-elements,Minimum Operations to Collect Elements,Easy,61.8%,100.0%
-2735,https://leetcode.com/problems/collecting-chocolates,Collecting Chocolates,Medium,34.4%,75.0%
-977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.4%,62.5%
-151,https://leetcode.com/problems/reverse-words-in-a-string,Reverse Words in a String,Medium,54.4%,62.5%
-241,https://leetcode.com/problems/different-ways-to-add-parentheses,Different Ways to Add Parentheses,Medium,72.8%,75.0%
-52,https://leetcode.com/problems/n-queens-ii,N-Queens II,Hard,77.7%,62.5%
-118,https://leetcode.com/problems/pascals-triangle,Pascal's Triangle,Easy,78.3%,62.5%
-805,https://leetcode.com/problems/split-array-with-same-average,Split Array With Same Average,Hard,26.5%,62.5%
-2552,https://leetcode.com/problems/count-increasing-quadruplets,Count Increasing Quadruplets,Hard,34.4%,62.5%
+2039,https://leetcode.com/problems/the-time-when-the-network-becomes-idle,The Time When the Network Becomes Idle,Medium,55.3%,100.0%
+2030,https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter,Smallest K-Length Subsequence With Occurrences of a Letter,Hard,39.6%,100.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,62.5%
+122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,70.7%,62.5%
+2968,https://leetcode.com/problems/apply-operations-to-maximize-frequency-score,Apply Operations to Maximize Frequency Score,Hard,38.5%,100.0%
+2141,https://leetcode.com/problems/maximum-running-time-of-n-computers,Maximum Running Time of N Computers,Hard,56.4%,100.0%
+2137,https://leetcode.com/problems/pour-water-between-buckets-to-make-water-levels-equal,Pour Water Between Buckets to Make Water Levels Equal,Medium,68.2%,100.0%
+3068,https://leetcode.com/problems/find-the-maximum-sum-of-node-values,Find the Maximum Sum of Node Values,Hard,69.5%,100.0%
+1827,https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing,Minimum Operations to Make the Array Increasing,Easy,81.8%,100.0%
+2869,https://leetcode.com/problems/minimum-operations-to-collect-elements,Minimum Operations to Collect Elements,Easy,62.2%,100.0%
+2735,https://leetcode.com/problems/collecting-chocolates,Collecting Chocolates,Medium,34.7%,75.0%
+977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.6%,62.5%
+241,https://leetcode.com/problems/different-ways-to-add-parentheses,Different Ways to Add Parentheses,Medium,73.1%,75.0%
+52,https://leetcode.com/problems/n-queens-ii,N-Queens II,Hard,78.1%,62.5%
+118,https://leetcode.com/problems/pascals-triangle,Pascal's Triangle,Easy,78.7%,62.5%
+805,https://leetcode.com/problems/split-array-with-same-average,Split Array With Same Average,Hard,26.8%,62.5%
+2552,https://leetcode.com/problems/count-increasing-quadruplets,Count Increasing Quadruplets,Hard,34.5%,62.5%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,47.9%,62.5%

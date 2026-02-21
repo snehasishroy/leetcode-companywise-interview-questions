@@ -1,12 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,68.6%,100.0%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,87.5%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,87.5%
-647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.3%,87.5%
-44,https://leetcode.com/problems/wildcard-matching,Wildcard Matching,Hard,30.9%,87.5%
-387,https://leetcode.com/problems/first-unique-character-in-a-string,First Unique Character in a String,Easy,64.5%,87.5%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,87.5%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,100.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,87.5%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,87.5%
+198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.9%,100.0%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.8%,100.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,100.0%
+567,https://leetcode.com/problems/permutation-in-string,Permutation in String,Medium,48.4%,100.0%

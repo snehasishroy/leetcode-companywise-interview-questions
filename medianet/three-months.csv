@@ -1,6 +1,2 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2538,https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum,Difference Between Maximum and Minimum Price Sum,Hard,32.9%,87.5%
-354,https://leetcode.com/problems/russian-doll-envelopes,Russian Doll Envelopes,Hard,37.6%,100.0%
-827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,55.9%,87.5%
-3291,https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-i,Minimum Number of Valid Strings to Form Target I,Medium,21.2%,100.0%
-99,https://leetcode.com/problems/recover-binary-search-tree,Recover Binary Search Tree,Medium,58.0%,87.5%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.9%,100.0%

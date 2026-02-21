@@ -1,4 +1,2 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1234,https://leetcode.com/problems/replace-the-substring-for-balanced-string,Replace the Substring for Balanced String,Medium,40.3%,87.5%
-134,https://leetcode.com/problems/gas-station,Gas Station,Medium,47.1%,100.0%
-321,https://leetcode.com/problems/create-maximum-number,Create Maximum Number,Hard,33.9%,87.5%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,47.9%,100.0%

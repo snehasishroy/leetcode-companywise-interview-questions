@@ -1,8 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,62.5%
 2000,https://leetcode.com/problems/reverse-prefix-of-word,Reverse Prefix of Word,Easy,86.5%,100.0%
 1555,https://leetcode.com/problems/bank-account-summary,Bank Account Summary,Medium,52.1%,100.0%
-1143,https://leetcode.com/problems/longest-common-subsequence,Longest Common Subsequence,Medium,58.6%,75.0%
-75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,68.6%,62.5%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.7%,62.5%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,62.5%
+1143,https://leetcode.com/problems/longest-common-subsequence,Longest Common Subsequence,Medium,58.9%,75.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.0%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,62.5%

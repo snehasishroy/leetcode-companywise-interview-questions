@@ -1,7 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2571,https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0,Minimum Operations to Reduce an Integer to 0,Medium,59.9%,100.0%
-1209,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii,Remove All Adjacent Duplicates in String II,Medium,60.5%,75.0%
-124,https://leetcode.com/problems/binary-tree-maximum-path-sum,Binary Tree Maximum Path Sum,Hard,41.8%,87.5%
-863,https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree,All Nodes Distance K in Binary Tree,Medium,67.1%,75.0%
-740,https://leetcode.com/problems/delete-and-earn,Delete and Earn,Medium,57.0%,75.0%
-332,https://leetcode.com/problems/reconstruct-itinerary,Reconstruct Itinerary,Hard,44.0%,75.0%
+2380,https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string,Time Needed to Rearrange a Binary String,Medium,52.6%,100.0%
+2571,https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0,Minimum Operations to Reduce an Integer to 0,Medium,61.0%,87.5%
+2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,39.6%,75.0%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.8%,75.0%
+3035,https://leetcode.com/problems/maximum-palindromes-after-operations,Maximum Palindromes After Operations,Medium,45.6%,75.0%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.5%,75.0%

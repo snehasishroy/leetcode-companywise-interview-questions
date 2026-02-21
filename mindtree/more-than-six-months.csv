@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2180,https://leetcode.com/problems/count-integers-with-even-digit-sum,Count Integers With Even Digit Sum,Easy,69.4%,87.5%
-560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.3%,87.5%
-1661,https://leetcode.com/problems/average-time-of-process-per-machine,Average Time of Process per Machine,Easy,67.3%,100.0%
+2180,https://leetcode.com/problems/count-integers-with-even-digit-sum,Count Integers With Even Digit Sum,Easy,69.7%,87.5%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.8%,87.5%
+1661,https://leetcode.com/problems/average-time-of-process-per-machine,Average Time of Process per Machine,Easy,66.9%,100.0%
+9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,60.2%,87.5%

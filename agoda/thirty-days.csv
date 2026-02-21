@@ -1,3 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,71.0%,100.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,100.0%
+1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,75.0%,100.0%
+1331,https://leetcode.com/problems/rank-transform-of-an-array,Rank Transform of an Array,Easy,70.8%,100.0%
+1921,https://leetcode.com/problems/eliminate-maximum-number-of-monsters,Eliminate Maximum Number of Monsters,Medium,51.0%,100.0%

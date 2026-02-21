@@ -1,10 +1,9 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,87.5%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,100.0%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,52.7%,75.0%
-2283,https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value,Check if Number Has Equal Digit Count and Digit Value,Easy,72.9%,75.0%
-25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,64.6%,75.0%
-410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,59.3%,75.0%
-968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.5%,75.0%
-518,https://leetcode.com/problems/coin-change-ii,Coin Change II,Medium,60.9%,75.0%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,55.4%,75.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,100.0%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.9%,87.5%
+2283,https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value,Check if Number Has Equal Digit Count and Digit Value,Easy,73.1%,87.5%
+25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,65.3%,87.5%
+518,https://leetcode.com/problems/coin-change-ii,Coin Change II,Medium,60.5%,87.5%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,56.1%,87.5%
+1907,https://leetcode.com/problems/count-salary-categories,Count Salary Categories,Medium,64.0%,87.5%
+678,https://leetcode.com/problems/valid-parenthesis-string,Valid Parenthesis String,Medium,39.8%,87.5%

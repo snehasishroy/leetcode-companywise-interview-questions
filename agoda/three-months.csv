@@ -1,4 +1,8 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1921,https://leetcode.com/problems/eliminate-maximum-number-of-monsters,Eliminate Maximum Number of Monsters,Medium,50.9%,100.0%
-1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,71.0%,87.5%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,87.5%
+1921,https://leetcode.com/problems/eliminate-maximum-number-of-monsters,Eliminate Maximum Number of Monsters,Medium,51.0%,100.0%
+1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,75.0%,100.0%
+726,https://leetcode.com/problems/number-of-atoms,Number of Atoms,Hard,65.1%,87.5%
+1331,https://leetcode.com/problems/rank-transform-of-an-array,Rank Transform of an Array,Easy,70.8%,75.0%
+1209,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii,Remove All Adjacent Duplicates in String II,Medium,60.9%,75.0%
+55,https://leetcode.com/problems/jump-game,Jump Game,Medium,40.5%,75.0%
+1011,https://leetcode.com/problems/capacity-to-ship-packages-within-d-days,Capacity To Ship Packages Within D Days,Medium,73.5%,75.0%

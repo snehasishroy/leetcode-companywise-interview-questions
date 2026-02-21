@@ -1,11 +1,11 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 1457,https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree,Pseudo-Palindromic Paths in a Binary Tree,Medium,68.4%,100.0%
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,49.7%,87.5%
-9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,59.9%,100.0%
-3433,https://leetcode.com/problems/count-mentions-per-user,Count Mentions Per User,Medium,30.5%,100.0%
-621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.3%,100.0%
-209,https://leetcode.com/problems/minimum-size-subarray-sum,Minimum Size Subarray Sum,Medium,50.3%,87.5%
-185,https://leetcode.com/problems/department-top-three-salaries,Department Top Three Salaries,Hard,59.1%,75.0%
-125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,52.1%,100.0%
-3447,https://leetcode.com/problems/assign-elements-to-groups-with-constraints,Assign Elements to Groups with Constraints,Medium,26.4%,100.0%
-3452,https://leetcode.com/problems/sum-of-good-numbers,Sum of Good Numbers,Easy,69.3%,100.0%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,50.4%,87.5%
+9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,60.2%,100.0%
+3433,https://leetcode.com/problems/count-mentions-per-user,Count Mentions Per User,Medium,50.8%,100.0%
+621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.6%,100.0%
+209,https://leetcode.com/problems/minimum-size-subarray-sum,Minimum Size Subarray Sum,Medium,51.0%,87.5%
+185,https://leetcode.com/problems/department-top-three-salaries,Department Top Three Salaries,Hard,59.8%,75.0%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,52.8%,100.0%
+3447,https://leetcode.com/problems/assign-elements-to-groups-with-constraints,Assign Elements to Groups with Constraints,Medium,26.7%,100.0%
+3452,https://leetcode.com/problems/sum-of-good-numbers,Sum of Good Numbers,Easy,69.5%,100.0%

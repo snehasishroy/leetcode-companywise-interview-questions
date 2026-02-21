@@ -1,2 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,100.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,100.0%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,52.8%,100.0%
+647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.5%,87.5%

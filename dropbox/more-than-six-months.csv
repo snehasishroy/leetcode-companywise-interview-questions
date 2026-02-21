@@ -1,24 +1,23 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-609,https://leetcode.com/problems/find-duplicate-file-in-system,Find Duplicate File in System,Medium,67.6%,75.0%
-2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,70.1%,100.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,62.5%
-924,https://leetcode.com/problems/minimize-malware-spread,Minimize Malware Spread,Hard,42.8%,62.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,62.5%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,62.5%
-1178,https://leetcode.com/problems/number-of-valid-words-for-each-puzzle,Number of Valid Words for Each Puzzle,Hard,47.6%,62.5%
-289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,72.0%,75.0%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,62.5%
-290,https://leetcode.com/problems/word-pattern,Word Pattern,Easy,43.5%,62.5%
-291,https://leetcode.com/problems/word-pattern-ii,Word Pattern II,Medium,48.7%,62.5%
-1845,https://leetcode.com/problems/seat-reservation-manager,Seat Reservation Manager,Medium,66.8%,62.5%
-928,https://leetcode.com/problems/minimize-malware-spread-ii,Minimize Malware Spread II,Hard,45.3%,62.5%
-362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.4%,62.5%
-140,https://leetcode.com/problems/word-break-ii,Word Break II,Hard,54.6%,62.5%
-17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,64.9%,62.5%
-1001,https://leetcode.com/problems/grid-illumination,Grid Illumination,Hard,38.7%,62.5%
-2296,https://leetcode.com/problems/design-a-text-editor,Design a Text Editor,Hard,48.9%,62.5%
-1236,https://leetcode.com/problems/web-crawler,Web Crawler,Medium,68.8%,75.0%
-1242,https://leetcode.com/problems/web-crawler-multithreaded,Web Crawler Multithreaded,Medium,50.6%,75.0%
-1250,https://leetcode.com/problems/check-if-it-is-a-good-array,Check If It Is a Good Array,Hard,63.0%,62.5%
-843,https://leetcode.com/problems/guess-the-word,Guess the Word,Hard,37.2%,75.0%
-135,https://leetcode.com/problems/candy,Candy,Hard,47.5%,62.5%
+609,https://leetcode.com/problems/find-duplicate-file-in-system,Find Duplicate File in System,Medium,67.6%,62.5%
+2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,69.8%,100.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,62.5%
+924,https://leetcode.com/problems/minimize-malware-spread,Minimize Malware Spread,Hard,42.9%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,62.5%
+1178,https://leetcode.com/problems/number-of-valid-words-for-each-puzzle,Number of Valid Words for Each Puzzle,Hard,47.7%,62.5%
+289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,72.3%,62.5%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.9%,62.5%
+290,https://leetcode.com/problems/word-pattern,Word Pattern,Easy,43.8%,62.5%
+291,https://leetcode.com/problems/word-pattern-ii,Word Pattern II,Medium,48.8%,62.5%
+1845,https://leetcode.com/problems/seat-reservation-manager,Seat Reservation Manager,Medium,67.0%,62.5%
+928,https://leetcode.com/problems/minimize-malware-spread-ii,Minimize Malware Spread II,Hard,45.4%,62.5%
+362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.6%,62.5%
+140,https://leetcode.com/problems/word-break-ii,Word Break II,Hard,55.1%,62.5%
+17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,65.5%,62.5%
+1001,https://leetcode.com/problems/grid-illumination,Grid Illumination,Hard,39.0%,62.5%
+2296,https://leetcode.com/problems/design-a-text-editor,Design a Text Editor,Hard,49.9%,62.5%
+1236,https://leetcode.com/problems/web-crawler,Web Crawler,Medium,68.9%,75.0%
+1242,https://leetcode.com/problems/web-crawler-multithreaded,Web Crawler Multithreaded,Medium,51.0%,75.0%
+1250,https://leetcode.com/problems/check-if-it-is-a-good-array,Check If It Is a Good Array,Hard,63.3%,62.5%
+843,https://leetcode.com/problems/guess-the-word,Guess the Word,Hard,36.9%,75.0%

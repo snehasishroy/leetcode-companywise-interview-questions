@@ -1,7 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,87.5%
-344,https://leetcode.com/problems/reverse-string,Reverse String,Easy,80.2%,87.5%
-944,https://leetcode.com/problems/delete-columns-to-make-sorted,Delete Columns to Make Sorted,Easy,74.9%,87.5%
-2144,https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount,Minimum Cost of Buying Candies With Discount,Easy,62.6%,100.0%
-9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,59.9%,87.5%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,87.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,87.5%
+344,https://leetcode.com/problems/reverse-string,Reverse String,Easy,80.5%,87.5%
+944,https://leetcode.com/problems/delete-columns-to-make-sorted,Delete Columns to Make Sorted,Easy,78.1%,87.5%
+2144,https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount,Minimum Cost of Buying Candies With Discount,Easy,62.7%,100.0%
+9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,60.2%,87.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,87.5%

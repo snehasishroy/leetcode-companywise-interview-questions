@@ -1,24 +1,25 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,75.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,75.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,87.5%
-22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,77.9%,75.0%
-139,https://leetcode.com/problems/word-break,Word Break,Medium,48.8%,75.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,100.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,87.5%
-116,https://leetcode.com/problems/populating-next-right-pointers-in-each-node,Populating Next Right Pointers in Each Node,Medium,66.4%,75.0%
-556,https://leetcode.com/problems/next-greater-element-iii,Next Greater Element III,Medium,35.0%,87.5%
-6,https://leetcode.com/problems/zigzag-conversion,Zigzag Conversion,Medium,52.9%,75.0%
-1143,https://leetcode.com/problems/longest-common-subsequence,Longest Common Subsequence,Medium,58.6%,75.0%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,75.0%
-75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,68.6%,87.5%
-1122,https://leetcode.com/problems/relative-sort-array,Relative Sort Array,Easy,75.0%,75.0%
-647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.3%,75.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,75.0%
-44,https://leetcode.com/problems/wildcard-matching,Wildcard Matching,Hard,30.9%,87.5%
-238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,68.3%,75.0%
-387,https://leetcode.com/problems/first-unique-character-in-a-string,First Unique Character in a String,Easy,64.5%,75.0%
-84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,48.7%,75.0%
-402,https://leetcode.com/problems/remove-k-digits,Remove K Digits,Medium,35.9%,75.0%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,87.5%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,44.1%,75.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,100.0%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,78.2%,75.0%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,49.1%,75.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,87.5%
+75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,69.1%,75.0%
+647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.5%,75.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,87.5%
+44,https://leetcode.com/problems/wildcard-matching,Wildcard Matching,Hard,31.3%,75.0%
+387,https://leetcode.com/problems/first-unique-character-in-a-string,First Unique Character in a String,Easy,65.0%,75.0%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.5%,75.0%
+332,https://leetcode.com/problems/reconstruct-itinerary,Reconstruct Itinerary,Hard,44.3%,75.0%
+567,https://leetcode.com/problems/permutation-in-string,Permutation in String,Medium,48.4%,87.5%
+135,https://leetcode.com/problems/candy,Candy,Hard,47.9%,75.0%
+138,https://leetcode.com/problems/copy-list-with-random-pointer,Copy List with Random Pointer,Medium,62.4%,75.0%
+198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.9%,75.0%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.8%,75.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,75.0%
+460,https://leetcode.com/problems/lfu-cache,LFU Cache,Hard,48.6%,75.0%
+84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,49.3%,75.0%
+189,https://leetcode.com/problems/rotate-array,Rotate Array,Medium,44.4%,75.0%
+1642,https://leetcode.com/problems/furthest-building-you-can-reach,Furthest Building You Can Reach,Medium,50.7%,75.0%

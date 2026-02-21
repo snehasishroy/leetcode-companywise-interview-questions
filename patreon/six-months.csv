@@ -1,3 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,49.4%,100.0%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,87.5%
+71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,50.0%,100.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,87.5%
+243,https://leetcode.com/problems/shortest-word-distance,Shortest Word Distance,Easy,66.2%,87.5%

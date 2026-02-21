@@ -1,3 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,49.7%,100.0%
-1298,https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes,Maximum Candies You Can Get from Boxes,Hard,68.1%,100.0%
+638,https://leetcode.com/problems/shopping-offers,Shopping Offers,Medium,52.2%,87.5%
+1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.6%,100.0%
+721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,60.9%,87.5%
+1298,https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes,Maximum Candies You Can Get from Boxes,Hard,67.9%,87.5%
+631,https://leetcode.com/problems/design-excel-sum-formula,Design Excel Sum Formula,Hard,39.8%,87.5%

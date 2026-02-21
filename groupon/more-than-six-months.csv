@@ -1,5 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1823,https://leetcode.com/problems/find-the-winner-of-the-circular-game,Find the Winner of the Circular Game,Medium,82.1%,100.0%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.2%,100.0%
-1648,https://leetcode.com/problems/sell-diminishing-valued-colored-balls,Sell Diminishing-Valued Colored Balls,Medium,29.9%,100.0%
-45,https://leetcode.com/problems/jump-game-ii,Jump Game II,Medium,42.1%,100.0%
+1648,https://leetcode.com/problems/sell-diminishing-valued-colored-balls,Sell Diminishing-Valued Colored Balls,Medium,30.1%,100.0%
+45,https://leetcode.com/problems/jump-game-ii,Jump Game II,Medium,42.5%,100.0%

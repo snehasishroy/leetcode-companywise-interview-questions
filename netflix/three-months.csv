@@ -1,5 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-220,https://leetcode.com/problems/contains-duplicate-iii,Contains Duplicate III,Hard,24.2%,100.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,75.0%
-2622,https://leetcode.com/problems/cache-with-time-limit,Cache With Time Limit,Medium,75.9%,100.0%
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,54.5%,75.0%
+2622,https://leetcode.com/problems/cache-with-time-limit,Cache With Time Limit,Medium,76.0%,87.5%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.0%,87.5%
+1136,https://leetcode.com/problems/parallel-courses,Parallel Courses,Medium,62.0%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,75.0%
+8,https://leetcode.com/problems/string-to-integer-atoi,String to Integer (atoi),Medium,20.6%,75.0%

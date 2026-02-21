@@ -1,2 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.2%,100.0%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,80.2%,100.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,38.6%,100.0%
+1163,https://leetcode.com/problems/last-substring-in-lexicographical-order,Last Substring in Lexicographical Order,Hard,35.0%,100.0%

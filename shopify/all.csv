@@ -1,8 +1,8 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
-2296,https://leetcode.com/problems/design-a-text-editor,Design a Text Editor,Hard,48.9%,62.5%
-1517,https://leetcode.com/problems/find-users-with-valid-e-mails,Find Users With Valid E-Mails,Easy,38.0%,50.0%
-874,https://leetcode.com/problems/walking-robot-simulation,Walking Robot Simulation,Medium,58.3%,100.0%
-588,https://leetcode.com/problems/design-in-memory-file-system,Design In-Memory File System,Hard,48.3%,62.5%
-286,https://leetcode.com/problems/walls-and-gates,Walls and Gates,Medium,63.4%,50.0%
-535,https://leetcode.com/problems/encode-and-decode-tinyurl,Encode and Decode TinyURL,Medium,86.5%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,87.5%
+2296,https://leetcode.com/problems/design-a-text-editor,Design a Text Editor,Hard,49.9%,62.5%
+1517,https://leetcode.com/problems/find-users-with-valid-e-mails,Find Users With Valid E-Mails,Easy,36.8%,50.0%
+874,https://leetcode.com/problems/walking-robot-simulation,Walking Robot Simulation,Medium,58.4%,100.0%
+588,https://leetcode.com/problems/design-in-memory-file-system,Design In-Memory File System,Hard,48.4%,62.5%
+535,https://leetcode.com/problems/encode-and-decode-tinyurl,Encode and Decode TinyURL,Medium,86.6%,62.5%
+256,https://leetcode.com/problems/paint-house,Paint House,Medium,64.3%,62.5%

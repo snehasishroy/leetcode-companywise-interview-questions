@@ -1,3 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-628,https://leetcode.com/problems/maximum-product-of-three-numbers,Maximum Product of Three Numbers,Easy,45.6%,100.0%
-525,https://leetcode.com/problems/contiguous-array,Contiguous Array,Medium,50.1%,87.5%
+628,https://leetcode.com/problems/maximum-product-of-three-numbers,Maximum Product of Three Numbers,Easy,45.7%,100.0%
+525,https://leetcode.com/problems/contiguous-array,Contiguous Array,Medium,50.8%,100.0%
+88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,54.4%,87.5%

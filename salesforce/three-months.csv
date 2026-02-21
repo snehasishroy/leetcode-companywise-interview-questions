@@ -1,13 +1,17 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2571,https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0,Minimum Operations to Reduce an Integer to 0,Medium,59.9%,100.0%
-460,https://leetcode.com/problems/lfu-cache,LFU Cache,Hard,47.9%,62.5%
-740,https://leetcode.com/problems/delete-and-earn,Delete and Earn,Medium,57.0%,62.5%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,62.5%
-1319,https://leetcode.com/problems/number-of-operations-to-make-network-connected,Number of Operations to Make Network Connected,Medium,65.8%,62.5%
-1209,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii,Remove All Adjacent Duplicates in String II,Medium,60.5%,62.5%
-124,https://leetcode.com/problems/binary-tree-maximum-path-sum,Binary Tree Maximum Path Sum,Hard,41.8%,62.5%
-332,https://leetcode.com/problems/reconstruct-itinerary,Reconstruct Itinerary,Hard,44.0%,62.5%
-863,https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree,All Nodes Distance K in Binary Tree,Medium,67.1%,62.5%
-329,https://leetcode.com/problems/longest-increasing-path-in-a-matrix,Longest Increasing Path in a Matrix,Hard,56.0%,62.5%
-215,https://leetcode.com/problems/kth-largest-element-in-an-array,Kth Largest Element in an Array,Medium,68.6%,62.5%
-2957,https://leetcode.com/problems/remove-adjacent-almost-equal-characters,Remove Adjacent Almost-Equal Characters,Medium,52.6%,62.5%
+2571,https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0,Minimum Operations to Reduce an Integer to 0,Medium,61.0%,100.0%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.5%,75.0%
+213,https://leetcode.com/problems/house-robber-ii,House Robber II,Medium,44.6%,62.5%
+2380,https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string,Time Needed to Rearrange a Binary String,Medium,52.6%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,62.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,62.5%
+1219,https://leetcode.com/problems/path-with-maximum-gold,Path with Maximum Gold,Medium,68.3%,62.5%
+1522,https://leetcode.com/problems/diameter-of-n-ary-tree,Diameter of N-Ary Tree,Medium,75.4%,62.5%
+934,https://leetcode.com/problems/shortest-bridge,Shortest Bridge,Medium,59.3%,62.5%
+6,https://leetcode.com/problems/zigzag-conversion,Zigzag Conversion,Medium,53.5%,62.5%
+1839,https://leetcode.com/problems/longest-substring-of-all-vowels-in-order,Longest Substring Of All Vowels in Order,Medium,51.5%,62.5%
+2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,39.6%,62.5%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.8%,62.5%
+105,https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal,Construct Binary Tree from Preorder and Inorder Traversal,Medium,68.3%,62.5%
+355,https://leetcode.com/problems/design-twitter,Design Twitter,Medium,44.2%,62.5%
+3035,https://leetcode.com/problems/maximum-palindromes-after-operations,Maximum Palindromes After Operations,Medium,45.6%,62.5%

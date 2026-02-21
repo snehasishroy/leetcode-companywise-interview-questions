@@ -1,13 +1,13 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-999,https://leetcode.com/problems/available-captures-for-rook,Available Captures for Rook,Easy,71.0%,100.0%
+999,https://leetcode.com/problems/available-captures-for-rook,Available Captures for Rook,Easy,71.5%,100.0%
 573,https://leetcode.com/problems/squirrel-simulation,Squirrel Simulation,Medium,57.3%,100.0%
-2069,https://leetcode.com/problems/walking-robot-simulation-ii,Walking Robot Simulation II,Medium,25.4%,100.0%
-139,https://leetcode.com/problems/word-break,Word Break,Medium,48.8%,100.0%
-699,https://leetcode.com/problems/falling-squares,Falling Squares,Hard,47.0%,100.0%
-2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,40.8%,100.0%
-2296,https://leetcode.com/problems/design-a-text-editor,Design a Text Editor,Hard,48.9%,62.5%
-1814,https://leetcode.com/problems/count-nice-pairs-in-an-array,Count Nice Pairs in an Array,Medium,48.5%,100.0%
+2069,https://leetcode.com/problems/walking-robot-simulation-ii,Walking Robot Simulation II,Medium,25.6%,100.0%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,49.1%,100.0%
+699,https://leetcode.com/problems/falling-squares,Falling Squares,Hard,47.3%,100.0%
+2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,41.5%,100.0%
+1814,https://leetcode.com/problems/count-nice-pairs-in-an-array,Count Nice Pairs in an Array,Medium,48.4%,100.0%
 1861,https://leetcode.com/problems/rotating-the-box,Rotating the Box,Medium,79.2%,100.0%
-490,https://leetcode.com/problems/the-maze,The Maze,Medium,59.9%,62.5%
-969,https://leetcode.com/problems/pancake-sorting,Pancake Sorting,Medium,71.5%,100.0%
-300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,58.7%,75.0%
+490,https://leetcode.com/problems/the-maze,The Maze,Medium,60.3%,62.5%
+969,https://leetcode.com/problems/pancake-sorting,Pancake Sorting,Medium,71.7%,100.0%
+300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,59.0%,87.5%
+271,https://leetcode.com/problems/encode-and-decode-strings,Encode and Decode Strings,Medium,51.2%,62.5%

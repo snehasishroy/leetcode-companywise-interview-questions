@@ -1,4 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-161,https://leetcode.com/problems/one-edit-distance,One Edit Distance,Medium,34.5%,100.0%
-1493,https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element,Longest Subarray of 1's After Deleting One Element,Medium,70.9%,87.5%
-680,https://leetcode.com/problems/valid-palindrome-ii,Valid Palindrome II,Easy,43.7%,87.5%
+1493,https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element,Longest Subarray of 1's After Deleting One Element,Medium,71.0%,87.5%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.8%,100.0%
+228,https://leetcode.com/problems/summary-ranges,Summary Ranges,Easy,53.9%,87.5%
+849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.6%,87.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,87.5%

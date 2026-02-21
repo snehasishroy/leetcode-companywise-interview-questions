@@ -1,5 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,63.7%,87.5%
-37,https://leetcode.com/problems/sudoku-solver,Sudoku Solver,Hard,65.3%,87.5%
-495,https://leetcode.com/problems/teemo-attacking,Teemo Attacking,Easy,57.3%,100.0%
-3167,https://leetcode.com/problems/better-compression-of-string,Better Compression of String,Medium,75.5%,87.5%
+36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,64.1%,87.5%
+37,https://leetcode.com/problems/sudoku-solver,Sudoku Solver,Hard,65.4%,87.5%
+495,https://leetcode.com/problems/teemo-attacking,Teemo Attacking,Easy,57.5%,100.0%
+3167,https://leetcode.com/problems/better-compression-of-string,Better Compression of String,Medium,75.2%,87.5%

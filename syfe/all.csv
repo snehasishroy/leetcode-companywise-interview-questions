@@ -1,7 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1011,https://leetcode.com/problems/capacity-to-ship-packages-within-d-days,Capacity To Ship Packages Within D Days,Medium,73.1%,87.5%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,87.5%
-1560,https://leetcode.com/problems/most-visited-sector-in-a-circular-track,Most Visited Sector in a Circular Track,Easy,59.6%,100.0%
-1029,https://leetcode.com/problems/two-city-scheduling,Two City Scheduling,Medium,68.1%,87.5%
-101,https://leetcode.com/problems/symmetric-tree,Symmetric Tree,Easy,60.2%,87.5%
-438,https://leetcode.com/problems/find-all-anagrams-in-a-string,Find All Anagrams in a String,Medium,52.9%,87.5%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,44.1%,87.5%
+1560,https://leetcode.com/problems/most-visited-sector-in-a-circular-track,Most Visited Sector in a Circular Track,Easy,59.8%,100.0%
+1029,https://leetcode.com/problems/two-city-scheduling,Two City Scheduling,Medium,68.3%,87.5%
+101,https://leetcode.com/problems/symmetric-tree,Symmetric Tree,Easy,60.7%,87.5%
+438,https://leetcode.com/problems/find-all-anagrams-in-a-string,Find All Anagrams in a String,Medium,53.3%,87.5%

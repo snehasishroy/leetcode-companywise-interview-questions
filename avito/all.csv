@@ -1,10 +1,10 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.3%,87.5%
-22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,77.9%,75.0%
-415,https://leetcode.com/problems/add-strings,Add Strings,Easy,52.0%,75.0%
-88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.9%,75.0%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.2%,100.0%
-907,https://leetcode.com/problems/sum-of-subarray-minimums,Sum of Subarray Minimums,Medium,38.1%,62.5%
-215,https://leetcode.com/problems/kth-largest-element-in-an-array,Kth Largest Element in an Array,Medium,68.6%,62.5%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,75.0%
-104,https://leetcode.com/problems/maximum-depth-of-binary-tree,Maximum Depth of Binary Tree,Easy,77.7%,62.5%
+2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.9%,87.5%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,78.2%,87.5%
+415,https://leetcode.com/problems/add-strings,Add Strings,Easy,52.1%,87.5%
+88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,54.4%,75.0%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.8%,100.0%
+907,https://leetcode.com/problems/sum-of-subarray-minimums,Sum of Subarray Minimums,Medium,38.3%,62.5%
+215,https://leetcode.com/problems/kth-largest-element-in-an-array,Kth Largest Element in an Array,Medium,68.8%,75.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,87.5%
+104,https://leetcode.com/problems/maximum-depth-of-binary-tree,Maximum Depth of Binary Tree,Easy,77.9%,62.5%

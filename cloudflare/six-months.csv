@@ -1,7 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,53.4%,75.0%
-780,https://leetcode.com/problems/reaching-points,Reaching Points,Hard,34.0%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,75.0%
-18,https://leetcode.com/problems/4sum,4Sum,Medium,39.3%,62.5%
-15,https://leetcode.com/problems/3sum,3Sum,Medium,38.0%,75.0%
-359,https://leetcode.com/problems/logger-rate-limiter,Logger Rate Limiter,Easy,76.7%,62.5%
+622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,54.0%,100.0%
+780,https://leetcode.com/problems/reaching-points,Reaching Points,Hard,34.2%,75.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,38.6%,62.5%
+1381,https://leetcode.com/problems/design-a-stack-with-increment-operation,Design a Stack With Increment Operation,Medium,79.9%,87.5%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.8%,75.0%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.8%,75.0%

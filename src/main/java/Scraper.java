@@ -81,7 +81,11 @@ public class Scraper {
         for (ProblemStatement problem : problems) {
             log.info("{}", problem);
         }
-        exportToCSV(problems, companyName, recency);
+        if (problems.isEmpty()) {
+            log.warn("Skipping saving for {} with recency {}", companyName, recency);
+        } else {
+            exportToCSV(problems, companyName, recency);
+        }
     }
 
     private String extractCompanyNameWithRegex(String companyURL) {
@@ -128,9 +132,12 @@ public class Scraper {
 
     private static boolean performScroll(WebDriver driver, JavascriptExecutor js) {
         try {
-            WebElement scrollElement = driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[4]/div/div[2]"));
-
-            js.executeScript("arguments[0].scrollTop = arguments[0].scrollHeight;", scrollElement);
+            // JavaScript snippet to find the first scrollable element
+            String script = "function findScrollableElement() {" + " const allElements = document.querySelectorAll('*');" + " for (const el of allElements) {" + " const style = getComputedStyle(el);" + " if ((style.overflowY === 'auto' || style.overflowY === 'scroll') &&" + " el.scrollHeight > el.clientHeight) {" + " return el;" + " }" + " }" + " return document.documentElement;" + "}" + "return findScrollableElement();";
+            // Execute the script and get the scrollable element
+            WebElement scrollableElement = (WebElement) js.executeScript(script);
+            // Scroll that element to the bottom
+            js.executeScript("arguments[0].scrollTop = arguments[0].scrollHeight;", scrollableElement);
             Thread.sleep(3000);
 
             return true;

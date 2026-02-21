@@ -1,14 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2382,https://leetcode.com/problems/maximum-segment-sum-after-removals,Maximum Segment Sum After Removals,Hard,49.1%,62.5%
-407,https://leetcode.com/problems/trapping-rain-water-ii,Trapping Rain Water II,Hard,63.9%,100.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,75.0%
-668,https://leetcode.com/problems/kth-smallest-number-in-multiplication-table,Kth Smallest Number in Multiplication Table,Hard,53.5%,75.0%
-947,https://leetcode.com/problems/most-stones-removed-with-same-row-or-column,Most Stones Removed with Same Row or Column,Medium,62.5%,75.0%
-1994,https://leetcode.com/problems/the-number-of-good-subsets,The Number of Good Subsets,Hard,36.6%,62.5%
-2945,https://leetcode.com/problems/find-maximum-non-decreasing-array-length,Find Maximum Non-decreasing Array Length,Hard,17.8%,62.5%
-2538,https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum,Difference Between Maximum and Minimum Price Sum,Hard,32.9%,75.0%
-354,https://leetcode.com/problems/russian-doll-envelopes,Russian Doll Envelopes,Hard,37.6%,75.0%
-827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,55.9%,62.5%
-2572,https://leetcode.com/problems/count-the-number-of-square-free-subsets,Count the Number of Square-Free Subsets,Medium,26.0%,62.5%
-3291,https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-i,Minimum Number of Valid Strings to Form Target I,Medium,21.2%,75.0%
-99,https://leetcode.com/problems/recover-binary-search-tree,Recover Binary Search Tree,Medium,58.0%,62.5%
+354,https://leetcode.com/problems/russian-doll-envelopes,Russian Doll Envelopes,Hard,37.7%,100.0%
+827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,56.3%,87.5%
+3291,https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-i,Minimum Number of Valid Strings to Form Target I,Medium,21.7%,87.5%
+99,https://leetcode.com/problems/recover-binary-search-tree,Recover Binary Search Tree,Medium,58.7%,87.5%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.9%,87.5%

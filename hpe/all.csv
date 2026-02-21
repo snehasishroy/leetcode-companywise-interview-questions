@@ -1,4 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,100.0%
-21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.5%,100.0%
-39,https://leetcode.com/problems/combination-sum,Combination Sum,Medium,75.6%,100.0%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.9%,100.0%
+39,https://leetcode.com/problems/combination-sum,Combination Sum,Medium,76.1%,100.0%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.9%,100.0%

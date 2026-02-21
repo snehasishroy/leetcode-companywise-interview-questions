@@ -1,5 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-3123,https://leetcode.com/problems/find-edges-in-shortest-paths,Find Edges in Shortest Paths,Hard,46.3%,75.0%
-1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.5%,100.0%
-329,https://leetcode.com/problems/longest-increasing-path-in-a-matrix,Longest Increasing Path in a Matrix,Hard,56.0%,87.5%
-2592,https://leetcode.com/problems/maximize-greatness-of-an-array,Maximize Greatness of an Array,Medium,60.7%,100.0%
+3123,https://leetcode.com/problems/find-edges-in-shortest-paths,Find Edges in Shortest Paths,Hard,46.4%,75.0%
+1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.6%,100.0%
+329,https://leetcode.com/problems/longest-increasing-path-in-a-matrix,Longest Increasing Path in a Matrix,Hard,56.3%,75.0%
+2592,https://leetcode.com/problems/maximize-greatness-of-an-array,Maximize Greatness of an Array,Medium,61.2%,100.0%
+778,https://leetcode.com/problems/swim-in-rising-water,Swim in Rising Water,Hard,67.6%,87.5%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,50.4%,75.0%

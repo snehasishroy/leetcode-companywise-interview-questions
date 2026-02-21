@@ -1,4 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,46.4%,100.0%
-206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,79.9%,100.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,100.0%
+735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,47.1%,100.0%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,80.3%,100.0%
+692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,60.0%,100.0%

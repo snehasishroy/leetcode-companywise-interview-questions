@@ -1,9 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-243,https://leetcode.com/problems/shortest-word-distance,Shortest Word Distance,Easy,66.1%,62.5%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,100.0%
-818,https://leetcode.com/problems/race-car,Race Car,Hard,44.5%,62.5%
-295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,53.9%,75.0%
-827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,55.9%,75.0%
-207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.3%,62.5%
-289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,72.0%,62.5%
-475,https://leetcode.com/problems/heaters,Heaters,Medium,40.9%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,87.5%
+838,https://leetcode.com/problems/push-dominoes,Push Dominoes,Medium,63.0%,100.0%
+243,https://leetcode.com/problems/shortest-word-distance,Shortest Word Distance,Easy,66.2%,87.5%

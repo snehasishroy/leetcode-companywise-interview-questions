@@ -1,5 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 2264,https://leetcode.com/problems/largest-3-same-digit-number-in-string,Largest 3-Same-Digit Number in String,Easy,72.7%,87.5%
-6,https://leetcode.com/problems/zigzag-conversion,Zigzag Conversion,Medium,52.9%,87.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,87.5%
-3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,18.1%,100.0%
+6,https://leetcode.com/problems/zigzag-conversion,Zigzag Conversion,Medium,53.5%,87.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,87.5%
+3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,18.4%,100.0%

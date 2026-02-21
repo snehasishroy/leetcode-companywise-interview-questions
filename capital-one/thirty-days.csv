@@ -1,2 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.4%,100.0%
+1743,https://leetcode.com/problems/restore-the-array-from-adjacent-pairs,Restore the Array From Adjacent Pairs,Medium,75.0%,100.0%
+896,https://leetcode.com/problems/monotonic-array,Monotonic Array,Easy,62.2%,87.5%
+2817,https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint,Minimum Absolute Difference Between Elements With Constraint,Medium,37.1%,87.5%
+2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,69.8%,87.5%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,50.4%,87.5%
+2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,49.7%,87.5%

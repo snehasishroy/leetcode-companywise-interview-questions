@@ -1,9 +1,11 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-694,https://leetcode.com/problems/number-of-distinct-islands,Number of Distinct Islands,Medium,62.6%,75.0%
-543,https://leetcode.com/problems/diameter-of-binary-tree,Diameter of Binary Tree,Easy,64.6%,75.0%
-212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,37.8%,75.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,100.0%
-1610,https://leetcode.com/problems/maximum-number-of-visible-points,Maximum Number of Visible Points,Hard,37.8%,75.0%
-488,https://leetcode.com/problems/zuma-game,Zuma Game,Hard,30.7%,75.0%
-305,https://leetcode.com/problems/number-of-islands-ii,Number of Islands II,Hard,40.3%,75.0%
-341,https://leetcode.com/problems/flatten-nested-list-iterator,Flatten Nested List Iterator,Medium,65.5%,75.0%
+694,https://leetcode.com/problems/number-of-distinct-islands,Number of Distinct Islands,Medium,62.7%,62.5%
+543,https://leetcode.com/problems/diameter-of-binary-tree,Diameter of Binary Tree,Easy,65.0%,62.5%
+212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,38.1%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,100.0%
+1610,https://leetcode.com/problems/maximum-number-of-visible-points,Maximum Number of Visible Points,Hard,37.9%,75.0%
+488,https://leetcode.com/problems/zuma-game,Zuma Game,Hard,30.2%,62.5%
+305,https://leetcode.com/problems/number-of-islands-ii,Number of Islands II,Hard,40.4%,62.5%
+341,https://leetcode.com/problems/flatten-nested-list-iterator,Flatten Nested List Iterator,Medium,65.6%,62.5%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.5%,62.5%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.4%,75.0%

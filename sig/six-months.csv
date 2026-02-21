@@ -1,3 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,40.8%,100.0%
-1743,https://leetcode.com/problems/restore-the-array-from-adjacent-pairs,Restore the Array From Adjacent Pairs,Medium,74.9%,100.0%
+1743,https://leetcode.com/problems/restore-the-array-from-adjacent-pairs,Restore the Array From Adjacent Pairs,Medium,75.0%,100.0%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,50.4%,100.0%
+48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,79.3%,100.0%
+2817,https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint,Minimum Absolute Difference Between Elements With Constraint,Medium,37.1%,100.0%

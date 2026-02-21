@@ -1,17 +1,18 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2509,https://leetcode.com/problems/cycle-length-queries-in-a-tree,Cycle Length Queries in a Tree,Hard,59.5%,100.0%
-2024,https://leetcode.com/problems/maximize-the-confusion-of-an-exam,Maximize the Confusion of an Exam,Medium,69.3%,100.0%
-124,https://leetcode.com/problems/binary-tree-maximum-path-sum,Binary Tree Maximum Path Sum,Hard,41.8%,62.5%
+2509,https://leetcode.com/problems/cycle-length-queries-in-a-tree,Cycle Length Queries in a Tree,Hard,60.1%,100.0%
+2024,https://leetcode.com/problems/maximize-the-confusion-of-an-exam,Maximize the Confusion of an Exam,Medium,69.7%,100.0%
 1567,https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product,Maximum Length of Subarray With Positive Product,Medium,44.6%,100.0%
-198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.7%,75.0%
-2211,https://leetcode.com/problems/count-collisions-on-a-road,Count Collisions on a Road,Medium,44.9%,100.0%
-2327,https://leetcode.com/problems/number-of-people-aware-of-a-secret,Number of People Aware of a Secret,Medium,61.0%,100.0%
-2035,https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference,Partition Array Into Two Arrays to Minimize Sum Difference,Hard,22.6%,100.0%
-72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,59.7%,62.5%
-3250,https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i,Find the Count of Monotonic Pairs I,Hard,47.2%,62.5%
-31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,44.2%,62.5%
-50,https://leetcode.com/problems/powx-n,"Pow(x, n)",Medium,37.9%,62.5%
+198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.9%,62.5%
+2211,https://leetcode.com/problems/count-collisions-on-a-road,Count Collisions on a Road,Medium,58.1%,100.0%
+2327,https://leetcode.com/problems/number-of-people-aware-of-a-secret,Number of People Aware of a Secret,Medium,60.9%,100.0%
+2035,https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference,Partition Array Into Two Arrays to Minimize Sum Difference,Hard,23.0%,100.0%
+72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,60.1%,62.5%
+3250,https://leetcode.com/problems/find-the-count-of-monotonic-pairs-i,Find the Count of Monotonic Pairs I,Hard,47.5%,62.5%
+31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,44.7%,62.5%
 2134,https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii,Minimum Swaps to Group All 1's Together II,Medium,65.6%,62.5%
-85,https://leetcode.com/problems/maximal-rectangle,Maximal Rectangle,Hard,55.3%,62.5%
-2560,https://leetcode.com/problems/house-robber-iv,House Robber IV,Medium,64.9%,87.5%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,62.5%
+85,https://leetcode.com/problems/maximal-rectangle,Maximal Rectangle,Hard,58.1%,62.5%
+2560,https://leetcode.com/problems/house-robber-iv,House Robber IV,Medium,64.8%,87.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,62.5%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.9%,62.5%
+127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,44.9%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,62.5%

@@ -1,6 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 2610,https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions,Convert an Array Into a 2D Array With Conditions,Medium,86.4%,87.5%
-102,https://leetcode.com/problems/binary-tree-level-order-traversal,Binary Tree Level Order Traversal,Medium,71.6%,87.5%
-71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,49.4%,100.0%
-15,https://leetcode.com/problems/3sum,3Sum,Medium,38.0%,87.5%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.1%,100.0%
+102,https://leetcode.com/problems/binary-tree-level-order-traversal,Binary Tree Level Order Traversal,Medium,72.2%,87.5%
+71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,50.0%,100.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,38.6%,87.5%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.4%,87.5%

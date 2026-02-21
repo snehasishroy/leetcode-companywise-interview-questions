@@ -1,20 +1,23 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,75.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,62.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,75.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,75.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,62.5%
 2422,https://leetcode.com/problems/merge-operations-to-turn-array-into-a-palindrome,Merge Operations to Turn Array Into a Palindrome,Medium,68.9%,87.5%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,62.5%
-70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.8%,62.5%
-199,https://leetcode.com/problems/binary-tree-right-side-view,Binary Tree Right Side View,Medium,68.7%,50.0%
-1234,https://leetcode.com/problems/replace-the-substring-for-balanced-string,Replace the Substring for Balanced String,Medium,40.3%,100.0%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,43.7%,50.0%
-1143,https://leetcode.com/problems/longest-common-subsequence,Longest Common Subsequence,Medium,58.6%,50.0%
-80,https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii,Remove Duplicates from Sorted Array II,Medium,63.8%,50.0%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,50.0%
-735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,46.4%,62.5%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,50.0%
-2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.3%,50.0%
-1654,https://leetcode.com/problems/minimum-jumps-to-reach-home,Minimum Jumps to Reach Home,Medium,30.4%,50.0%
-134,https://leetcode.com/problems/gas-station,Gas Station,Medium,47.1%,62.5%
-321,https://leetcode.com/problems/create-maximum-number,Create Maximum Number,Hard,33.9%,50.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,50.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,50.0%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.9%,50.0%
+199,https://leetcode.com/problems/binary-tree-right-side-view,Binary Tree Right Side View,Medium,69.5%,50.0%
+1234,https://leetcode.com/problems/replace-the-substring-for-balanced-string,Replace the Substring for Balanced String,Medium,40.6%,100.0%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,44.1%,50.0%
+1143,https://leetcode.com/problems/longest-common-subsequence,Longest Common Subsequence,Medium,58.9%,50.0%
+80,https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii,Remove Duplicates from Sorted Array II,Medium,64.3%,50.0%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.5%,62.5%
+735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,47.1%,62.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,50.0%
+2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.9%,50.0%
+1654,https://leetcode.com/problems/minimum-jumps-to-reach-home,Minimum Jumps to Reach Home,Medium,30.6%,50.0%
+134,https://leetcode.com/problems/gas-station,Gas Station,Medium,47.5%,62.5%
+321,https://leetcode.com/problems/create-maximum-number,Create Maximum Number,Hard,34.6%,50.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,50.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.0%,50.0%
+322,https://leetcode.com/problems/coin-change,Coin Change,Medium,47.9%,62.5%
+3819,https://leetcode.com/problems/rotate-non-negative-elements,Rotate Non Negative Elements,Medium,47.7%,87.5%

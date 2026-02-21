@@ -1,6 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,63.7%,62.5%
-37,https://leetcode.com/problems/sudoku-solver,Sudoku Solver,Hard,65.3%,75.0%
-495,https://leetcode.com/problems/teemo-attacking,Teemo Attacking,Easy,57.3%,100.0%
-3167,https://leetcode.com/problems/better-compression-of-string,Better Compression of String,Medium,75.5%,75.0%
-289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,72.0%,75.0%
+36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,64.1%,62.5%
+37,https://leetcode.com/problems/sudoku-solver,Sudoku Solver,Hard,65.4%,75.0%
+495,https://leetcode.com/problems/teemo-attacking,Teemo Attacking,Easy,57.5%,100.0%
+3167,https://leetcode.com/problems/better-compression-of-string,Better Compression of String,Medium,75.2%,75.0%
+289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,72.3%,62.5%

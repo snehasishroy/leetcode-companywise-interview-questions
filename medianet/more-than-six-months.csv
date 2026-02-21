@@ -1,18 +1,27 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1938,https://leetcode.com/problems/maximum-genetic-difference-query,Maximum Genetic Difference Query,Hard,45.8%,87.5%
-2572,https://leetcode.com/problems/count-the-number-of-square-free-subsets,Count the Number of Square-Free Subsets,Medium,26.0%,100.0%
-2835,https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum,Minimum Operations to Form Subsequence With Target Sum,Hard,32.2%,87.5%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,87.5%
-1959,https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations,Minimum Total Space Wasted With K Resizing Operations,Medium,43.4%,87.5%
-1642,https://leetcode.com/problems/furthest-building-you-can-reach,Furthest Building You Can Reach,Medium,50.6%,87.5%
-2538,https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum,Difference Between Maximum and Minimum Price Sum,Hard,32.9%,87.5%
-1879,https://leetcode.com/problems/minimum-xor-sum-of-two-arrays,Minimum XOR Sum of Two Arrays,Hard,50.0%,87.5%
-2852,https://leetcode.com/problems/sum-of-remoteness-of-all-cells,Sum of Remoteness of All Cells,Medium,70.8%,87.5%
-2874,https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii,Maximum Value of an Ordered Triplet II,Medium,56.5%,87.5%
-2873,https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i,Maximum Value of an Ordered Triplet I,Easy,58.2%,87.5%
-1266,https://leetcode.com/problems/minimum-time-visiting-all-points,Minimum Time Visiting All Points,Easy,82.6%,87.5%
-2473,https://leetcode.com/problems/minimum-cost-to-buy-apples,Minimum Cost to Buy Apples,Medium,67.2%,87.5%
-1787,https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero,Make the XOR of All Segments Equal to Zero,Hard,40.6%,87.5%
-1222,https://leetcode.com/problems/queens-that-can-attack-the-king,Queens That Can Attack the King,Medium,72.5%,87.5%
-2479,https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees,Maximum XOR of Two Non-Overlapping Subtrees,Hard,50.9%,87.5%
+1938,https://leetcode.com/problems/maximum-genetic-difference-query,Maximum Genetic Difference Query,Hard,46.4%,62.5%
+2572,https://leetcode.com/problems/count-the-number-of-square-free-subsets,Count the Number of Square-Free Subsets,Medium,26.4%,75.0%
+2835,https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum,Minimum Operations to Form Subsequence With Target Sum,Hard,32.3%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,62.5%
+1959,https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations,Minimum Total Space Wasted With K Resizing Operations,Medium,43.9%,62.5%
+1642,https://leetcode.com/problems/furthest-building-you-can-reach,Furthest Building You Can Reach,Medium,50.7%,62.5%
+2538,https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum,Difference Between Maximum and Minimum Price Sum,Hard,33.2%,75.0%
+1879,https://leetcode.com/problems/minimum-xor-sum-of-two-arrays,Minimum XOR Sum of Two Arrays,Hard,50.5%,62.5%
+2852,https://leetcode.com/problems/sum-of-remoteness-of-all-cells,Sum of Remoteness of All Cells,Medium,70.8%,62.5%
+2874,https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii,Maximum Value of an Ordered Triplet II,Medium,56.4%,62.5%
+2873,https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i,Maximum Value of an Ordered Triplet I,Easy,58.2%,62.5%
+1266,https://leetcode.com/problems/minimum-time-visiting-all-points,Minimum Time Visiting All Points,Easy,84.8%,62.5%
+2473,https://leetcode.com/problems/minimum-cost-to-buy-apples,Minimum Cost to Buy Apples,Medium,67.2%,62.5%
+1787,https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero,Make the XOR of All Segments Equal to Zero,Hard,40.9%,62.5%
+1222,https://leetcode.com/problems/queens-that-can-attack-the-king,Queens That Can Attack the King,Medium,72.6%,62.5%
+2479,https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees,Maximum XOR of Two Non-Overlapping Subtrees,Hard,52.0%,62.5%
+2382,https://leetcode.com/problems/maximum-segment-sum-after-removals,Maximum Segment Sum After Removals,Hard,49.3%,62.5%
+407,https://leetcode.com/problems/trapping-rain-water-ii,Trapping Rain Water II,Hard,64.0%,100.0%
+1376,https://leetcode.com/problems/time-needed-to-inform-all-employees,Time Needed to Inform All Employees,Medium,60.4%,62.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,75.0%
+668,https://leetcode.com/problems/kth-smallest-number-in-multiplication-table,Kth Smallest Number in Multiplication Table,Hard,53.8%,62.5%
+2945,https://leetcode.com/problems/find-maximum-non-decreasing-array-length,Find Maximum Non-decreasing Array Length,Hard,18.5%,62.5%
+354,https://leetcode.com/problems/russian-doll-envelopes,Russian Doll Envelopes,Hard,37.7%,62.5%
+406,https://leetcode.com/problems/queue-reconstruction-by-height,Queue Reconstruction by Height,Medium,74.6%,62.5%
+947,https://leetcode.com/problems/most-stones-removed-with-same-row-or-column,Most Stones Removed with Same Row or Column,Medium,62.7%,75.0%
+1994,https://leetcode.com/problems/the-number-of-good-subsets,The Number of Good Subsets,Hard,37.1%,62.5%

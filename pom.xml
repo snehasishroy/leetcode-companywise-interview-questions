@@ -18,7 +18,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.38.0</version>
+            <version>4.40.0</version>
         </dependency>
         <dependency>
             <groupId>io.github.bonigarcia</groupId>

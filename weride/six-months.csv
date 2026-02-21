@@ -1,5 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-778,https://leetcode.com/problems/swim-in-rising-water,Swim in Rising Water,Hard,67.3%,87.5%
-2791,https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree,Count Paths That Can Form a Palindrome in a Tree,Hard,46.7%,100.0%
-696,https://leetcode.com/problems/count-binary-substrings,Count Binary Substrings,Easy,66.3%,87.5%
-353,https://leetcode.com/problems/design-snake-game,Design Snake Game,Medium,39.9%,87.5%
+2791,https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree,Count Paths That Can Form a Palindrome in a Tree,Hard,48.3%,100.0%
+696,https://leetcode.com/problems/count-binary-substrings,Count Binary Substrings,Easy,70.2%,87.5%
+353,https://leetcode.com/problems/design-snake-game,Design Snake Game,Medium,40.0%,87.5%
+1559,https://leetcode.com/problems/detect-cycles-in-2d-grid,Detect Cycles in 2D Grid,Medium,52.4%,87.5%

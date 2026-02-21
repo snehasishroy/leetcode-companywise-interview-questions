@@ -1,4 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1152,https://leetcode.com/problems/analyze-user-website-visit-pattern,Analyze User Website Visit Pattern,Medium,44.2%,100.0%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,87.5%
-680,https://leetcode.com/problems/valid-palindrome-ii,Valid Palindrome II,Easy,43.7%,100.0%
+680,https://leetcode.com/problems/valid-palindrome-ii,Valid Palindrome II,Easy,44.0%,87.5%
+1047,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string,Remove All Adjacent Duplicates In String,Easy,72.8%,100.0%

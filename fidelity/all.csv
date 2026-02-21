@@ -1,6 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-3033,https://leetcode.com/problems/modify-the-matrix,Modify the Matrix,Easy,68.8%,100.0%
-268,https://leetcode.com/problems/missing-number,Missing Number,Easy,71.1%,62.5%
-125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,52.1%,62.5%
-387,https://leetcode.com/problems/first-unique-character-in-a-string,First Unique Character in a String,Easy,64.5%,62.5%
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,62.5%
+3033,https://leetcode.com/problems/modify-the-matrix,Modify the Matrix,Easy,69.0%,100.0%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,52.8%,62.5%
+387,https://leetcode.com/problems/first-unique-character-in-a-string,First Unique Character in a String,Easy,65.0%,62.5%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.1%,62.5%

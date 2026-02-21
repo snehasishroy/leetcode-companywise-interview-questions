@@ -1,2 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2512,https://leetcode.com/problems/reward-top-k-students,Reward Top K Students,Medium,46.5%,100.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.4%,100.0%
+2512,https://leetcode.com/problems/reward-top-k-students,Reward Top K Students,Medium,46.8%,100.0%

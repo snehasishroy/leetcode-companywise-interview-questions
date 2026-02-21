@@ -1,22 +1,11 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.7%,50.0%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,50.0%
-48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,78.9%,50.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,50.0%
-2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,39.0%,100.0%
-1443,https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree,Minimum Time to Collect All Apples in a Tree,Medium,63.4%,62.5%
-3607,https://leetcode.com/problems/power-grid-maintenance,Power Grid Maintenance,Medium,56.8%,75.0%
-25,https://leetcode.com/problems/reverse-nodes-in-k-group,Reverse Nodes in k-Group,Hard,64.6%,50.0%
-151,https://leetcode.com/problems/reverse-words-in-a-string,Reverse Words in a String,Medium,54.4%,50.0%
-394,https://leetcode.com/problems/decode-string,Decode String,Medium,61.9%,62.5%
-498,https://leetcode.com/problems/diagonal-traverse,Diagonal Traverse,Medium,66.8%,62.5%
-72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,59.7%,62.5%
-212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,37.8%,75.0%
-273,https://leetcode.com/problems/integer-to-english-words,Integer to English Words,Hard,34.7%,50.0%
-2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.3%,62.5%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,50.0%
-79,https://leetcode.com/problems/word-search,Word Search,Medium,46.3%,50.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,50.0%
-76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,46.4%,50.0%
-1143,https://leetcode.com/problems/longest-common-subsequence,Longest Common Subsequence,Medium,58.6%,50.0%
-202,https://leetcode.com/problems/happy-number,Happy Number,Easy,58.8%,50.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,62.5%
+394,https://leetcode.com/problems/decode-string,Decode String,Medium,62.2%,62.5%
+498,https://leetcode.com/problems/diagonal-traverse,Diagonal Traverse,Medium,67.0%,75.0%
+72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,60.1%,75.0%
+212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,38.1%,100.0%
+2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.9%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,62.5%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,46.8%,62.5%
+202,https://leetcode.com/problems/happy-number,Happy Number,Easy,59.2%,62.5%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,62.5%

@@ -1,3 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,100.0%
-485,https://leetcode.com/problems/max-consecutive-ones,Max Consecutive Ones,Easy,63.7%,100.0%
+3432,https://leetcode.com/problems/count-partitions-with-even-sum-difference,Count Partitions with Even Sum Difference,Easy,85.2%,100.0%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.9%,87.5%
+3779,https://leetcode.com/problems/minimum-number-of-operations-to-have-distinct-elements,Minimum Number of Operations to Have Distinct Elements,Medium,42.0%,87.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,87.5%

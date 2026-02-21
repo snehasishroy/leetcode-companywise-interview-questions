@@ -1,6 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-215,https://leetcode.com/problems/kth-largest-element-in-an-array,Kth Largest Element in an Array,Medium,68.6%,75.0%
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,49.7%,100.0%
-67,https://leetcode.com/problems/add-binary,Add Binary,Easy,56.4%,75.0%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,55.4%,75.0%
-3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,18.1%,75.0%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,50.4%,100.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,56.1%,75.0%
+3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,18.4%,75.0%
+2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,41.5%,87.5%
+1861,https://leetcode.com/problems/rotating-the-box,Rotating the Box,Medium,79.2%,75.0%
+48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,79.3%,75.0%

@@ -1,11 +1,13 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,64.9%,75.0%
-7,https://leetcode.com/problems/reverse-integer,Reverse Integer,Medium,31.1%,87.5%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,75.0%
-181,https://leetcode.com/problems/employees-earning-more-than-their-managers,Employees Earning More Than Their Managers,Easy,72.3%,75.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,100.0%
-451,https://leetcode.com/problems/sort-characters-by-frequency,Sort Characters By Frequency,Medium,74.8%,75.0%
-485,https://leetcode.com/problems/max-consecutive-ones,Max Consecutive Ones,Easy,63.7%,87.5%
-176,https://leetcode.com/problems/second-highest-salary,Second Highest Salary,Medium,45.5%,75.0%
-204,https://leetcode.com/problems/count-primes,Count Primes,Medium,35.5%,75.0%
-283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.2%,75.0%
+7,https://leetcode.com/problems/reverse-integer,Reverse Integer,Medium,31.5%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,100.0%
+485,https://leetcode.com/problems/max-consecutive-ones,Max Consecutive Ones,Easy,64.6%,75.0%
+32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,38.0%,62.5%
+3432,https://leetcode.com/problems/count-partitions-with-even-sum-difference,Count Partitions with Even Sum Difference,Easy,85.2%,87.5%
+907,https://leetcode.com/problems/sum-of-subarray-minimums,Sum of Subarray Minimums,Medium,38.3%,62.5%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.9%,62.5%
+3779,https://leetcode.com/problems/minimum-number-of-operations-to-have-distinct-elements,Minimum Number of Operations to Have Distinct Elements,Medium,42.0%,62.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,62.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,62.5%
+104,https://leetcode.com/problems/maximum-depth-of-binary-tree,Maximum Depth of Binary Tree,Easy,77.9%,62.5%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.5%,62.5%

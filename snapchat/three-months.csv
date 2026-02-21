@@ -1,7 +1,8 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,75.0%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.4%,87.5%
-227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,46.4%,100.0%
-2316,https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph,Count Unreachable Pairs of Nodes in an Undirected Graph,Medium,49.6%,75.0%
-399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,63.7%,75.0%
-296,https://leetcode.com/problems/best-meeting-point,Best Meeting Point,Hard,61.3%,75.0%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.8%,100.0%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,49.7%,87.5%
+772,https://leetcode.com/problems/basic-calculator-iii,Basic Calculator III,Hard,53.1%,100.0%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.5%,87.5%
+2258,https://leetcode.com/problems/escape-the-spreading-fire,Escape the Spreading Fire,Hard,37.6%,87.5%
+939,https://leetcode.com/problems/minimum-area-rectangle,Minimum Area Rectangle,Medium,55.3%,87.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,87.5%

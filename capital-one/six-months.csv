@@ -1,24 +1,23 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,70.1%,87.5%
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,49.7%,100.0%
-3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,18.1%,50.0%
-3071,https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid,Minimum Operations to Write the Letter Y on a Grid,Medium,63.5%,75.0%
-71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,49.4%,75.0%
-723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.4%,75.0%
-2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,40.8%,75.0%
-84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,48.7%,75.0%
-1861,https://leetcode.com/problems/rotating-the-box,Rotating the Box,Medium,79.2%,62.5%
-539,https://leetcode.com/problems/minimum-time-difference,Minimum Time Difference,Medium,62.5%,62.5%
-3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,56.8%,75.0%
-2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.3%,50.0%
-1743,https://leetcode.com/problems/restore-the-array-from-adjacent-pairs,Restore the Array From Adjacent Pairs,Medium,74.9%,62.5%
-992,https://leetcode.com/problems/subarrays-with-k-different-integers,Subarrays with K Different Integers,Hard,67.0%,50.0%
-2021,https://leetcode.com/problems/brightest-position-on-street,Brightest Position on Street,Medium,60.6%,62.5%
-1052,https://leetcode.com/problems/grumpy-bookstore-owner,Grumpy Bookstore Owner,Medium,64.0%,62.5%
-1438,https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,57.1%,62.5%
-2544,https://leetcode.com/problems/alternating-digit-sum,Alternating Digit Sum,Easy,68.8%,50.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,62.5%
-896,https://leetcode.com/problems/monotonic-array,Monotonic Array,Easy,62.1%,50.0%
-257,https://leetcode.com/problems/binary-tree-paths,Binary Tree Paths,Easy,67.7%,62.5%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.0%,62.5%
-415,https://leetcode.com/problems/add-strings,Add Strings,Easy,52.0%,50.0%
+2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,69.8%,100.0%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,50.4%,100.0%
+3071,https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid,Minimum Operations to Write the Letter Y on a Grid,Medium,64.3%,75.0%
+71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,50.0%,75.0%
+723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.3%,87.5%
+2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,41.5%,87.5%
+84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,49.3%,75.0%
+3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,57.0%,87.5%
+1743,https://leetcode.com/problems/restore-the-array-from-adjacent-pairs,Restore the Array From Adjacent Pairs,Medium,75.0%,87.5%
+1052,https://leetcode.com/problems/grumpy-bookstore-owner,Grumpy Bookstore Owner,Medium,64.0%,75.0%
+1438,https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,57.3%,75.0%
+2544,https://leetcode.com/problems/alternating-digit-sum,Alternating Digit Sum,Easy,69.0%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,75.0%
+896,https://leetcode.com/problems/monotonic-array,Monotonic Array,Easy,62.2%,75.0%
+257,https://leetcode.com/problems/binary-tree-paths,Binary Tree Paths,Easy,68.2%,62.5%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.5%,75.0%
+2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,49.7%,87.5%
+2672,https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color,Number of Adjacent Elements With the Same Color,Medium,58.1%,100.0%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.8%,62.5%
+2141,https://leetcode.com/problems/maximum-running-time-of-n-computers,Maximum Running Time of N Computers,Hard,56.4%,62.5%
+2817,https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint,Minimum Absolute Difference Between Elements With Constraint,Medium,37.1%,62.5%
+647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.5%,62.5%

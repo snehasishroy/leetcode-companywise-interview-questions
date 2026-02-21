@@ -1,39 +1,38 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-18,https://leetcode.com/problems/4sum,4Sum,Medium,39.3%,37.5%
-31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,44.2%,37.5%
-72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,59.7%,37.5%
-87,https://leetcode.com/problems/scramble-string,Scramble String,Hard,43.3%,37.5%
-621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.3%,50.0%
-2928,https://leetcode.com/problems/distribute-candies-among-children-i,Distribute Candies Among Children I,Easy,75.9%,62.5%
-2929,https://leetcode.com/problems/distribute-candies-among-children-ii,Distribute Candies Among Children II,Medium,55.8%,62.5%
-2927,https://leetcode.com/problems/distribute-candies-among-children-iii,Distribute Candies Among Children III,Hard,57.1%,62.5%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,62.5%
-2132,https://leetcode.com/problems/stamping-the-grid,Stamping the Grid,Hard,34.5%,62.5%
-1188,https://leetcode.com/problems/design-bounded-blocking-queue,Design Bounded Blocking Queue,Medium,73.3%,37.5%
+18,https://leetcode.com/problems/4sum,4Sum,Medium,40.0%,37.5%
+31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,44.7%,37.5%
+72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,60.1%,37.5%
+87,https://leetcode.com/problems/scramble-string,Scramble String,Hard,43.9%,37.5%
+621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,62.6%,50.0%
+2928,https://leetcode.com/problems/distribute-candies-among-children-i,Distribute Candies Among Children I,Easy,76.2%,62.5%
+2929,https://leetcode.com/problems/distribute-candies-among-children-ii,Distribute Candies Among Children II,Medium,55.7%,62.5%
+2927,https://leetcode.com/problems/distribute-candies-among-children-iii,Distribute Candies Among Children III,Hard,57.2%,62.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,50.0%
+2132,https://leetcode.com/problems/stamping-the-grid,Stamping the Grid,Hard,34.9%,62.5%
+1188,https://leetcode.com/problems/design-bounded-blocking-queue,Design Bounded Blocking Queue,Medium,73.6%,37.5%
 3021,https://leetcode.com/problems/alice-and-bob-playing-flower-game,Alice and Bob Playing Flower Game,Medium,60.1%,62.5%
-211,https://leetcode.com/problems/design-add-and-search-words-data-structure,Design Add and Search Words Data Structure,Medium,47.8%,50.0%
-723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.4%,62.5%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.1%,37.5%
-3098,https://leetcode.com/problems/find-the-sum-of-subsequence-powers,Find the Sum of Subsequence Powers,Hard,24.3%,62.5%
-3083,https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse,Existence of a Substring in a String and Its Reverse,Easy,66.2%,62.5%
-2249,https://leetcode.com/problems/count-lattice-points-inside-a-circle,Count Lattice Points Inside a Circle,Medium,56.1%,62.5%
-2296,https://leetcode.com/problems/design-a-text-editor,Design a Text Editor,Hard,48.9%,37.5%
-1242,https://leetcode.com/problems/web-crawler-multithreaded,Web Crawler Multithreaded,Medium,50.6%,50.0%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.2%,50.0%
-528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,48.7%,62.5%
-1463,https://leetcode.com/problems/cherry-pickup-ii,Cherry Pickup II,Hard,72.2%,37.5%
-3207,https://leetcode.com/problems/maximum-points-after-enemy-battles,Maximum Points After Enemy Battles,Medium,32.9%,100.0%
-2982,https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii,Find Longest Special Substring That Occurs Thrice II,Medium,38.8%,62.5%
-301,https://leetcode.com/problems/remove-invalid-parentheses,Remove Invalid Parentheses,Hard,49.6%,37.5%
-3410,https://leetcode.com/problems/maximize-subarray-sum-after-removing-all-occurrences-of-one-element,Maximize Subarray Sum After Removing All Occurrences of One Element,Hard,21.7%,75.0%
-3426,https://leetcode.com/problems/manhattan-distances-of-all-arrangements-of-pieces,Manhattan Distances of All Arrangements of Pieces,Hard,34.4%,75.0%
-745,https://leetcode.com/problems/prefix-and-suffix-search,Prefix and Suffix Search,Hard,40.6%,37.5%
-1236,https://leetcode.com/problems/web-crawler,Web Crawler,Medium,68.8%,37.5%
+211,https://leetcode.com/problems/design-add-and-search-words-data-structure,Design Add and Search Words Data Structure,Medium,48.1%,50.0%
+723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.3%,62.5%
+3098,https://leetcode.com/problems/find-the-sum-of-subsequence-powers,Find the Sum of Subsequence Powers,Hard,25.0%,62.5%
+3083,https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse,Existence of a Substring in a String and Its Reverse,Easy,66.4%,62.5%
+2249,https://leetcode.com/problems/count-lattice-points-inside-a-circle,Count Lattice Points Inside a Circle,Medium,56.5%,75.0%
+2296,https://leetcode.com/problems/design-a-text-editor,Design a Text Editor,Hard,49.9%,37.5%
+1242,https://leetcode.com/problems/web-crawler-multithreaded,Web Crawler Multithreaded,Medium,51.0%,50.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.3%,50.0%
+528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,48.9%,62.5%
+1463,https://leetcode.com/problems/cherry-pickup-ii,Cherry Pickup II,Hard,72.3%,37.5%
+3207,https://leetcode.com/problems/maximum-points-after-enemy-battles,Maximum Points After Enemy Battles,Medium,33.2%,100.0%
+2982,https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii,Find Longest Special Substring That Occurs Thrice II,Medium,39.1%,62.5%
+301,https://leetcode.com/problems/remove-invalid-parentheses,Remove Invalid Parentheses,Hard,49.8%,50.0%
+3410,https://leetcode.com/problems/maximize-subarray-sum-after-removing-all-occurrences-of-one-element,Maximize Subarray Sum After Removing All Occurrences of One Element,Hard,22.9%,75.0%
+3426,https://leetcode.com/problems/manhattan-distances-of-all-arrangements-of-pieces,Manhattan Distances of All Arrangements of Pieces,Hard,35.1%,75.0%
+745,https://leetcode.com/problems/prefix-and-suffix-search,Prefix and Suffix Search,Hard,40.8%,37.5%
+1236,https://leetcode.com/problems/web-crawler,Web Crawler,Medium,68.9%,37.5%
 1146,https://leetcode.com/problems/snapshot-array,Snapshot Array,Medium,36.7%,50.0%
-1117,https://leetcode.com/problems/building-h2o,Building H2O,Medium,58.2%,37.5%
-3525,https://leetcode.com/problems/find-x-value-of-array-ii,Find X Value of Array II,Hard,29.8%,62.5%
-3524,https://leetcode.com/problems/find-x-value-of-array-i,Find X Value of Array I,Medium,36.7%,62.5%
-2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,49.3%,37.5%
-2365,https://leetcode.com/problems/task-scheduler-ii,Task Scheduler II,Medium,54.5%,37.5%
-622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,53.4%,37.5%
-761,https://leetcode.com/problems/special-binary-string,Special Binary String,Hard,65.4%,37.5%
+3525,https://leetcode.com/problems/find-x-value-of-array-ii,Find X Value of Array II,Hard,30.5%,62.5%
+3524,https://leetcode.com/problems/find-x-value-of-array-i,Find X Value of Array I,Medium,37.1%,62.5%
+2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,49.7%,37.5%
+2365,https://leetcode.com/problems/task-scheduler-ii,Task Scheduler II,Medium,54.7%,37.5%
+622,https://leetcode.com/problems/design-circular-queue,Design Circular Queue,Medium,54.0%,37.5%
+761,https://leetcode.com/problems/special-binary-string,Special Binary String,Hard,76.2%,37.5%
+2193,https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome,Minimum Number of Moves to Make Palindrome,Hard,52.6%,37.5%

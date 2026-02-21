@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,100.0%
-13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,65.8%,75.0%
-754,https://leetcode.com/problems/reach-a-number,Reach a Number,Medium,44.4%,87.5%
+32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,38.0%,87.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,87.5%
+2429,https://leetcode.com/problems/minimize-xor,Minimize XOR,Medium,62.4%,87.5%
+1888,https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating,Minimum Number of Flips to Make the Binary String Alternating,Medium,41.1%,100.0%

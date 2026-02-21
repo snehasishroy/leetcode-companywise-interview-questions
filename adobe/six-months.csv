@@ -1,33 +1,19 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-152,https://leetcode.com/problems/maximum-product-subarray,Maximum Product Subarray,Medium,35.6%,50.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,50.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,75.0%
-74,https://leetcode.com/problems/search-a-2d-matrix,Search a 2D Matrix,Medium,53.1%,62.5%
-51,https://leetcode.com/problems/n-queens,N-Queens,Hard,74.3%,50.0%
-2536,https://leetcode.com/problems/increment-submatrices-by-one,Increment Submatrices by One,Medium,73.8%,50.0%
-8,https://leetcode.com/problems/string-to-integer-atoi,String to Integer (atoi),Medium,20.1%,50.0%
-761,https://leetcode.com/problems/special-binary-string,Special Binary String,Hard,65.4%,100.0%
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,46.5%,62.5%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,75.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.2%,75.0%
-125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,52.1%,50.0%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,50.5%,75.0%
-417,https://leetcode.com/problems/pacific-atlantic-water-flow,Pacific Atlantic Water Flow,Medium,60.2%,50.0%
-236,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Lowest Common Ancestor of a Binary Tree,Medium,68.1%,50.0%
-1004,https://leetcode.com/problems/max-consecutive-ones-iii,Max Consecutive Ones III,Medium,66.9%,50.0%
-31,https://leetcode.com/problems/next-permutation,Next Permutation,Medium,44.2%,62.5%
-468,https://leetcode.com/problems/validate-ip-address,Validate IP Address,Medium,28.1%,75.0%
-2275,https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero,Largest Combination With Bitwise AND Greater Than Zero,Medium,80.8%,50.0%
-545,https://leetcode.com/problems/boundary-of-binary-tree,Boundary of Binary Tree,Medium,47.6%,50.0%
-3528,https://leetcode.com/problems/unit-conversion-i,Unit Conversion I,Medium,54.9%,62.5%
-1863,https://leetcode.com/problems/sum-of-all-subset-xor-totals,Sum of All Subset XOR Totals,Easy,90.1%,50.0%
-76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,46.4%,62.5%
-2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,47.3%,50.0%
-1636,https://leetcode.com/problems/sort-array-by-increasing-frequency,Sort Array by Increasing Frequency,Easy,80.5%,75.0%
-55,https://leetcode.com/problems/jump-game,Jump Game,Medium,40.1%,62.5%
-1507,https://leetcode.com/problems/reformat-date,Reformat Date,Easy,67.8%,50.0%
-93,https://leetcode.com/problems/restore-ip-addresses,Restore IP Addresses,Medium,54.6%,50.0%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,50.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,50.0%
-904,https://leetcode.com/problems/fruit-into-baskets,Fruit Into Baskets,Medium,49.9%,50.0%
-1293,https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination,Shortest Path in a Grid with Obstacles Elimination,Hard,45.9%,50.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,75.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,75.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,87.5%
+468,https://leetcode.com/problems/validate-ip-address,Validate IP Address,Medium,28.2%,87.5%
+2275,https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero,Largest Combination With Bitwise AND Greater Than Zero,Medium,80.8%,75.0%
+3528,https://leetcode.com/problems/unit-conversion-i,Unit Conversion I,Medium,54.4%,75.0%
+1863,https://leetcode.com/problems/sum-of-all-subset-xor-totals,Sum of All Subset XOR Totals,Easy,90.1%,75.0%
+76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,46.9%,75.0%
+1636,https://leetcode.com/problems/sort-array-by-increasing-frequency,Sort Array by Increasing Frequency,Easy,80.7%,100.0%
+55,https://leetcode.com/problems/jump-game,Jump Game,Medium,40.5%,87.5%
+1507,https://leetcode.com/problems/reformat-date,Reformat Date,Easy,68.2%,75.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,75.0%
+402,https://leetcode.com/problems/remove-k-digits,Remove K Digits,Medium,36.4%,75.0%
+392,https://leetcode.com/problems/is-subsequence,Is Subsequence,Easy,48.8%,75.0%
+475,https://leetcode.com/problems/heaters,Heaters,Medium,41.4%,75.0%

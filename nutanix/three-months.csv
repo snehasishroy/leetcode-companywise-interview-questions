@@ -1,2 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,59.3%,100.0%
+1290,https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer,Convert Binary Number in a Linked List to Integer,Easy,82.3%,100.0%
+48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,79.3%,75.0%
+543,https://leetcode.com/problems/diameter-of-binary-tree,Diameter of Binary Tree,Easy,65.0%,75.0%
+605,https://leetcode.com/problems/can-place-flowers,Can Place Flowers,Easy,29.0%,75.0%

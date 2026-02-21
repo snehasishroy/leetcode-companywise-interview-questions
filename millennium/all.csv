@@ -1,11 +1,12 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-50,https://leetcode.com/problems/powx-n,"Pow(x, n)",Medium,37.9%,75.0%
-1283,https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold,Find the Smallest Divisor Given a Threshold,Medium,64.9%,75.0%
-991,https://leetcode.com/problems/broken-calculator,Broken Calculator,Medium,55.7%,75.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,87.5%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.0%,100.0%
-301,https://leetcode.com/problems/remove-invalid-parentheses,Remove Invalid Parentheses,Hard,49.6%,75.0%
-2484,https://leetcode.com/problems/count-palindromic-subsequences,Count Palindromic Subsequences,Hard,40.5%,100.0%
-139,https://leetcode.com/problems/word-break,Word Break,Medium,48.8%,75.0%
-437,https://leetcode.com/problems/path-sum-iii,Path Sum III,Medium,46.2%,75.0%
-2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,39.0%,87.5%
+991,https://leetcode.com/problems/broken-calculator,Broken Calculator,Medium,55.9%,75.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,87.5%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,100.0%
+301,https://leetcode.com/problems/remove-invalid-parentheses,Remove Invalid Parentheses,Hard,49.8%,75.0%
+2484,https://leetcode.com/problems/count-palindromic-subsequences,Count Palindromic Subsequences,Hard,41.0%,100.0%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,49.1%,75.0%
+437,https://leetcode.com/problems/path-sum-iii,Path Sum III,Medium,46.3%,75.0%
+2603,https://leetcode.com/problems/collect-coins-in-a-tree,Collect Coins in a Tree,Hard,39.6%,87.5%
+98,https://leetcode.com/problems/validate-binary-search-tree,Validate Binary Search Tree,Medium,35.3%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,75.0%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.5%,75.0%

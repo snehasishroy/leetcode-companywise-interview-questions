@@ -1,24 +1,15 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1493,https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element,Longest Subarray of 1's After Deleting One Element,Medium,70.9%,87.5%
-228,https://leetcode.com/problems/summary-ranges,Summary Ranges,Easy,53.6%,100.0%
-849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.4%,87.5%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,62.5%
-680,https://leetcode.com/problems/valid-palindrome-ii,Valid Palindrome II,Easy,43.7%,75.0%
-2657,https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays,Find the Prefix Common Array of Two Arrays,Medium,87.0%,75.0%
-443,https://leetcode.com/problems/string-compression,String Compression,Medium,59.1%,62.5%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,71.7%,62.5%
-2241,https://leetcode.com/problems/design-an-atm-machine,Design an ATM Machine,Medium,44.0%,75.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,75.0%
-125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,52.1%,75.0%
-161,https://leetcode.com/problems/one-edit-distance,One Edit Distance,Medium,34.5%,87.5%
-356,https://leetcode.com/problems/line-reflection,Line Reflection,Medium,36.2%,75.0%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,62.5%
-560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.3%,75.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,62.5%
-88,https://leetcode.com/problems/merge-sorted-array,Merge Sorted Array,Easy,53.9%,62.5%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,62.5%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.2%,62.5%
-283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.2%,62.5%
-238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,68.3%,62.5%
-392,https://leetcode.com/problems/is-subsequence,Is Subsequence,Easy,48.7%,62.5%
-986,https://leetcode.com/problems/interval-list-intersections,Interval List Intersections,Medium,72.8%,62.5%
+1493,https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element,Longest Subarray of 1's After Deleting One Element,Medium,71.0%,100.0%
+849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.6%,87.5%
+680,https://leetcode.com/problems/valid-palindrome-ii,Valid Palindrome II,Easy,44.0%,87.5%
+356,https://leetcode.com/problems/line-reflection,Line Reflection,Medium,36.3%,62.5%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.8%,100.0%
+3105,https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray,Longest Strictly Increasing or Strictly Decreasing Subarray,Easy,64.9%,62.5%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.5%,75.0%
+228,https://leetcode.com/problems/summary-ranges,Summary Ranges,Easy,53.9%,75.0%
+438,https://leetcode.com/problems/find-all-anagrams-in-a-string,Find All Anagrams in a String,Medium,53.3%,62.5%
+2629,https://leetcode.com/problems/function-composition,Function Composition,Easy,86.9%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,62.5%
+567,https://leetcode.com/problems/permutation-in-string,Permutation in String,Medium,48.4%,62.5%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,52.8%,62.5%
+238,https://leetcode.com/problems/product-of-array-except-self,Product of Array Except Self,Medium,68.6%,62.5%

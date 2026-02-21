@@ -1,16 +1,16 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 983,https://leetcode.com/problems/minimum-cost-for-tickets,Minimum Cost For Tickets,Medium,67.4%,100.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,37.9%,75.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,56.6%,87.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,36.8%,62.5%
-1073,https://leetcode.com/problems/adding-two-negabinary-numbers,Adding Two Negabinary Numbers,Medium,37.4%,100.0%
-2086,https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters,Minimum Number of Food Buckets to Feed the Hamsters,Medium,47.6%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,62.5%
-1253,https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix,Reconstruct a 2-Row Binary Matrix,Medium,48.4%,100.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.2%,62.5%
-71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,49.4%,75.0%
-739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,67.9%,75.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,87.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,62.5%
+1073,https://leetcode.com/problems/adding-two-negabinary-numbers,Adding Two Negabinary Numbers,Medium,37.6%,100.0%
+2086,https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters,Minimum Number of Food Buckets to Feed the Hamsters,Medium,47.9%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,62.5%
+1253,https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix,Reconstruct a 2-Row Binary Matrix,Medium,48.7%,100.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,62.5%
+71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,50.0%,75.0%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,68.3%,75.0%
 1404,https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one,Number of Steps to Reduce a Number in Binary Representation to One,Medium,61.3%,62.5%
-721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,60.5%,62.5%
-560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.3%,62.5%
-198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.7%,75.0%
+721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,60.9%,62.5%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.8%,62.5%
+198,https://leetcode.com/problems/house-robber,House Robber,Medium,52.9%,75.0%

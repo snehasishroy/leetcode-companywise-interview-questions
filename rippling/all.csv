@@ -1,21 +1,23 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.2%,100.0%
-399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,63.7%,75.0%
-1258,https://leetcode.com/problems/synonymous-sentences,Synonymous Sentences,Medium,56.9%,50.0%
-631,https://leetcode.com/problems/design-excel-sum-formula,Design Excel Sum Formula,Hard,40.4%,100.0%
-1046,https://leetcode.com/problems/last-stone-weight,Last Stone Weight,Easy,66.2%,50.0%
-465,https://leetcode.com/problems/optimal-account-balancing,Optimal Account Balancing,Hard,50.1%,62.5%
-1944,https://leetcode.com/problems/number-of-visible-people-in-a-queue,Number of Visible People in a Queue,Hard,72.0%,62.5%
-721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,60.5%,50.0%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.2%,50.0%
-460,https://leetcode.com/problems/lfu-cache,LFU Cache,Hard,47.9%,50.0%
-21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.5%,62.5%
-3484,https://leetcode.com/problems/design-spreadsheet,Design Spreadsheet,Medium,74.6%,87.5%
-3387,https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions,Maximize Amount After Two Days of Conversions,Medium,60.5%,62.5%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.3%,50.0%
-2939,https://leetcode.com/problems/maximum-xor-product,Maximum Xor Product,Medium,28.8%,62.5%
-1326,https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden,Minimum Number of Taps to Open to Water a Garden,Hard,50.8%,50.0%
-1396,https://leetcode.com/problems/design-underground-system,Design Underground System,Medium,74.2%,50.0%
-23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.2%,62.5%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.2%,50.0%
-737,https://leetcode.com/problems/sentence-similarity-ii,Sentence Similarity II,Medium,50.9%,50.0%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.9%,100.0%
+399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,64.0%,75.0%
+1258,https://leetcode.com/problems/synonymous-sentences,Synonymous Sentences,Medium,57.1%,62.5%
+631,https://leetcode.com/problems/design-excel-sum-formula,Design Excel Sum Formula,Hard,39.8%,87.5%
+1046,https://leetcode.com/problems/last-stone-weight,Last Stone Weight,Easy,66.3%,50.0%
+465,https://leetcode.com/problems/optimal-account-balancing,Optimal Account Balancing,Hard,50.3%,62.5%
+1944,https://leetcode.com/problems/number-of-visible-people-in-a-queue,Number of Visible People in a Queue,Hard,72.3%,62.5%
+721,https://leetcode.com/problems/accounts-merge,Accounts Merge,Medium,60.9%,50.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.3%,50.0%
+460,https://leetcode.com/problems/lfu-cache,LFU Cache,Hard,48.6%,50.0%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.9%,62.5%
+3484,https://leetcode.com/problems/design-spreadsheet,Design Spreadsheet,Medium,74.3%,87.5%
+3387,https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions,Maximize Amount After Two Days of Conversions,Medium,61.1%,62.5%
+2939,https://leetcode.com/problems/maximum-xor-product,Maximum Xor Product,Medium,29.5%,62.5%
+1326,https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden,Minimum Number of Taps to Open to Water a Garden,Hard,51.0%,50.0%
+1396,https://leetcode.com/problems/design-underground-system,Design Underground System,Medium,74.4%,50.0%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.8%,75.0%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.8%,50.0%
+737,https://leetcode.com/problems/sentence-similarity-ii,Sentence Similarity II,Medium,51.1%,50.0%
+692,https://leetcode.com/problems/top-k-frequent-words,Top K Frequent Words,Medium,60.0%,50.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,50.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,50.0%

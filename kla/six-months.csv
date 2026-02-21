@@ -1,5 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-3584,https://leetcode.com/problems/maximum-product-of-first-and-last-elements-of-a-subsequence,Maximum Product of First and Last Elements of a Subsequence,Medium,30.7%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.3%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,87.5%
 2106,https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps,Maximum Fruits Harvested After at Most K Steps,Hard,61.0%,87.5%
-554,https://leetcode.com/problems/brick-wall,Brick Wall,Medium,55.9%,87.5%
+554,https://leetcode.com/problems/brick-wall,Brick Wall,Medium,56.0%,100.0%
