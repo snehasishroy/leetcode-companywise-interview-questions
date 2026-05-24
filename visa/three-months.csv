@@ -1,20 +1,12 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,50.4%,100.0%
-2817,https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint,Minimum Absolute Difference Between Elements With Constraint,Medium,37.1%,75.0%
-3071,https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid,Minimum Operations to Write the Letter Y on a Grid,Medium,64.3%,75.0%
-3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,57.0%,100.0%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.0%,75.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,75.0%
-48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,79.3%,87.5%
-560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,46.8%,75.0%
-415,https://leetcode.com/problems/add-strings,Add Strings,Easy,52.1%,75.0%
-258,https://leetcode.com/problems/add-digits,Add Digits,Easy,68.6%,75.0%
-3019,https://leetcode.com/problems/number-of-changing-keys,Number of Changing Keys,Easy,80.5%,75.0%
-3651,https://leetcode.com/problems/minimum-cost-path-with-teleportations,Minimum Cost Path with Teleportations,Hard,45.8%,75.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,75.0%
-2964,https://leetcode.com/problems/number-of-divisible-triplet-sums,Number of Divisible Triplet Sums,Medium,67.6%,75.0%
-3649,https://leetcode.com/problems/number-of-perfect-pairs,Number of Perfect Pairs,Medium,33.3%,75.0%
-1648,https://leetcode.com/problems/sell-diminishing-valued-colored-balls,Sell Diminishing-Valued Colored Balls,Medium,30.1%,75.0%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,75.0%
-2491,https://leetcode.com/problems/divide-players-into-teams-of-equal-skill,Divide Players Into Teams of Equal Skill,Medium,68.9%,75.0%
-67,https://leetcode.com/problems/add-binary,Add Binary,Easy,57.6%,75.0%
+2964,https://leetcode.com/problems/number-of-divisible-triplet-sums,Number of Divisible Triplet Sums,Medium,67.6%,100.0%
+2491,https://leetcode.com/problems/divide-players-into-teams-of-equal-skill,Divide Players Into Teams of Equal Skill,Medium,68.9%,87.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.8%,87.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,39.1%,87.5%
+3035,https://leetcode.com/problems/maximum-palindromes-after-operations,Maximum Palindromes After Operations,Medium,46.5%,87.5%
+2680,https://leetcode.com/problems/maximum-or,Maximum OR,Medium,43.0%,100.0%
+526,https://leetcode.com/problems/beautiful-arrangement,Beautiful Arrangement,Medium,64.8%,87.5%
+2484,https://leetcode.com/problems/count-palindromic-subsequences,Count Palindromic Subsequences,Hard,41.2%,87.5%
+1963,https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced,Minimum Number of Swaps to Make the String Balanced,Medium,78.0%,100.0%
+636,https://leetcode.com/problems/exclusive-time-of-functions,Exclusive Time of Functions,Medium,66.2%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,87.5%

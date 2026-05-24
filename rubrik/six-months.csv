@@ -1,4 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2249,https://leetcode.com/problems/count-lattice-points-inside-a-circle,Count Lattice Points Inside a Circle,Medium,56.5%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,87.5%
-1242,https://leetcode.com/problems/web-crawler-multithreaded,Web Crawler Multithreaded,Medium,51.0%,87.5%
+2249,https://leetcode.com/problems/count-lattice-points-inside-a-circle,Count Lattice Points Inside a Circle,Medium,56.7%,87.5%
+2193,https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome,Minimum Number of Moves to Make Palindrome,Hard,52.8%,100.0%

@@ -1,5 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,38.0%,87.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,87.5%
-2429,https://leetcode.com/problems/minimize-xor,Minimize XOR,Medium,62.4%,87.5%
-1888,https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating,Minimum Number of Flips to Make the Binary String Alternating,Medium,41.1%,100.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,44.2%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,39.1%,100.0%

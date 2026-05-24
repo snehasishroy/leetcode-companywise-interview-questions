@@ -1,3 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,54.2%,100.0%
-703,https://leetcode.com/problems/kth-largest-element-in-a-stream,Kth Largest Element in a Stream,Easy,60.7%,100.0%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,54.5%,100.0%
+703,https://leetcode.com/problems/kth-largest-element-in-a-stream,Kth Largest Element in a Stream,Easy,61.0%,87.5%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,51.2%,75.0%

@@ -1,7 +1,2 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.0%,87.5%
-510,https://leetcode.com/problems/inorder-successor-in-bst-ii,Inorder Successor in BST II,Medium,61.1%,100.0%
-82,https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii,Remove Duplicates from Sorted List II,Medium,51.3%,100.0%
-71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,50.0%,87.5%
-268,https://leetcode.com/problems/missing-number,Missing Number,Easy,71.6%,100.0%
-143,https://leetcode.com/problems/reorder-list,Reorder List,Medium,64.6%,87.5%
+268,https://leetcode.com/problems/missing-number,Missing Number,Easy,72.0%,100.0%

@@ -1,9 +1,8 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,100.0%
-221,https://leetcode.com/problems/maximal-square,Maximal Square,Medium,50.0%,87.5%
-295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,54.2%,87.5%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.5%,100.0%
-503,https://leetcode.com/problems/next-greater-element-ii,Next Greater Element II,Medium,67.9%,87.5%
-1423,https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards,Maximum Points You Can Obtain from Cards,Medium,57.2%,100.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,87.5%
-417,https://leetcode.com/problems/pacific-atlantic-water-flow,Pacific Atlantic Water Flow,Medium,60.6%,87.5%
+503,https://leetcode.com/problems/next-greater-element-ii,Next Greater Element II,Medium,68.4%,87.5%
+1423,https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards,Maximum Points You Can Obtain from Cards,Medium,57.7%,87.5%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,67.4%,87.5%
+417,https://leetcode.com/problems/pacific-atlantic-water-flow,Pacific Atlantic Water Flow,Medium,61.0%,100.0%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,59.6%,87.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.7%,100.0%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,51.4%,87.5%

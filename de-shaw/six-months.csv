@@ -1,7 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.6%,100.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,62.5%
-3628,https://leetcode.com/problems/maximum-number-of-subsequences-after-one-inserting,Maximum Number of Subsequences After One Inserting,Medium,31.7%,62.5%
-1048,https://leetcode.com/problems/longest-string-chain,Longest String Chain,Medium,62.8%,62.5%
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,62.5%
-668,https://leetcode.com/problems/kth-smallest-number-in-multiplication-table,Kth Smallest Number in Multiplication Table,Hard,53.8%,62.5%
+968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.9%,100.0%
+316,https://leetcode.com/problems/remove-duplicate-letters,Remove Duplicate Letters,Medium,53.2%,75.0%
+1642,https://leetcode.com/problems/furthest-building-you-can-reach,Furthest Building You Can Reach,Medium,50.9%,75.0%

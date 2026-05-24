@@ -1,2 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-882,https://leetcode.com/problems/reachable-nodes-in-subdivided-graph,Reachable Nodes In Subdivided Graph,Hard,51.8%,100.0%
+882,https://leetcode.com/problems/reachable-nodes-in-subdivided-graph,Reachable Nodes In Subdivided Graph,Hard,52.1%,87.5%
+410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,60.4%,100.0%

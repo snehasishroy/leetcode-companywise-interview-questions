@@ -1,2 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1304,https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero,Find N Unique Integers Sum up to Zero,Easy,78.5%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,39.1%,100.0%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,68.1%,100.0%

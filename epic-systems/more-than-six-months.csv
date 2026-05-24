@@ -1,14 +1,15 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,65.5%,100.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,87.5%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,56.1%,100.0%
-306,https://leetcode.com/problems/additive-number,Additive Number,Medium,33.5%,100.0%
-79,https://leetcode.com/problems/word-search,Word Search,Medium,46.8%,75.0%
-728,https://leetcode.com/problems/self-dividing-numbers,Self Dividing Numbers,Easy,80.5%,75.0%
-1215,https://leetcode.com/problems/stepping-numbers,Stepping Numbers,Medium,48.2%,62.5%
-299,https://leetcode.com/problems/bulls-and-cows,Bulls and Cows,Medium,52.2%,62.5%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,62.5%
+17,https://leetcode.com/problems/letter-combinations-of-a-phone-number,Letter Combinations of a Phone Number,Medium,66.1%,100.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,44.2%,87.5%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,56.8%,100.0%
+306,https://leetcode.com/problems/additive-number,Additive Number,Medium,33.9%,100.0%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,47.4%,75.0%
+728,https://leetcode.com/problems/self-dividing-numbers,Self Dividing Numbers,Easy,80.8%,75.0%
+1215,https://leetcode.com/problems/stepping-numbers,Stepping Numbers,Medium,48.5%,62.5%
+299,https://leetcode.com/problems/bulls-and-cows,Bulls and Cows,Medium,52.5%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.5%,62.5%
 1344,https://leetcode.com/problems/angle-between-hands-of-a-clock,Angle Between Hands of a Clock,Medium,64.4%,75.0%
-46,https://leetcode.com/problems/permutations,Permutations,Medium,81.6%,62.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,62.5%
-647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.5%,62.5%
+46,https://leetcode.com/problems/permutations,Permutations,Medium,81.9%,62.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.8%,62.5%
+647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.8%,62.5%
+204,https://leetcode.com/problems/count-primes,Count Primes,Medium,36.1%,62.5%

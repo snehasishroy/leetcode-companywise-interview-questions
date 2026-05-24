@@ -1,3 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-796,https://leetcode.com/problems/rotate-string,Rotate String,Easy,65.1%,100.0%
-1953,https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work,Maximum Number of Weeks for Which You Can Work,Medium,42.3%,87.5%
+796,https://leetcode.com/problems/rotate-string,Rotate String,Easy,66.6%,100.0%
+1953,https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work,Maximum Number of Weeks for Which You Can Work,Medium,42.5%,87.5%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.6%,87.5%

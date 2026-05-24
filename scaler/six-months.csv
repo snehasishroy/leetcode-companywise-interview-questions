@@ -1,2 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-132,https://leetcode.com/problems/palindrome-partitioning-ii,Palindrome Partitioning II,Hard,36.6%,100.0%
+131,https://leetcode.com/problems/palindrome-partitioning,Palindrome Partitioning,Medium,74.1%,100.0%
+132,https://leetcode.com/problems/palindrome-partitioning-ii,Palindrome Partitioning II,Hard,37.1%,100.0%

@@ -1,6 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 1228,https://leetcode.com/problems/missing-number-in-arithmetic-progression,Missing Number In Arithmetic Progression,Easy,52.2%,100.0%
-1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,75.0%,100.0%
-1747,https://leetcode.com/problems/leetflex-banned-accounts,Leetflex Banned Accounts,Medium,61.8%,100.0%
-767,https://leetcode.com/problems/reorganize-string,Reorganize String,Medium,56.8%,62.5%
-1047,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string,Remove All Adjacent Duplicates In String,Easy,72.8%,62.5%
+1200,https://leetcode.com/problems/minimum-absolute-difference,Minimum Absolute Difference,Easy,75.1%,100.0%
+1747,https://leetcode.com/problems/leetflex-banned-accounts,Leetflex Banned Accounts,Medium,61.7%,100.0%
+767,https://leetcode.com/problems/reorganize-string,Reorganize String,Medium,57.1%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,62.5%

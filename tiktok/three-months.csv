@@ -1,18 +1,17 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,62.5%
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,50.4%,75.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,100.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,62.5%
-827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,56.3%,62.5%
-23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.8%,62.5%
-300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,59.0%,62.5%
-887,https://leetcode.com/problems/super-egg-drop,Super Egg Drop,Hard,29.8%,62.5%
-739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,68.3%,62.5%
-207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.8%,87.5%
-298,https://leetcode.com/problems/binary-tree-longest-consecutive-sequence,Binary Tree Longest Consecutive Sequence,Medium,54.6%,62.5%
-845,https://leetcode.com/problems/longest-mountain-in-array,Longest Mountain in Array,Medium,41.8%,62.5%
-84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,49.3%,62.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,62.5%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,44.1%,62.5%
-55,https://leetcode.com/problems/jump-game,Jump Game,Medium,40.5%,62.5%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.5%,62.5%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.4%,100.0%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,51.2%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,100.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.8%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.8%,75.0%
+78,https://leetcode.com/problems/subsets,Subsets,Medium,82.3%,75.0%
+1352,https://leetcode.com/problems/product-of-the-last-k-numbers,Product of the Last K Numbers,Medium,62.9%,75.0%
+215,https://leetcode.com/problems/kth-largest-element-in-an-array,Kth Largest Element in an Array,Medium,68.9%,75.0%
+189,https://leetcode.com/problems/rotate-array,Rotate Array,Medium,44.9%,75.0%
+32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,38.8%,75.0%
+787,https://leetcode.com/problems/cheapest-flights-within-k-stops,Cheapest Flights Within K Stops,Medium,41.8%,87.5%
+706,https://leetcode.com/problems/design-hashmap,Design HashMap,Easy,66.6%,75.0%
+886,https://leetcode.com/problems/possible-bipartition,Possible Bipartition,Medium,52.6%,87.5%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,47.4%,75.0%
+904,https://leetcode.com/problems/fruit-into-baskets,Fruit Into Baskets,Medium,51.1%,75.0%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,66.4%,75.0%

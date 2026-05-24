@@ -1,3 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-871,https://leetcode.com/problems/minimum-number-of-refueling-stops,Minimum Number of Refueling Stops,Hard,41.1%,87.5%
-1944,https://leetcode.com/problems/number-of-visible-people-in-a-queue,Number of Visible People in a Queue,Hard,72.3%,100.0%
+871,https://leetcode.com/problems/minimum-number-of-refueling-stops,Minimum Number of Refueling Stops,Hard,41.4%,87.5%
+1944,https://leetcode.com/problems/number-of-visible-people-in-a-queue,Number of Visible People in a Queue,Hard,73.1%,87.5%
+359,https://leetcode.com/problems/logger-rate-limiter,Logger Rate Limiter,Easy,76.8%,87.5%
+528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,49.1%,100.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.4%,87.5%

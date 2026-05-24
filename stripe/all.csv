@@ -1,11 +1,12 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,64.0%,75.0%
 2483,https://leetcode.com/problems/minimum-penalty-for-a-shop,Minimum Penalty for a Shop,Medium,71.2%,100.0%
-1087,https://leetcode.com/problems/brace-expansion,Brace Expansion,Medium,66.8%,75.0%
-787,https://leetcode.com/problems/cheapest-flights-within-k-stops,Cheapest Flights Within K Stops,Medium,41.4%,75.0%
-2050,https://leetcode.com/problems/parallel-courses-iii,Parallel Courses III,Hard,66.8%,50.0%
-161,https://leetcode.com/problems/one-edit-distance,One Edit Distance,Medium,34.5%,50.0%
-2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,41.5%,50.0%
-2303,https://leetcode.com/problems/calculate-amount-paid-in-taxes,Calculate Amount Paid in Taxes,Easy,69.0%,75.0%
-2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,69.8%,50.0%
-1169,https://leetcode.com/problems/invalid-transactions,Invalid Transactions,Medium,32.1%,75.0%
+2050,https://leetcode.com/problems/parallel-courses-iii,Parallel Courses III,Hard,66.8%,62.5%
+161,https://leetcode.com/problems/one-edit-distance,One Edit Distance,Medium,34.6%,62.5%
+787,https://leetcode.com/problems/cheapest-flights-within-k-stops,Cheapest Flights Within K Stops,Medium,41.8%,75.0%
+2303,https://leetcode.com/problems/calculate-amount-paid-in-taxes,Calculate Amount Paid in Taxes,Easy,69.3%,87.5%
+2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,41.8%,62.5%
+1604,https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period,Alert Using Same Key-Card Three or More Times in a One Hour Period,Medium,46.3%,62.5%
+399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,64.2%,87.5%
+1087,https://leetcode.com/problems/brace-expansion,Brace Expansion,Medium,66.9%,75.0%
+1169,https://leetcode.com/problems/invalid-transactions,Invalid Transactions,Medium,32.3%,75.0%
+2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,69.7%,62.5%

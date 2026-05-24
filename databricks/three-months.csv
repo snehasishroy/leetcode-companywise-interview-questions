@@ -1,9 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.6%,87.5%
-348,https://leetcode.com/problems/design-tic-tac-toe,Design Tic-Tac-Toe,Medium,58.7%,87.5%
-751,https://leetcode.com/problems/ip-to-cidr,IP to CIDR,Medium,53.7%,87.5%
-2096,https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another,Step-By-Step Directions From a Binary Tree Node to Another,Medium,56.4%,87.5%
-438,https://leetcode.com/problems/find-all-anagrams-in-a-string,Find All Anagrams in a String,Medium,53.3%,100.0%
-900,https://leetcode.com/problems/rle-iterator,RLE Iterator,Medium,59.2%,75.0%
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,75.0%
-1293,https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination,Shortest Path in a Grid with Obstacles Elimination,Hard,46.1%,87.5%
+362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.7%,100.0%
+348,https://leetcode.com/problems/design-tic-tac-toe,Design Tic-Tac-Toe,Medium,58.7%,75.0%
+751,https://leetcode.com/problems/ip-to-cidr,IP to CIDR,Medium,53.6%,100.0%
+438,https://leetcode.com/problems/find-all-anagrams-in-a-string,Find All Anagrams in a String,Medium,53.8%,100.0%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.9%,75.0%
+900,https://leetcode.com/problems/rle-iterator,RLE Iterator,Medium,59.3%,75.0%

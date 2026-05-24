@@ -1,4 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-540,https://leetcode.com/problems/single-element-in-a-sorted-array,Single Element in a Sorted Array,Medium,59.2%,100.0%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.0%,100.0%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.4%,100.0%
+540,https://leetcode.com/problems/single-element-in-a-sorted-array,Single Element in a Sorted Array,Medium,59.3%,100.0%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.3%,100.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.8%,100.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.6%,100.0%
+2385,https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected,Amount of Time for Binary Tree to Be Infected,Medium,65.4%,100.0%

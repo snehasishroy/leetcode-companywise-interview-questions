@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,80.2%,100.0%
-15,https://leetcode.com/problems/3sum,3Sum,Medium,38.6%,100.0%
-1163,https://leetcode.com/problems/last-substring-in-lexicographical-order,Last Substring in Lexicographical Order,Hard,35.0%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,39.1%,100.0%
+9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,60.6%,100.0%
+852,https://leetcode.com/problems/peak-index-in-a-mountain-array,Peak Index in a Mountain Array,Medium,66.8%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,100.0%

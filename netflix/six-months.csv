@@ -1,9 +1,11 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2622,https://leetcode.com/problems/cache-with-time-limit,Cache With Time Limit,Medium,76.0%,100.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,87.5%
-220,https://leetcode.com/problems/contains-duplicate-iii,Contains Duplicate III,Hard,24.4%,87.5%
-981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.7%,62.5%
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.0%,87.5%
-797,https://leetcode.com/problems/all-paths-from-source-to-target,All Paths From Source to Target,Medium,83.5%,62.5%
-1136,https://leetcode.com/problems/parallel-courses,Parallel Courses,Medium,62.0%,87.5%
-8,https://leetcode.com/problems/string-to-integer-atoi,String to Integer (atoi),Medium,20.6%,75.0%
+2622,https://leetcode.com/problems/cache-with-time-limit,Cache With Time Limit,Medium,76.1%,87.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,39.1%,87.5%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.9%,75.0%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.5%,100.0%
+1136,https://leetcode.com/problems/parallel-courses,Parallel Courses,Medium,62.2%,100.0%
+8,https://leetcode.com/problems/string-to-integer-atoi,String to Integer (atoi),Medium,21.0%,87.5%
+1146,https://leetcode.com/problems/snapshot-array,Snapshot Array,Medium,36.8%,75.0%
+220,https://leetcode.com/problems/contains-duplicate-iii,Contains Duplicate III,Hard,24.8%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,75.0%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.7%,75.0%

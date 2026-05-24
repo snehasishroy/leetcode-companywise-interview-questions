@@ -1,13 +1,10 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-7,https://leetcode.com/problems/reverse-integer,Reverse Integer,Medium,31.5%,62.5%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.1%,100.0%
-485,https://leetcode.com/problems/max-consecutive-ones,Max Consecutive Ones,Easy,64.6%,75.0%
-32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,38.0%,62.5%
-3432,https://leetcode.com/problems/count-partitions-with-even-sum-difference,Count Partitions with Even Sum Difference,Easy,85.2%,87.5%
-907,https://leetcode.com/problems/sum-of-subarray-minimums,Sum of Subarray Minimums,Medium,38.3%,62.5%
-70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,53.9%,62.5%
-3779,https://leetcode.com/problems/minimum-number-of-operations-to-have-distinct-elements,Minimum Number of Operations to Have Distinct Elements,Medium,42.0%,62.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,62.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.3%,62.5%
-104,https://leetcode.com/problems/maximum-depth-of-binary-tree,Maximum Depth of Binary Tree,Easy,77.9%,62.5%
-283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.5%,62.5%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.5%,87.5%
+3432,https://leetcode.com/problems/count-partitions-with-even-sum-difference,Count Partitions with Even Sum Difference,Easy,85.3%,100.0%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,54.1%,87.5%
+3779,https://leetcode.com/problems/minimum-number-of-operations-to-have-distinct-elements,Minimum Number of Operations to Have Distinct Elements,Medium,42.4%,75.0%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,47.3%,100.0%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,50.0%,75.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,39.1%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.8%,75.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.8%,87.5%

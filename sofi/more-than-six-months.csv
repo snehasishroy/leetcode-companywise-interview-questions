@@ -1,16 +1,14 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,75.0%
-735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,47.1%,87.5%
-76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,46.9%,87.5%
-13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,66.2%,62.5%
-697,https://leetcode.com/problems/degree-of-an-array,Degree of an Array,Easy,58.2%,62.5%
-845,https://leetcode.com/problems/longest-mountain-in-array,Longest Mountain in Array,Medium,41.8%,87.5%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.3%,87.5%
-253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.5%,62.5%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.4%,75.0%
+735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,47.9%,75.0%
+76,https://leetcode.com/problems/minimum-window-substring,Minimum Window Substring,Hard,47.5%,87.5%
+13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,66.6%,75.0%
+697,https://leetcode.com/problems/degree-of-an-array,Degree of an Array,Easy,58.4%,75.0%
+845,https://leetcode.com/problems/longest-mountain-in-array,Longest Mountain in Array,Medium,42.1%,100.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.4%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,75.0%
 1347,https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram,Minimum Number of Steps to Make Two Strings Anagram,Medium,82.5%,100.0%
-23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,58.8%,75.0%
-647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.5%,62.5%
-2472,https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings,Maximum Number of Non-overlapping Palindrome Substrings,Hard,43.3%,75.0%
-1823,https://leetcode.com/problems/find-the-winner-of-the-circular-game,Find the Winner of the Circular Game,Medium,82.2%,62.5%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.8%,75.0%
+23,https://leetcode.com/problems/merge-k-sorted-lists,Merge k Sorted Lists,Hard,59.6%,75.0%
+2472,https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings,Maximum Number of Non-overlapping Palindrome Substrings,Hard,44.7%,87.5%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,66.4%,75.0%
+127,https://leetcode.com/problems/word-ladder,Word Ladder,Hard,45.6%,75.0%

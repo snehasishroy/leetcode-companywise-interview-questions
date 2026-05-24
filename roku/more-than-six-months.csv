@@ -1,14 +1,15 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-30,https://leetcode.com/problems/substring-with-concatenation-of-all-words,Substring with Concatenation of All Words,Hard,34.0%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,100.0%
-628,https://leetcode.com/problems/maximum-product-of-three-numbers,Maximum Product of Three Numbers,Easy,45.7%,87.5%
-844,https://leetcode.com/problems/backspace-string-compare,Backspace String Compare,Easy,49.8%,87.5%
-43,https://leetcode.com/problems/multiply-strings,Multiply Strings,Medium,43.5%,87.5%
-394,https://leetcode.com/problems/decode-string,Decode String,Medium,62.2%,100.0%
-1004,https://leetcode.com/problems/max-consecutive-ones-iii,Max Consecutive Ones III,Medium,67.3%,87.5%
-864,https://leetcode.com/problems/shortest-path-to-get-all-keys,Shortest Path to Get All Keys,Hard,54.3%,87.5%
-679,https://leetcode.com/problems/24-game,24 Game,Hard,59.3%,87.5%
-680,https://leetcode.com/problems/valid-palindrome-ii,Valid Palindrome II,Easy,44.0%,87.5%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.8%,100.0%
-678,https://leetcode.com/problems/valid-parenthesis-string,Valid Parenthesis String,Medium,39.8%,87.5%
-135,https://leetcode.com/problems/candy,Candy,Hard,47.9%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,100.0%
+628,https://leetcode.com/problems/maximum-product-of-three-numbers,Maximum Product of Three Numbers,Easy,45.9%,100.0%
+844,https://leetcode.com/problems/backspace-string-compare,Backspace String Compare,Easy,49.9%,100.0%
+43,https://leetcode.com/problems/multiply-strings,Multiply Strings,Medium,44.2%,100.0%
+394,https://leetcode.com/problems/decode-string,Decode String,Medium,62.6%,100.0%
+1004,https://leetcode.com/problems/max-consecutive-ones-iii,Max Consecutive Ones III,Medium,67.7%,100.0%
+864,https://leetcode.com/problems/shortest-path-to-get-all-keys,Shortest Path to Get All Keys,Hard,54.6%,100.0%
+679,https://leetcode.com/problems/24-game,24 Game,Hard,59.5%,100.0%
+680,https://leetcode.com/problems/valid-palindrome-ii,Valid Palindrome II,Easy,44.3%,100.0%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,66.4%,100.0%
+678,https://leetcode.com/problems/valid-parenthesis-string,Valid Parenthesis String,Medium,40.1%,100.0%
+135,https://leetcode.com/problems/candy,Candy,Hard,48.5%,100.0%
+15,https://leetcode.com/problems/3sum,3Sum,Medium,39.1%,100.0%
+695,https://leetcode.com/problems/max-area-of-island,Max Area of Island,Medium,74.0%,100.0%

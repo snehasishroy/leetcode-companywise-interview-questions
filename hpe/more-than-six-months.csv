@@ -1,2 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,67.9%,100.0%
+21,https://leetcode.com/problems/merge-two-sorted-lists,Merge Two Sorted Lists,Easy,68.3%,100.0%
+70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,54.1%,100.0%
+39,https://leetcode.com/problems/combination-sum,Combination Sum,Medium,76.5%,100.0%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.8%,100.0%

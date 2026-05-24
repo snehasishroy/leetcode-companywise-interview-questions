@@ -1,7 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1743,https://leetcode.com/problems/restore-the-array-from-adjacent-pairs,Restore the Array From Adjacent Pairs,Medium,75.0%,100.0%
-896,https://leetcode.com/problems/monotonic-array,Monotonic Array,Easy,62.2%,87.5%
-2817,https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint,Minimum Absolute Difference Between Elements With Constraint,Medium,37.1%,87.5%
-2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,69.8%,87.5%
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,50.4%,87.5%
-2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,49.7%,87.5%
+2672,https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color,Number of Adjacent Elements With the Same Color,Medium,59.6%,87.5%
+3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,62.2%,100.0%
+257,https://leetcode.com/problems/binary-tree-paths,Binary Tree Paths,Easy,68.7%,87.5%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,51.2%,87.5%

@@ -1,7 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2408,https://leetcode.com/problems/design-sql,Design SQL,Medium,64.7%,75.0%
-2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,49.7%,87.5%
-271,https://leetcode.com/problems/encode-and-decode-strings,Encode and Decode Strings,Medium,51.2%,100.0%
-751,https://leetcode.com/problems/ip-to-cidr,IP to CIDR,Medium,53.7%,87.5%
-981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.7%,75.0%
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.1%,75.0%
+2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,50.1%,100.0%
+751,https://leetcode.com/problems/ip-to-cidr,IP to CIDR,Medium,53.6%,87.5%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.7%,100.0%
+362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.7%,75.0%

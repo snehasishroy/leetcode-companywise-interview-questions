@@ -1,22 +1,22 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,45.9%,100.0%
-261,https://leetcode.com/problems/graph-valid-tree,Graph Valid Tree,Medium,49.8%,100.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,63.8%,100.0%
-206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,80.3%,100.0%
-207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,50.8%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,100.0%
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.0%,100.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,43.7%,100.0%
-22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,78.2%,100.0%
-155,https://leetcode.com/problems/min-stack,Min Stack,Medium,57.7%,100.0%
-229,https://leetcode.com/problems/majority-element-ii,Majority Element II,Medium,55.8%,100.0%
-168,https://leetcode.com/problems/excel-sheet-column-title,Excel Sheet Column Title,Easy,45.7%,100.0%
-169,https://leetcode.com/problems/majority-element,Majority Element,Easy,66.1%,100.0%
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,66.8%,100.0%
-109,https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree,Convert Sorted List to Binary Search Tree,Medium,65.9%,100.0%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.4%,100.0%
-52,https://leetcode.com/problems/n-queens-ii,N-Queens II,Hard,78.1%,100.0%
-125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,52.8%,100.0%
-251,https://leetcode.com/problems/flatten-2d-vector,Flatten 2D Vector,Medium,50.4%,100.0%
-317,https://leetcode.com/problems/shortest-distance-from-all-buildings,Shortest Distance from All Buildings,Hard,44.8%,100.0%
-255,https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree,Verify Preorder Sequence in Binary Search Tree,Medium,51.7%,100.0%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,46.6%,100.0%
+261,https://leetcode.com/problems/graph-valid-tree,Graph Valid Tree,Medium,50.0%,100.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.4%,100.0%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,80.6%,100.0%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,51.4%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,100.0%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.5%,100.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,44.2%,100.0%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,78.7%,100.0%
+155,https://leetcode.com/problems/min-stack,Min Stack,Medium,58.2%,100.0%
+229,https://leetcode.com/problems/majority-element-ii,Majority Element II,Medium,56.2%,100.0%
+168,https://leetcode.com/problems/excel-sheet-column-title,Excel Sheet Column Title,Easy,46.5%,100.0%
+169,https://leetcode.com/problems/majority-element,Majority Element,Easy,66.3%,100.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,67.4%,100.0%
+109,https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree,Convert Sorted List to Binary Search Tree,Medium,66.6%,100.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.8%,100.0%
+52,https://leetcode.com/problems/n-queens-ii,N-Queens II,Hard,78.7%,100.0%
+125,https://leetcode.com/problems/valid-palindrome,Valid Palindrome,Easy,53.3%,100.0%
+251,https://leetcode.com/problems/flatten-2d-vector,Flatten 2D Vector,Medium,50.5%,100.0%
+317,https://leetcode.com/problems/shortest-distance-from-all-buildings,Shortest Distance from All Buildings,Hard,44.9%,100.0%
+255,https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree,Verify Preorder Sequence in Binary Search Tree,Medium,51.8%,100.0%

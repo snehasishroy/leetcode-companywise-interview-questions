@@ -1,7 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.4%,100.0%
-53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.0%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,46.8%,100.0%
-236,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Lowest Common Ancestor of a Binary Tree,Medium,68.7%,100.0%
-234,https://leetcode.com/problems/palindrome-linked-list,Palindrome Linked List,Easy,57.4%,100.0%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.1%,100.0%
+236,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Lowest Common Ancestor of a Binary Tree,Medium,69.3%,87.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.8%,87.5%
+74,https://leetcode.com/problems/search-a-2d-matrix,Search a 2D Matrix,Medium,53.9%,100.0%

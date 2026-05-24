@@ -1,2 +1,9 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-38,https://leetcode.com/problems/count-and-say,Count and Say,Medium,62.3%,100.0%
+724,https://leetcode.com/problems/find-pivot-index,Find Pivot Index,Easy,62.7%,100.0%
+1962,https://leetcode.com/problems/remove-stones-to-minimize-the-total,Remove Stones to Minimize the Total,Medium,65.7%,100.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.8%,100.0%
+227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,46.9%,100.0%
+460,https://leetcode.com/problems/lfu-cache,LFU Cache,Hard,49.2%,100.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.5%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,100.0%
+895,https://leetcode.com/problems/maximum-frequency-stack,Maximum Frequency Stack,Hard,66.8%,100.0%

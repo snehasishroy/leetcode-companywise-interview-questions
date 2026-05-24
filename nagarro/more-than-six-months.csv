@@ -1,5 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2320,https://leetcode.com/problems/count-number-of-ways-to-place-houses,Count Number of Ways to Place Houses,Medium,43.8%,87.5%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,38.5%,100.0%
-242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,67.8%,87.5%
-26,https://leetcode.com/problems/remove-duplicates-from-sorted-array,Remove Duplicates from Sorted Array,Easy,62.2%,87.5%
+2320,https://leetcode.com/problems/count-number-of-ways-to-place-houses,Count Number of Ways to Place Houses,Medium,43.9%,87.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,39.1%,100.0%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,68.1%,87.5%
+225,https://leetcode.com/problems/implement-stack-using-queues,Implement Stack using Queues,Easy,69.9%,87.5%
+75,https://leetcode.com/problems/sort-colors,Sort Colors,Medium,69.6%,87.5%

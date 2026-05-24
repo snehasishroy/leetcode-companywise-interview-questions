@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-297,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard,60.3%,100.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.2%,87.5%
-11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,59.5%,87.5%
+297,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard,60.8%,87.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.6%,87.5%
+11,https://leetcode.com/problems/container-with-most-water,Container With Most Water,Medium,60.0%,87.5%
+1328,https://leetcode.com/problems/break-a-palindrome,Break a Palindrome,Medium,51.6%,100.0%

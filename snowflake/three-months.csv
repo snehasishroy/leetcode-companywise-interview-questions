@@ -1,18 +1,18 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2050,https://leetcode.com/problems/parallel-courses-iii,Parallel Courses III,Hard,66.8%,75.0%
-1136,https://leetcode.com/problems/parallel-courses,Parallel Courses,Medium,62.0%,75.0%
-438,https://leetcode.com/problems/find-all-anagrams-in-a-string,Find All Anagrams in a String,Medium,53.3%,100.0%
-45,https://leetcode.com/problems/jump-game-ii,Jump Game II,Medium,42.4%,75.0%
-1242,https://leetcode.com/problems/web-crawler-multithreaded,Web Crawler Multithreaded,Medium,51.0%,75.0%
-706,https://leetcode.com/problems/design-hashmap,Design HashMap,Easy,66.4%,75.0%
-841,https://leetcode.com/problems/keys-and-rooms,Keys and Rooms,Medium,75.5%,75.0%
-1235,https://leetcode.com/problems/maximum-profit-in-job-scheduling,Maximum Profit in Job Scheduling,Hard,54.6%,87.5%
-2742,https://leetcode.com/problems/painting-the-walls,Painting the Walls,Hard,48.9%,100.0%
-202,https://leetcode.com/problems/happy-number,Happy Number,Easy,59.2%,87.5%
-1236,https://leetcode.com/problems/web-crawler,Web Crawler,Medium,68.9%,87.5%
-545,https://leetcode.com/problems/boundary-of-binary-tree,Boundary of Binary Tree,Medium,47.9%,87.5%
-1146,https://leetcode.com/problems/snapshot-array,Snapshot Array,Medium,36.7%,75.0%
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.0%,100.0%
-261,https://leetcode.com/problems/graph-valid-tree,Graph Valid Tree,Medium,49.8%,87.5%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,65.8%,75.0%
-243,https://leetcode.com/problems/shortest-word-distance,Shortest Word Distance,Easy,66.2%,75.0%
+2742,https://leetcode.com/problems/painting-the-walls,Painting the Walls,Hard,49.1%,75.0%
+202,https://leetcode.com/problems/happy-number,Happy Number,Easy,59.7%,75.0%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.5%,87.5%
+243,https://leetcode.com/problems/shortest-word-distance,Shortest Word Distance,Easy,66.3%,75.0%
+588,https://leetcode.com/problems/design-in-memory-file-system,Design In-Memory File System,Hard,48.4%,100.0%
+695,https://leetcode.com/problems/max-area-of-island,Max Area of Island,Medium,74.0%,75.0%
+641,https://leetcode.com/problems/design-circular-deque,Design Circular Deque,Medium,64.7%,75.0%
+2050,https://leetcode.com/problems/parallel-courses-iii,Parallel Courses III,Hard,66.8%,100.0%
+1472,https://leetcode.com/problems/design-browser-history,Design Browser History,Medium,78.3%,75.0%
+827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,56.6%,75.0%
+1600,https://leetcode.com/problems/throne-inheritance,Throne Inheritance,Medium,67.4%,87.5%
+1353,https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended,Maximum Number of Events That Can Be Attended,Medium,39.0%,75.0%
+211,https://leetcode.com/problems/design-add-and-search-words-data-structure,Design Add and Search Words Data Structure,Medium,48.5%,75.0%
+2062,https://leetcode.com/problems/count-vowel-substrings-of-a-string,Count Vowel Substrings of a String,Easy,73.2%,87.5%
+2096,https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another,Step-By-Step Directions From a Binary Tree Node to Another,Medium,56.4%,75.0%
+3092,https://leetcode.com/problems/most-frequent-ids,Most Frequent IDs,Medium,42.8%,75.0%
+71,https://leetcode.com/problems/simplify-path,Simplify Path,Medium,50.6%,75.0%
