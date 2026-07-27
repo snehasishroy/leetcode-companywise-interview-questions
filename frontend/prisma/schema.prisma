@@ -1,0 +1,74 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Company {
+  id        Int              @id @default(autoincrement())
+  slug      String           @unique
+  name      String
+  problems  CompanyProblem[]
+  createdAt DateTime         @default(now())
+  updatedAt DateTime         @updatedAt
+}
+
+model Problem {
+  id          Int              @id // LeetCode Problem ID (e.g. 1 for Two Sum)
+  title       String
+  url         String
+  difficulty  String
+  acceptance  Float
+  titleSlug     String           @unique
+  solved        Boolean          @default(false)
+  solvedAt      DateTime?
+  solvedViaDemo Boolean          @default(false)
+  notes         String?
+  bookmarked    Boolean          @default(false)
+  companies     CompanyProblem[]
+  createdAt     DateTime         @default(now())
+  updatedAt     DateTime         @updatedAt
+  activities    ActivityLog[]
+}
+
+model CompanyProblem {
+  companyId           Int
+  problemId           Int
+  frequency           Float
+  inThirtyDays        Boolean @default(false)
+  inThreeMonths       Boolean @default(false)
+  inSixMonths         Boolean @default(false)
+  inMoreThanSixMonths Boolean @default(false)
+  inAll               Boolean @default(false)
+
+  company Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  problem Problem @relation(fields: [problemId], references: [id], onDelete: Cascade)
+
+  @@id([companyId, problemId])
+}
+
+model UserStats {
+  id             Int     @id @default(1)
+  streak         Int     @default(0)
+  lastSolvedDate String? // YYYY-MM-DD
+}
+
+model ActivityLog {
+  id        Int      @id @default(autoincrement())
+  problemId Int
+  action    String   // 'SOLVED' or 'UNSOLVED'
+  timestamp DateTime @default(now())
+  problem   Problem  @relation(fields: [problemId], references: [id], onDelete: Cascade)
+}
+
+model SyncConfig {
+  id                      Int       @id @default(1)
+  leetcodeUser            String    @default("")
+  leetcodeSession         String    @default("")
+  lastSyncedAt            DateTime?
+  lastSubmissionTimestamp Int       @default(0)
+  isDemoMode              Boolean   @default(false)
+}
