@@ -4,7 +4,7 @@ import React from 'react';
 import { usePathname } from 'next/navigation';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 import { useTrackerStore } from '@/store/useTrackerStore';
-import { Search, Flame, Trophy, Moon, Sun, ArrowUpRight, RefreshCw } from 'lucide-react';
+import { Search, Flame, Trophy, ArrowUpRight, RefreshCw } from 'lucide-react';
 import { Stats } from '@/types';
 
 export default function Navbar() {
@@ -85,7 +85,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="glass h-16 border-b border-border flex items-center justify-between px-6 sticky top-0 z-20 w-full text-foreground select-none">
+    <header className="glass-blur h-16 border-b border-border flex items-center justify-between px-6 sticky top-0 z-20 w-full text-foreground select-none">
       {/* Search Input */}
       <div className="flex-1 max-w-md relative">
         <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-muted-foreground">
@@ -159,14 +159,17 @@ export default function Navbar() {
         <div className="h-4 w-[1px] bg-border hidden sm:block" />
 
         {/* Premium aesthetics controls */}
-        <div className="flex items-center gap-1">
-          <button
-            onClick={handleToggleTheme}
-            className="text-muted-foreground hover:text-foreground p-2 rounded-lg hover:bg-muted transition-colors cursor-pointer"
-            title={theme === 'light' ? "Switch to Dark Mode" : "Switch to Light Mode"}
-          >
-            {theme === 'light' ? <Sun className="h-4.5 w-4.5 text-amber-500" /> : <Moon className="h-4.5 w-4.5" />}
-          </button>
+        <div className="flex items-center gap-3">
+          <label className="ui-switch flex-shrink-0" title={theme === 'light' ? "Switch to Dark Mode" : "Switch to Light Mode"}>
+            <input
+              type="checkbox"
+              checked={theme === 'dark'}
+              onChange={handleToggleTheme}
+            />
+            <div className="slider">
+              <div className="circle"></div>
+            </div>
+          </label>
           
           <a
             href="https://leetcode.com"

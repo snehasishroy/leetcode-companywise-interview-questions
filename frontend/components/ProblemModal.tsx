@@ -149,7 +149,7 @@ export default function ProblemModal() {
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.95, y: 15 }}
           transition={{ duration: 0.2 }}
-          className="glass w-full max-w-3xl rounded-2xl border border-border shadow-2xl relative overflow-hidden flex flex-col max-h-[85vh] text-foreground"
+          className="glass-blur w-full max-w-3xl rounded-2xl border border-border shadow-2xl relative overflow-hidden flex flex-col max-h-[85vh] text-foreground"
         >
           {/* Header */}
           <div className="p-6 border-b border-border flex items-start justify-between gap-4 flex-shrink-0">

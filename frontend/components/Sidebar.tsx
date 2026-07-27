@@ -21,7 +21,7 @@ export default function Sidebar() {
     <motion.div
       animate={{ width: sidebarOpen ? 240 : 70 }}
       transition={{ duration: 0.3, ease: [0.4, 0, 0.2, 1] }}
-      className="glass border-r border-border flex flex-col h-screen sticky top-0 text-muted-foreground select-none z-30 relative"
+      className="glass-blur border-r border-border flex flex-col h-screen sticky top-0 text-muted-foreground overflow-hidden select-none z-30 relative"
     >
       {/* Floating Border Toggle Button (Linear/Notion style) */}
       <button

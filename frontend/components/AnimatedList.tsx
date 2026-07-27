@@ -55,18 +55,19 @@ const AnimatedList = <T extends any>({
   initialSelectedIndex = -1
 }: AnimatedListProps<T>) => {
   const listRef = useRef<HTMLDivElement>(null);
-  const [selectedIndex, setSelectedIndex] = useState(initialSelectedIndex);
+  const [activeIndex, setActiveIndex] = useState(initialSelectedIndex);
+  const [hoveredIndex, setHoveredIndex] = useState(-1);
   const [keyboardNav, setKeyboardNav] = useState(false);
   const [topGradientOpacity, setTopGradientOpacity] = useState(0);
   const [bottomGradientOpacity, setBottomGradientOpacity] = useState(1);
 
   const handleItemMouseEnter = useCallback((index: number) => {
-    setSelectedIndex(index);
+    setHoveredIndex(index);
   }, []);
 
   const handleItemClick = useCallback(
     (item: T, index: number) => {
-      setSelectedIndex(index);
+      setActiveIndex(index);
       if (onItemSelect) {
         onItemSelect(item, index);
       }
@@ -88,16 +89,16 @@ const AnimatedList = <T extends any>({
       if (e.key === 'ArrowDown' || (e.key === 'Tab' && !e.shiftKey)) {
         e.preventDefault();
         setKeyboardNav(true);
-        setSelectedIndex(prev => Math.min(prev + 1, items.length - 1));
+        setActiveIndex(prev => Math.min(prev + 1, items.length - 1));
       } else if (e.key === 'ArrowUp' || (e.key === 'Tab' && e.shiftKey)) {
         e.preventDefault();
         setKeyboardNav(true);
-        setSelectedIndex(prev => Math.max(prev - 1, 0));
+        setActiveIndex(prev => Math.max(prev - 1, 0));
       } else if (e.key === 'Enter') {
-        if (selectedIndex >= 0 && selectedIndex < items.length) {
+        if (activeIndex >= 0 && activeIndex < items.length) {
           e.preventDefault();
           if (onItemSelect) {
-            onItemSelect(items[selectedIndex], selectedIndex);
+            onItemSelect(items[activeIndex], activeIndex);
           }
         }
       }
@@ -105,12 +106,12 @@ const AnimatedList = <T extends any>({
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [items, selectedIndex, onItemSelect, enableArrowNavigation]);
+  }, [items, activeIndex, onItemSelect, enableArrowNavigation]);
 
   useEffect(() => {
-    if (!keyboardNav || selectedIndex < 0 || !listRef.current) return;
+    if (!keyboardNav || activeIndex < 0 || !listRef.current) return;
     const container = listRef.current;
-    const selectedItem = container.querySelector(`[data-index="${selectedIndex}"]`) as HTMLDivElement;
+    const selectedItem = container.querySelector(`[data-index="${activeIndex}"]`) as HTMLDivElement;
     if (selectedItem) {
       const extraMargin = 50;
       const containerScrollTop = container.scrollTop;
@@ -127,17 +128,24 @@ const AnimatedList = <T extends any>({
       }
     }
     setKeyboardNav(false);
-  }, [selectedIndex, keyboardNav]);
+  }, [activeIndex, keyboardNav]);
+
+  const highlightIndex = hoveredIndex !== -1 ? hoveredIndex : activeIndex;
 
   return (
     <div className={`scroll-list-container ${className}`}>
-      <div ref={listRef} className={`scroll-list ${!displayScrollbar ? 'no-scrollbar' : ''}`} onScroll={handleScroll}>
+      <div 
+        ref={listRef} 
+        className={`scroll-list ${!displayScrollbar ? 'no-scrollbar' : ''}`} 
+        onScroll={handleScroll}
+        onMouseLeave={() => setHoveredIndex(-1)}
+      >
         {items.map((item, index) => {
-          const isSelected = selectedIndex === index;
+          const isSelected = highlightIndex === index;
           return (
             <AnimatedItem
               key={index}
-              delay={Math.min(index * 0.03, 0.25)} // progressive cascade delay capped for performance
+              delay={Math.min(index * 0.03, 0.25)}
               index={index}
               onMouseEnter={() => handleItemMouseEnter(index)}
               onClick={() => handleItemClick(item, index)}
