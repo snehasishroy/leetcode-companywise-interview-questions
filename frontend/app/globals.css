@@ -2,51 +2,51 @@
 
 @layer base {
   :root {
-    --background: 240 10% 3.9%;
+    --background: 240 10% 8.5%; /* Deep obsidian slate background */
     --foreground: 0 0% 98%;
-    --card: 240 10% 6%;
+    --card: 240 10% 13.5%; /* Elevated card surface */
     --card-foreground: 0 0% 98%;
-    --popover: 240 10% 4.9%;
+    --popover: 240 10% 12%;
     --popover-foreground: 0 0% 98%;
     --primary: 38 92% 50%; /* LeetCode orange: #ffa116 */
     --primary-foreground: 0 0% 0%;
-    --secondary: 240 3.7% 15.9%;
+    --secondary: 240 10% 16%;
     --secondary-foreground: 0 0% 98%;
-    --muted: 240 3.7% 10%;
-    --muted-foreground: 240 5% 64.9%;
-    --accent: 240 3.7% 15.9%;
+    --muted: 240 10% 14%;
+    --muted-foreground: 240 6% 68%;
+    --accent: 240 10% 16%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
+    --border: 240 9% 27%; /* Crisp, highly visible dark border (#3e4153) */
+    --input: 240 9% 25%;
     --ring: 38 92% 50%;
     --radius: 0.75rem;
 
-    --glass-bg: rgba(13, 13, 16, 0.7);
-    --glass-border: rgba(255, 255, 255, 0.05);
-    --input-bg: 240 3.7% 10%;
+    --glass-bg: rgba(28, 30, 42, 0.75);
+    --glass-border: rgba(255, 255, 255, 0.16); /* 16% opacity for sharp, clear glass border */
+    --input-bg: 240 10% 12%;
   }
 
   .light {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+    --background: 240 15% 98.5%;
+    --foreground: 240 10% 10%;
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
+    --card-foreground: 240 10% 10%;
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
+    --popover-foreground: 240 10% 10%;
+    --secondary: 240 5% 93%;
+    --secondary-foreground: 240 10% 10%;
+    --muted: 240 5% 94%;
+    --muted-foreground: 240 4% 45%;
+    --accent: 240 5% 93%;
+    --accent-foreground: 240 10% 10%;
+    --border: 240 6% 82%;
+    --input: 240 6% 82%;
 
-    --glass-bg: rgba(255, 255, 255, 0.75);
-    --glass-border: rgba(0, 0, 0, 0.06);
-    --input-bg: 240 4.8% 95.9%;
+    --glass-bg: rgba(255, 255, 255, 0.85);
+    --glass-border: rgba(0, 0, 0, 0.12);
+    --input-bg: 240 5% 96%;
   }
 }
 
@@ -118,14 +118,20 @@ body {
 }
 
 .glass-hover {
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .glass-hover:hover {
-  background: rgba(255, 255, 255, 0.03);
-  border-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  background: rgba(40, 43, 60, 0.85);
+  border-color: rgba(255, 161, 22, 0.45);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45), 0 0 15px rgba(255, 161, 22, 0.12);
   transform: translateY(-2px);
+}
+
+.light .glass-hover:hover {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(255, 161, 22, 0.6);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08), 0 0 12px rgba(255, 161, 22, 0.15);
 }
 
 /* Skeleton animation */

@@ -4,9 +4,8 @@ import React, { useState, useEffect } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTrackerStore } from '@/store/useTrackerStore';
-import { X, ExternalLink, Bookmark, CheckSquare, Square, Building2, Star, Save, Clipboard } from 'lucide-react';
+import { X, ExternalLink, Building2, Star, Save, Clipboard } from 'lucide-react';
 import { getDifficultyColor, formatPercent } from '@/utils/helpers';
-import confetti from 'canvas-confetti';
 import AnimatedList from '@/components/AnimatedList';
 
 interface ProblemDetail {
@@ -50,35 +49,6 @@ export default function ProblemModal() {
     }
   }, [problem]);
 
-  // Mutation to toggle solved status
-  const toggleSolveMutation = useMutation({
-    mutationFn: async (solved: boolean) => {
-      const res = await fetch(`/api/problems/${selectedProblemId}`, {
-        method: 'PATCH',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ solved }),
-      });
-      if (!res.ok) throw new Error('Failed to update status');
-      return res.json();
-    },
-    onSuccess: (data) => {
-      queryClient.invalidateQueries({ queryKey: ['problem', selectedProblemId] });
-      queryClient.invalidateQueries({ queryKey: ['company'] });
-      queryClient.invalidateQueries({ queryKey: ['companies'] });
-      queryClient.invalidateQueries({ queryKey: ['stats'] });
-      
-      if (data.solved) {
-        addToast(`Marked "${data.title}" as Solved!`, 'success');
-        triggerConfetti();
-      } else {
-        addToast(`Marked "${data.title}" as Unsolved.`, 'info');
-      }
-    },
-    onError: () => {
-      addToast('Failed to update solved status.', 'error');
-    },
-  });
-
   // Mutation to toggle bookmark
   const toggleBookmarkMutation = useMutation({
     mutationFn: async (bookmarked: boolean) => {
@@ -93,6 +63,8 @@ export default function ProblemModal() {
     onSuccess: (data) => {
       queryClient.invalidateQueries({ queryKey: ['problem', selectedProblemId] });
       queryClient.invalidateQueries({ queryKey: ['company'] });
+      queryClient.invalidateQueries({ queryKey: ['companies'] });
+      queryClient.invalidateQueries({ queryKey: ['stats'] });
       addToast(data.bookmarked ? 'Added problem to Bookmarks' : 'Removed from Bookmarks', 'success');
     },
   });
@@ -119,15 +91,6 @@ export default function ProblemModal() {
       setIsSavingNotes(false);
     },
   });
-
-  const triggerConfetti = () => {
-    confetti({
-      particleCount: 80,
-      spread: 60,
-      origin: { y: 0.7 },
-      colors: ['#ffa116', '#ffc107', '#4caf50', '#2196f3'],
-    });
-  };
 
   if (!selectedProblemId) return null;
 
@@ -176,14 +139,17 @@ export default function ProblemModal() {
               {problem && (
                 <button
                   onClick={() => toggleBookmarkMutation.mutate(!problem.bookmarked)}
-                  className={`p-2 rounded-xl border transition-colors cursor-pointer ${
+                  className={`p-2 rounded-xl border transition-all cursor-pointer ${
                     problem.bookmarked
-                      ? 'border-yellow-500/30 text-yellow-500 bg-yellow-500/10'
+                      ? 'border-yellow-500/40 text-yellow-500 bg-yellow-500/10 shadow-sm'
                       : 'border-border text-muted-foreground hover:text-foreground hover:bg-muted'
                   }`}
-                  title="Bookmark problem"
+                  title={problem.bookmarked ? 'Remove bookmark' : 'Star/Bookmark problem'}
                 >
-                  <Star className={`h-5 w-5 ${problem.bookmarked ? 'fill-yellow-500' : ''}`} />
+                  <Star 
+                    fill={problem.bookmarked ? "currentColor" : "none"} 
+                    className={`h-5 w-5 ${problem.bookmarked ? 'text-yellow-500' : ''}`} 
+                  />
                 </button>
               )}
               <button
@@ -222,33 +188,11 @@ export default function ProblemModal() {
               <div className="md:col-span-7 flex flex-col gap-5">
                 {/* Actions Panel */}
                 <div className="bg-muted/40 border border-border p-4 rounded-xl flex items-center justify-between gap-4">
-                  <button
-                    onClick={() => toggleSolveMutation.mutate(!problem.solved)}
-                    disabled={toggleSolveMutation.isPending}
-                    className={`flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl border text-sm font-semibold transition-all cursor-pointer ${
-                      problem.solved
-                        ? 'border-emerald-500/20 bg-emerald-500/10 text-emerald-500 hover:bg-emerald-500/20'
-                        : 'border-border bg-card text-foreground hover:bg-muted'
-                    }`}
-                  >
-                    {problem.solved ? (
-                      <>
-                        <CheckSquare className="h-5 w-5" />
-                        Mark Unsolved
-                      </>
-                    ) : (
-                      <>
-                        <Square className="h-5 w-5" />
-                        Mark Solved
-                      </>
-                    )}
-                  </button>
-
                   <a
                     href={problem.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl border border-primary bg-primary text-black text-sm font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/10 cursor-pointer"
+                    className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl border border-primary bg-primary text-black text-sm font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/10 cursor-pointer"
                   >
                     <span>Solve on LeetCode</span>
                     <ExternalLink className="h-4 w-4" />

@@ -32,6 +32,15 @@ export interface Problem {
   };
 }
 
+export interface BookmarkedProblem {
+  id: number;
+  title: string;
+  difficulty: string;
+  solved: boolean;
+  url: string;
+  updatedAt: string;
+}
+
 export interface Stats {
   overall: {
     totalProblems: number;
@@ -58,6 +67,8 @@ export interface Stats {
     difficulty: string;
     timestamp: string;
   }>;
+  bookmarkedCount?: number;
+  bookmarkedProblems?: BookmarkedProblem[];
   syncConfig: {
     leetcodeUser: string;
     lastSyncedAt: string | null;

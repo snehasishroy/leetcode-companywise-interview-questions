@@ -142,7 +142,7 @@ export default function SettingsPage() {
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 placeholder="e.g. neetcode, lc_master, or 'simulation'"
-                className="bg-input-bg border border-border text-sm text-foreground rounded-xl p-3 outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20 transition-all placeholder:text-zinc-400 dark:placeholder:text-zinc-650"
+                className="bg-input-bg border border-border text-sm text-foreground rounded-xl p-3 outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20 transition-all placeholder:text-muted-foreground"
               />
             </div>
 
@@ -162,7 +162,7 @@ export default function SettingsPage() {
                   value={leetcodeSession}
                   onChange={(e) => setLeetcodeSession(e.target.value)}
                   placeholder={syncConfig?.hasSessionCookie ? "Session cookie saved (securely stored locally)" : "Enter LEETCODE_SESSION cookie value"}
-                  className="bg-input-bg border border-border text-sm text-foreground rounded-xl p-3 outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20 transition-all placeholder:text-zinc-400 dark:placeholder:text-zinc-650"
+                  className="bg-input-bg border border-border text-sm text-foreground rounded-xl p-3 outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20 transition-all placeholder:text-muted-foreground"
                 />
                 <p className="text-[10px] text-muted-foreground leading-relaxed leading-normal">
                   How to get it: Log in to LeetCode &rarr; Open DevTools (F12) &rarr; Application/Storage &rarr; Cookies &rarr; Copy the value of <strong>LEETCODE_SESSION</strong>.
@@ -184,8 +184,8 @@ export default function SettingsPage() {
                 }`}
               >
                 <div
-                  className={`w-4.5 h-4.5 rounded-full bg-black dark:bg-black transition-transform ${
-                    isSimulation ? 'translate-x-5.5' : 'translate-x-0 bg-zinc-400 dark:bg-zinc-500'
+                  className={`w-4.5 h-4.5 rounded-full bg-black transition-transform ${
+                    isSimulation ? 'translate-x-5.5' : 'translate-x-0 bg-muted-foreground'
                   }`}
                 />
               </button>

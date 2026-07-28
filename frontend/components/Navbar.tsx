@@ -11,8 +11,22 @@ export default function Navbar() {
   const pathname = usePathname();
   const queryClient = useQueryClient();
   const { globalSearch, setGlobalSearch, addToast } = useTrackerStore();
+  const [searchInput, setSearchInput] = React.useState(globalSearch);
   const [isSyncing, setIsSyncing] = React.useState(false);
   const [theme, setTheme] = React.useState<'dark' | 'light'>('dark');
+
+  // Keep local search input in sync if global search is cleared
+  React.useEffect(() => {
+    setSearchInput(globalSearch);
+  }, [globalSearch]);
+
+  // Debounce updating global search in Zustand store by 250ms
+  React.useEffect(() => {
+    const timer = setTimeout(() => {
+      setGlobalSearch(searchInput);
+    }, 250);
+    return () => clearTimeout(timer);
+  }, [searchInput, setGlobalSearch]);
 
   // Load and apply theme on start
   React.useEffect(() => {
@@ -36,7 +50,7 @@ export default function Navbar() {
       if (!res.ok) throw new Error('Failed to fetch stats');
       return res.json();
     },
-    refetchInterval: 20000,
+    refetchInterval: 60000,
   });
 
   const leetcodeUser = stats?.syncConfig?.leetcodeUser;
@@ -93,14 +107,17 @@ export default function Navbar() {
         </div>
         <input
           type="text"
-          value={globalSearch}
-          onChange={(e) => setGlobalSearch(e.target.value)}
+          value={searchInput}
+          onChange={(e) => setSearchInput(e.target.value)}
           placeholder={getPlaceholderText()}
           className="w-full bg-input-bg border border-border text-sm text-foreground rounded-xl py-2 pl-9 pr-4 outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20 transition-all placeholder:text-zinc-500"
         />
-        {globalSearch && (
+        {searchInput && (
           <button
-            onClick={() => setGlobalSearch('')}
+            onClick={() => {
+              setSearchInput('');
+              setGlobalSearch('');
+            }}
             className="absolute inset-y-0 right-3 flex items-center text-xs text-muted-foreground hover:text-foreground transition-colors"
           >
             Clear

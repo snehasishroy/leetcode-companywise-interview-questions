@@ -14,6 +14,8 @@ model Company {
   problems  CompanyProblem[]
   createdAt DateTime         @default(now())
   updatedAt DateTime         @updatedAt
+
+  @@index([name])
 }
 
 model Problem {
@@ -32,6 +34,10 @@ model Problem {
   createdAt     DateTime         @default(now())
   updatedAt     DateTime         @updatedAt
   activities    ActivityLog[]
+
+  @@index([solved])
+  @@index([difficulty])
+  @@index([bookmarked])
 }
 
 model CompanyProblem {
@@ -48,6 +54,9 @@ model CompanyProblem {
   problem Problem @relation(fields: [problemId], references: [id], onDelete: Cascade)
 
   @@id([companyId, problemId])
+  @@index([companyId])
+  @@index([problemId])
+  @@index([frequency])
 }
 
 model UserStats {
@@ -62,6 +71,9 @@ model ActivityLog {
   action    String   // 'SOLVED' or 'UNSOLVED'
   timestamp DateTime @default(now())
   problem   Problem  @relation(fields: [problemId], references: [id], onDelete: Cascade)
+
+  @@index([problemId])
+  @@index([timestamp])
 }
 
 model SyncConfig {

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { useTrackerStore } from '@/store/useTrackerStore';
-import { LayoutDashboard, BarChart3, Settings, Code2, ChevronLeft, ChevronRight } from 'lucide-react';
+import { LayoutDashboard, BarChart3, Settings, ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function Sidebar() {
   const pathname = usePathname();
@@ -21,7 +21,7 @@ export default function Sidebar() {
     <motion.div
       animate={{ width: sidebarOpen ? 240 : 70 }}
       transition={{ duration: 0.3, ease: [0.4, 0, 0.2, 1] }}
-      className="glass-blur border-r border-border flex flex-col h-screen sticky top-0 text-muted-foreground overflow-hidden select-none z-30 relative"
+      className="glass-blur border-r border-border flex flex-col h-screen sticky top-0 text-muted-foreground select-none z-30 relative"
     >
       {/* Floating Border Toggle Button (Linear/Notion style) */}
       <button
@@ -35,8 +35,8 @@ export default function Sidebar() {
       {/* Brand header */}
       <div className="h-16 flex items-center px-4 border-b border-border flex-shrink-0 overflow-hidden">
         <Link href="/" className="flex items-center gap-3 w-full justify-center sidebarOpen:justify-start">
-          <div className="bg-primary p-2 rounded-lg flex items-center justify-center text-black flex-shrink-0">
-            <Code2 className="h-5 w-5" />
+          <div className="flex items-center justify-center flex-shrink-0">
+            <img src="/logo.png" alt="LC Tracker Logo" className="h-9 w-9 rounded-xl object-contain shadow-sm" />
           </div>
           {sidebarOpen && (
             <motion.span

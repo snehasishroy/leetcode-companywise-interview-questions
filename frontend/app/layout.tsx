@@ -6,7 +6,7 @@ import Sidebar from '@/components/Sidebar';
 import Navbar from '@/components/Navbar';
 import ToastContainer from '@/components/ToastContainer';
 import ProblemModal from '@/components/ProblemModal';
-// import { Agentation } from "agentation";
+import { Agentation } from "agentation";
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -21,6 +21,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'LC Company Tracker',
   description: 'Track and solve LeetCode company-wise interview questions efficiently.',
+  icons: {
+    icon: [
+      { url: '/logo.png', type: 'image/png' },
+      { url: '/favicon.ico', type: 'image/x-icon' },
+    ],
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 };
 
 export const viewport = {
@@ -55,7 +63,7 @@ export default function RootLayout({
           <ProblemModal />
           <ToastContainer />
         </Providers>
-          {/* {process.env.NODE_ENV === "development" && <Agentation />} */}
+          {process.env.NODE_ENV === "development" && <Agentation />}
       </body>
     </html>
   );

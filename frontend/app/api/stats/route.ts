@@ -3,100 +3,101 @@ import { prisma } from '@/lib/prisma';
 
 export async function GET() {
   try {
-    // 1. Solve counts for unique problems
-    const totalProblems = await prisma.problem.count();
-    const solvedProblems = await prisma.problem.count({ where: { solved: true } });
+    const todayStr = new Date().toLocaleDateString('sv-SE'); // YYYY-MM-DD
+    const startOfToday = new Date(todayStr + 'T00:00:00');
+
+    // Run all independent queries in parallel
+    const [
+      totalProblems,
+      solvedProblems,
+      easySolved,
+      easyTotal,
+      mediumSolved,
+      mediumTotal,
+      hardSolved,
+      hardTotal,
+      todaySolvedCount,
+      recentActivityProblems,
+      userStats,
+      bookmarkedProblemsList,
+      syncConfig,
+      companyStatsRaw,
+    ] = await Promise.all([
+      prisma.problem.count(),
+      prisma.problem.count({ where: { solved: true } }),
+      prisma.problem.count({ where: { difficulty: 'Easy', solved: true } }),
+      prisma.problem.count({ where: { difficulty: 'Easy' } }),
+      prisma.problem.count({ where: { difficulty: 'Medium', solved: true } }),
+      prisma.problem.count({ where: { difficulty: 'Medium' } }),
+      prisma.problem.count({ where: { difficulty: 'Hard', solved: true } }),
+      prisma.problem.count({ where: { difficulty: 'Hard' } }),
+      prisma.problem.count({
+        where: {
+          solved: true,
+          solvedAt: { gte: startOfToday },
+        },
+      }),
+      prisma.problem.findMany({
+        where: { solved: true, solvedAt: { not: null } },
+        orderBy: { solvedAt: 'desc' },
+        take: 10,
+        select: { id: true, title: true, difficulty: true, solvedAt: true },
+      }),
+      prisma.userStats.findUnique({ where: { id: 1 } }),
+      prisma.problem.findMany({
+        where: { bookmarked: true },
+        orderBy: { updatedAt: 'desc' },
+        select: {
+          id: true,
+          title: true,
+          difficulty: true,
+          solved: true,
+          url: true,
+          updatedAt: true,
+        },
+      }),
+      prisma.syncConfig.findUnique({ where: { id: 1 } }),
+      prisma.$queryRaw<Array<{ totalCompanies: bigint; completedCompanies: bigint; startedCompanies: bigint }>>`
+        SELECT 
+          (SELECT COUNT(*) FROM Company) as totalCompanies,
+          COUNT(CASE WHEN total_cnt > 0 AND solved_cnt = total_cnt THEN 1 END) as completedCompanies,
+          COUNT(CASE WHEN solved_cnt > 0 AND solved_cnt < total_cnt THEN 1 END) as startedCompanies
+        FROM (
+          SELECT cp.companyId,
+                 COUNT(cp.problemId) as total_cnt,
+                 SUM(CASE WHEN p.solved = 1 THEN 1 ELSE 0 END) as solved_cnt
+          FROM CompanyProblem cp
+          JOIN Problem p ON cp.problemId = p.id
+          GROUP BY cp.companyId
+        )
+      `,
+    ]);
+
     const remainingProblems = totalProblems - solvedProblems;
     const completionPercentage = totalProblems > 0 ? (solvedProblems / totalProblems) * 100 : 0;
 
-    // 2. Breakdown by difficulty levels
-    const easySolved = await prisma.problem.count({ where: { difficulty: 'Easy', solved: true } });
-    const easyTotal = await prisma.problem.count({ where: { difficulty: 'Easy' } });
+    const totalCompanies = Number(companyStatsRaw[0]?.totalCompanies || 0);
+    const completedCompanies = Number(companyStatsRaw[0]?.completedCompanies || 0);
+    const startedCompanies = Number(companyStatsRaw[0]?.startedCompanies || 0);
 
-    const mediumSolved = await prisma.problem.count({ where: { difficulty: 'Medium', solved: true } });
-    const mediumTotal = await prisma.problem.count({ where: { difficulty: 'Medium' } });
-
-    const hardSolved = await prisma.problem.count({ where: { difficulty: 'Hard', solved: true } });
-    const hardTotal = await prisma.problem.count({ where: { difficulty: 'Hard' } });
-
-    // 3. Compute company completion stats
-    const companies = await prisma.company.findMany({
-      select: {
-        id: true,
-        problems: {
-          select: {
-            problem: {
-              select: {
-                solved: true,
-              },
-            },
-          },
-        },
-      },
-    });
-
-    let completedCompanies = 0;
-    let startedCompanies = 0;
-    const totalCompanies = companies.length;
-
-    for (const c of companies) {
-      const total = c.problems.length;
-      if (total === 0) continue;
-      const solved = c.problems.filter(p => p.problem.solved).length;
-      if (solved === total) {
-        completedCompanies++;
-      } else if (solved > 0) {
-        startedCompanies++;
-      }
-    }
-
-    // 4. Today's solved count (local day)
-    const todayStr = new Date().toLocaleDateString('sv-SE'); // YYYY-MM-DD
-    const startOfToday = new Date(todayStr + 'T00:00:00');
-    
-    const todaySolvedCount = await prisma.activityLog.count({
-      where: {
-        action: 'SOLVED',
-        timestamp: {
-          gte: startOfToday,
-        },
-      },
-    });
-
-    // 5. Recent activity
-    const recentActivityLogs = await prisma.activityLog.findMany({
-      where: {
-        action: 'SOLVED',
-      },
-      orderBy: {
-        timestamp: 'desc',
-      },
-      take: 10,
-      include: {
-        problem: {
-          select: {
-            id: true,
-            title: true,
-            difficulty: true,
-          },
-        },
-      },
-    });
-
-    const recentActivity = recentActivityLogs.map(log => ({
-      id: log.id,
-      problemId: log.problemId,
-      problemTitle: log.problem.title,
-      difficulty: log.problem.difficulty,
-      timestamp: log.timestamp,
+    const recentActivity = recentActivityProblems.map((p) => ({
+      id: p.id,
+      problemId: p.id,
+      problemTitle: p.title,
+      difficulty: p.difficulty,
+      timestamp: p.solvedAt,
     }));
 
-    // 6. Streak stats
-    const stats = await prisma.userStats.findUnique({ where: { id: 1 } });
-    const streak = stats?.streak || 0;
+    const streak = userStats?.streak || 0;
 
-    // 7. Sync Config
-    const syncConfig = await prisma.syncConfig.findUnique({ where: { id: 1 } });
+    const bookmarkedProblems = bookmarkedProblemsList.map((p) => ({
+      id: p.id,
+      title: p.title,
+      difficulty: p.difficulty,
+      solved: p.solved,
+      url: p.url,
+      updatedAt: p.updatedAt.toISOString(),
+    }));
 
     return NextResponse.json({
       overall: {
@@ -118,6 +119,8 @@ export async function GET() {
       todaySolvedCount,
       streak,
       recentActivity,
+      bookmarkedCount: bookmarkedProblems.length,
+      bookmarkedProblems,
       syncConfig: {
         leetcodeUser: syncConfig?.leetcodeUser || '',
         lastSyncedAt: syncConfig?.lastSyncedAt || null,

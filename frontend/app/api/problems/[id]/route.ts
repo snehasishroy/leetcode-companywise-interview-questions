@@ -87,12 +87,10 @@ export async function PATCH(
     let newSolvedState = false;
 
     if (solved !== undefined) {
-      dataToUpdate.solved = solved;
-      dataToUpdate.solvedAt = solved ? new Date() : null;
-      if (existingProblem.solved !== solved) {
-        solvedStateChanged = true;
-        newSolvedState = solved;
-      }
+      return NextResponse.json(
+        { error: 'Manual marking is disabled. Solved status is updated automatically via LeetCode sync.' },
+        { status: 400 }
+      );
     }
 
     if (bookmarked !== undefined) {

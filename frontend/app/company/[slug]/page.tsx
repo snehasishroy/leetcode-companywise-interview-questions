@@ -6,7 +6,7 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { useTrackerStore } from '@/store/useTrackerStore';
 import { CompanyDetail, Problem } from '@/types';
 import { getDifficultyColor, formatPercent } from '@/utils/helpers';
-import { ArrowLeft, Play, ExternalLink, Bookmark, CheckSquare, Square, Star, HelpCircle, Calendar } from 'lucide-react';
+import { ArrowLeft, Play, ExternalLink, Bookmark, CheckCircle, Star, HelpCircle, Calendar } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 type RecencyFilter = 'all' | 'thirtyDays' | 'threeMonths' | 'sixMonths' | 'moreThanSixMonths';
@@ -21,7 +21,7 @@ export default function CompanyPage() {
   
   // Local page filters
   const [difficultyFilter, setDifficultyFilter] = useState<'all' | 'Easy' | 'Medium' | 'Hard'>('all');
-  const [statusFilter, setStatusFilter] = useState<'all' | 'solved' | 'unsolved'>('all');
+  const [statusFilter, setStatusFilter] = useState<'all' | 'solved' | 'unsolved' | 'starred'>('all');
   const [recencyFilter, setRecencyFilter] = useState<RecencyFilter>('all');
 
   // Fetch company details
@@ -31,31 +31,6 @@ export default function CompanyPage() {
       const res = await fetch(`/api/companies/${slug}`);
       if (!res.ok) throw new Error('Company not found');
       return res.json();
-    },
-  });
-
-  // Mutation to toggle solved status directly in the list
-  const toggleSolveMutation = useMutation({
-    mutationFn: async ({ id, solved }: { id: number; solved: boolean }) => {
-      const res = await fetch(`/api/problems/${id}`, {
-        method: 'PATCH',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ solved }),
-      });
-      if (!res.ok) throw new Error('Failed to update status');
-      return res.json();
-    },
-    onSuccess: (data) => {
-      queryClient.invalidateQueries({ queryKey: ['company', slug] });
-      queryClient.invalidateQueries({ queryKey: ['companies'] });
-      queryClient.invalidateQueries({ queryKey: ['stats'] });
-      addToast(
-        data.solved ? `Marked "${data.title}" as Solved!` : `Marked "${data.title}" as Unsolved.`,
-        data.solved ? 'success' : 'info'
-      );
-    },
-    onError: () => {
-      addToast('Failed to update status.', 'error');
     },
   });
 
@@ -77,11 +52,12 @@ export default function CompanyPage() {
       // 2. Difficulty Filter
       const matchesDifficulty = difficultyFilter === 'all' || prob.difficulty === difficultyFilter;
 
-      // 3. Solved Status Filter
+      // 3. Solved / Starred Status Filter
       const matchesStatus = 
         statusFilter === 'all' ||
         (statusFilter === 'solved' && prob.solved) ||
-        (statusFilter === 'unsolved' && !prob.solved);
+        (statusFilter === 'unsolved' && !prob.solved) ||
+        (statusFilter === 'starred' && prob.bookmarked);
 
       // 4. Recency CSV Category Filter
       let matchesRecency = true;
@@ -160,9 +136,9 @@ export default function CompanyPage() {
           <p className="text-sm text-muted-foreground mt-1.5 flex items-center gap-2 flex-wrap">
             <span>Progress:</span>
             <strong className="text-foreground">{stats.solvedProblems}</strong> solved
-            <span className="text-zinc-300 dark:text-zinc-800">/</span>
+            <span className="text-muted-foreground/60">/</span>
             <span>{stats.totalProblems} questions</span>
-            <span className="text-zinc-300 dark:text-zinc-800">•</span>
+            <span className="text-muted-foreground/60">•</span>
             <span className="text-primary font-bold">{formatPercent(stats.completionPercentage)}</span> Complete
           </p>
         </div>
@@ -179,7 +155,7 @@ export default function CompanyPage() {
 
       {/* Embedded Sticky Progress Bar */}
       <div className="w-full bg-muted/60 border border-border p-4 rounded-2xl flex items-center gap-4 flex-wrap sm:flex-nowrap">
-        <div className="flex-grow w-full bg-zinc-150 dark:bg-zinc-950 h-3 rounded-full overflow-hidden border border-border/50">
+        <div className="flex-grow w-full bg-muted/80 h-3 rounded-full overflow-hidden border border-border/50">
           <div
             className="bg-gradient-to-r from-primary to-amber-400 h-full rounded-full transition-all duration-700"
             style={{ width: `${stats.completionPercentage}%` }}
@@ -231,6 +207,7 @@ export default function CompanyPage() {
                 { id: 'all', label: 'All' },
                 { id: 'solved', label: 'Solved' },
                 { id: 'unsolved', label: 'Unsolved' },
+                { id: 'starred', label: '⭐ Starred' },
               ] as const
             ).map((f) => {
               const active = statusFilter === f.id;
@@ -285,7 +262,7 @@ export default function CompanyPage() {
           <table className="w-full text-left border-collapse">
             <thead>
               <tr className="border-b border-border bg-muted/30 text-xs font-bold text-muted-foreground uppercase tracking-wider select-none">
-                <th className="py-4 px-6 w-12 text-center">Solved</th>
+                <th className="py-4 px-6 w-16 text-center">Status</th>
                 <th className="py-4 px-6 w-20">ID</th>
                 <th className="py-4 px-6">Problem Title</th>
                 <th className="py-4 px-6 w-32">Difficulty</th>
@@ -302,19 +279,15 @@ export default function CompanyPage() {
                       prob.solved ? 'opacity-80 bg-zinc-50/10 dark:bg-zinc-950/10' : ''
                     }`}
                   >
-                    {/* Checkbox Solve column */}
+                    {/* Status column */}
                     <td className="py-3.5 px-6 text-center">
-                      <button
-                        onClick={() => toggleSolveMutation.mutate({ id: prob.id, solved: !prob.solved })}
-                        disabled={toggleSolveMutation.isPending}
-                        className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none cursor-pointer flex justify-center w-full"
-                      >
-                        {prob.solved ? (
-                          <CheckSquare className="h-5 w-5 text-emerald-500 fill-emerald-500/10" />
-                        ) : (
-                          <Square className="h-5 w-5 text-muted-foreground hover:text-foreground" />
-                        )}
-                      </button>
+                      {prob.solved ? (
+                        <span title="Solved via LeetCode Sync">
+                          <CheckCircle className="h-4.5 w-4.5 text-emerald-500 inline-block" />
+                        </span>
+                      ) : (
+                        <span className="text-muted-foreground/30 text-xs font-mono font-bold select-none" title="Unsolved">—</span>
+                      )}
                     </td>
 
                     {/* ID column */}
@@ -332,7 +305,7 @@ export default function CompanyPage() {
                           {prob.title}
                         </button>
                         {prob.bookmarked && (
-                          <Star className="h-3.5 w-3.5 text-yellow-500 fill-yellow-500" />
+                          <Star fill="currentColor" className="h-3.5 w-3.5 text-yellow-500" />
                         )}
                         {prob.notes && (
                           <span className="text-[10px] bg-muted text-muted-foreground px-1.5 py-0.5 rounded border border-border" title="Has Notes">
