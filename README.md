@@ -12,7 +12,7 @@ This repository contains Company Wise Questions of LeetCode, categorized based o
 
 Attributes like Difficulty, Acceptance %, Frequency % are also added to enable filtering.
 
-> This repository contains the snapshot as of **24th May 2026**.
+> This repository contains the snapshot as of **12th July 2026**.
 >
 > If you need to sort/filter the questions based on frequency/difficulty, please clone the repo and perform operations
 > in any CSV Editor (Excel / Google Sheets / OpenOffice Calc)
