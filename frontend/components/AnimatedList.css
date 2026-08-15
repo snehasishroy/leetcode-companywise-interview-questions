@@ -1,0 +1,83 @@
+.scroll-list-container {
+  position: relative;
+  width: 100%;
+}
+
+.scroll-list {
+  max-height: 380px;
+  overflow-y: auto;
+  padding: 12px 6px;
+  border-radius: 12px;
+}
+
+.scroll-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scroll-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-list::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 999px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.item {
+  padding: 14px 16px;
+  background-color: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+}
+
+.item:hover {
+  border-color: hsl(var(--border));
+}
+
+.item.selected {
+  background-color: var(--glass-bg);
+  border-color: hsl(var(--primary) / 0.5);
+  box-shadow: 0 4px 12px hsl(var(--primary) / 0.05);
+}
+
+.item-text {
+  color: hsl(var(--foreground));
+  margin: 0;
+  font-size: 0.825rem;
+  font-weight: 600;
+}
+
+.top-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(to bottom, hsl(var(--background)), transparent);
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+
+.bottom-gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(to top, hsl(var(--background)), transparent);
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
