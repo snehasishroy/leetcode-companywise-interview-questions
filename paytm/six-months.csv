@@ -1,4 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-155,https://leetcode.com/problems/min-stack,Min Stack,Medium,58.2%,100.0%
-264,https://leetcode.com/problems/ugly-number-ii,Ugly Number II,Medium,49.6%,100.0%
-128,https://leetcode.com/problems/longest-consecutive-sequence,Longest Consecutive Sequence,Medium,47.1%,100.0%
+155,https://leetcode.com/problems/min-stack,Min Stack,Medium,58.4%,100.0%
+128,https://leetcode.com/problems/longest-consecutive-sequence,Longest Consecutive Sequence,Medium,47.2%,100.0%

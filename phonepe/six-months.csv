@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,56.8%,87.5%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,87.5%
-1423,https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards,Maximum Points You Can Obtain from Cards,Medium,57.7%,100.0%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,57.2%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.6%,87.5%
+1423,https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards,Maximum Points You Can Obtain from Cards,Medium,58.0%,100.0%
+332,https://leetcode.com/problems/reconstruct-itinerary,Reconstruct Itinerary,Hard,44.7%,87.5%

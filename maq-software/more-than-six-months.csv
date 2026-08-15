@@ -1,8 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-467,https://leetcode.com/problems/unique-substrings-in-wraparound-string,Unique Substrings in Wraparound String,Medium,43.1%,87.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.8%,100.0%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,39.1%,100.0%
-84,https://leetcode.com/problems/largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard,49.9%,87.5%
-516,https://leetcode.com/problems/longest-palindromic-subsequence,Longest Palindromic Subsequence,Medium,65.4%,87.5%
-32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,38.8%,87.5%
-196,https://leetcode.com/problems/delete-duplicate-emails,Delete Duplicate Emails,Easy,66.0%,87.5%
+467,https://leetcode.com/problems/unique-substrings-in-wraparound-string,Unique Substrings in Wraparound String,Medium,43.4%,87.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,38.2%,100.0%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,39.4%,100.0%
+516,https://leetcode.com/problems/longest-palindromic-subsequence,Longest Palindromic Subsequence,Medium,65.7%,87.5%
+32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,39.1%,87.5%
+196,https://leetcode.com/problems/delete-duplicate-emails,Delete Duplicate Emails,Easy,66.3%,87.5%

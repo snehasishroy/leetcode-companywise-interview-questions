@@ -1,7 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-7,https://leetcode.com/problems/reverse-integer,Reverse Integer,Medium,31.9%,87.5%
-1755,https://leetcode.com/problems/closest-subsequence-sum,Closest Subsequence Sum,Hard,43.7%,87.5%
-2747,https://leetcode.com/problems/count-zero-request-servers,Count Zero Request Servers,Medium,35.9%,87.5%
-2271,https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet,Maximum White Tiles Covered by a Carpet,Medium,35.9%,100.0%
-509,https://leetcode.com/problems/fibonacci-number,Fibonacci Number,Easy,74.1%,87.5%
-283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,63.8%,87.5%
+7,https://leetcode.com/problems/reverse-integer,Reverse Integer,Medium,32.1%,87.5%
+1755,https://leetcode.com/problems/closest-subsequence-sum,Closest Subsequence Sum,Hard,44.0%,87.5%
+2747,https://leetcode.com/problems/count-zero-request-servers,Count Zero Request Servers,Medium,36.2%,87.5%
+2271,https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet,Maximum White Tiles Covered by a Carpet,Medium,36.1%,100.0%
+509,https://leetcode.com/problems/fibonacci-number,Fibonacci Number,Easy,74.3%,87.5%
+283,https://leetcode.com/problems/move-zeroes,Move Zeroes,Easy,64.1%,87.5%

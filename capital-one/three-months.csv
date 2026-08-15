@@ -1,11 +1,9 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,69.7%,87.5%
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,51.2%,100.0%
-2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,50.1%,87.5%
-1743,https://leetcode.com/problems/restore-the-array-from-adjacent-pairs,Restore the Array From Adjacent Pairs,Medium,75.0%,100.0%
-3072,https://leetcode.com/problems/distribute-elements-into-two-arrays-ii,Distribute Elements Into Two Arrays II,Hard,30.7%,87.5%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,56.8%,87.5%
-723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.4%,87.5%
-2672,https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color,Number of Adjacent Elements With the Same Color,Medium,59.6%,87.5%
-3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,62.2%,100.0%
-257,https://leetcode.com/problems/binary-tree-paths,Binary Tree Paths,Easy,68.7%,87.5%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,51.5%,87.5%
+2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,50.4%,100.0%
+2672,https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color,Number of Adjacent Elements With the Same Color,Medium,59.9%,87.5%
+3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,62.3%,100.0%
+257,https://leetcode.com/problems/binary-tree-paths,Binary Tree Paths,Easy,69.0%,87.5%
+2232,https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression,Minimize Result by Adding Parentheses to Expression,Medium,68.4%,87.5%
+3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,41.4%,87.5%

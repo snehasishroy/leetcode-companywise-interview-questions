@@ -1,34 +1,31 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.5%,100.0%
-4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,46.6%,75.0%
-9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,60.6%,75.0%
-13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,66.6%,75.0%
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.6%,87.5%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,44.2%,75.0%
-33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,44.9%,75.0%
-39,https://leetcode.com/problems/combination-sum,Combination Sum,Medium,76.5%,87.5%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,56.8%,75.0%
-98,https://leetcode.com/problems/validate-binary-search-tree,Validate Binary Search Tree,Medium,35.8%,75.0%
-104,https://leetcode.com/problems/maximum-depth-of-binary-tree,Maximum Depth of Binary Tree,Easy,78.2%,87.5%
-139,https://leetcode.com/problems/word-break,Word Break,Medium,49.5%,75.0%
-141,https://leetcode.com/problems/linked-list-cycle,Linked List Cycle,Easy,54.3%,75.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,100.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.4%,75.0%
-206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,80.6%,87.5%
-217,https://leetcode.com/problems/contains-duplicate,Contains Duplicate,Easy,64.4%,87.5%
-297,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard,60.8%,87.5%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,66.4%,100.0%
-394,https://leetcode.com/problems/decode-string,Decode String,Medium,62.6%,75.0%
-424,https://leetcode.com/problems/longest-repeating-character-replacement,Longest Repeating Character Replacement,Medium,59.7%,75.0%
-560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,47.3%,75.0%
-1091,https://leetcode.com/problems/shortest-path-in-binary-matrix,Shortest Path in Binary Matrix,Medium,51.5%,75.0%
-1030,https://leetcode.com/problems/matrix-cells-in-distance-order,Matrix Cells in Distance Order,Easy,74.2%,75.0%
-491,https://leetcode.com/problems/non-decreasing-subsequences,Non-decreasing Subsequences,Medium,62.7%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.8%,87.5%
+4,https://leetcode.com/problems/median-of-two-sorted-arrays,Median of Two Sorted Arrays,Hard,47.0%,75.0%
+9,https://leetcode.com/problems/palindrome-number,Palindrome Number,Easy,60.7%,75.0%
+13,https://leetcode.com/problems/roman-to-integer,Roman to Integer,Easy,66.8%,75.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.9%,75.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,44.5%,75.0%
+33,https://leetcode.com/problems/search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium,45.2%,75.0%
+39,https://leetcode.com/problems/combination-sum,Combination Sum,Medium,76.8%,87.5%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,57.2%,75.0%
+98,https://leetcode.com/problems/validate-binary-search-tree,Validate Binary Search Tree,Medium,36.0%,75.0%
+104,https://leetcode.com/problems/maximum-depth-of-binary-tree,Maximum Depth of Binary Tree,Easy,78.4%,87.5%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,49.6%,75.0%
+141,https://leetcode.com/problems/linked-list-cycle,Linked List Cycle,Easy,54.7%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.6%,100.0%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,80.8%,87.5%
+217,https://leetcode.com/problems/contains-duplicate,Contains Duplicate,Easy,64.5%,87.5%
+297,https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard,61.1%,87.5%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,66.8%,100.0%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,47.7%,75.0%
+1091,https://leetcode.com/problems/shortest-path-in-binary-matrix,Shortest Path in Binary Matrix,Medium,51.8%,75.0%
+1030,https://leetcode.com/problems/matrix-cells-in-distance-order,Matrix Cells in Distance Order,Easy,74.4%,75.0%
+491,https://leetcode.com/problems/non-decreasing-subsequences,Non-decreasing Subsequences,Medium,62.9%,75.0%
 624,https://leetcode.com/problems/maximum-distance-in-arrays,Maximum Distance in Arrays,Medium,45.6%,75.0%
 693,https://leetcode.com/problems/binary-number-with-alternating-bits,Binary Number with Alternating Bits,Easy,69.9%,75.0%
-284,https://leetcode.com/problems/peeking-iterator,Peeking Iterator,Medium,61.5%,75.0%
-479,https://leetcode.com/problems/largest-palindrome-product,Largest Palindrome Product,Hard,38.9%,87.5%
-93,https://leetcode.com/problems/restore-ip-addresses,Restore IP Addresses,Medium,56.0%,75.0%
-399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,64.2%,75.0%
-341,https://leetcode.com/problems/flatten-nested-list-iterator,Flatten Nested List Iterator,Medium,65.7%,75.0%
-162,https://leetcode.com/problems/find-peak-element,Find Peak Element,Medium,47.0%,75.0%
+284,https://leetcode.com/problems/peeking-iterator,Peeking Iterator,Medium,61.7%,75.0%
+479,https://leetcode.com/problems/largest-palindrome-product,Largest Palindrome Product,Hard,39.3%,87.5%
+93,https://leetcode.com/problems/restore-ip-addresses,Restore IP Addresses,Medium,56.4%,75.0%
+399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,64.4%,75.0%
+341,https://leetcode.com/problems/flatten-nested-list-iterator,Flatten Nested List Iterator,Medium,65.8%,75.0%
+162,https://leetcode.com/problems/find-peak-element,Find Peak Element,Medium,47.1%,75.0%

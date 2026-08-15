@@ -1,10 +1,10 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.8%,100.0%
-383,https://leetcode.com/problems/ransom-note,Ransom Note,Easy,66.0%,75.0%
-70,https://leetcode.com/problems/climbing-stairs,Climbing Stairs,Easy,54.1%,75.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,100.0%
-22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,78.7%,75.0%
-1209,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii,Remove All Adjacent Duplicates in String II,Medium,61.3%,75.0%
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.6%,87.5%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.6%,87.5%
-347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,66.4%,100.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,52.3%,75.0%
+383,https://leetcode.com/problems/ransom-note,Ransom Note,Easy,66.2%,75.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.6%,100.0%
+22,https://leetcode.com/problems/generate-parentheses,Generate Parentheses,Medium,78.9%,75.0%
+1209,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii,Remove All Adjacent Duplicates in String II,Medium,61.6%,87.5%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.9%,87.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.9%,87.5%
+347,https://leetcode.com/problems/top-k-frequent-elements,Top K Frequent Elements,Medium,66.8%,87.5%
+253,https://leetcode.com/problems/meeting-rooms-ii,Meeting Rooms II,Medium,52.7%,75.0%

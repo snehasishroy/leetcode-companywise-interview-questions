@@ -1,6 +1,9 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-871,https://leetcode.com/problems/minimum-number-of-refueling-stops,Minimum Number of Refueling Stops,Hard,41.4%,87.5%
-1944,https://leetcode.com/problems/number-of-visible-people-in-a-queue,Number of Visible People in a Queue,Hard,73.1%,87.5%
-359,https://leetcode.com/problems/logger-rate-limiter,Logger Rate Limiter,Easy,76.8%,87.5%
-528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,49.1%,100.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.4%,87.5%
+871,https://leetcode.com/problems/minimum-number-of-refueling-stops,Minimum Number of Refueling Stops,Hard,41.6%,87.5%
+1944,https://leetcode.com/problems/number-of-visible-people-in-a-queue,Number of Visible People in a Queue,Hard,73.3%,100.0%
+359,https://leetcode.com/problems/logger-rate-limiter,Logger Rate Limiter,Easy,76.9%,87.5%
+528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,49.2%,100.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.7%,100.0%
+164,https://leetcode.com/problems/maximum-gap,Maximum Gap,Medium,52.5%,75.0%
+10,https://leetcode.com/problems/regular-expression-matching,Regular Expression Matching,Hard,31.2%,75.0%
+1631,https://leetcode.com/problems/path-with-minimum-effort,Path With Minimum Effort,Medium,63.6%,75.0%

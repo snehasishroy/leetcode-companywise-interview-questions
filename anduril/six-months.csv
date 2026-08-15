@@ -1,13 +1,21 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.4%,87.5%
-243,https://leetcode.com/problems/shortest-word-distance,Shortest Word Distance,Easy,66.3%,75.0%
-475,https://leetcode.com/problems/heaters,Heaters,Medium,41.9%,87.5%
-838,https://leetcode.com/problems/push-dominoes,Push Dominoes,Medium,63.0%,75.0%
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.5%,100.0%
-739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,68.7%,87.5%
-314,https://leetcode.com/problems/binary-tree-vertical-order-traversal,Binary Tree Vertical Order Traversal,Medium,57.8%,75.0%
-1828,https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle,Queries on Number of Points Inside a Circle,Medium,86.8%,75.0%
-140,https://leetcode.com/problems/word-break-ii,Word Break II,Hard,55.6%,75.0%
-443,https://leetcode.com/problems/string-compression,String Compression,Medium,60.0%,75.0%
-1610,https://leetcode.com/problems/maximum-number-of-visible-points,Maximum Number of Visible Points,Hard,38.2%,75.0%
-827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,56.6%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.7%,100.0%
+475,https://leetcode.com/problems/heaters,Heaters,Medium,42.2%,100.0%
+210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.9%,100.0%
+739,https://leetcode.com/problems/daily-temperatures,Daily Temperatures,Medium,68.9%,100.0%
+314,https://leetcode.com/problems/binary-tree-vertical-order-traversal,Binary Tree Vertical Order Traversal,Medium,57.9%,75.0%
+1828,https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle,Queries on Number of Points Inside a Circle,Medium,86.9%,87.5%
+140,https://leetcode.com/problems/word-break-ii,Word Break II,Hard,55.8%,75.0%
+443,https://leetcode.com/problems/string-compression,String Compression,Medium,60.3%,87.5%
+1610,https://leetcode.com/problems/maximum-number-of-visible-points,Maximum Number of Visible Points,Hard,38.3%,100.0%
+827,https://leetcode.com/problems/making-a-large-island,Making A Large Island,Hard,56.9%,75.0%
+1762,https://leetcode.com/problems/buildings-with-an-ocean-view,Buildings With an Ocean View,Medium,80.9%,75.0%
+994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,59.0%,87.5%
+1087,https://leetcode.com/problems/brace-expansion,Brace Expansion,Medium,66.9%,75.0%
+383,https://leetcode.com/problems/ransom-note,Ransom Note,Easy,66.2%,87.5%
+1091,https://leetcode.com/problems/shortest-path-in-binary-matrix,Shortest Path in Binary Matrix,Medium,51.8%,87.5%
+701,https://leetcode.com/problems/insert-into-a-binary-search-tree,Insert into a Binary Search Tree,Medium,73.5%,87.5%
+94,https://leetcode.com/problems/binary-tree-inorder-traversal,Binary Tree Inorder Traversal,Easy,80.3%,87.5%
+110,https://leetcode.com/problems/balanced-binary-tree,Balanced Binary Tree,Easy,58.7%,87.5%
+2360,https://leetcode.com/problems/longest-cycle-in-a-graph,Longest Cycle in a Graph,Hard,50.9%,75.0%
+207,https://leetcode.com/problems/course-schedule,Course Schedule,Medium,51.8%,75.0%

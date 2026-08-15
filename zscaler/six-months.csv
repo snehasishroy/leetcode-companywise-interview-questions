@@ -1,4 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-73,https://leetcode.com/problems/set-matrix-zeroes,Set Matrix Zeroes,Medium,62.9%,100.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,100.0%
-273,https://leetcode.com/problems/integer-to-english-words,Integer to English Words,Hard,35.0%,100.0%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.6%,100.0%
+273,https://leetcode.com/problems/integer-to-english-words,Integer to English Words,Hard,35.1%,100.0%

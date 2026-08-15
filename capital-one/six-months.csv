@@ -1,18 +1,22 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,69.7%,87.5%
-68,https://leetcode.com/problems/text-justification,Text Justification,Hard,51.2%,100.0%
-723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.4%,87.5%
-3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,62.2%,87.5%
-1743,https://leetcode.com/problems/restore-the-array-from-adjacent-pairs,Restore the Array From Adjacent Pairs,Medium,75.0%,100.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.4%,62.5%
-896,https://leetcode.com/problems/monotonic-array,Monotonic Array,Easy,62.3%,62.5%
-2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,50.1%,87.5%
-2672,https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color,Number of Adjacent Elements With the Same Color,Medium,59.6%,87.5%
-2141,https://leetcode.com/problems/maximum-running-time-of-n-computers,Maximum Running Time of N Computers,Hard,56.5%,62.5%
-2817,https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint,Minimum Absolute Difference Between Elements With Constraint,Medium,37.7%,62.5%
-647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.8%,62.5%
-3072,https://leetcode.com/problems/distribute-elements-into-two-arrays-ii,Distribute Elements Into Two Arrays II,Hard,30.7%,62.5%
-54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,56.8%,62.5%
-2023,https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target,Number of Pairs of Strings With Concatenation Equal to Target,Medium,75.4%,62.5%
-3019,https://leetcode.com/problems/number-of-changing-keys,Number of Changing Keys,Easy,80.7%,62.5%
-257,https://leetcode.com/problems/binary-tree-paths,Binary Tree Paths,Easy,68.7%,62.5%
+2043,https://leetcode.com/problems/simple-bank-system,Simple Bank System,Medium,69.7%,75.0%
+68,https://leetcode.com/problems/text-justification,Text Justification,Hard,51.5%,100.0%
+723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.6%,62.5%
+3043,https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix,Find the Length of the Longest Common Prefix,Medium,62.3%,75.0%
+1743,https://leetcode.com/problems/restore-the-array-from-adjacent-pairs,Restore the Array From Adjacent Pairs,Medium,75.1%,100.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.7%,62.5%
+896,https://leetcode.com/problems/monotonic-array,Monotonic Array,Easy,62.4%,62.5%
+2502,https://leetcode.com/problems/design-memory-allocator,Design Memory Allocator,Medium,50.4%,87.5%
+2672,https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color,Number of Adjacent Elements With the Same Color,Medium,59.9%,75.0%
+2141,https://leetcode.com/problems/maximum-running-time-of-n-computers,Maximum Running Time of N Computers,Hard,56.4%,62.5%
+2817,https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint,Minimum Absolute Difference Between Elements With Constraint,Medium,37.9%,75.0%
+647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,73.0%,62.5%
+3072,https://leetcode.com/problems/distribute-elements-into-two-arrays-ii,Distribute Elements Into Two Arrays II,Hard,31.0%,62.5%
+54,https://leetcode.com/problems/spiral-matrix,Spiral Matrix,Medium,57.2%,75.0%
+2023,https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target,Number of Pairs of Strings With Concatenation Equal to Target,Medium,75.5%,62.5%
+3019,https://leetcode.com/problems/number-of-changing-keys,Number of Changing Keys,Easy,80.8%,62.5%
+257,https://leetcode.com/problems/binary-tree-paths,Binary Tree Paths,Easy,69.0%,75.0%
+48,https://leetcode.com/problems/rotate-image,Rotate Image,Medium,80.4%,62.5%
+2232,https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression,Minimize Result by Adding Parentheses to Expression,Medium,68.4%,75.0%
+3161,https://leetcode.com/problems/block-placement-queries,Block Placement Queries,Hard,41.4%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,52.3%,62.5%
