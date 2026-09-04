@@ -1,2 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-359,https://leetcode.com/problems/logger-rate-limiter,Logger Rate Limiter,Easy,76.8%,100.0%
+723,https://leetcode.com/problems/candy-crush,Candy Crush,Medium,77.6%,100.0%
+362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.7%,100.0%
+849,https://leetcode.com/problems/maximize-distance-to-closest-person,Maximize Distance to Closest Person,Medium,49.9%,100.0%

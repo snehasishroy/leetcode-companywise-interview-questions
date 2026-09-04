@@ -1,2 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.5%,100.0%
+383,https://leetcode.com/problems/ransom-note,Ransom Note,Easy,66.2%,87.5%
+1610,https://leetcode.com/problems/maximum-number-of-visible-points,Maximum Number of Visible Points,Hard,38.3%,100.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.7%,87.5%

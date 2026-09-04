@@ -1,45 +1,30 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-815,https://leetcode.com/problems/bus-routes,Bus Routes,Hard,47.3%,100.0%
-200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.4%,62.5%
-230,https://leetcode.com/problems/kth-smallest-element-in-a-bst,Kth Smallest Element in a BST,Medium,76.8%,75.0%
-977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.8%,75.0%
-269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,37.2%,87.5%
-427,https://leetcode.com/problems/construct-quad-tree,Construct Quad Tree,Medium,78.3%,87.5%
-1438,https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,57.7%,87.5%
-305,https://leetcode.com/problems/number-of-islands-ii,Number of Islands II,Hard,40.6%,87.5%
-1429,https://leetcode.com/problems/first-unique-number,First Unique Number,Medium,57.6%,100.0%
-79,https://leetcode.com/problems/word-search,Word Search,Medium,47.4%,75.0%
-2858,https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable,Minimum Edge Reversals So Every Node Is Reachable,Hard,59.5%,100.0%
-1475,https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop,Final Prices With a Special Discount in a Shop,Easy,84.1%,75.0%
-2571,https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0,Minimum Operations to Reduce an Integer to 0,Medium,62.4%,62.5%
-362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.7%,62.5%
-2791,https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree,Count Paths That Can Form a Palindrome in a Tree,Hard,52.2%,100.0%
+815,https://leetcode.com/problems/bus-routes,Bus Routes,Hard,47.4%,75.0%
+200,https://leetcode.com/problems/number-of-islands,Number of Islands,Medium,64.7%,62.5%
+230,https://leetcode.com/problems/kth-smallest-element-in-a-bst,Kth Smallest Element in a BST,Medium,77.0%,62.5%
+977,https://leetcode.com/problems/squares-of-a-sorted-array,Squares of a Sorted Array,Easy,73.9%,87.5%
+269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,37.3%,75.0%
+427,https://leetcode.com/problems/construct-quad-tree,Construct Quad Tree,Medium,78.5%,87.5%
+1438,https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,Medium,57.8%,87.5%
+305,https://leetcode.com/problems/number-of-islands-ii,Number of Islands II,Hard,40.7%,100.0%
+1429,https://leetcode.com/problems/first-unique-number,First Unique Number,Medium,57.8%,100.0%
+79,https://leetcode.com/problems/word-search,Word Search,Medium,47.7%,62.5%
+2858,https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable,Minimum Edge Reversals So Every Node Is Reachable,Hard,60.0%,87.5%
+1475,https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop,Final Prices With a Special Discount in a Shop,Easy,84.2%,87.5%
+2571,https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0,Minimum Operations to Reduce an Integer to 0,Medium,62.8%,50.0%
 1101,https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends,The Earliest Moment When Everyone Become Friends,Medium,66.1%,87.5%
-1428,https://leetcode.com/problems/leftmost-column-with-at-least-a-one,Leftmost Column with at Least a One,Medium,55.2%,62.5%
-410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,60.4%,50.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,62.5%
-981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,49.9%,75.0%
-864,https://leetcode.com/problems/shortest-path-to-get-all-keys,Shortest Path to Get All Keys,Hard,54.6%,50.0%
-162,https://leetcode.com/problems/find-peak-element,Find Peak Element,Medium,47.0%,75.0%
-679,https://leetcode.com/problems/24-game,24 Game,Hard,59.5%,50.0%
-855,https://leetcode.com/problems/exam-room,Exam Room,Medium,43.5%,75.0%
-2389,https://leetcode.com/problems/longest-subsequence-with-limited-sum,Longest Subsequence With Limited Sum,Easy,73.6%,50.0%
-2861,https://leetcode.com/problems/maximum-number-of-alloys,Maximum Number of Alloys,Medium,41.0%,62.5%
-987,https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree,Vertical Order Traversal of a Binary Tree,Hard,53.8%,50.0%
-380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.4%,62.5%
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.8%,50.0%
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.5%,62.5%
-2402,https://leetcode.com/problems/meeting-rooms-iii,Meeting Rooms III,Hard,51.5%,50.0%
-1931,https://leetcode.com/problems/painting-a-grid-with-three-different-colors,Painting a Grid With Three Different Colors,Hard,77.1%,50.0%
-1197,https://leetcode.com/problems/minimum-knight-moves,Minimum Knight Moves,Medium,42.0%,50.0%
-384,https://leetcode.com/problems/shuffle-an-array,Shuffle an Array,Medium,59.7%,50.0%
-994,https://leetcode.com/problems/rotting-oranges,Rotting Oranges,Medium,58.7%,50.0%
-2954,https://leetcode.com/problems/count-the-number-of-infection-sequences,Count the Number of Infection Sequences,Hard,37.8%,62.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.8%,62.5%
+1428,https://leetcode.com/problems/leftmost-column-with-at-least-a-one,Leftmost Column with at Least a One,Medium,55.3%,62.5%
+410,https://leetcode.com/problems/split-array-largest-sum,Split Array Largest Sum,Hard,60.9%,62.5%
+981,https://leetcode.com/problems/time-based-key-value-store,Time Based Key-Value Store,Medium,50.0%,50.0%
+162,https://leetcode.com/problems/find-peak-element,Find Peak Element,Medium,47.1%,50.0%
+380,https://leetcode.com/problems/insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium,55.4%,50.0%
+384,https://leetcode.com/problems/shuffle-an-array,Shuffle an Array,Medium,59.8%,50.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,52.3%,50.0%
 564,https://leetcode.com/problems/find-the-closest-palindrome,Find the Closest Palindrome,Hard,32.0%,62.5%
-2477,https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital,Minimum Fuel Cost to Report to the Capital,Medium,65.3%,50.0%
-295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,54.5%,50.0%
-802,https://leetcode.com/problems/find-eventual-safe-states,Find Eventual Safe States,Medium,70.7%,50.0%
-212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,38.5%,50.0%
-2503,https://leetcode.com/problems/maximum-number-of-points-from-grid-queries,Maximum Number of Points From Grid Queries,Hard,59.3%,50.0%
-399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,64.2%,50.0%
+212,https://leetcode.com/problems/word-search-ii,Word Search II,Hard,38.6%,50.0%
+2503,https://leetcode.com/problems/maximum-number-of-points-from-grid-queries,Maximum Number of Points From Grid Queries,Hard,59.2%,50.0%
+2948,https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements,Make Lexicographically Smallest Array by Swapping Elements,Medium,60.3%,50.0%
+1915,https://leetcode.com/problems/number-of-wonderful-substrings,Number of Wonderful Substrings,Medium,66.6%,50.0%
+1966,https://leetcode.com/problems/binary-searchable-numbers-in-an-unsorted-array,Binary Searchable Numbers in an Unsorted Array,Medium,63.8%,50.0%
+871,https://leetcode.com/problems/minimum-number-of-refueling-stops,Minimum Number of Refueling Stops,Hard,41.6%,62.5%
+2812,https://leetcode.com/problems/find-the-safest-path-in-a-grid,Find the Safest Path in a Grid,Medium,57.2%,62.5%

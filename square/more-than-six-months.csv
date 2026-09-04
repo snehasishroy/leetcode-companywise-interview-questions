@@ -1,11 +1,12 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2069,https://leetcode.com/problems/walking-robot-simulation-ii,Walking Robot Simulation II,Medium,43.2%,75.0%
+2069,https://leetcode.com/problems/walking-robot-simulation-ii,Walking Robot Simulation II,Medium,43.2%,87.5%
 1814,https://leetcode.com/problems/count-nice-pairs-in-an-array,Count Nice Pairs in an Array,Medium,48.4%,75.0%
-2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,41.8%,75.0%
-139,https://leetcode.com/problems/word-break,Word Break,Medium,49.5%,75.0%
-969,https://leetcode.com/problems/pancake-sorting,Pancake Sorting,Medium,71.8%,75.0%
-999,https://leetcode.com/problems/available-captures-for-rook,Available Captures for Rook,Easy,71.8%,75.0%
-1861,https://leetcode.com/problems/rotating-the-box,Rotating the Box,Medium,82.5%,100.0%
-699,https://leetcode.com/problems/falling-squares,Falling Squares,Hard,47.8%,75.0%
+2768,https://leetcode.com/problems/number-of-black-blocks,Number of Black Blocks,Medium,42.0%,75.0%
+139,https://leetcode.com/problems/word-break,Word Break,Medium,49.6%,75.0%
+969,https://leetcode.com/problems/pancake-sorting,Pancake Sorting,Medium,71.9%,75.0%
+999,https://leetcode.com/problems/available-captures-for-rook,Available Captures for Rook,Easy,71.9%,75.0%
+1861,https://leetcode.com/problems/rotating-the-box,Rotating the Box,Medium,82.5%,87.5%
+699,https://leetcode.com/problems/falling-squares,Falling Squares,Hard,48.3%,75.0%
 573,https://leetcode.com/problems/squirrel-simulation,Squirrel Simulation,Medium,57.4%,87.5%
-300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,59.4%,100.0%
+300,https://leetcode.com/problems/longest-increasing-subsequence,Longest Increasing Subsequence,Medium,59.7%,100.0%
+271,https://leetcode.com/problems/encode-and-decode-strings,Encode and Decode Strings,Medium,51.7%,75.0%

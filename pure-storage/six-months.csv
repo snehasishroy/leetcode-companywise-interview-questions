@@ -1,4 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-647,https://leetcode.com/problems/palindromic-substrings,Palindromic Substrings,Medium,72.8%,87.5%
-593,https://leetcode.com/problems/valid-square,Valid Square,Medium,45.0%,100.0%
-2013,https://leetcode.com/problems/detect-squares,Detect Squares,Medium,52.6%,87.5%
+593,https://leetcode.com/problems/valid-square,Valid Square,Medium,45.3%,100.0%
+1668,https://leetcode.com/problems/maximum-repeating-substring,Maximum Repeating Substring,Easy,41.9%,100.0%

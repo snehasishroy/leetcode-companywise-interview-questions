@@ -1,6 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,37.8%,87.5%
-2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,48.5%,100.0%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.5%,87.5%
-36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,64.5%,87.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.8%,87.5%
+5,https://leetcode.com/problems/longest-palindromic-substring,Longest Palindromic Substring,Medium,38.2%,87.5%
+2,https://leetcode.com/problems/add-two-numbers,Add Two Numbers,Medium,48.8%,100.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.8%,87.5%
+36,https://leetcode.com/problems/valid-sudoku,Valid Sudoku,Medium,64.7%,87.5%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,52.3%,87.5%

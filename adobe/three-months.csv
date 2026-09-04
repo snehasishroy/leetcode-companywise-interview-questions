@@ -1,5 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.6%,100.0%
-124,https://leetcode.com/problems/binary-tree-maximum-path-sum,Binary Tree Maximum Path Sum,Hard,42.3%,75.0%
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,87.5%
-289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,72.6%,75.0%
+289,https://leetcode.com/problems/game-of-life,Game of Life,Medium,72.8%,100.0%
+134,https://leetcode.com/problems/gas-station,Gas Station,Medium,48.3%,100.0%
+341,https://leetcode.com/problems/flatten-nested-list-iterator,Flatten Nested List Iterator,Medium,65.8%,100.0%

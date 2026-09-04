@@ -1,7 +1,7 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 408,https://leetcode.com/problems/valid-word-abbreviation,Valid Word Abbreviation,Easy,37.0%,87.5%
-227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,46.9%,100.0%
-224,https://leetcode.com/problems/basic-calculator,Basic Calculator,Hard,46.9%,100.0%
-1472,https://leetcode.com/problems/design-browser-history,Design Browser History,Medium,78.3%,62.5%
-10,https://leetcode.com/problems/regular-expression-matching,Regular Expression Matching,Hard,31.0%,75.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,44.2%,75.0%
+227,https://leetcode.com/problems/basic-calculator-ii,Basic Calculator II,Medium,47.0%,100.0%
+224,https://leetcode.com/problems/basic-calculator,Basic Calculator,Hard,47.0%,100.0%
+1472,https://leetcode.com/problems/design-browser-history,Design Browser History,Medium,78.4%,62.5%
+10,https://leetcode.com/problems/regular-expression-matching,Regular Expression Matching,Hard,31.2%,75.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,44.5%,75.0%

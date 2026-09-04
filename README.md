@@ -12,7 +12,7 @@ This repository contains Company Wise Questions of LeetCode, categorized based o
 
 Attributes like Difficulty, Acceptance %, Frequency % are also added to enable filtering.
 
-> This repository contains the snapshot as of **24th May 2026**.
+> This repository contains the snapshot as of **12th July 2026**.
 >
 > If you need to sort/filter the questions based on frequency/difficulty, please clone the repo and perform operations
 > in any CSV Editor (Excel / Google Sheets / OpenOffice Calc)
@@ -36,7 +36,7 @@ Attributes like Difficulty, Acceptance %, Frequency % are also added to enable f
 
 # Star History
 
-![Alt text](https://api.star-history.com/svg?repos=snehasishroy/leetcode-companywise-interview-questions)
+[![Star History Chart](https://api.star-history.com/chart?repos=snehasishroy/leetcode-companywise-interview-questions&type=date&legend=top-left&sealed_token=fbsbaQ5FrWF5R-zf2kLFqSxVae8tcHcv8ZphgmDdrGoUA1OOBTu--r8o5Cwmp_8BgAVdmr0ALgaS4GkOzXQwRDwwMSlzoxQbqnLreg1PkrOoANW2bxYNmqB_eBZt72mpS4eG_8xBZ8isXJZkuf-zbT4crPpTX4mX8WdXIbz9B-FJIfZfl5BUUpUrzFiz)](https://www.star-history.com/?repos=snehasishroy%2Fleetcode-companywise-interview-questions&type=date&legend=top-left)
 
 ## Happy LeetCoding. May the force be with you.
 

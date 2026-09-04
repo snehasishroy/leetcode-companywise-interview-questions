@@ -1,40 +1,42 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-2846,https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree,Minimum Edge Weight Equilibrium Queries in a Tree,Hard,45.9%,87.5%
-2518,https://leetcode.com/problems/number-of-great-partitions,Number of Great Partitions,Hard,33.6%,87.5%
-2546,https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal,Apply Bitwise Operations to Make Strings Equal,Medium,42.7%,87.5%
-2897,https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares,Apply Operations on Array to Maximize Sum of Squares,Hard,44.6%,87.5%
+2846,https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree,Minimum Edge Weight Equilibrium Queries in a Tree,Hard,47.0%,87.5%
+2518,https://leetcode.com/problems/number-of-great-partitions,Number of Great Partitions,Hard,33.7%,87.5%
+2546,https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal,Apply Bitwise Operations to Make Strings Equal,Medium,42.8%,87.5%
+2897,https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares,Apply Operations on Array to Maximize Sum of Squares,Hard,44.9%,87.5%
 2048,https://leetcode.com/problems/next-greater-numerically-balanced-number,Next Greater Numerically Balanced Number,Medium,63.1%,87.5%
-149,https://leetcode.com/problems/max-points-on-a-line,Max Points on a Line,Hard,30.7%,50.0%
-2999,https://leetcode.com/problems/count-the-number-of-powerful-integers,Count the Number of Powerful Integers,Hard,46.2%,87.5%
-2955,https://leetcode.com/problems/number-of-same-end-substrings,Number of Same-End Substrings,Medium,61.6%,87.5%
-735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,47.9%,50.0%
-3031,https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii,Minimum Time to Revert Word to Initial State II,Hard,35.3%,87.5%
-3029,https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-i,Minimum Time to Revert Word to Initial State I,Medium,42.5%,87.5%
-1755,https://leetcode.com/problems/closest-subsequence-sum,Closest Subsequence Sum,Hard,43.7%,87.5%
+149,https://leetcode.com/problems/max-points-on-a-line,Max Points on a Line,Hard,31.0%,50.0%
+2999,https://leetcode.com/problems/count-the-number-of-powerful-integers,Count the Number of Powerful Integers,Hard,46.3%,87.5%
+2955,https://leetcode.com/problems/number-of-same-end-substrings,Number of Same-End Substrings,Medium,61.7%,87.5%
+735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,48.4%,62.5%
+3031,https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii,Minimum Time to Revert Word to Initial State II,Hard,35.6%,87.5%
+3029,https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-i,Minimum Time to Revert Word to Initial State I,Medium,42.7%,87.5%
+1755,https://leetcode.com/problems/closest-subsequence-sum,Closest Subsequence Sum,Hard,44.0%,87.5%
 1746,https://leetcode.com/problems/maximum-subarray-sum-after-one-operation,Maximum Subarray Sum After One Operation,Medium,65.2%,87.5%
 1799,https://leetcode.com/problems/maximize-score-after-n-operations,Maximize Score After N Operations,Hard,57.9%,87.5%
-2378,https://leetcode.com/problems/choose-edges-to-maximize-score-in-a-tree,Choose Edges to Maximize Score in a Tree,Medium,56.7%,87.5%
-2440,https://leetcode.com/problems/create-components-with-same-value,Create Components With Same Value,Hard,53.6%,100.0%
-41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,42.9%,50.0%
-3414,https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals,Maximum Score of Non-overlapping Intervals,Hard,31.5%,87.5%
-907,https://leetcode.com/problems/sum-of-subarray-minimums,Sum of Subarray Minimums,Medium,38.6%,75.0%
-975,https://leetcode.com/problems/odd-even-jump,Odd Even Jump,Hard,41.2%,50.0%
-10,https://leetcode.com/problems/regular-expression-matching,Regular Expression Matching,Hard,31.0%,50.0%
-205,https://leetcode.com/problems/isomorphic-strings,Isomorphic Strings,Easy,48.4%,75.0%
-552,https://leetcode.com/problems/student-attendance-record-ii,Student Attendance Record II,Hard,56.6%,50.0%
-1129,https://leetcode.com/problems/shortest-path-with-alternating-colors,Shortest Path with Alternating Colors,Medium,48.0%,50.0%
-1463,https://leetcode.com/problems/cherry-pickup-ii,Cherry Pickup II,Hard,72.4%,62.5%
-560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,47.3%,75.0%
-687,https://leetcode.com/problems/longest-univalue-path,Longest Univalue Path,Medium,43.9%,50.0%
-918,https://leetcode.com/problems/maximum-sum-circular-subarray,Maximum Sum Circular Subarray,Medium,50.2%,50.0%
-85,https://leetcode.com/problems/maximal-rectangle,Maximal Rectangle,Hard,58.8%,50.0%
-32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,38.8%,50.0%
-546,https://leetcode.com/problems/remove-boxes,Remove Boxes,Hard,49.4%,50.0%
-403,https://leetcode.com/problems/frog-jump,Frog Jump,Hard,47.3%,50.0%
-295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,54.5%,50.0%
-456,https://leetcode.com/problems/132-pattern,132 Pattern,Medium,34.8%,50.0%
-946,https://leetcode.com/problems/validate-stack-sequences,Validate Stack Sequences,Medium,70.4%,50.0%
-337,https://leetcode.com/problems/house-robber-iii,House Robber III,Medium,55.9%,50.0%
-239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,48.8%,50.0%
-72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,60.6%,50.0%
-1423,https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards,Maximum Points You Can Obtain from Cards,Medium,57.7%,50.0%
+2378,https://leetcode.com/problems/choose-edges-to-maximize-score-in-a-tree,Choose Edges to Maximize Score in a Tree,Medium,56.8%,87.5%
+2440,https://leetcode.com/problems/create-components-with-same-value,Create Components With Same Value,Hard,53.7%,100.0%
+41,https://leetcode.com/problems/first-missing-positive,First Missing Positive,Hard,43.2%,50.0%
+3414,https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals,Maximum Score of Non-overlapping Intervals,Hard,31.8%,87.5%
+907,https://leetcode.com/problems/sum-of-subarray-minimums,Sum of Subarray Minimums,Medium,38.8%,75.0%
+975,https://leetcode.com/problems/odd-even-jump,Odd Even Jump,Hard,41.3%,50.0%
+10,https://leetcode.com/problems/regular-expression-matching,Regular Expression Matching,Hard,31.2%,50.0%
+205,https://leetcode.com/problems/isomorphic-strings,Isomorphic Strings,Easy,48.7%,75.0%
+552,https://leetcode.com/problems/student-attendance-record-ii,Student Attendance Record II,Hard,56.7%,50.0%
+1129,https://leetcode.com/problems/shortest-path-with-alternating-colors,Shortest Path with Alternating Colors,Medium,48.1%,50.0%
+1463,https://leetcode.com/problems/cherry-pickup-ii,Cherry Pickup II,Hard,72.5%,62.5%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,47.7%,75.0%
+687,https://leetcode.com/problems/longest-univalue-path,Longest Univalue Path,Medium,44.1%,50.0%
+918,https://leetcode.com/problems/maximum-sum-circular-subarray,Maximum Sum Circular Subarray,Medium,50.7%,50.0%
+85,https://leetcode.com/problems/maximal-rectangle,Maximal Rectangle,Hard,59.2%,50.0%
+32,https://leetcode.com/problems/longest-valid-parentheses,Longest Valid Parentheses,Hard,39.1%,50.0%
+546,https://leetcode.com/problems/remove-boxes,Remove Boxes,Hard,49.6%,50.0%
+403,https://leetcode.com/problems/frog-jump,Frog Jump,Hard,47.4%,50.0%
+295,https://leetcode.com/problems/find-median-from-data-stream,Find Median from Data Stream,Hard,54.7%,50.0%
+456,https://leetcode.com/problems/132-pattern,132 Pattern,Medium,34.9%,50.0%
+946,https://leetcode.com/problems/validate-stack-sequences,Validate Stack Sequences,Medium,70.5%,50.0%
+337,https://leetcode.com/problems/house-robber-iii,House Robber III,Medium,56.1%,50.0%
+239,https://leetcode.com/problems/sliding-window-maximum,Sliding Window Maximum,Hard,49.0%,50.0%
+72,https://leetcode.com/problems/edit-distance,Edit Distance,Medium,60.9%,50.0%
+1423,https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards,Maximum Points You Can Obtain from Cards,Medium,58.0%,50.0%
+134,https://leetcode.com/problems/gas-station,Gas Station,Medium,48.3%,75.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,67.7%,50.0%

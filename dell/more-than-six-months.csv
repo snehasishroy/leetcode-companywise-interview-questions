@@ -1,9 +1,11 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-196,https://leetcode.com/problems/delete-duplicate-emails,Delete Duplicate Emails,Easy,66.0%,62.5%
-3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,39.1%,62.5%
-1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.5%,75.0%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.6%,75.0%
-185,https://leetcode.com/problems/department-top-three-salaries,Department Top Three Salaries,Hard,60.5%,62.5%
-696,https://leetcode.com/problems/count-binary-substrings,Count Binary Substrings,Easy,70.4%,100.0%
+196,https://leetcode.com/problems/delete-duplicate-emails,Delete Duplicate Emails,Easy,66.3%,62.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,39.4%,75.0%
+1,https://leetcode.com/problems/two-sum,Two Sum,Easy,57.8%,75.0%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.9%,75.0%
+185,https://leetcode.com/problems/department-top-three-salaries,Department Top Three Salaries,Hard,61.0%,62.5%
+696,https://leetcode.com/problems/count-binary-substrings,Count Binary Substrings,Easy,70.5%,100.0%
 1328,https://leetcode.com/problems/break-a-palindrome,Break a Palindrome,Medium,51.6%,75.0%
-1413,https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum,Minimum Value to Get Positive Step by Step Sum,Easy,64.7%,75.0%
+1413,https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum,Minimum Value to Get Positive Step by Step Sum,Easy,64.8%,75.0%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,68.3%,62.5%
+53,https://leetcode.com/problems/maximum-subarray,Maximum Subarray,Medium,53.5%,62.5%

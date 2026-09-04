@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-1209,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii,Remove All Adjacent Duplicates in String II,Medium,61.3%,87.5%
-316,https://leetcode.com/problems/remove-duplicate-letters,Remove Duplicate Letters,Medium,53.2%,100.0%
-1081,https://leetcode.com/problems/smallest-subsequence-of-distinct-characters,Smallest Subsequence of Distinct Characters,Medium,63.4%,87.5%
+1209,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii,Remove All Adjacent Duplicates in String II,Medium,61.6%,87.5%
+316,https://leetcode.com/problems/remove-duplicate-letters,Remove Duplicate Letters,Medium,53.5%,100.0%
+1081,https://leetcode.com/problems/smallest-subsequence-of-distinct-characters,Smallest Subsequence of Distinct Characters,Medium,63.7%,87.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.9%,87.5%

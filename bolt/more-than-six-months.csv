@@ -1,6 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-438,https://leetcode.com/problems/find-all-anagrams-in-a-string,Find All Anagrams in a String,Medium,53.8%,75.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.8%,100.0%
-123,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii,Best Time to Buy and Sell Stock III,Hard,53.7%,75.0%
-1941,https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences,Check if All Characters Have Equal Number of Occurrences,Easy,79.5%,75.0%
-560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,47.3%,75.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,57.1%,100.0%
+1941,https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences,Check if All Characters Have Equal Number of Occurrences,Easy,79.6%,75.0%
+560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,47.7%,75.0%

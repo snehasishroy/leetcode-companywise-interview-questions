@@ -1,3 +1,4 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-968,https://leetcode.com/problems/binary-tree-cameras,Binary Tree Cameras,Hard,47.9%,100.0%
-1642,https://leetcode.com/problems/furthest-building-you-can-reach,Furthest Building You Can Reach,Medium,50.9%,100.0%
+767,https://leetcode.com/problems/reorganize-string,Reorganize String,Medium,57.3%,100.0%
+779,https://leetcode.com/problems/k-th-symbol-in-grammar,K-th Symbol in Grammar,Medium,48.5%,100.0%
+424,https://leetcode.com/problems/longest-repeating-character-replacement,Longest Repeating Character Replacement,Medium,60.1%,87.5%

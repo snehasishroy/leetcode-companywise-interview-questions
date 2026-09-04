@@ -1,13 +1,13 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
 1476,https://leetcode.com/problems/subrectangle-queries,Subrectangle Queries,Medium,86.4%,62.5%
-1610,https://leetcode.com/problems/maximum-number-of-visible-points,Maximum Number of Visible Points,Hard,38.2%,100.0%
-97,https://leetcode.com/problems/interleaving-string,Interleaving String,Medium,44.0%,62.5%
-494,https://leetcode.com/problems/target-sum,Target Sum,Medium,52.2%,62.5%
-1293,https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination,Shortest Path in a Grid with Obstacles Elimination,Hard,46.3%,62.5%
-399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,64.2%,75.0%
-986,https://leetcode.com/problems/interval-list-intersections,Interval List Intersections,Medium,73.0%,62.5%
-735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,47.9%,62.5%
+1610,https://leetcode.com/problems/maximum-number-of-visible-points,Maximum Number of Visible Points,Hard,38.3%,100.0%
+494,https://leetcode.com/problems/target-sum,Target Sum,Medium,52.5%,62.5%
+1293,https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination,Shortest Path in a Grid with Obstacles Elimination,Hard,46.5%,62.5%
+399,https://leetcode.com/problems/evaluate-division,Evaluate Division,Medium,64.4%,75.0%
+986,https://leetcode.com/problems/interval-list-intersections,Interval List Intersections,Medium,73.1%,75.0%
+735,https://leetcode.com/problems/asteroid-collision,Asteroid Collision,Medium,48.4%,62.5%
 311,https://leetcode.com/problems/sparse-matrix-multiplication,Sparse Matrix Multiplication,Medium,69.3%,62.5%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.8%,62.5%
-269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,37.2%,62.5%
-528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,49.1%,75.0%
+56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,52.3%,62.5%
+269,https://leetcode.com/problems/alien-dictionary,Alien Dictionary,Hard,37.3%,62.5%
+528,https://leetcode.com/problems/random-pick-with-weight,Random Pick with Weight,Medium,49.2%,75.0%
+1570,https://leetcode.com/problems/dot-product-of-two-sparse-vectors,Dot Product of Two Sparse Vectors,Medium,89.9%,62.5%

@@ -1,4 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,67.4%,100.0%
-1086,https://leetcode.com/problems/high-five,High Five,Easy,74.2%,75.0%
-166,https://leetcode.com/problems/fraction-to-recurring-decimal,Fraction to Recurring Decimal,Medium,30.9%,87.5%
+3,https://leetcode.com/problems/longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium,39.4%,75.0%
+1535,https://leetcode.com/problems/find-the-winner-of-an-array-game,Find the Winner of an Array Game,Medium,56.9%,75.0%
+64,https://leetcode.com/problems/minimum-path-sum,Minimum Path Sum,Medium,68.5%,75.0%
+516,https://leetcode.com/problems/longest-palindromic-subsequence,Longest Palindromic Subsequence,Medium,65.7%,100.0%
+42,https://leetcode.com/problems/trapping-rain-water,Trapping Rain Water,Hard,67.7%,75.0%

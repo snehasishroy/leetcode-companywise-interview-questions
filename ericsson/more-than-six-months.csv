@@ -1,2 +1,3 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,44.2%,100.0%
+151,https://leetcode.com/problems/reverse-words-in-a-string,Reverse Words in a String,Medium,57.0%,100.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.9%,100.0%

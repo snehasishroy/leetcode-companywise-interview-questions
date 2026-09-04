@@ -1,4 +1,5 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,100.0%
-128,https://leetcode.com/problems/longest-consecutive-sequence,Longest Consecutive Sequence,Medium,47.1%,87.5%
-234,https://leetcode.com/problems/palindrome-linked-list,Palindrome Linked List,Easy,58.0%,87.5%
+743,https://leetcode.com/problems/network-delay-time,Network Delay Time,Medium,61.0%,87.5%
+49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.9%,87.5%
+93,https://leetcode.com/problems/restore-ip-addresses,Restore IP Addresses,Medium,56.4%,87.5%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,50.2%,100.0%

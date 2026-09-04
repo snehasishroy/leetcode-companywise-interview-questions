@@ -1,14 +1,6 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,100.0%
-56,https://leetcode.com/problems/merge-intervals,Merge Intervals,Medium,51.8%,75.0%
-210,https://leetcode.com/problems/course-schedule-ii,Course Schedule II,Medium,55.5%,75.0%
-362,https://leetcode.com/problems/design-hit-counter,Design Hit Counter,Medium,69.7%,100.0%
-889,https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal,Construct Binary Tree from Preorder and Postorder Traversal,Medium,78.0%,75.0%
-713,https://leetcode.com/problems/subarray-product-less-than-k,Subarray Product Less Than K,Medium,54.3%,75.0%
-2633,https://leetcode.com/problems/convert-object-to-json-string,Convert Object to JSON String,Medium,78.1%,75.0%
-560,https://leetcode.com/problems/subarray-sum-equals-k,Subarray Sum Equals K,Medium,47.3%,87.5%
-49,https://leetcode.com/problems/group-anagrams,Group Anagrams,Medium,72.6%,75.0%
-121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,56.8%,87.5%
-122,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii,Best Time to Buy and Sell Stock II,Medium,71.1%,75.0%
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.6%,87.5%
-477,https://leetcode.com/problems/total-hamming-distance,Total Hamming Distance,Medium,54.9%,87.5%
+670,https://leetcode.com/problems/maximum-swap,Maximum Swap,Medium,52.1%,100.0%
+785,https://leetcode.com/problems/is-graph-bipartite,Is Graph Bipartite?,Medium,59.6%,100.0%
+121,https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy,57.0%,100.0%
+621,https://leetcode.com/problems/task-scheduler,Task Scheduler,Medium,63.4%,100.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.9%,100.0%

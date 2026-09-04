@@ -1,8 +1,11 @@
 ID,URL,Title,Difficulty,Acceptance %,Frequency %
-146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.4%,87.5%
-2144,https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount,Minimum Cost of Buying Candies With Discount,Easy,62.9%,87.5%
-1250,https://leetcode.com/problems/check-if-it-is-a-good-array,Check If It Is a Good Array,Hard,65.0%,75.0%
-204,https://leetcode.com/problems/count-primes,Count Primes,Medium,36.1%,75.0%
-14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.6%,75.0%
-242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,68.1%,100.0%
-20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,44.2%,87.5%
+146,https://leetcode.com/problems/lru-cache,LRU Cache,Medium,47.6%,75.0%
+2144,https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount,Minimum Cost of Buying Candies With Discount,Easy,71.6%,87.5%
+1250,https://leetcode.com/problems/check-if-it-is-a-good-array,Check If It Is a Good Array,Hard,65.5%,75.0%
+204,https://leetcode.com/problems/count-primes,Count Primes,Medium,36.2%,75.0%
+14,https://leetcode.com/problems/longest-common-prefix,Longest Common Prefix,Easy,47.9%,75.0%
+242,https://leetcode.com/problems/valid-anagram,Valid Anagram,Easy,68.3%,100.0%
+20,https://leetcode.com/problems/valid-parentheses,Valid Parentheses,Easy,44.5%,87.5%
+2751,https://leetcode.com/problems/robot-collisions,Robot Collisions,Hard,61.6%,75.0%
+875,https://leetcode.com/problems/koko-eating-bananas,Koko Eating Bananas,Medium,50.2%,75.0%
+206,https://leetcode.com/problems/reverse-linked-list,Reverse Linked List,Easy,80.8%,75.0%
