@@ -1,0 +1,10 @@
+{
+  "name": "leetcode-companywise-interview-questions",
+  "private": true,
+  "scripts": {
+    "capture:edge": "node scripts/capture-edge.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
