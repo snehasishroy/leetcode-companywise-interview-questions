@@ -8,7 +8,8 @@ public class Main {
         } else if (args.length == 1 && args[0].equals("--import-html")) {
             Path htmlFile = Path.of(System.getenv("LEETCODE_CAPTURE_HTML"));
             Path outputFile = Path.of(System.getenv("LEETCODE_CAPTURE_CSV")).toAbsolutePath();
-            int count = scraper.importCapturedHtml(htmlFile, outputFile);
+            int expectedCount = Integer.parseInt(System.getenv("LEETCODE_CAPTURE_ROW_COUNT"));
+            int count = scraper.importCapturedHtml(htmlFile, outputFile, expectedCount);
             System.out.printf("Exported %d rows to %s%n", count, outputFile);
         } else {
             throw new IllegalArgumentException("Usage: Main [--import-html]");

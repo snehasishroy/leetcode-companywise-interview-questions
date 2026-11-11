@@ -60,6 +60,8 @@ async function capture(page, company, window) {
   const slug = `${company}-${window}`;
   url.searchParams.set('favoriteSlug', slug);
   const pagination = { totals: new Set(), reachedLastPage: false };
+  let confirmEmpty;
+  const emptyList = new Promise(resolve => { confirmEmpty = resolve; });
   const observePagination = async response => {
     if (new URL(response.url()).origin !== url.origin ||
         new URL(response.url()).pathname.replace(/\/$/, '') !== '/graphql') return;
@@ -71,22 +73,23 @@ async function capture(page, company, window) {
       if (!Number.isInteger(list?.totalLength) || typeof list.hasMore !== 'boolean') return;
       pagination.totals.add(list.totalLength);
       if (!list.hasMore) pagination.reachedLastPage = true;
+      if (list.totalLength === 0 && !list.hasMore) confirmEmpty();
     } catch {
       // A failed or unrelated response cannot establish completeness.
     }
   };
   page.on('response', observePagination);
   try {
-    return await captureList(page, url, company, window, pagination);
+    return await captureList(page, url, company, window, pagination, emptyList);
   } finally {
     page.off('response', observePagination);
   }
 }
 
-async function captureList(page, url, company, window, pagination) {
+async function captureList(page, url, company, window, pagination, emptyList) {
   await page.goto(url.href, { waitUntil: 'domcontentloaded', timeout: 30000 });
   const rows = page.locator(problemLinks);
-  await rows.first().waitFor({ timeout: 20000 });
+  await Promise.race([rows.first().waitFor({ timeout: 20000 }), emptyList]);
 
   const current = new URL(page.url());
   if (current.origin !== url.origin || current.pathname.replace(/\/$/, '') !== url.pathname.replace(/\/$/, '')
@@ -125,7 +128,7 @@ async function captureList(page, url, company, window, pagination) {
   }
 
   const frequencyBars = [...captured.values()].some(html => html.includes('bg-brand-orange'));
-  if (!frequencyBars) {
+  if (!frequencyBars && !(captured.size === 0 && expectedTotal === 0 && pagination.reachedLastPage)) {
     throw new Error(`No frequency bars found for ${company} / ${window}. Check Premium access and page layout.`);
   }
   const visibleFilter = await selectedFilter.waitFor({ state: 'visible', timeout: 5000 })
@@ -172,6 +175,7 @@ try {
     maven(['-q', 'org.codehaus.mojo:exec-maven-plugin:3.5.0:java',
       '-Dexec.mainClass=Main', '-Dexec.args=--import-html'], {
       ...process.env, LEETCODE_CAPTURE_HTML: html, LEETCODE_CAPTURE_CSV: csv,
+      LEETCODE_CAPTURE_ROW_COUNT: String(result.uniqueRows),
     });
     const { html: capturedHtml, ...report } = result;
     writeFileSync(`${csv}.json`, JSON.stringify({

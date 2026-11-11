@@ -27,10 +27,10 @@ public class Scraper {
     public static final int LOGIN_PAGE_WAIT_MILLIS = 20000;
     WebDriver driver;
 
-    public int importCapturedHtml(Path htmlFile, Path outputFile) throws IOException {
+    public int importCapturedHtml(Path htmlFile, Path outputFile, int expectedCount) throws IOException {
         List<ProblemStatement> problems = extractProblems(Jsoup.parse(Files.readString(htmlFile)));
-        if (problems.isEmpty()) {
-            throw new IllegalArgumentException("No problem rows found in " + htmlFile);
+        if (problems.size() != expectedCount) {
+            throw new IllegalArgumentException("Expected " + expectedCount + " problem rows but parsed " + problems.size());
         }
         if (Files.exists(outputFile)) {
             throw new java.nio.file.FileAlreadyExistsException(outputFile.toString());
