@@ -2,57 +2,51 @@
 
 ![leetcode-companywise-interview-questions](https://socialify.git.ci/snehasishroy/leetcode-companywise-interview-questions/image?description=1&font=JetBrains+Mono&forks=1&language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Dark)
 
-This repository contains Company Wise Questions of LeetCode, categorized based on their recency.
+## Question lists
 
-* Last 30 Days
-* Last 3 Months
-* Last 6 Months
-* Last 1 Year
-* All
+The checked-in CSVs contain the **July 12, 2026** snapshot of LeetCode company question lists. Each company has its own folder, such as [Google](google/) or [Citadel](citadel/). The CSVs include the problem ID, URL, title, difficulty, acceptance rate, and frequency.
 
-Attributes like Difficulty, Acceptance %, Frequency % are also added to enable filtering.
+| CSV | LeetCode filter |
+| --- | --- |
+| `thirty-days.csv` | 30 days |
+| `three-months.csv` | 3 months |
+| `six-months.csv` | 6 months |
+| `more-than-six-months.csv` | More than 6 months |
+| `all.csv` | All |
 
-> This repository contains the snapshot as of **12th July 2026**.
->
-> If you need to sort/filter the questions based on frequency/difficulty, please clone the repo and perform operations
-> in any CSV Editor (Excel / Google Sheets / OpenOffice Calc)
+## Refresh company CSVs on macOS
 
-## If you have LeetCode Premium and want to contribute back
+You need a signed-in LeetCode Premium session in Microsoft Edge, Node.js 20 or later, Maven, and JDK 21. In Edge, open `edge://inspect`, select **Remote debugging**, and enable it for the running browser. Leave Edge open.
 
-* If you have LeetCode premium and want to contribute back, please clone the repo and setup the Java Project in the IDE
-  of your choice.
-* Code to scrap the solutions is
-  present [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java).
-* By default, the selenium browser will open in Edge.
-* If the selenium browser does not open, you might need to update *selenium-java* to the latest version because the
-  older versions of Selenium java can be incompatible with the existing version of Edge.
-  Run the scraper after filling in your UserName and Password [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java#L17), without which the code won't work.
-* Delete the existing folders so the new files does not conflict.
-* In case you get a timeout during page reloads, do increase the default timeout value
-  set [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java#L19)
-
-* Once the code is finished (which should take ~3 hours), create a Pull Request and I will be happy to merge it. Thank
-  you for your contribution :)
-
-### Test one list using a signed-in Edge session on macOS
-
-Sign in to LeetCode in Edge and enable **Remote debugging** at `edge://inspect`. With Node.js 18+, Maven and JDK 21 available, run:
+From the repository root, install dependencies and pass the company's LeetCode slug to export all five windows:
 
 ```sh
 npm ci
 export JAVA_HOME=$(/usr/libexec/java_home -v 21)
-npm run capture:edge
+npm run capture:edge citadel
 ```
 
-Allow the connection if Edge prompts you. The command opens a temporary tab and exports the Google 3-month list to the printed scratch path. The adjacent JSON report records the visible recency filter check, the count reported by the list's pagination, and whether the final page was reached. Review any unverified results before replacing a snapshot.
+If Edge prompts you, click **Allow**. The script uses your existing signed-in session and opens a temporary tab.
 
-For an explicit set of companies and a shared window, provide a new output directory:
+Exports go to `captures/YYYY-MM-DD/<company>/` using your local date. Git ignores `captures/`. Each CSV has an adjacent `.csv.json` verification report. A run stops before connecting to Edge if an output file or report already exists.
+
+To save a run to a different directory, including a same-day rerun for the same company:
 
 ```sh
-npm run capture:edge -- google,amazon three-months /tmp/leetcode-refresh
+npm run capture:edge citadel ./captures/citadel-rerun
 ```
 
-The supported window names are `thirty-days`, `three-months`, `six-months`, `more-than-six-months`, and `all`.
+To export a single window for one or more companies, pass the company slug or comma-separated slugs, the window name from the table without `.csv`, and an output directory:
+
+```sh
+npm run capture:edge google,amazon three-months ./captures/targeted-refresh
+```
+
+## Contribute a data refresh
+
+1. Review each CSV and its verification report. A verified capture matches the visible recency filter, reaches the final page, and matches the list's reported question count.
+2. Copy the verified CSVs into the corresponding tracked company folders and review the diff. For a partial refresh, include the company names, windows, and capture date in the PR description. Update the repository-wide snapshot date when refreshing the full snapshot.
+3. Open a pull request with the CSV changes.
 
 # Star History
 

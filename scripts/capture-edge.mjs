@@ -15,16 +15,26 @@ const problemLinks = "a[href^='/problems/'][id]";
 const scratch = mkdtempSync(join(tmpdir(), 'leetcode-edge-'));
 
 function parseArgs(args) {
-  if (args.length === 0) {
-    return { companies: ['google'], window: 'three-months', output: scratch };
-  }
-  const [companyList, window, output] = args;
+  const [companyList = '', second, third] = args;
   const companies = companyList.split(',');
-  if (args.length !== 3 || !companies.every(company => /^[a-z0-9][a-z0-9-]*$/.test(company))
-      || new Set(companies).size !== companies.length || !windows.has(window)) {
-    throw new Error('Usage: npm run capture:edge -- [company[,company...] window output-directory]');
+  const singleWindow = args.length === 3;
+  if (!companies.every(company => /^[a-z0-9][a-z0-9-]*$/.test(company))
+      || new Set(companies).size !== companies.length
+      || (singleWindow ? !windows.has(second) || !third : args.length > 2 || companies.length !== 1)) {
+    throw new Error('Usage: npm run capture:edge company [output-directory]\n       npm run capture:edge company[,company...] window output-directory');
   }
-  return { companies, window, output: resolve(output) };
+  const output = singleWindow ? third : second;
+  const today = new Date();
+  const date = [
+    today.getFullYear(),
+    String(today.getMonth() + 1).padStart(2, '0'),
+    String(today.getDate()).padStart(2, '0'),
+  ].join('-');
+  return {
+    companies,
+    selectedWindows: singleWindow ? [second] : [...windows.keys()],
+    output: output ? resolve(output) : resolve('captures', date),
+  };
 }
 
 function browserEndpoint() {
@@ -84,9 +94,9 @@ async function captureList(page, url, company, window, pagination) {
     throw new Error(`Edge did not stay on the requested list for ${company} / ${window}.`);
   }
 
-  const visibleFilter = await page.locator('.company-container div.flex.items-center')
+  const selectedFilter = page.locator('.company-container div.flex.items-center')
     .filter({ has: page.locator('.fa-chevron-down'), hasText: windows.get(window), visible: true })
-    .count() > 0;
+    .first();
   const captured = new Map();
   let expectedTotal = null;
   let stop = 'scroll limit reached';
@@ -118,6 +128,8 @@ async function captureList(page, url, company, window, pagination) {
   if (!frequencyBars) {
     throw new Error(`No frequency bars found for ${company} / ${window}. Check Premium access and page layout.`);
   }
+  const visibleFilter = await selectedFilter.waitFor({ state: 'visible', timeout: 5000 })
+    .then(() => true, () => false);
   return {
     html: [...captured.values()].join('\n'),
     uniqueRows: captured.size,
@@ -131,14 +143,19 @@ async function captureList(page, url, company, window, pagination) {
 
 let browser;
 let page;
-let output;
 try {
   const options = parseArgs(process.argv.slice(2));
-  output = options.output;
+  const { output } = options;
+  const jobs = options.companies.flatMap(company => options.selectedWindows.map(window => ({
+    company,
+    window,
+    csv: join(output, company, `${window}.csv`),
+  })));
   mkdirSync(output, { recursive: true });
-  for (const company of options.companies) {
-    const csv = join(output, company, `${options.window}.csv`);
-    if (existsSync(csv)) throw new Error(`Output already exists: ${csv}`);
+  for (const { csv } of jobs) {
+    for (const file of [csv, `${csv}.json`]) {
+      if (existsSync(file)) throw new Error(`Output already exists: ${file}`);
+    }
   }
 
   maven(['-q', 'org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile']);
@@ -148,10 +165,9 @@ try {
     page.url().startsWith('https://leetcode.com/'))) ?? browser.contexts()[0];
   page = await context.newPage();
 
-  for (const company of options.companies) {
-    const result = await capture(page, company, options.window);
+  for (const { company, window, csv } of jobs) {
+    const result = await capture(page, company, window);
     const html = join(scratch, 'rows.html');
-    const csv = join(output, company, `${options.window}.csv`);
     writeFileSync(html, result.html);
     maven(['-q', 'org.codehaus.mojo:exec-maven-plugin:3.5.0:java',
       '-Dexec.mainClass=Main', '-Dexec.args=--import-html'], {
@@ -159,9 +175,9 @@ try {
     });
     const { html: capturedHtml, ...report } = result;
     writeFileSync(`${csv}.json`, JSON.stringify({
-      company, window: options.window, capturedAt: new Date().toISOString(), ...report,
+      company, window, capturedAt: new Date().toISOString(), ...report,
     }, null, 2) + '\n', { flag: 'wx' });
-    console.log(`${company} / ${options.window}: ${report.uniqueRows} unique rows; ${report.stop}.`);
+    console.log(`${company} / ${window}: ${report.uniqueRows} unique rows; ${report.stop}.`);
     console.log(`Filter UI: ${report.visibleFilter ? 'verified' : 'unverified'}; completeness: ${report.complete ? 'verified' : 'unverified'}.`);
     console.log(`CSV: ${csv}`);
   }
@@ -173,7 +189,6 @@ try {
     if (page) await page.close();
   } finally {
     if (browser) await browser.close();
-    if (output !== scratch) rmSync(scratch, { recursive: true, force: true });
-    else rmSync(join(scratch, 'rows.html'), { force: true });
+    rmSync(scratch, { recursive: true, force: true });
   }
 }

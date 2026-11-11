@@ -197,3 +197,4 @@ README.html
 .idea
 .exercism
 /node_modules/
+/captures/
