@@ -10,9 +10,9 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
 
 import java.io.FileWriter;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +26,25 @@ public class Scraper {
     public static final int QUESTIONS_PAGE_WAIT_MILLIS = 5000;
     public static final int LOGIN_PAGE_WAIT_MILLIS = 20000;
     WebDriver driver;
+
+    public int importCapturedHtml(Path htmlFile, Path outputFile) throws IOException {
+        List<ProblemStatement> problems = extractProblems(Jsoup.parse(Files.readString(htmlFile)));
+        if (problems.isEmpty()) {
+            throw new IllegalArgumentException("No problem rows found in " + htmlFile);
+        }
+        if (Files.exists(outputFile)) {
+            throw new java.nio.file.FileAlreadyExistsException(outputFile.toString());
+        }
+        Files.createDirectories(outputFile.getParent());
+        Path temporaryFile = Files.createTempFile(outputFile.getParent(), "problems-", ".tmp");
+        try {
+            exportToCSV(problems, temporaryFile);
+            Files.move(temporaryFile, outputFile);
+        } finally {
+            Files.deleteIfExists(temporaryFile);
+        }
+        return problems.size();
+    }
 
     public void setup() throws InterruptedException {
         WebDriverManager.edgedriver().setup();
@@ -53,19 +72,18 @@ public class Scraper {
             String companyURL = companyURLs.get(i);
             String companyName = extractCompanyNameWithRegex(companyURL);
             for (String recency : new String[]{"thirty-days", "three-months", "six-months", "more-than-six-months", "all"}) {
-                visitCompanies(String.format("https://leetcode.com/company/%s/?favoriteSlug=%s-%s", companyName, companyName, recency), driver, recency);
+                visitCompanies(String.format("https://leetcode.com/company/%s/?favoriteSlug=%s-%s", companyName, companyName, recency), driver, recency, Path.of(""));
             }
             log.info("Pending {} companies", companyURLs.size() - i - 1);
         }
     }
 
-    private void visitCompanies(String companyURL, WebDriver driver, String recency) throws InterruptedException {
+    private void visitCompanies(String companyURL, WebDriver driver, String recency, Path outputRoot) throws InterruptedException {
         String companyName = extractCompanyNameWithRegex(companyURL);
 
-        // Create directory structure: companyName/recency/
-        Path outputDir = Paths.get(companyName, String.format("%s.csv", recency));
-        if (Files.exists(outputDir)) { // this check acts as a checkpoint
-            log.warn("File already exists: {}, Skipping", outputDir.toAbsolutePath());
+        Path outputFile = outputRoot.resolve(companyName).resolve(recency + ".csv");
+        if (Files.exists(outputFile)) { // this check acts as a checkpoint
+            log.warn("File already exists: {}, Skipping", outputFile.toAbsolutePath());
             return;
         }
 
@@ -84,7 +102,7 @@ public class Scraper {
         if (problems.isEmpty()) {
             log.warn("Skipping saving for {} with recency {}", companyName, recency);
         } else {
-            exportToCSV(problems, companyName, recency);
+            exportToCSV(problems, outputFile);
         }
     }
 
@@ -235,14 +253,8 @@ public class Scraper {
     }
 
     @SneakyThrows
-    private void exportToCSV(List<ProblemStatement> problems, String companyName, String recency) {
-        // Create directory structure: companyName/recency/
-        Path outputDir = Paths.get(companyName);
-        if (!Files.exists(outputDir)) {
-            Files.createDirectories(outputDir);
-        }
-
-        Path filePath = outputDir.resolve(String.format("%s.csv", recency));
+    private void exportToCSV(List<ProblemStatement> problems, Path filePath) {
+        Files.createDirectories(filePath.getParent());
 
         try (FileWriter writer = new FileWriter(filePath.toFile())) {
             writer.append("ID,URL,Title,Difficulty,Acceptance %,Frequency %\n");

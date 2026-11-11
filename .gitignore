@@ -196,3 +196,4 @@ README.html
 *.iml
 .idea
 .exercism
+/node_modules/

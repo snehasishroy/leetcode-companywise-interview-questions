@@ -34,6 +34,26 @@ Attributes like Difficulty, Acceptance %, Frequency % are also added to enable f
 * Once the code is finished (which should take ~3 hours), create a Pull Request and I will be happy to merge it. Thank
   you for your contribution :)
 
+### Test one list using a signed-in Edge session on macOS
+
+Sign in to LeetCode in Edge and enable **Remote debugging** at `edge://inspect`. With Node.js 18+, Maven and JDK 21 available, run:
+
+```sh
+npm ci
+export JAVA_HOME=$(/usr/libexec/java_home -v 21)
+npm run capture:edge
+```
+
+Allow the connection if Edge prompts you. The command opens a temporary tab and exports the Google 3-month list to the printed scratch path. The adjacent JSON report records the visible recency filter check, the count reported by the list's pagination, and whether the final page was reached. Review any unverified results before replacing a snapshot.
+
+For an explicit set of companies and a shared window, provide a new output directory:
+
+```sh
+npm run capture:edge -- google,amazon three-months /tmp/leetcode-refresh
+```
+
+The supported window names are `thirty-days`, `three-months`, `six-months`, `more-than-six-months`, and `all`.
+
 # Star History
 
 [![Star History Chart](https://api.star-history.com/chart?repos=snehasishroy/leetcode-companywise-interview-questions&type=date&legend=top-left&sealed_token=fbsbaQ5FrWF5R-zf2kLFqSxVae8tcHcv8ZphgmDdrGoUA1OOBTu--r8o5Cwmp_8BgAVdmr0ALgaS4GkOzXQwRDwwMSlzoxQbqnLreg1PkrOoANW2bxYNmqB_eBZt72mpS4eG_8xBZ8isXJZkuf-zbT4crPpTX4mX8WdXIbz9B-FJIfZfl5BUUpUrzFiz)](https://www.star-history.com/?repos=snehasishroy%2Fleetcode-companywise-interview-questions&type=date&legend=top-left)
